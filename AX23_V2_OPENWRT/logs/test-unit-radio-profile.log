@@ -1,0 +1,10 @@
+PASS '<none>' -> profile both, held: nothing
+PASS 'ax23_radios=both' -> profile both, held: nothing
+PASS 'ax23_radios=none' -> profile none, held: c000000.wifi b00a040.wifi
+PASS 'ax23_radios=2g' -> profile 2g, held: b00a040.wifi
+PASS 'ax23_radios=5g' -> profile 5g, held: c000000.wifi
+PASS 'ax23_radios=seq' -> profile seq, held: b00a040.wifi
+PASS 'ax23_radios=bogus' -> profile both, held: nothing
+PASS other boards are never touched
+PASS seq: 5 GHz still held while no 2.4 GHz phy
+PASS seq: 5 GHz released and probed after the 2.4 GHz phy registered (-t ax23-radio 2.4 GHz registered after 3s; releasing 5 GHz)

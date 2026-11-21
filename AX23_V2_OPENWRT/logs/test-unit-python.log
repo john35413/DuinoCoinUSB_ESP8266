@@ -4,6 +4,9 @@ test_name_order_matches_ath11k (__main__.Board2.test_name_order_matches_ath11k) 
 test_other_board_does_not_match (__main__.Board2.test_other_board_does_not_match) ... ok
 test_roundtrip (__main__.Board2.test_roundtrip) ... ok
 test_variant_wins_over_generic (__main__.Board2.test_variant_wins_over_generic) ... ok
+test_different_data_under_names_is_rejected (__main__.Board2Robust.test_different_data_under_names_is_rejected) ... ok
+test_single_255_entry_is_not_robust (__main__.Board2Robust.test_single_255_entry_is_not_robust) ... ok
+test_three_names_same_data_is_robust (__main__.Board2Robust.test_three_names_same_data_is_robust) ... ok
 test_overlap_detected (__main__.DtbChecker.test_overlap_detected) ... ok
 test_writable_art_fails (__main__.DtbChecker.test_writable_art_fails) ... ok
 test_detects_size_and_vars (__main__.UbootEnv.test_detects_size_and_vars) ... ok
@@ -11,6 +14,31 @@ test_erased_env_has_no_valid_crc (__main__.UbootEnv.test_erased_env_has_no_valid
 test_redundant_layout (__main__.UbootEnv.test_redundant_layout) ... ok
 
 ----------------------------------------------------------------------
-Ran 11 tests in 0.188s
+Ran 14 tests in 0.160s
 
 OK
+ok   board-id   0 -> bus=ahb,qmi-chip-id=0  sha256 805f09c9d8f0f524
+ok   board-id   1 -> bus=ahb,qmi-chip-id=0  sha256 805f09c9d8f0f524
+ok   board-id   7 -> bus=ahb,qmi-chip-id=0  sha256 805f09c9d8f0f524
+ok   board-id  36 -> bus=ahb,qmi-chip-id=0,qmi-board-id=36,variant=TP-Link-Archer-AX23-v2  sha256 04dd36f9d035a969
+ok   board-id 128 -> bus=ahb,qmi-chip-id=0  sha256 805f09c9d8f0f524
+ok   board-id 254 -> bus=ahb,qmi-chip-id=0  sha256 805f09c9d8f0f524
+ok   board-id 255 -> bus=ahb,qmi-chip-id=0,qmi-board-id=255,variant=TP-Link-Archer-AX23-v2  sha256 ebaa3a7609b96440
+FAIL lookups resolve to DIFFERENT data
+RESULT: NOT ROBUST
+FAIL board-id 0: no entry, ath11k would fail
+FAIL board-id 1: no entry, ath11k would fail
+FAIL board-id 7: no entry, ath11k would fail
+FAIL board-id 36: no entry, ath11k would fail
+FAIL board-id 128: no entry, ath11k would fail
+FAIL board-id 254: no entry, ath11k would fail
+ok   board-id 255 -> bus=ahb,qmi-chip-id=0,qmi-board-id=255,variant=TP-Link-Archer-AX23-v2  sha256 186017022bc2fd38
+RESULT: NOT ROBUST
+ok   board-id   0 -> bus=ahb,qmi-chip-id=0  sha256 7b6188f91912b85a
+ok   board-id   1 -> bus=ahb,qmi-chip-id=0  sha256 7b6188f91912b85a
+ok   board-id   7 -> bus=ahb,qmi-chip-id=0  sha256 7b6188f91912b85a
+ok   board-id  36 -> bus=ahb,qmi-chip-id=0,qmi-board-id=36,variant=TP-Link-Archer-AX23-v2  sha256 7b6188f91912b85a
+ok   board-id 128 -> bus=ahb,qmi-chip-id=0  sha256 7b6188f91912b85a
+ok   board-id 254 -> bus=ahb,qmi-chip-id=0  sha256 7b6188f91912b85a
+ok   board-id 255 -> bus=ahb,qmi-chip-id=0,qmi-board-id=255,variant=TP-Link-Archer-AX23-v2  sha256 7b6188f91912b85a
+RESULT: ROBUST

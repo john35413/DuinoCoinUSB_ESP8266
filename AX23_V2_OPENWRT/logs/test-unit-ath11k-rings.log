@@ -3,6 +3,8 @@ test_small_ring_exercises_wrap_and_backpressure (__main__.CompletionModel.test_s
 test_upstream_bound_can_strand_a_completion (__main__.CompletionModel.test_upstream_bound_can_strand_a_completion) ... ok
 test_default_needs_order9_dma_and_order8_kmalloc (__main__.MemoryAccounting.test_default_needs_order9_dma_and_order8_kmalloc) ... ok
 test_lowmem_saving_both_radios (__main__.MemoryAccounting.test_lowmem_saving_both_radios) ... ok
+test_error_destination_ring_keeps_default (__main__.RxReferenceValues.test_error_destination_ring_keeps_default) ... ok
+test_rxdma_buffer_ring_is_1024_on_both_radios (__main__.RxReferenceValues.test_rxdma_buffer_ring_is_1024_on_both_radios) ... ok
 test_all_wrap_macro_users_converted (__main__.StaticPatch.test_all_wrap_macro_users_converted) ... ok
 test_every_size_user_follows_runtime_value (__main__.StaticPatch.test_every_size_user_follows_runtime_value) ... ok
 test_inner_patch_is_ath11k_961 (__main__.StaticPatch.test_inner_patch_is_ath11k_961) ... ok
@@ -11,7 +13,7 @@ test_same_selector_as_rx_patch_and_no_overlap (__main__.StaticPatch.test_same_se
 test_size_chosen_before_rings_are_created (__main__.StaticPatch.test_size_chosen_before_rings_are_created) ... ok
 
 ----------------------------------------------------------------------
-Ran 11 tests in 2.118s
+Ran 13 tests in 2.166s
 
 OK
 
