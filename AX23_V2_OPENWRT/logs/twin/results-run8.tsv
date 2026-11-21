@@ -1,0 +1,51 @@
+T01	PASS	router VM boots; LAN DHCP answers	77 s after helper start (TCG emulation)
+T02	PASS	SSH to router from LAN (key auth)	
+T03	PASS	AX23 port names; br-lan members	lan1 lan2 lan3 lan4 phy0-ap0 phy1-ap0 
+T04	PASS	WAN DHCP lease from ISP	203.0.113.114
+T05	PASS	WAN IPv6 (SLAAC/RA via wan6)	2001:db8:ffff:0:5054:ff:fe23:0/64
+T06	PASS	router IPv6 reachability to Internet	
+T07	PASS	LuCI login page served (HTTP 403 = not yet authenticated, by design) and root login yields a session	login: 302
+T08	PASS	DHCP on lan1, lan2, lan3	192.168.1.235 192.168.1.236 192.168.1.237
+T09	PASS	DNS through router dnsmasq	
+T10	PASS	lan1 <-> lan2 client-to-client	
+T11	PASS	LAN -> Internet NAT	src=203.0.113.114
+T12	PASS	TCP (HTTP) through NAT	
+T13	PASS	UDP through NAT	
+T14	PASS	3 MB download intact through router	
+T15	PASS	iperf3 LAN->WAN through NAT (TCG-emulated CPU)	200 Mbit/s
+T16	PASS	iperf3 lan1->lan2 (software bridge here; switch ASIC on the AX23)	225 Mbit/s
+T17	PASS	router SSH not reachable from WAN	
+T18	PASS	LuCI not reachable from WAN	
+W01	PASS	both radios up under netifd/hostapd	radio0 (2.4G) + radio1 (5G)
+W02	PASS	regulatory domain DE (EU) applied	
+W03	PASS	AP channels/widths	channel 6 (2437 MHz), width: 20 MHz ; channel 36 (5180 MHz), width: 80 MHz
+W04	PASS	4 SSIDs broadcast (main 2G/5G, guest, IoT)	AX23-2G AX23-5G CHANGE-ME-guest CHANGE-ME-iot 
+W05	PASS	2.4 GHz WPA2-PSK client associates + DHCP	192.168.1.110
+W06	PASS	5 GHz WPA3-SAE (PMF required) client associates + DHCP	192.168.1.159
+W07	PASS	5 GHz link uses SAE (WPA3)	key_mgmt=SAE
+W08	PASS	both clients associated with 802.11ax (HE) capabilities	2 HE stations
+W09	INFO	station rates reported by hwsim (not RF)	2G: tx bitrate:	13.0 MBit/s MCS 8 | 5G: tx bitrate:	78.0 MBit/s VHT-MCS 2 VHT-NSS 4
+W10	PASS	Wi-Fi clients reach router (both bands)	
+W11	PASS	Wi-Fi clients reach Internet via NAT (both bands)	
+W12	PASS	HTTP over 5 GHz Wi-Fi	
+W13	PASS	Wi-Fi <-> wired LAN both directions	
+W14	PASS	DNS for Wi-Fi clients	
+W15	PASS	simultaneous dual-band traffic, 0% loss	2G loss 0% / 5G loss 0% (30 pings each, concurrent)
+W16	PASS	iperf3 over 2.4G Wi-Fi to Internet (hwsim+TCG, NOT RF)	77.2 Mbit/s
+W16	PASS	iperf3 over 5G Wi-Fi to Internet (hwsim+TCG, NOT RF)	77.8 Mbit/s
+W17	PASS	WPA3 rejects a wrong password	
+W18	PASS	WPA2-PSK client cannot join the SAE-only 5 GHz SSID	
+W19	PASS	20/20 WPA3 disconnect/reconnect cycles with traffic	133 s total
+W20	PASS	guest SSID (WPA3) -> guest network	192.168.20.160
+W21	PASS	guest Wi-Fi reaches Internet	
+W22	PASS	guest Wi-Fi isolated from LAN	
+W23	PASS	guest Wi-Fi cannot reach router SSH	
+W24	PASS	IoT SSID (WPA2) -> IoT network	192.168.30.160
+W25	PASS	IoT Wi-Fi has no Internet	
+W26	PASS	LAN can reach IoT device (e.g. Pi home automation)	
+S01	INFO	router MemAvailable with 4 SSIDs + 2 clients (200 MiB VM; hwsim, not ath11k)	73244 kB
+S02	PASS	no kernel oops/panic/OOM/segfault	
+S03	PASS	hostapd still running	
+S04	PASS	3 min mixed wired+Wi-Fi load: router responsive	LAN ping loss 0%, 2.4G client still online
+S05	PASS	reboot: LAN, WAN and both radios come back	126 s
+pass=48 fail=0

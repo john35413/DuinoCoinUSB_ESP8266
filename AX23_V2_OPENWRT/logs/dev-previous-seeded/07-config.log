@@ -1,0 +1,90 @@
+
+WARNING: Makefile 'package/feeds/packages/bmx7-dnsupdate/Makefile' has a dependency on 'bmx7', which does not exist
+WARNING: Makefile 'package/feeds/packages/bmx7-dnsupdate/Makefile' has a dependency on 'bmx7-json', which does not exist
+WARNING: Makefile 'package/feeds/packages/gst1-plugins-base/Makefile' has a dependency on 'libmesa', which does not exist
+WARNING: Makefile 'package/feeds/packages/gst1-plugins-base/Makefile' has a dependency on 'libwayland', which does not exist
+WARNING: Makefile 'package/feeds/packages/gst1-plugins-base/Makefile' has a dependency on 'libgraphene', which does not exist
+WARNING: Makefile 'package/feeds/luci/luci-app-babeld/Makefile' has a dependency on 'babeld', which does not exist
+WARNING: Makefile 'package/feeds/luci/luci-app-bmx7/Makefile' has a dependency on 'bmx7', which does not exist
+WARNING: Makefile 'package/feeds/luci/luci-app-bmx7/Makefile' has a dependency on 'bmx7-uci-config', which does not exist
+WARNING: Makefile 'package/feeds/luci/luci-app-bmx7/Makefile' has a dependency on 'bmx7-json', which does not exist
+WARNING: Makefile 'package/feeds/luci/luci-app-bmx7/Makefile' has a dependency on 'bmx7-tun', which does not exist
+WARNING: Makefile 'package/feeds/luci/luci-app-bmx7/Makefile' has a dependency on 'bmx7-iwinfo', which does not exist
+WARNING: Makefile 'package/feeds/packages/prometheus-node-exporter-lua/Makefile' has a dependency on 'bmx7', which does not exist
+WARNING: Makefile 'package/feeds/packages/prometheus-node-exporter-lua/Makefile' has a dependency on 'bmx7-json', which does not exist
+tmp/.config-package.in:69783:error: recursive dependency detected!
+tmp/.config-package.in:69783:	symbol PACKAGE_luci-app-weechat depends on PACKAGE_weechat-full
+tmp/.config-package.in:112155:	symbol PACKAGE_weechat-full depends on PACKAGE_weechat-minimal
+tmp/.config-package.in:112186:	symbol PACKAGE_weechat-minimal is selected by PACKAGE_luci-app-weechat
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+tmp/.config-package.in:127971:error: recursive dependency detected!
+tmp/.config-package.in:127971:	symbol PACKAGE_squeezelite-custom depends on SQUEEZELITE_WMA_ALAC
+tmp/.config-package.in:128062:	symbol SQUEEZELITE_WMA_ALAC depends on PACKAGE_squeezelite-custom
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+#
+# configuration written to .config
+#
+tmp/.config-package.in:69783:error: recursive dependency detected!
+tmp/.config-package.in:69783:	symbol PACKAGE_luci-app-weechat depends on PACKAGE_weechat-full
+tmp/.config-package.in:112155:	symbol PACKAGE_weechat-full depends on PACKAGE_weechat-minimal
+tmp/.config-package.in:112186:	symbol PACKAGE_weechat-minimal is selected by PACKAGE_luci-app-weechat
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+tmp/.config-package.in:127971:error: recursive dependency detected!
+tmp/.config-package.in:127971:	symbol PACKAGE_squeezelite-custom depends on SQUEEZELITE_WMA_ALAC
+tmp/.config-package.in:128062:	symbol SQUEEZELITE_WMA_ALAC depends on PACKAGE_squeezelite-custom
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+tmp/.config-package.in:69783:error: recursive dependency detected!
+tmp/.config-package.in:69783:	symbol PACKAGE_luci-app-weechat depends on PACKAGE_weechat-full
+tmp/.config-package.in:112155:	symbol PACKAGE_weechat-full depends on PACKAGE_weechat-minimal
+tmp/.config-package.in:112186:	symbol PACKAGE_weechat-minimal is selected by PACKAGE_luci-app-weechat
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+tmp/.config-package.in:127971:error: recursive dependency detected!
+tmp/.config-package.in:127971:	symbol PACKAGE_squeezelite-custom depends on SQUEEZELITE_WMA_ALAC
+tmp/.config-package.in:128062:	symbol SQUEEZELITE_WMA_ALAC depends on PACKAGE_squeezelite-custom
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+CONFIG_TARGET_qualcommax=y
+CONFIG_TARGET_qualcommax_ipq50xx=y
+CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_tplink_archer-ax23-v2=y
+CONFIG_PACKAGE_cgi-io=y
+CONFIG_PACKAGE_ethtool=y
+CONFIG_PACKAGE_libiwinfo=y
+CONFIG_PACKAGE_libiwinfo-data=y
+CONFIG_PACKAGE_liblucihttp=y
+CONFIG_PACKAGE_liblucihttp-ucode=y
+CONFIG_PACKAGE_libpcap=y
+CONFIG_PACKAGE_luci=y
+CONFIG_PACKAGE_luci-app-firewall=y
+CONFIG_PACKAGE_luci-app-package-manager=y
+CONFIG_PACKAGE_luci-base=y
+CONFIG_PACKAGE_luci-lib-uqr=y
+CONFIG_PACKAGE_luci-light=y
+CONFIG_PACKAGE_luci-mod-admin-full=y
+CONFIG_PACKAGE_luci-mod-network=y
+CONFIG_PACKAGE_luci-mod-status=y
+CONFIG_PACKAGE_luci-mod-system=y
+CONFIG_PACKAGE_luci-proto-ipv6=y
+CONFIG_PACKAGE_luci-proto-ppp=y
+CONFIG_PACKAGE_luci-theme-bootstrap=y
+CONFIG_PACKAGE_rpcd=y
+CONFIG_PACKAGE_rpcd-mod-file=y
+CONFIG_PACKAGE_rpcd-mod-iwinfo=y
+CONFIG_PACKAGE_rpcd-mod-luci=y
+CONFIG_PACKAGE_rpcd-mod-rrdns=y
+CONFIG_PACKAGE_rpcd-mod-ucode=y
+CONFIG_PACKAGE_tcpdump-mini=y
+CONFIG_PACKAGE_ucode-mod-html=y
+CONFIG_PACKAGE_ucode-mod-log=y
+CONFIG_PACKAGE_uhttpd=y
+CONFIG_PACKAGE_uhttpd-mod-ubus=y

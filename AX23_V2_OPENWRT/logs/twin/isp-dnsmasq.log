@@ -3147,3 +3147,615 @@ Nov 21 13:39:53 dnsmasq[151]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054
 Nov 21 13:39:53 dnsmasq[151]: config error is REFUSED (EDE: not ready)
 Nov 21 13:39:53 dnsmasq[151]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
 Nov 21 13:39:53 dnsmasq[151]: config error is REFUSED (EDE: not ready)
+Nov 21 14:38:27 dnsmasq[152]: started, version 2.91 cachesize 150
+Nov 21 14:38:27 dnsmasq[152]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset nftset auth DNSSEC loop-detect inotify dumpfile
+Nov 21 14:38:27 dnsmasq[152]: warning: no upstream servers configured
+Nov 21 14:38:27 dnsmasq-dhcp[152]: DHCP, IP range 203.0.113.100 -- 203.0.113.150, lease time 1h
+Nov 21 14:38:27 dnsmasq-dhcp[152]: router advertisement on 2001:db8:ffff::
+Nov 21 14:38:27 dnsmasq-dhcp[152]: IPv6 router advertisement enabled
+Nov 21 14:38:27 dnsmasq-dhcp[152]: DHCP, sockets bound exclusively to interface wanp
+Nov 21 14:38:27 dnsmasq[152]: cleared cache
+Nov 21 14:38:28 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:38:41 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:38:48 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:38:58 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:39:04 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:39:05 dnsmasq-dhcp[152]: RTR-SOLICIT(wanp) 52:54:00:23:00:00
+Nov 21 14:39:05 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:39:08 dnsmasq-dhcp[152]: DHCPDISCOVER(wanp) 52:54:00:23:00:00 
+Nov 21 14:39:08 dnsmasq-dhcp[152]: DHCPOFFER(wanp) 203.0.113.114 52:54:00:23:00:00 
+Nov 21 14:39:08 dnsmasq-dhcp[152]: DHCPDISCOVER(wanp) 52:54:00:23:00:00 
+Nov 21 14:39:08 dnsmasq-dhcp[152]: DHCPOFFER(wanp) 203.0.113.114 52:54:00:23:00:00 
+Nov 21 14:39:08 dnsmasq-dhcp[152]: DHCPREQUEST(wanp) 203.0.113.114 52:54:00:23:00:00 
+Nov 21 14:39:08 dnsmasq-dhcp[152]: DHCPACK(wanp) 203.0.113.114 52:54:00:23:00:00 AX23-twin
+Nov 21 14:39:09 dnsmasq-dhcp[152]: RTR-SOLICIT(wanp) 
+Nov 21 14:39:09 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:39:13 dnsmasq-dhcp[152]: RTR-SOLICIT(wanp) 52:54:00:23:00:00
+Nov 21 14:39:13 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:39:15 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:39:26 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:26 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:26 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:26 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:26 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:26 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:26 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:26 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:26 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:26 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:26 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:26 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:28 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:28 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:28 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:28 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:28 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:28 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:28 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:28 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:31 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:31 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:31 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:31 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:34 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:39:38 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:38 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:38 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:38 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:38 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:38 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:38 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:38 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:41 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:41 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:41 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:41 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:43 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:43 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:43 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:43 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:43 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:43 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:43 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:43 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:47 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:47 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:47 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:47 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:47 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:47 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:47 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:47 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:49 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:49 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:49 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:49 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:49 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:49 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:49 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:49 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:52 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:52 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:52 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:52 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:52 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:52 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:52 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:52 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:54 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:54 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:54 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:54 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:54 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:54 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:54 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:54 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:57 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:57 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:57 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:57 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:57 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:57 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:57 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:57 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:59 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:59 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:59 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:59 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:59 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:39:59 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:39:59 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:39:59 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:02 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:02 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:02 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:02 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:02 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:02 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:02 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:02 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:04 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:04 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:04 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:04 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:04 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:04 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:04 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:04 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:20 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:20 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:20 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:20 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:20 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:20 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:20 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:20 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:21 dnsmasq[152]: query[A] inet.example.net from 203.0.113.114
+Nov 21 14:40:21 dnsmasq[152]: config inet.example.net is 93.184.215.10
+Nov 21 14:40:21 dnsmasq[152]: query[A] inet.example.net from fe80::5054:ff:fe23:0
+Nov 21 14:40:21 dnsmasq[152]: config inet.example.net is 93.184.215.10
+Nov 21 14:40:21 dnsmasq[152]: query[AAAA] inet.example.net from fe80::5054:ff:fe23:0
+Nov 21 14:40:21 dnsmasq[152]: config inet.example.net is 2001:db8:100::10
+Nov 21 14:40:21 dnsmasq[152]: query[AAAA] inet.example.net from 203.0.113.114
+Nov 21 14:40:21 dnsmasq[152]: config inet.example.net is 2001:db8:100::10
+Nov 21 14:40:22 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:22 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:22 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:22 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:22 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:22 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:22 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:22 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:22 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:22 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:22 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:22 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:25 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:25 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:25 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:25 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:25 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:25 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:25 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:25 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:27 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:27 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:27 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:27 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:27 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:27 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:27 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:27 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:30 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:30 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:30 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:30 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:30 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:30 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:30 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:30 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:32 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:32 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:32 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:32 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:32 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:32 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:32 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:32 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:35 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:35 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:35 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:35 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:35 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:35 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:35 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:35 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:37 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:37 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:37 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:40:37 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:37 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:37 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:40:37 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:40:37 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:09 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:09 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:09 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:09 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:09 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:09 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:09 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:09 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:11 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:11 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:11 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:11 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:11 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:11 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:11 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:11 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:14 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:14 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:14 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:14 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:14 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:14 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:14 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:14 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:16 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:16 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:16 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:16 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:16 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:16 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:16 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:16 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:19 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:19 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:19 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:19 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:19 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:19 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:19 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:19 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:21 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:21 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:21 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:21 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:21 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:21 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:21 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:21 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:24 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:24 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:24 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:24 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:24 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:24 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:24 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:24 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:26 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:26 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:26 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:26 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:26 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:41:26 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:41:26 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:41:26 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:15 dnsmasq[152]: query[A] inet.example.net from 203.0.113.114
+Nov 21 14:42:15 dnsmasq[152]: config inet.example.net is 93.184.215.10
+Nov 21 14:42:15 dnsmasq[152]: query[A] inet.example.net from fe80::5054:ff:fe23:0
+Nov 21 14:42:15 dnsmasq[152]: config inet.example.net is 93.184.215.10
+Nov 21 14:42:15 dnsmasq[152]: query[AAAA] inet.example.net from fe80::5054:ff:fe23:0
+Nov 21 14:42:15 dnsmasq[152]: config inet.example.net is 2001:db8:100::10
+Nov 21 14:42:15 dnsmasq[152]: query[AAAA] inet.example.net from 203.0.113.114
+Nov 21 14:42:15 dnsmasq[152]: config inet.example.net is 2001:db8:100::10
+Nov 21 14:42:16 dnsmasq[152]: query[A] inet.example.net from fe80::5054:ff:fe23:0
+Nov 21 14:42:16 dnsmasq[152]: config inet.example.net is 93.184.215.10
+Nov 21 14:42:16 dnsmasq[152]: query[AAAA] inet.example.net from fe80::5054:ff:fe23:0
+Nov 21 14:42:16 dnsmasq[152]: config inet.example.net is 2001:db8:100::10
+Nov 21 14:42:30 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:30 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:30 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:30 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:30 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:30 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:30 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:30 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:30 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:30 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:30 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:30 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:32 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:32 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:32 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:32 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:32 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:32 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:32 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:32 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:35 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:35 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:35 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:35 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:35 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:35 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:35 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:35 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:37 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:37 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:37 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:37 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:37 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:37 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:37 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:37 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:40 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:40 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:40 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:40 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:40 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:40 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:40 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:40 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:42 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:42 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:42 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:42 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:42 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:42 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:42 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:42 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:45 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:45 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:45 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:45 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:45 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:45 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:45 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:45 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:47 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:47 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:47 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:47 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:47 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:42:47 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:42:47 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:42:47 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:44:55 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:44:55 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:44:55 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:44:55 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:44:55 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:44:55 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:44:55 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:44:55 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:44:57 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:44:57 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:44:57 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:44:57 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:44:57 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:44:57 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:44:57 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:44:57 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:00 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:00 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:00 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:00 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:00 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:00 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:00 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:00 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:02 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:02 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:02 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:02 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:02 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:02 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:02 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:02 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:05 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:05 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:05 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:05 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:05 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:05 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:05 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:05 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:07 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:07 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:07 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:07 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:07 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:07 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:07 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:08 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:10 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:10 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:10 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:10 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:10 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:10 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:10 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:10 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:12 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:12 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:12 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:12 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:12 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:45:12 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:45:13 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:45:13 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:47:06 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:49:28 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:28 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:28 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:28 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:28 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:28 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:28 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:28 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:31 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:31 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:31 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:31 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:33 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:33 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:33 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:33 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:33 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:33 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:33 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:33 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:36 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:36 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:36 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:36 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:36 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:36 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:36 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:36 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:38 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:38 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:38 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:38 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:38 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:38 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:38 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:38 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:41 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:41 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:41 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:41 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:43 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:43 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:43 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:43 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:43 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:43 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:43 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:43 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:46 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:46 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:46 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:46 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:46 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:49:46 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:49:46 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:49:46 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:52:36 dnsmasq-dhcp[152]: DHCPRELEASE(wanp) 203.0.113.114 52:54:00:23:00:00 
+Nov 21 14:53:47 dnsmasq-dhcp[152]: RTR-SOLICIT(wanp) 52:54:00:23:00:00
+Nov 21 14:53:47 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:53:49 dnsmasq-dhcp[152]: DHCPDISCOVER(wanp) 52:54:00:23:00:00 
+Nov 21 14:53:49 dnsmasq-dhcp[152]: DHCPOFFER(wanp) 203.0.113.114 52:54:00:23:00:00 
+Nov 21 14:53:49 dnsmasq-dhcp[152]: DHCPDISCOVER(wanp) 52:54:00:23:00:00 
+Nov 21 14:53:49 dnsmasq-dhcp[152]: DHCPOFFER(wanp) 203.0.113.114 52:54:00:23:00:00 
+Nov 21 14:53:49 dnsmasq-dhcp[152]: DHCPREQUEST(wanp) 203.0.113.114 52:54:00:23:00:00 
+Nov 21 14:53:49 dnsmasq-dhcp[152]: DHCPACK(wanp) 203.0.113.114 52:54:00:23:00:00 AX23-twin
+Nov 21 14:53:51 dnsmasq-dhcp[152]: RTR-SOLICIT(wanp) 
+Nov 21 14:53:51 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:54:07 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:07 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:07 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:07 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:08 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:08 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:08 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:08 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:08 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:08 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:08 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:08 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:10 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:10 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:10 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:10 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:10 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:10 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:10 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:10 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:12 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:12 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:12 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:12 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:12 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:12 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:12 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:12 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:20 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:20 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:20 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:20 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:20 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:20 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:20 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:20 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:23 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:23 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:23 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:23 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:23 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:23 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:23 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:23 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:25 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:25 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:25 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:25 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:25 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:25 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:25 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:25 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:29 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:29 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:29 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:29 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:29 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:29 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:29 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:29 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:31 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:31 dnsmasq[152]: query[A] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:31 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:31 dnsmasq[152]: query[AAAA] 3.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:31 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:34 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:34 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:34 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:34 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:34 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:34 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:34 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:34 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:36 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:36 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:36 dnsmasq[152]: query[A] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:36 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:36 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:36 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:36 dnsmasq[152]: query[AAAA] 2.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:36 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:39 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:39 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:39 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:39 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:39 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:39 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:39 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:39 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:41 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:41 dnsmasq[152]: query[A] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:41 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:41 dnsmasq[152]: query[AAAA] 1.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:41 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:42 dnsmasq-dhcp[152]: RTR-ADVERT(wanp) 2001:db8:ffff::
+Nov 21 14:54:44 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:44 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:44 dnsmasq[152]: query[A] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:44 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:44 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from fe80::5054:ff:fe23:0
+Nov 21 14:54:44 dnsmasq[152]: config error is REFUSED (EDE: not ready)
+Nov 21 14:54:44 dnsmasq[152]: query[AAAA] 0.openwrt.pool.ntp.org from 203.0.113.114
+Nov 21 14:54:44 dnsmasq[152]: config error is REFUSED (EDE: not ready)

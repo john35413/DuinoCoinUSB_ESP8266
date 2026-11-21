@@ -1,70 +1,70 @@
 PING 93.184.215.10 (93.184.215.10): 56 data bytes
-64 bytes from 93.184.215.10: seq=0 ttl=62 time=5.176 ms
-64 bytes from 93.184.215.10: seq=1 ttl=62 time=4.752 ms
-64 bytes from 93.184.215.10: seq=2 ttl=62 time=3.509 ms
-64 bytes from 93.184.215.10: seq=3 ttl=62 time=4.481 ms
-64 bytes from 93.184.215.10: seq=4 ttl=62 time=5.309 ms
-64 bytes from 93.184.215.10: seq=5 ttl=62 time=3.899 ms
-64 bytes from 93.184.215.10: seq=6 ttl=62 time=5.348 ms
-64 bytes from 93.184.215.10: seq=7 ttl=62 time=4.483 ms
-64 bytes from 93.184.215.10: seq=8 ttl=62 time=4.039 ms
-64 bytes from 93.184.215.10: seq=9 ttl=62 time=3.995 ms
-64 bytes from 93.184.215.10: seq=10 ttl=62 time=4.538 ms
-64 bytes from 93.184.215.10: seq=11 ttl=62 time=4.962 ms
-64 bytes from 93.184.215.10: seq=12 ttl=62 time=4.619 ms
-64 bytes from 93.184.215.10: seq=13 ttl=62 time=5.261 ms
-64 bytes from 93.184.215.10: seq=14 ttl=62 time=4.979 ms
-64 bytes from 93.184.215.10: seq=15 ttl=62 time=4.541 ms
-64 bytes from 93.184.215.10: seq=16 ttl=62 time=5.457 ms
-64 bytes from 93.184.215.10: seq=17 ttl=62 time=4.367 ms
-64 bytes from 93.184.215.10: seq=18 ttl=62 time=5.338 ms
-64 bytes from 93.184.215.10: seq=19 ttl=62 time=4.454 ms
-64 bytes from 93.184.215.10: seq=20 ttl=62 time=4.737 ms
-64 bytes from 93.184.215.10: seq=21 ttl=62 time=4.440 ms
-64 bytes from 93.184.215.10: seq=22 ttl=62 time=5.245 ms
-64 bytes from 93.184.215.10: seq=23 ttl=62 time=4.963 ms
-64 bytes from 93.184.215.10: seq=24 ttl=62 time=5.176 ms
-64 bytes from 93.184.215.10: seq=25 ttl=62 time=4.936 ms
-64 bytes from 93.184.215.10: seq=26 ttl=62 time=4.781 ms
-64 bytes from 93.184.215.10: seq=27 ttl=62 time=4.984 ms
-64 bytes from 93.184.215.10: seq=28 ttl=62 time=4.147 ms
-64 bytes from 93.184.215.10: seq=29 ttl=62 time=4.532 ms
+64 bytes from 93.184.215.10: seq=0 ttl=62 time=5.306 ms
+64 bytes from 93.184.215.10: seq=1 ttl=62 time=4.208 ms
+64 bytes from 93.184.215.10: seq=2 ttl=62 time=3.313 ms
+64 bytes from 93.184.215.10: seq=3 ttl=62 time=3.574 ms
+64 bytes from 93.184.215.10: seq=4 ttl=62 time=3.839 ms
+64 bytes from 93.184.215.10: seq=5 ttl=62 time=2.876 ms
+64 bytes from 93.184.215.10: seq=6 ttl=62 time=2.923 ms
+64 bytes from 93.184.215.10: seq=7 ttl=62 time=2.585 ms
+64 bytes from 93.184.215.10: seq=8 ttl=62 time=2.685 ms
+64 bytes from 93.184.215.10: seq=9 ttl=62 time=3.267 ms
+64 bytes from 93.184.215.10: seq=10 ttl=62 time=3.227 ms
+64 bytes from 93.184.215.10: seq=11 ttl=62 time=2.507 ms
+64 bytes from 93.184.215.10: seq=12 ttl=62 time=2.735 ms
+64 bytes from 93.184.215.10: seq=13 ttl=62 time=2.550 ms
+64 bytes from 93.184.215.10: seq=14 ttl=62 time=4.311 ms
+64 bytes from 93.184.215.10: seq=15 ttl=62 time=2.425 ms
+64 bytes from 93.184.215.10: seq=16 ttl=62 time=7.040 ms
+64 bytes from 93.184.215.10: seq=17 ttl=62 time=3.364 ms
+64 bytes from 93.184.215.10: seq=18 ttl=62 time=2.772 ms
+64 bytes from 93.184.215.10: seq=19 ttl=62 time=3.525 ms
+64 bytes from 93.184.215.10: seq=20 ttl=62 time=3.032 ms
+64 bytes from 93.184.215.10: seq=21 ttl=62 time=3.345 ms
+64 bytes from 93.184.215.10: seq=22 ttl=62 time=2.627 ms
+64 bytes from 93.184.215.10: seq=23 ttl=62 time=2.823 ms
+64 bytes from 93.184.215.10: seq=24 ttl=62 time=2.911 ms
+64 bytes from 93.184.215.10: seq=25 ttl=62 time=2.923 ms
+64 bytes from 93.184.215.10: seq=26 ttl=62 time=2.782 ms
+64 bytes from 93.184.215.10: seq=27 ttl=62 time=5.558 ms
+64 bytes from 93.184.215.10: seq=28 ttl=62 time=2.376 ms
+64 bytes from 93.184.215.10: seq=29 ttl=62 time=3.808 ms
 
 --- 93.184.215.10 ping statistics ---
 30 packets transmitted, 30 packets received, 0% packet loss
-round-trip min/avg/max = 3.509/4.714/5.457 ms
+round-trip min/avg/max = 2.376/3.373/7.040 ms
 PING 93.184.215.10 (93.184.215.10): 56 data bytes
-64 bytes from 93.184.215.10: seq=0 ttl=62 time=5.854 ms
-64 bytes from 93.184.215.10: seq=1 ttl=62 time=3.580 ms
-64 bytes from 93.184.215.10: seq=2 ttl=62 time=4.493 ms
-64 bytes from 93.184.215.10: seq=3 ttl=62 time=4.229 ms
-64 bytes from 93.184.215.10: seq=4 ttl=62 time=4.631 ms
-64 bytes from 93.184.215.10: seq=5 ttl=62 time=4.496 ms
-64 bytes from 93.184.215.10: seq=6 ttl=62 time=4.903 ms
-64 bytes from 93.184.215.10: seq=7 ttl=62 time=4.884 ms
-64 bytes from 93.184.215.10: seq=8 ttl=62 time=4.363 ms
-64 bytes from 93.184.215.10: seq=9 ttl=62 time=4.295 ms
-64 bytes from 93.184.215.10: seq=10 ttl=62 time=4.264 ms
-64 bytes from 93.184.215.10: seq=11 ttl=62 time=6.136 ms
-64 bytes from 93.184.215.10: seq=12 ttl=62 time=5.441 ms
-64 bytes from 93.184.215.10: seq=13 ttl=62 time=5.162 ms
-64 bytes from 93.184.215.10: seq=14 ttl=62 time=4.400 ms
-64 bytes from 93.184.215.10: seq=15 ttl=62 time=4.157 ms
-64 bytes from 93.184.215.10: seq=16 ttl=62 time=4.735 ms
-64 bytes from 93.184.215.10: seq=17 ttl=62 time=4.457 ms
-64 bytes from 93.184.215.10: seq=18 ttl=62 time=4.278 ms
-64 bytes from 93.184.215.10: seq=19 ttl=62 time=5.468 ms
-64 bytes from 93.184.215.10: seq=20 ttl=62 time=3.889 ms
-64 bytes from 93.184.215.10: seq=21 ttl=62 time=4.416 ms
-64 bytes from 93.184.215.10: seq=22 ttl=62 time=5.281 ms
-64 bytes from 93.184.215.10: seq=23 ttl=62 time=3.625 ms
-64 bytes from 93.184.215.10: seq=24 ttl=62 time=4.853 ms
-64 bytes from 93.184.215.10: seq=25 ttl=62 time=5.285 ms
-64 bytes from 93.184.215.10: seq=26 ttl=62 time=4.121 ms
-64 bytes from 93.184.215.10: seq=27 ttl=62 time=3.699 ms
-64 bytes from 93.184.215.10: seq=28 ttl=62 time=5.151 ms
-64 bytes from 93.184.215.10: seq=29 ttl=62 time=4.596 ms
+64 bytes from 93.184.215.10: seq=0 ttl=62 time=5.622 ms
+64 bytes from 93.184.215.10: seq=1 ttl=62 time=3.892 ms
+64 bytes from 93.184.215.10: seq=2 ttl=62 time=4.316 ms
+64 bytes from 93.184.215.10: seq=3 ttl=62 time=4.653 ms
+64 bytes from 93.184.215.10: seq=4 ttl=62 time=4.319 ms
+64 bytes from 93.184.215.10: seq=5 ttl=62 time=4.314 ms
+64 bytes from 93.184.215.10: seq=6 ttl=62 time=4.196 ms
+64 bytes from 93.184.215.10: seq=7 ttl=62 time=3.892 ms
+64 bytes from 93.184.215.10: seq=8 ttl=62 time=3.967 ms
+64 bytes from 93.184.215.10: seq=9 ttl=62 time=4.707 ms
+64 bytes from 93.184.215.10: seq=10 ttl=62 time=3.804 ms
+64 bytes from 93.184.215.10: seq=11 ttl=62 time=3.698 ms
+64 bytes from 93.184.215.10: seq=12 ttl=62 time=4.428 ms
+64 bytes from 93.184.215.10: seq=13 ttl=62 time=3.693 ms
+64 bytes from 93.184.215.10: seq=14 ttl=62 time=4.381 ms
+64 bytes from 93.184.215.10: seq=15 ttl=62 time=4.113 ms
+64 bytes from 93.184.215.10: seq=16 ttl=62 time=4.781 ms
+64 bytes from 93.184.215.10: seq=17 ttl=62 time=3.731 ms
+64 bytes from 93.184.215.10: seq=18 ttl=62 time=3.780 ms
+64 bytes from 93.184.215.10: seq=19 ttl=62 time=4.195 ms
+64 bytes from 93.184.215.10: seq=20 ttl=62 time=4.599 ms
+64 bytes from 93.184.215.10: seq=21 ttl=62 time=4.923 ms
+64 bytes from 93.184.215.10: seq=22 ttl=62 time=3.632 ms
+64 bytes from 93.184.215.10: seq=23 ttl=62 time=3.765 ms
+64 bytes from 93.184.215.10: seq=24 ttl=62 time=4.357 ms
+64 bytes from 93.184.215.10: seq=25 ttl=62 time=5.605 ms
+64 bytes from 93.184.215.10: seq=26 ttl=62 time=4.960 ms
+64 bytes from 93.184.215.10: seq=27 ttl=62 time=8.056 ms
+64 bytes from 93.184.215.10: seq=28 ttl=62 time=5.989 ms
+64 bytes from 93.184.215.10: seq=29 ttl=62 time=5.448 ms
 
 --- 93.184.215.10 ping statistics ---
 30 packets transmitted, 30 packets received, 0% packet loss
-round-trip min/avg/max = 3.580/4.638/6.136 ms
+round-trip min/avg/max = 3.632/4.527/8.056 ms

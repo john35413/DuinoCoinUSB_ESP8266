@@ -7,7 +7,7 @@ DISTRIB_ARCH='aarch64_generic'
 DISTRIB_DESCRIPTION='OpenWrt SNAPSHOT r37094+10-98b1185d03'
 DISTRIB_TAINTS='no-all'
               total        used        free      shared  buff/cache   available
-Mem:         177728       49408       98472       26500       29848       75572
+Mem:         177728       48268       99600       26536       29860       76688
 Swap:             0           0           0
 lo               UNKNOWN        00:00:00:00:00:00 <LOOPBACK,UP,LOWER_UP> 
 wan              UP             52:54:00:23:00:00 <BROADCAST,MULTICAST,UP,LOWER_UP> 
@@ -69,43 +69,43 @@ phy#0
 		multicast TXQ:
 			qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcol	tx-bytes	tx-packets
 			0	0	0	0	0	0	0	0		0
-Sat Nov 21 13:24:44 2026 daemon.notice netifd: Network device 'phy1-ap0' link is up
-Sat Nov 21 13:24:44 2026 kern.info kernel: [   88.302639] br-lan: port 6(phy1-ap0) entered blocking state
-Sat Nov 21 13:24:44 2026 kern.info kernel: [   88.302718] br-lan: port 6(phy1-ap0) entered forwarding state
-Sat Nov 21 13:24:44 2026 daemon.notice hostapd: phy1-ap0: interface state HT_SCAN->ENABLED
-Sat Nov 21 13:24:44 2026 daemon.notice hostapd: phy1-ap0: AP-ENABLED
-Sat Nov 21 13:24:44 2026 user.notice firewall: Reloading firewall due to ifup of wan (wan)
-Sat Nov 21 13:24:44 2026 daemon.notice netifd: radio2 (3819): wifi-scripts: Starting
-Sat Nov 21 13:24:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 52:54:00:aa:00:01
-Sat Nov 21 13:24:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.1.235 52:54:00:aa:00:01
-Sat Nov 21 13:24:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 52:54:00:aa:00:01
-Sat Nov 21 13:24:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.1.235 52:54:00:aa:00:01
-Sat Nov 21 13:24:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.1.235 52:54:00:aa:00:01
-Sat Nov 21 13:24:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.1.235 52:54:00:aa:00:01
-Sat Nov 21 13:24:47 2026 daemon.notice hostapd: Set new config for phy phy2:
-Sat Nov 21 13:24:47 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy2
-Sat Nov 21 13:24:48 2026 authpriv.info dropbear[3931]: Child connection from 192.168.1.235:38622
-Sat Nov 21 13:24:49 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy2
-Sat Nov 21 13:24:49 2026 daemon.notice hostapd: Set new config for phy phy2:
-Sat Nov 21 13:24:49 2026 daemon.notice netifd: radio2 (3819): wifi-scripts: Setting country code to DE
-Sat Nov 21 13:24:49 2026 daemon.notice netifd: radio2 (3819): wifi-scripts: Configuring 'phy2' distance: 0
-Sat Nov 21 13:24:49 2026 daemon.notice netifd: radio2 (3819): wifi-scripts: Setting antenna for 'phy2' txantenna: 4294967295, rxantenna: 4294967295
-Sat Nov 21 13:24:49 2026 authpriv.notice dropbear[3931]: Auth succeeded with blank password for 'root' from 192.168.1.235:38622
-Sat Nov 21 13:24:50 2026 authpriv.info dropbear[3931]: Exit (root) from <192.168.1.235:38622>: Disconnect received
-Sat Nov 21 13:24:50 2026 daemon.notice netifd: radio3 (3956): wifi-scripts: Starting
-Sat Nov 21 13:24:50 2026 user.notice firewall: Reloading firewall due to ifup of wan6 (wan)
-Sat Nov 21 13:24:50 2026 authpriv.info dropbear[3989]: Child connection from 192.168.1.235:38628
-Sat Nov 21 13:24:50 2026 daemon.info dnsmasq[1]: exiting on receipt of SIGTERM
-Sat Nov 21 13:24:51 2026 daemon.info dnsmasq: jail (3745) exited with exit: 0
-Sat Nov 21 13:24:51 2026 authpriv.notice dropbear[3989]: Auth succeeded with blank password for 'root' from 192.168.1.235:38628
-Sat Nov 21 13:24:52 2026 authpriv.info dropbear[3989]: Exit (root) from <192.168.1.235:38628>: Disconnect received
-Sat Nov 21 13:24:52 2026 authpriv.info dropbear[4033]: Child connection from 192.168.1.235:38632
-Sat Nov 21 13:24:53 2026 daemon.notice hostapd: Set new config for phy phy3:
-Sat Nov 21 13:24:53 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy3
-Sat Nov 21 13:24:53 2026 authpriv.notice dropbear[4033]: Auth succeeded with blank password for 'root' from 192.168.1.235:38632
-Sat Nov 21 13:24:54 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy3
-Sat Nov 21 13:24:54 2026 daemon.notice hostapd: Set new config for phy phy3:
-Sat Nov 21 13:24:54 2026 daemon.notice netifd: radio3 (3956): wifi-scripts: Setting country code to DE
-Sat Nov 21 13:24:54 2026 daemon.notice netifd: radio3 (3956): wifi-scripts: Configuring 'phy3' distance: 0
-Sat Nov 21 13:24:54 2026 daemon.notice netifd: radio3 (3956): wifi-scripts: Setting antenna for 'phy3' txantenna: 4294967295, rxantenna: 4294967295
-Sat Nov 21 13:24:55 2026 daemon.notice netifd: radio0 (4051): wifi-scripts: Starting
+Sat Nov 21 14:39:42 2026 daemon.notice hostapd: Set new config for phy phy2:
+Sat Nov 21 14:39:43 2026 daemon.notice netifd: radio2 (3770): wifi-scripts: Setting country code to DE
+Sat Nov 21 14:39:43 2026 daemon.notice netifd: radio2 (3770): wifi-scripts: Configuring 'phy2' distance: 0
+Sat Nov 21 14:39:43 2026 daemon.notice netifd: radio2 (3770): wifi-scripts: Setting antenna for 'phy2' txantenna: 4294967295, rxantenna: 4294967295
+Sat Nov 21 14:39:43 2026 daemon.notice netifd: radio3 (3945): wifi-scripts: Starting
+Sat Nov 21 14:39:44 2026 user.notice firewall: Reloading firewall due to ifup of wan6 (wan)
+Sat Nov 21 14:39:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 52:54:00:aa:00:01
+Sat Nov 21 14:39:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.1.235 52:54:00:aa:00:01
+Sat Nov 21 14:39:46 2026 daemon.info dnsmasq[1]: read /etc/hosts - 12 names
+Sat Nov 21 14:39:46 2026 daemon.info dnsmasq[1]: read /tmp/hosts/dhcp.cfg01411c - 8 names
+Sat Nov 21 14:39:46 2026 daemon.info dnsmasq-dhcp[1]: read /etc/ethers - 0 addresses
+Sat Nov 21 14:39:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 52:54:00:aa:00:01
+Sat Nov 21 14:39:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.1.235 52:54:00:aa:00:01
+Sat Nov 21 14:39:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.1.235 52:54:00:aa:00:01
+Sat Nov 21 14:39:46 2026 daemon.info dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.1.235 52:54:00:aa:00:01
+Sat Nov 21 14:39:46 2026 daemon.notice hostapd: Set new config for phy phy3:
+Sat Nov 21 14:39:46 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy3
+Sat Nov 21 14:39:47 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy3
+Sat Nov 21 14:39:48 2026 daemon.notice hostapd: Set new config for phy phy3:
+Sat Nov 21 14:39:48 2026 daemon.notice netifd: radio3 (3945): wifi-scripts: Setting country code to DE
+Sat Nov 21 14:39:48 2026 daemon.notice netifd: radio3 (3945): wifi-scripts: Configuring 'phy3' distance: 0
+Sat Nov 21 14:39:48 2026 daemon.notice netifd: radio3 (3945): wifi-scripts: Setting antenna for 'phy3' txantenna: 4294967295, rxantenna: 4294967295
+Sat Nov 21 14:39:48 2026 authpriv.info dropbear[4043]: Child connection from 192.168.1.235:44912
+Sat Nov 21 14:39:48 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Starting
+Sat Nov 21 14:39:49 2026 authpriv.notice dropbear[4043]: Auth succeeded with blank password for 'root' from 192.168.1.235:44912
+Sat Nov 21 14:39:49 2026 authpriv.info dropbear[4043]: Exit (root) from <192.168.1.235:44912>: Disconnect received
+Sat Nov 21 14:39:50 2026 authpriv.info dropbear[4054]: Child connection from 192.168.1.235:36474
+Sat Nov 21 14:39:50 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy0
+Sat Nov 21 14:39:50 2026 daemon.notice hostapd: Set new config for phy phy0: /var/run/hostapd-phy0.conf
+Sat Nov 21 14:39:50 2026 daemon.notice hostapd: Reloaded settings for phy phy0
+Sat Nov 21 14:39:50 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Setting country code to DE
+Sat Nov 21 14:39:50 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Configuring 'phy0' distance: 0
+Sat Nov 21 14:39:50 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Preparing interface: phy0-ap0
+Sat Nov 21 14:39:50 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Preparing interface: phy0-ap1
+Sat Nov 21 14:39:50 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Preparing interface: phy0-ap2
+Sat Nov 21 14:39:50 2026 daemon.notice wpa_supplicant[2202]: Start pending MLD interfaces
+Sat Nov 21 14:39:51 2026 authpriv.notice dropbear[4054]: Auth succeeded with blank password for 'root' from 192.168.1.235:36474
+Sat Nov 21 14:39:51 2026 authpriv.info dropbear[4054]: Exit (root) from <192.168.1.235:36474>: Disconnect received
+Sat Nov 21 14:39:51 2026 authpriv.info dropbear[4059]: Child connection from 192.168.1.235:36482
+Sat Nov 21 14:39:52 2026 authpriv.notice dropbear[4059]: Auth succeeded with blank password for 'root' from 192.168.1.235:36482

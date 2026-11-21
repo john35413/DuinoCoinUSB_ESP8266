@@ -1,0 +1,23 @@
+ok   git /usr/bin/git
+ok   make /usr/bin/make
+ok   gcc /usr/bin/gcc
+ok   g++ /usr/bin/g++
+ok   gawk /usr/bin/gawk
+ok   flex /usr/bin/flex
+ok   bison /usr/bin/bison
+ok   python3 /usr/local/bin/python3
+ok   rsync /usr/bin/rsync
+ok   unzip /usr/bin/unzip
+ok   wget /usr/bin/wget
+ok   file /usr/bin/file
+ok   patch /usr/bin/patch
+ok   swig /usr/bin/swig
+ok   perl /usr/bin/perl
+ok   tar /usr/bin/tar
+ok   xz /usr/bin/xz
+ok   zstd /usr/bin/zstd
+ok   bzip2 /usr/bin/bzip2
+ok   dtc /usr/bin/dtc
+ok   python3-setuptools
+nproc=4 mem=16087MB
+disk_avail=31GB

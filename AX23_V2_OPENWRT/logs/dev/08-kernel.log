@@ -1,6 +1,7 @@
 make[2]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/scripts/config'
 make[2]: 'conf' is up to date.
 make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/scripts/config'
+time: target/linux/prereq#0.15#0.03#0.17
  make[1] tools/install
  make[2] -C tools/libdeflate compile
  make[2] -C tools/flock compile
@@ -9,57 +10,109 @@ make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/buil
  make[2] -C tools/patch compile
  make[2] -C tools/tar compile
  make[2] -C tools/m4 compile
+ make[2] -C tools/autoconf-archive compile
  make[2] -C tools/ninja compile
  make[2] -C tools/xz compile
- make[2] -C tools/autoconf-archive compile
  make[2] -C tools/gnulib compile
  make[2] -C tools/expat compile
  make[2] -C tools/zlib compile
  make[2] -C tools/cpio compile
  make[2] -C tools/lzma compile
+ make[2] -C tools/make-ext4fs compile
  make[2] -C tools/mtools compile
  make[2] -C tools/patch-image compile
  make[2] -C tools/squashfs4 compile
  make[2] -C tools/sstrip compile
  make[2] -C tools/zip compile
  make[2] -C tools/meson compile
- make[2] -C tools/autoconf compile
- make[2] -C tools/make-ext4fs compile
  make[2] -C tools/pkgconf compile
  make[2] -C tools/lz4 compile
- make[2] -C tools/missing-macros compile
- make[2] -C tools/automake compile
+ make[2] -C tools/autoconf compile
  make[2] -C tools/libressl compile
+ make[2] -C tools/automake compile
+ make[2] -C tools/missing-macros compile
  make[2] -C tools/libtool compile
  make[2] -C tools/dosfstools compile
  make[2] -C tools/cmake compile
+ make[2] -C tools/flex compile
  make[2] -C tools/fakeroot compile
  make[2] -C tools/gengetopt compile
- make[2] -C tools/flex compile
  make[2] -C tools/mklibs compile
  make[2] -C tools/patchelf compile
  make[2] -C tools/gmp compile
  make[2] -C tools/bison compile
- make[2] -C tools/firmware-utils compile
- make[2] -C tools/util-linux compile
- make[2] -C tools/findutils compile
  make[2] -C tools/bc compile
+ make[2] -C tools/util-linux compile
  make[2] -C tools/elfutils compile
+ make[2] -C tools/findutils compile
  make[2] -C tools/mkimage compile
  make[2] -C tools/mtd-utils compile
+ make[2] -C tools/padjffs2 compile
+ make[2] -C tools/quilt compile
  make[2] -C tools/mpfr compile
  make[2] -C tools/e2fsprogs compile
  make[2] -C tools/erofs-utils compile
- make[2] -C tools/padjffs2 compile
- make[2] -C tools/quilt compile
  make[2] -C tools/mpc compile
+ make[2] -C tools/firmware-utils compile
 make[2]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/scripts/config'
 make[2]: 'conf' is up to date.
 make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/scripts/config'
  make[1] toolchain/install
+ make[2] tools/compile
+ make[3] -C tools/libdeflate compile
+ make[3] -C tools/flock compile
+ make[3] -C tools/zstd compile
+ make[3] -C tools/sed compile
+ make[3] -C tools/patch compile
+ make[3] -C tools/tar compile
+ make[3] -C tools/autoconf-archive compile
+ make[3] -C tools/xz compile
+ make[3] -C tools/m4 compile
+ make[3] -C tools/ninja compile
+ make[3] -C tools/gnulib compile
+ make[3] -C tools/expat compile
+ make[3] -C tools/zlib compile
+ make[3] -C tools/cpio compile
+ make[3] -C tools/lzma compile
+ make[3] -C tools/mtools compile
+ make[3] -C tools/patch-image compile
+ make[3] -C tools/squashfs4 compile
+ make[3] -C tools/sstrip compile
+ make[3] -C tools/zip compile
+ make[3] -C tools/autoconf compile
+ make[3] -C tools/meson compile
+ make[3] -C tools/make-ext4fs compile
+ make[3] -C tools/pkgconf compile
+ make[3] -C tools/lz4 compile
+ make[3] -C tools/missing-macros compile
+ make[3] -C tools/automake compile
+ make[3] -C tools/libressl compile
+ make[3] -C tools/libtool compile
+ make[3] -C tools/dosfstools compile
+ make[3] -C tools/cmake compile
+ make[3] -C tools/flex compile
+ make[3] -C tools/fakeroot compile
+ make[3] -C tools/gengetopt compile
+ make[3] -C tools/mklibs compile
+ make[3] -C tools/patchelf compile
+ make[3] -C tools/gmp compile
+ make[3] -C tools/bison compile
+ make[3] -C tools/firmware-utils compile
+ make[3] -C tools/bc compile
+ make[3] -C tools/util-linux compile
+ make[3] -C tools/elfutils compile
+ make[3] -C tools/findutils compile
+ make[3] -C tools/mkimage compile
+ make[3] -C tools/mtd-utils compile
+ make[3] -C tools/mpfr compile
+ make[3] -C tools/e2fsprogs compile
+ make[3] -C tools/erofs-utils compile
+ make[3] -C tools/padjffs2 compile
+ make[3] -C tools/quilt compile
+ make[3] -C tools/mpc compile
  make[2] -C toolchain/gdb compile
- make[2] -C toolchain/fortify-headers compile
  make[2] -C toolchain/binutils compile
+ make[2] -C toolchain/fortify-headers compile
  make[2] -C toolchain/gcc/initial compile
  make[2] -C toolchain/kernel-headers compile
  make[2] -C toolchain/musl compile

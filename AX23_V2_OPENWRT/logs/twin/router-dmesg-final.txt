@@ -56,303 +56,303 @@
 [    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
 [    0.000000] arch_timer: cp15 timer running at 62.50MHz (virt).
 [    0.000000] clocksource: arch_sys_counter: mask: 0x1ffffffffffffff max_cycles: 0x1cd42e208c, max_idle_ns: 881590405314 ns
-[    0.000063] sched_clock: 57 bits at 63MHz, resolution 16ns, wraps every 4398046511096ns
-[    0.004758] Console: colour dummy device 80x25
-[    0.007554] Calibrating delay loop (skipped), value calculated using timer frequency.. 125.00 BogoMIPS (lpj=625000)
-[    0.007718] pid_max: default: 32768 minimum: 301
-[    0.014485] Mount-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
-[    0.014555] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
-[    0.069671] rcu: Hierarchical SRCU implementation.
-[    0.069777] rcu: 	Max phase no-delay instances is 1000.
-[    0.072250] Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
-[    0.076023] EFI services will not be available.
-[    0.077944] smp: Bringing up secondary CPUs ...
-[    0.082506] Detected VIPT I-cache on CPU1
-[    0.083776] CPU1: Booted secondary processor 0x0000000001 [0x410fd034]
-[    0.089686] smp: Brought up 1 node, 2 CPUs
-[    0.089758] SMP: Total of 2 processors activated.
-[    0.089806] CPU: All CPU(s) started at EL1
-[    0.090162] CPU features: detected: 32-bit EL0 Support
-[    0.090185] CPU features: detected: 32-bit EL1 Support
-[    0.090280] CPU features: detected: CRC32 instructions
-[    0.098181] alternatives: applying system-wide alternatives
-[    0.106063] CPU features: emulated: Privileged Access Never (PAN) using TTBR0_EL1 switching
-[    0.128515] Memory: 118028K/204800K available (12992K kernel code, 1626K rwdata, 5004K rodata, 25280K init, 486K bss, 52352K reserved, 32768K cma-reserved)
-[    0.182305] posixtimers hash table entries: 1024 (order: 2, 16384 bytes, linear)
-[    0.182842] futex hash table entries: 512 (32768 bytes on 1 NUMA nodes, total 32 KiB, linear).
-[    0.186317] 2G module region forced by RANDOMIZE_MODULE_REGION_FULL
-[    0.186411] 0 pages in range for non-PLT usage
-[    0.186497] 512880 pages in range for PLT usage
-[    0.188620] pinctrl core: initialized pinctrl subsystem
-[    0.205084] DMI not present or invalid.
-[    0.232714] NET: Registered PF_NETLINK/PF_ROUTE protocol family
-[    0.247110] DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
-[    0.248704] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
-[    0.249399] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
-[    0.255661] thermal_sys: Registered thermal governor 'step_wise'
-[    0.256778] cpuidle: using governor ladder
-[    0.257426] cpuidle: using governor menu
-[    0.258735] ASID allocator initialised with 32768 entries
-[    0.261562] Serial: AMBA PL011 UART driver
-[    0.305407] 9000000.pl011: ttyAMA0 at MMIO 0x9000000 (irq = 13, base_baud = 0) is a PL011 rev1
-[    0.309219] printk: console [ttyAMA0] enabled
-[    0.329160] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
-[    0.329237] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
-[    0.329272] HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
-[    0.329279] HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
-[    0.329286] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
-[    0.329292] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
-[    0.329299] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
-[    0.329304] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
-[    0.342159] ACPI: Interpreter disabled.
-[    0.347322] iommu: Default domain type: Passthrough
-[    0.350111] SCSI subsystem initialized
-[    0.351912] libata version 3.00 loaded.
-[    0.353899] usbcore: registered new interface driver usbfs
-[    0.354200] usbcore: registered new interface driver hub
-[    0.354443] usbcore: registered new device driver usb
-[    0.386518] clocksource: Switched to clocksource arch_sys_counter
-[    0.392355] pnp: PnP ACPI: disabled
-[    0.400874] NET: Registered PF_INET protocol family
-[    0.402904] IP idents hash table entries: 4096 (order: 3, 32768 bytes, linear)
-[    0.407963] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes, linear)
-[    0.408061] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
-[    0.408143] TCP established hash table entries: 2048 (order: 2, 16384 bytes, linear)
-[    0.408472] TCP bind hash table entries: 2048 (order: 4, 65536 bytes, linear)
-[    0.408735] TCP: Hash tables configured (established 2048 bind 2048)
-[    0.411788] MPTCP token hash table entries: 256 (order: 1, 6144 bytes, linear)
-[    0.412346] UDP hash table entries: 256 (order: 2, 16384 bytes, linear)
-[    0.412884] UDP-Lite hash table entries: 256 (order: 2, 16384 bytes, linear)
-[    0.414873] NET: Registered PF_UNIX/PF_LOCAL protocol family
-[    0.415555] PCI: CLS 0 bytes, default 64
-[    0.425926] kvm [1]: HYP mode not available
-[    0.435428] workingset: timestamp_bits=42 max_order=16 bucket_order=0
-[    0.437750] squashfs: version 4.0 (2009/01/31) Phillip Lougher
-[    0.437788] jffs2: version 2.2 (NAND) (SUMMARY) (LZMA) (RTIME) (CMODE_PRIORITY) (c) 2001-2006 Red Hat, Inc.
-[    0.439796] 9p: Installing v9fs 9p2000 file system support
-[    0.447347] cryptd: max_cpu_qlen set to 1000
-[    0.455734] atomic64_test: passed
-[    0.480658] pl061_gpio 9030000.pl061: PL061 GPIO chip registered
-[    0.495078] pci-host-generic 4010000000.pcie: host bridge /pcie@10000000 ranges:
-[    0.496050] pci-host-generic 4010000000.pcie:       IO 0x003eff0000..0x003effffff -> 0x0000000000
-[    0.496903] pci-host-generic 4010000000.pcie:      MEM 0x0010000000..0x003efeffff -> 0x0010000000
-[    0.496997] pci-host-generic 4010000000.pcie:      MEM 0x8000000000..0xffffffffff -> 0x8000000000
-[    0.497959] pci-host-generic 4010000000.pcie: Memory resource size exceeds max for 32 bits
-[    0.500314] pci-host-generic 4010000000.pcie: ECAM at [mem 0x4010000000-0x401fffffff] for [bus 00-ff]
-[    0.504180] pci-host-generic 4010000000.pcie: PCI host bridge to bus 0000:00
-[    0.504771] pci_bus 0000:00: root bus resource [bus 00-ff]
-[    0.504873] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
-[    0.504935] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff]
-[    0.504944] pci_bus 0000:00: root bus resource [mem 0x8000000000-0xffffffffff]
-[    0.506949] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000 conventional PCI endpoint
-[    0.513475] pci 0000:00:01.0: [1af4:1005] type 00 class 0x00ff00 conventional PCI endpoint
-[    0.514241] pci 0000:00:01.0: BAR 0 [io  0x0000-0x001f]
-[    0.514331] pci 0000:00:01.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.514361] pci 0000:00:01.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.515537] pci 0000:00:02.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.515918] pci 0000:00:02.0: BAR 0 [io  0x0000-0x001f]
-[    0.515969] pci 0000:00:02.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.515987] pci 0000:00:02.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.516032] pci 0000:00:02.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.517127] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.517506] pci 0000:00:03.0: BAR 0 [io  0x0000-0x001f]
-[    0.517551] pci 0000:00:03.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.517590] pci 0000:00:03.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.517613] pci 0000:00:03.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.518602] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.519023] pci 0000:00:04.0: BAR 0 [io  0x0000-0x001f]
-[    0.519056] pci 0000:00:04.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.519071] pci 0000:00:04.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.519093] pci 0000:00:04.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.520003] pci 0000:00:05.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.520401] pci 0000:00:05.0: BAR 0 [io  0x0000-0x001f]
-[    0.520433] pci 0000:00:05.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.520462] pci 0000:00:05.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.520488] pci 0000:00:05.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.521259] pci 0000:00:06.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.521581] pci 0000:00:06.0: BAR 0 [io  0x0000-0x001f]
-[    0.521639] pci 0000:00:06.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.521672] pci 0000:00:06.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.521686] pci 0000:00:06.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.524779] pci 0000:00:02.0: ROM [mem 0x10000000-0x1007ffff pref]: assigned
-[    0.524958] pci 0000:00:03.0: ROM [mem 0x10080000-0x100fffff pref]: assigned
-[    0.525002] pci 0000:00:04.0: ROM [mem 0x10100000-0x1017ffff pref]: assigned
-[    0.525011] pci 0000:00:05.0: ROM [mem 0x10180000-0x101fffff pref]: assigned
-[    0.525020] pci 0000:00:06.0: ROM [mem 0x10200000-0x1027ffff pref]: assigned
-[    0.525114] pci 0000:00:01.0: BAR 4 [mem 0x8000000000-0x8000003fff 64bit pref]: assigned
-[    0.525259] pci 0000:00:02.0: BAR 4 [mem 0x8000004000-0x8000007fff 64bit pref]: assigned
-[    0.525285] pci 0000:00:03.0: BAR 4 [mem 0x8000008000-0x800000bfff 64bit pref]: assigned
-[    0.525305] pci 0000:00:04.0: BAR 4 [mem 0x800000c000-0x800000ffff 64bit pref]: assigned
-[    0.525327] pci 0000:00:05.0: BAR 4 [mem 0x8000010000-0x8000013fff 64bit pref]: assigned
-[    0.525348] pci 0000:00:06.0: BAR 4 [mem 0x8000014000-0x8000017fff 64bit pref]: assigned
-[    0.525367] pci 0000:00:01.0: BAR 1 [mem 0x10280000-0x10280fff]: assigned
-[    0.525412] pci 0000:00:02.0: BAR 1 [mem 0x10281000-0x10281fff]: assigned
-[    0.525429] pci 0000:00:03.0: BAR 1 [mem 0x10282000-0x10282fff]: assigned
-[    0.525441] pci 0000:00:04.0: BAR 1 [mem 0x10283000-0x10283fff]: assigned
-[    0.525455] pci 0000:00:05.0: BAR 1 [mem 0x10284000-0x10284fff]: assigned
-[    0.525468] pci 0000:00:06.0: BAR 1 [mem 0x10285000-0x10285fff]: assigned
-[    0.525493] pci 0000:00:01.0: BAR 0 [io  0x1000-0x101f]: assigned
-[    0.525527] pci 0000:00:02.0: BAR 0 [io  0x1020-0x103f]: assigned
-[    0.525536] pci 0000:00:03.0: BAR 0 [io  0x1040-0x105f]: assigned
-[    0.525544] pci 0000:00:04.0: BAR 0 [io  0x1060-0x107f]: assigned
-[    0.525552] pci 0000:00:05.0: BAR 0 [io  0x1080-0x109f]: assigned
-[    0.525560] pci 0000:00:06.0: BAR 0 [io  0x10a0-0x10bf]: assigned
-[    0.525874] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
-[    0.525899] pci_bus 0000:00: resource 5 [mem 0x10000000-0x3efeffff]
-[    0.525908] pci_bus 0000:00: resource 6 [mem 0x8000000000-0xffffffffff]
-[    0.571662] virtio-pci 0000:00:01.0: enabling device (0000 -> 0003)
-[    0.577036] virtio-pci 0000:00:02.0: enabling device (0000 -> 0003)
-[    0.578956] virtio-pci 0000:00:03.0: enabling device (0000 -> 0003)
-[    0.580786] virtio-pci 0000:00:04.0: enabling device (0000 -> 0003)
-[    0.582470] virtio-pci 0000:00:05.0: enabling device (0000 -> 0003)
-[    0.589148] virtio-pci 0000:00:06.0: enabling device (0000 -> 0003)
-[    0.599107] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
-[    0.615052] SuperH (H)SCI(F) driver initialized
-[    0.631480] hv_vmbus: registering driver hyperv_drm
-[    0.665779] loop: module loaded
-[    0.668062] hv_vmbus: registering driver hv_storvsc
-[    0.713023] hv_vmbus: registering driver hv_netvsc
-[    0.716053] usbcore: registered new interface driver usb-storage
-[    0.719172] hv_vmbus: registering driver hyperv_keyboard
-[    0.727768] rtc-pl031 9010000.pl031: registered as rtc0
-[    0.728484] rtc-pl031 9010000.pl031: setting system clock to 2026-11-21T13:38:01 UTC (1795268281)
-[    0.733972] sdhci: Secure Digital Host Controller Interface driver
-[    0.734016] sdhci: Copyright(c) Pierre Ossman
-[    0.734563] Synopsys Designware Multimedia Card Interface Driver
-[    0.735110] sdhci-pltfm: SDHCI platform and OF driver helper
-[    0.738252] usbcore: registered new interface driver usbhid
-[    0.738390] usbhid: USB HID core driver
-[    0.744134] NET: Registered PF_INET6 protocol family
-[    0.763799] Segment Routing with IPv6
-[    0.764129] In-situ OAM (IOAM) with IPv6
-[    0.764875] NET: Registered PF_PACKET protocol family
-[    0.765493] 8021q: 802.1Q VLAN Support v1.8
-[    0.766297] 9pnet: Installing 9P2000 support
-[    0.838046] Demotion targets for Node 0: null
-[    0.846874] clk: Disabling unused clocks
-[    0.847112] PM: genpd: Disabling unused power domains
-[    0.937273] Freeing unused kernel memory: 25280K
-[    0.942273] Run /init as init process
-[    0.942322]   with arguments:
-[    0.942334]     /init
-[    0.942345]   with environment:
-[    0.942354]     HOME=/
-[    0.942359]     TERM=linux
-[    3.278541] init: Console is alive
-[    3.438485] kmodloader: loading kernel modules from /etc/modules-boot.d/*
-[    3.477216] pps_core: LinuxPPS API ver. 1 registered
-[    3.477270] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
-[    3.522987] PTP clock support registered
-[    3.546493] VMware vmxnet3 virtual NIC driver - version 1.9.0.0-k-NAPI
-[    3.567519] e1000e: Intel(R) PRO/1000 Network Driver
-[    3.567580] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
-[    3.570838] kmodloader: done loading kernel modules from /etc/modules-boot.d/*
-[    3.590535] init: - preinit -
-[    4.574420] virtio_net virtio1 wan: renamed from eth0
-[    4.663611] virtio_net virtio2 lan1: renamed from eth1
-[    4.751539] virtio_net virtio3 lan2: renamed from eth2
-[    4.840242] virtio_net virtio4 lan3: renamed from eth3
-[    4.910325] virtio_net virtio5 lan4: renamed from eth4
-[   11.915718] procd: - early -
-[   12.843776] procd: - ubus -
-[   13.078246] procd: - init -
-[   14.743312] urngd: v1.0.2 started.
-[   16.689039] kmodloader: loading kernel modules from /etc/modules.d/*
-[   17.912066] MACsec IEEE 802.1AE
-[   18.114574] rvu_af: Marvell OcteonTX2 RVU Admin Function Driver
-[   18.138074] rvu_nicpf: Marvell RVU NIC Physical Function Driver
-[   18.146510] rvu_nicvf: Marvell RVU NIC Virtual Function Driver
-[   18.211730] i2c_dev: i2c /dev entries driver
-[   18.232552] GACT probability on
-[   18.237462] Mirror/redirect action on
-[   18.264354] u32 classifier
-[   18.264435]     input device check on
-[   18.264444]     Actions configured
-[   18.316732] compat: loading out-of-tree module taints kernel.
-[   18.318466] Loading modules backported from Linux version v7.2-0-g8d3ae59288f1
-[   18.318502] Backport generated by backports.git v5.15.58-1-198-g2580fa90cb79
-[   18.515525] mac80211_hwsim: initializing netlink
-[   18.520940] ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
-[   18.529620] ieee80211 phy1: Selected rate control algorithm 'minstrel_ht'
-[   18.531961] ieee80211 phy2: Selected rate control algorithm 'minstrel_ht'
-[   18.535351] ieee80211 phy3: Selected rate control algorithm 'minstrel_ht'
-[   18.675161] PPP generic driver version 2.4.2
-[   18.680415] NET: Registered PF_PPPOX protocol family
-[   18.717453] kmodloader: done loading kernel modules from /etc/modules.d/*
-[   54.844366] 8021q: adding VLAN 0 to HW filter on device lan1
-[   54.907208] br-lan: port 1(lan1) entered blocking state
-[   54.907515] br-lan: port 1(lan1) entered disabled state
-[   54.908685] virtio_net virtio2 lan1: entered allmulticast mode
-[   54.913277] virtio_net virtio2 lan1: entered promiscuous mode
-[   54.958693] br-lan: port 1(lan1) entered blocking state
-[   54.958892] br-lan: port 1(lan1) entered forwarding state
-[   55.093515] 8021q: adding VLAN 0 to HW filter on device lan2
-[   55.099356] br-lan: port 2(lan2) entered blocking state
-[   55.099486] br-lan: port 2(lan2) entered disabled state
-[   55.099694] virtio_net virtio3 lan2: entered allmulticast mode
-[   55.100728] virtio_net virtio3 lan2: entered promiscuous mode
-[   55.138081] br-lan: port 2(lan2) entered blocking state
-[   55.138211] br-lan: port 2(lan2) entered forwarding state
-[   55.254880] 8021q: adding VLAN 0 to HW filter on device lan3
-[   55.264898] br-lan: port 3(lan3) entered blocking state
-[   55.264966] br-lan: port 3(lan3) entered disabled state
-[   55.265094] virtio_net virtio4 lan3: entered allmulticast mode
-[   55.268028] virtio_net virtio4 lan3: entered promiscuous mode
-[   55.273206] br-lan: port 3(lan3) entered blocking state
-[   55.273290] br-lan: port 3(lan3) entered forwarding state
-[   55.339026] 8021q: adding VLAN 0 to HW filter on device lan4
-[   55.366428] br-lan: port 4(lan4) entered blocking state
-[   55.366539] br-lan: port 4(lan4) entered disabled state
-[   55.366725] virtio_net virtio5 lan4: entered allmulticast mode
-[   55.369664] virtio_net virtio5 lan4: entered promiscuous mode
-[   55.375219] br-lan: port 4(lan4) entered blocking state
-[   55.375291] br-lan: port 4(lan4) entered forwarding state
-[   55.557660] 8021q: adding VLAN 0 to HW filter on device wan
-[   70.117245] br-lan: port 5(phy0-ap0) entered blocking state
-[   70.117364] br-lan: port 5(phy0-ap0) entered disabled state
-[   70.117619] mac80211_hwsim hwsim0 phy0-ap0: entered allmulticast mode
-[   70.118899] mac80211_hwsim hwsim0 phy0-ap0: entered promiscuous mode
-[   70.625534] br-lan: port 5(phy0-ap0) entered blocking state
-[   70.625652] br-lan: port 5(phy0-ap0) entered forwarding state
-[   72.502247] br-guest: port 1(phy0-ap1) entered blocking state
-[   72.502355] br-guest: port 1(phy0-ap1) entered disabled state
-[   72.502880] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
-[   72.503944] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
-[   72.525670] br-guest: port 1(phy0-ap1) entered blocking state
-[   72.525776] br-guest: port 1(phy0-ap1) entered forwarding state
-[   72.533439] br-guest: port 1(phy0-ap1) entered disabled state
-[   72.913915] br-guest: port 1(phy0-ap1) entered blocking state
-[   72.914042] br-guest: port 1(phy0-ap1) entered forwarding state
-[   74.015001] br-iot: port 1(phy0-ap2) entered blocking state
-[   74.015074] br-iot: port 1(phy0-ap2) entered disabled state
-[   74.015182] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
-[   74.024630] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
-[   74.031703] br-iot: port 1(phy0-ap2) entered blocking state
-[   74.031769] br-iot: port 1(phy0-ap2) entered forwarding state
-[   74.053126] br-iot: port 1(phy0-ap2) entered disabled state
-[   74.153934] br-iot: port 1(phy0-ap2) entered blocking state
-[   74.154059] br-iot: port 1(phy0-ap2) entered forwarding state
-[   76.382577] mac80211_hwsim hwsim0 phy0-ap1: left allmulticast mode
-[   76.385037] mac80211_hwsim hwsim0 phy0-ap1: left promiscuous mode
-[   76.385991] br-guest: port 1(phy0-ap1) entered disabled state
-[   76.626349] br-guest: port 1(phy0-ap1) entered blocking state
-[   76.626550] br-guest: port 1(phy0-ap1) entered disabled state
-[   76.627153] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
-[   76.630806] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
-[   76.634844] br-guest: port 1(phy0-ap1) entered blocking state
-[   76.634975] br-guest: port 1(phy0-ap1) entered forwarding state
-[   76.709683] mac80211_hwsim hwsim0 phy0-ap2: left allmulticast mode
-[   76.709872] mac80211_hwsim hwsim0 phy0-ap2: left promiscuous mode
-[   76.710260] br-iot: port 1(phy0-ap2) entered disabled state
-[   76.779576] br-iot: port 1(phy0-ap2) entered blocking state
-[   76.779670] br-iot: port 1(phy0-ap2) entered disabled state
-[   76.779890] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
-[   76.780712] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
-[   76.781264] br-iot: port 1(phy0-ap2) entered blocking state
-[   76.781290] br-iot: port 1(phy0-ap2) entered forwarding state
-[   88.211796] br-lan: port 6(phy1-ap0) entered blocking state
-[   88.211956] br-lan: port 6(phy1-ap0) entered disabled state
-[   88.212213] mac80211_hwsim hwsim1 phy1-ap0: entered allmulticast mode
-[   88.213821] mac80211_hwsim hwsim1 phy1-ap0: entered promiscuous mode
-[   89.165729] br-lan: port 6(phy1-ap0) entered blocking state
-[   89.165806] br-lan: port 6(phy1-ap0) entered forwarding state
+[    0.000065] sched_clock: 57 bits at 63MHz, resolution 16ns, wraps every 4398046511096ns
+[    0.004315] Console: colour dummy device 80x25
+[    0.007710] Calibrating delay loop (skipped), value calculated using timer frequency.. 125.00 BogoMIPS (lpj=625000)
+[    0.007874] pid_max: default: 32768 minimum: 301
+[    0.014474] Mount-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.014526] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.061376] rcu: Hierarchical SRCU implementation.
+[    0.061450] rcu: 	Max phase no-delay instances is 1000.
+[    0.062942] Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+[    0.065648] EFI services will not be available.
+[    0.067063] smp: Bringing up secondary CPUs ...
+[    0.070590] Detected VIPT I-cache on CPU1
+[    0.071856] CPU1: Booted secondary processor 0x0000000001 [0x410fd034]
+[    0.076618] smp: Brought up 1 node, 2 CPUs
+[    0.076666] SMP: Total of 2 processors activated.
+[    0.076700] CPU: All CPU(s) started at EL1
+[    0.076990] CPU features: detected: 32-bit EL0 Support
+[    0.077005] CPU features: detected: 32-bit EL1 Support
+[    0.077077] CPU features: detected: CRC32 instructions
+[    0.087035] alternatives: applying system-wide alternatives
+[    0.092831] CPU features: emulated: Privileged Access Never (PAN) using TTBR0_EL1 switching
+[    0.110743] Memory: 118028K/204800K available (12992K kernel code, 1626K rwdata, 5004K rodata, 25280K init, 486K bss, 52352K reserved, 32768K cma-reserved)
+[    0.165725] posixtimers hash table entries: 1024 (order: 2, 16384 bytes, linear)
+[    0.166106] futex hash table entries: 512 (32768 bytes on 1 NUMA nodes, total 32 KiB, linear).
+[    0.168865] 2G module region forced by RANDOMIZE_MODULE_REGION_FULL
+[    0.168921] 0 pages in range for non-PLT usage
+[    0.168968] 512880 pages in range for PLT usage
+[    0.170598] pinctrl core: initialized pinctrl subsystem
+[    0.186979] DMI not present or invalid.
+[    0.218528] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.234400] DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+[    0.235525] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.236142] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.240620] thermal_sys: Registered thermal governor 'step_wise'
+[    0.241487] cpuidle: using governor ladder
+[    0.242000] cpuidle: using governor menu
+[    0.242990] ASID allocator initialised with 32768 entries
+[    0.244960] Serial: AMBA PL011 UART driver
+[    0.274438] 9000000.pl011: ttyAMA0 at MMIO 0x9000000 (irq = 13, base_baud = 0) is a PL011 rev1
+[    0.278673] printk: console [ttyAMA0] enabled
+[    0.302653] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[    0.302759] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
+[    0.302862] HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
+[    0.302875] HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
+[    0.302886] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.302893] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
+[    0.302902] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+[    0.302908] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+[    0.318159] ACPI: Interpreter disabled.
+[    0.322893] iommu: Default domain type: Passthrough
+[    0.326445] SCSI subsystem initialized
+[    0.328409] libata version 3.00 loaded.
+[    0.331495] usbcore: registered new interface driver usbfs
+[    0.331901] usbcore: registered new interface driver hub
+[    0.332108] usbcore: registered new device driver usb
+[    0.354038] clocksource: Switched to clocksource arch_sys_counter
+[    0.358120] pnp: PnP ACPI: disabled
+[    0.370669] NET: Registered PF_INET protocol family
+[    0.372786] IP idents hash table entries: 4096 (order: 3, 32768 bytes, linear)
+[    0.378580] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes, linear)
+[    0.378682] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.378763] TCP established hash table entries: 2048 (order: 2, 16384 bytes, linear)
+[    0.378922] TCP bind hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[    0.379061] TCP: Hash tables configured (established 2048 bind 2048)
+[    0.382048] MPTCP token hash table entries: 256 (order: 1, 6144 bytes, linear)
+[    0.382440] UDP hash table entries: 256 (order: 2, 16384 bytes, linear)
+[    0.382672] UDP-Lite hash table entries: 256 (order: 2, 16384 bytes, linear)
+[    0.385826] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.386747] PCI: CLS 0 bytes, default 64
+[    0.394839] kvm [1]: HYP mode not available
+[    0.402447] workingset: timestamp_bits=42 max_order=16 bucket_order=0
+[    0.406093] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.406154] jffs2: version 2.2 (NAND) (SUMMARY) (LZMA) (RTIME) (CMODE_PRIORITY) (c) 2001-2006 Red Hat, Inc.
+[    0.409447] 9p: Installing v9fs 9p2000 file system support
+[    0.415605] cryptd: max_cpu_qlen set to 1000
+[    0.430359] atomic64_test: passed
+[    0.458473] pl061_gpio 9030000.pl061: PL061 GPIO chip registered
+[    0.462770] pci-host-generic 4010000000.pcie: host bridge /pcie@10000000 ranges:
+[    0.463581] pci-host-generic 4010000000.pcie:       IO 0x003eff0000..0x003effffff -> 0x0000000000
+[    0.464881] pci-host-generic 4010000000.pcie:      MEM 0x0010000000..0x003efeffff -> 0x0010000000
+[    0.464958] pci-host-generic 4010000000.pcie:      MEM 0x8000000000..0xffffffffff -> 0x8000000000
+[    0.466036] pci-host-generic 4010000000.pcie: Memory resource size exceeds max for 32 bits
+[    0.468857] pci-host-generic 4010000000.pcie: ECAM at [mem 0x4010000000-0x401fffffff] for [bus 00-ff]
+[    0.471734] pci-host-generic 4010000000.pcie: PCI host bridge to bus 0000:00
+[    0.472324] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.472482] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+[    0.472557] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff]
+[    0.472573] pci_bus 0000:00: root bus resource [mem 0x8000000000-0xffffffffff]
+[    0.475071] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000 conventional PCI endpoint
+[    0.481397] pci 0000:00:01.0: [1af4:1005] type 00 class 0x00ff00 conventional PCI endpoint
+[    0.482130] pci 0000:00:01.0: BAR 0 [io  0x0000-0x001f]
+[    0.482304] pci 0000:00:01.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.482365] pci 0000:00:01.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.483401] pci 0000:00:02.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.484421] pci 0000:00:02.0: BAR 0 [io  0x0000-0x001f]
+[    0.484484] pci 0000:00:02.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.484505] pci 0000:00:02.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.484542] pci 0000:00:02.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.485381] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.485701] pci 0000:00:03.0: BAR 0 [io  0x0000-0x001f]
+[    0.485751] pci 0000:00:03.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.485768] pci 0000:00:03.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.485783] pci 0000:00:03.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.486496] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.486813] pci 0000:00:04.0: BAR 0 [io  0x0000-0x001f]
+[    0.486859] pci 0000:00:04.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.486876] pci 0000:00:04.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.486890] pci 0000:00:04.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.487621] pci 0000:00:05.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.487964] pci 0000:00:05.0: BAR 0 [io  0x0000-0x001f]
+[    0.488017] pci 0000:00:05.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.488035] pci 0000:00:05.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.488051] pci 0000:00:05.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.488781] pci 0000:00:06.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.489088] pci 0000:00:06.0: BAR 0 [io  0x0000-0x001f]
+[    0.489176] pci 0000:00:06.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.489233] pci 0000:00:06.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.489249] pci 0000:00:06.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.492624] pci 0000:00:02.0: ROM [mem 0x10000000-0x1007ffff pref]: assigned
+[    0.492890] pci 0000:00:03.0: ROM [mem 0x10080000-0x100fffff pref]: assigned
+[    0.492965] pci 0000:00:04.0: ROM [mem 0x10100000-0x1017ffff pref]: assigned
+[    0.492983] pci 0000:00:05.0: ROM [mem 0x10180000-0x101fffff pref]: assigned
+[    0.492996] pci 0000:00:06.0: ROM [mem 0x10200000-0x1027ffff pref]: assigned
+[    0.493174] pci 0000:00:01.0: BAR 4 [mem 0x8000000000-0x8000003fff 64bit pref]: assigned
+[    0.493420] pci 0000:00:02.0: BAR 4 [mem 0x8000004000-0x8000007fff 64bit pref]: assigned
+[    0.493454] pci 0000:00:03.0: BAR 4 [mem 0x8000008000-0x800000bfff 64bit pref]: assigned
+[    0.493480] pci 0000:00:04.0: BAR 4 [mem 0x800000c000-0x800000ffff 64bit pref]: assigned
+[    0.493506] pci 0000:00:05.0: BAR 4 [mem 0x8000010000-0x8000013fff 64bit pref]: assigned
+[    0.493528] pci 0000:00:06.0: BAR 4 [mem 0x8000014000-0x8000017fff 64bit pref]: assigned
+[    0.493550] pci 0000:00:01.0: BAR 1 [mem 0x10280000-0x10280fff]: assigned
+[    0.493567] pci 0000:00:02.0: BAR 1 [mem 0x10281000-0x10281fff]: assigned
+[    0.493581] pci 0000:00:03.0: BAR 1 [mem 0x10282000-0x10282fff]: assigned
+[    0.493593] pci 0000:00:04.0: BAR 1 [mem 0x10283000-0x10283fff]: assigned
+[    0.493603] pci 0000:00:05.0: BAR 1 [mem 0x10284000-0x10284fff]: assigned
+[    0.493617] pci 0000:00:06.0: BAR 1 [mem 0x10285000-0x10285fff]: assigned
+[    0.493646] pci 0000:00:01.0: BAR 0 [io  0x1000-0x101f]: assigned
+[    0.493991] pci 0000:00:02.0: BAR 0 [io  0x1020-0x103f]: assigned
+[    0.494023] pci 0000:00:03.0: BAR 0 [io  0x1040-0x105f]: assigned
+[    0.494040] pci 0000:00:04.0: BAR 0 [io  0x1060-0x107f]: assigned
+[    0.494055] pci 0000:00:05.0: BAR 0 [io  0x1080-0x109f]: assigned
+[    0.494069] pci 0000:00:06.0: BAR 0 [io  0x10a0-0x10bf]: assigned
+[    0.494611] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
+[    0.494652] pci_bus 0000:00: resource 5 [mem 0x10000000-0x3efeffff]
+[    0.494665] pci_bus 0000:00: resource 6 [mem 0x8000000000-0xffffffffff]
+[    0.583015] virtio-pci 0000:00:01.0: enabling device (0000 -> 0003)
+[    0.588333] virtio-pci 0000:00:02.0: enabling device (0000 -> 0003)
+[    0.590678] virtio-pci 0000:00:03.0: enabling device (0000 -> 0003)
+[    0.593099] virtio-pci 0000:00:04.0: enabling device (0000 -> 0003)
+[    0.596006] virtio-pci 0000:00:05.0: enabling device (0000 -> 0003)
+[    0.598108] virtio-pci 0000:00:06.0: enabling device (0000 -> 0003)
+[    0.602818] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.610136] SuperH (H)SCI(F) driver initialized
+[    0.635294] hv_vmbus: registering driver hyperv_drm
+[    0.660684] loop: module loaded
+[    0.662457] hv_vmbus: registering driver hv_storvsc
+[    0.697710] hv_vmbus: registering driver hv_netvsc
+[    0.700849] usbcore: registered new interface driver usb-storage
+[    0.704601] hv_vmbus: registering driver hyperv_keyboard
+[    0.709638] rtc-pl031 9010000.pl031: registered as rtc0
+[    0.710295] rtc-pl031 9010000.pl031: setting system clock to 2026-11-21T14:52:44 UTC (1795272764)
+[    0.715362] sdhci: Secure Digital Host Controller Interface driver
+[    0.715393] sdhci: Copyright(c) Pierre Ossman
+[    0.715980] Synopsys Designware Multimedia Card Interface Driver
+[    0.716579] sdhci-pltfm: SDHCI platform and OF driver helper
+[    0.719358] usbcore: registered new interface driver usbhid
+[    0.719388] usbhid: USB HID core driver
+[    0.722558] NET: Registered PF_INET6 protocol family
+[    0.733648] Segment Routing with IPv6
+[    0.734219] In-situ OAM (IOAM) with IPv6
+[    0.734833] NET: Registered PF_PACKET protocol family
+[    0.735515] 8021q: 802.1Q VLAN Support v1.8
+[    0.736355] 9pnet: Installing 9P2000 support
+[    0.774330] Demotion targets for Node 0: null
+[    0.783395] clk: Disabling unused clocks
+[    0.783662] PM: genpd: Disabling unused power domains
+[    0.849021] Freeing unused kernel memory: 25280K
+[    0.855998] Run /init as init process
+[    0.856093]   with arguments:
+[    0.856113]     /init
+[    0.856130]   with environment:
+[    0.856144]     HOME=/
+[    0.856152]     TERM=linux
+[    3.472028] init: Console is alive
+[    3.674714] kmodloader: loading kernel modules from /etc/modules-boot.d/*
+[    3.712084] pps_core: LinuxPPS API ver. 1 registered
+[    3.712220] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    3.792430] PTP clock support registered
+[    3.818867] VMware vmxnet3 virtual NIC driver - version 1.9.0.0-k-NAPI
+[    3.864499] e1000e: Intel(R) PRO/1000 Network Driver
+[    3.864568] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+[    3.867699] kmodloader: done loading kernel modules from /etc/modules-boot.d/*
+[    3.889327] init: - preinit -
+[    4.876850] virtio_net virtio1 wan: renamed from eth0
+[    4.964290] virtio_net virtio2 lan1: renamed from eth1
+[    5.070608] virtio_net virtio3 lan2: renamed from eth2
+[    5.152672] virtio_net virtio4 lan3: renamed from eth3
+[    5.221355] virtio_net virtio5 lan4: renamed from eth4
+[   12.416161] procd: - early -
+[   13.398725] procd: - ubus -
+[   13.618412] procd: - init -
+[   15.402299] urngd: v1.0.2 started.
+[   17.551593] kmodloader: loading kernel modules from /etc/modules.d/*
+[   18.718658] MACsec IEEE 802.1AE
+[   18.916037] rvu_af: Marvell OcteonTX2 RVU Admin Function Driver
+[   18.950405] rvu_nicpf: Marvell RVU NIC Physical Function Driver
+[   18.960720] rvu_nicvf: Marvell RVU NIC Virtual Function Driver
+[   19.019945] i2c_dev: i2c /dev entries driver
+[   19.045622] GACT probability on
+[   19.050515] Mirror/redirect action on
+[   19.079011] u32 classifier
+[   19.079096]     input device check on
+[   19.079109]     Actions configured
+[   19.160142] compat: loading out-of-tree module taints kernel.
+[   19.162350] Loading modules backported from Linux version v7.2-0-g8d3ae59288f1
+[   19.162413] Backport generated by backports.git v5.15.58-1-198-g2580fa90cb79
+[   19.400768] mac80211_hwsim: initializing netlink
+[   19.406457] ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
+[   19.415000] ieee80211 phy1: Selected rate control algorithm 'minstrel_ht'
+[   19.417351] ieee80211 phy2: Selected rate control algorithm 'minstrel_ht'
+[   19.419088] ieee80211 phy3: Selected rate control algorithm 'minstrel_ht'
+[   19.537974] PPP generic driver version 2.4.2
+[   19.542406] NET: Registered PF_PPPOX protocol family
+[   19.569692] kmodloader: done loading kernel modules from /etc/modules.d/*
+[   57.235064] 8021q: adding VLAN 0 to HW filter on device lan1
+[   57.301924] br-lan: port 1(lan1) entered blocking state
+[   57.302150] br-lan: port 1(lan1) entered disabled state
+[   57.303065] virtio_net virtio2 lan1: entered allmulticast mode
+[   57.307722] virtio_net virtio2 lan1: entered promiscuous mode
+[   57.376856] br-lan: port 1(lan1) entered blocking state
+[   57.377062] br-lan: port 1(lan1) entered forwarding state
+[   57.544506] 8021q: adding VLAN 0 to HW filter on device lan2
+[   57.575484] br-lan: port 2(lan2) entered blocking state
+[   57.575570] br-lan: port 2(lan2) entered disabled state
+[   57.575719] virtio_net virtio3 lan2: entered allmulticast mode
+[   57.576404] virtio_net virtio3 lan2: entered promiscuous mode
+[   57.577269] br-lan: port 2(lan2) entered blocking state
+[   57.577302] br-lan: port 2(lan2) entered forwarding state
+[   57.666504] 8021q: adding VLAN 0 to HW filter on device lan3
+[   57.686058] br-lan: port 3(lan3) entered blocking state
+[   57.686155] br-lan: port 3(lan3) entered disabled state
+[   57.686332] virtio_net virtio4 lan3: entered allmulticast mode
+[   57.688140] virtio_net virtio4 lan3: entered promiscuous mode
+[   57.709829] br-lan: port 3(lan3) entered blocking state
+[   57.709926] br-lan: port 3(lan3) entered forwarding state
+[   57.805599] 8021q: adding VLAN 0 to HW filter on device lan4
+[   57.809379] br-lan: port 4(lan4) entered blocking state
+[   57.809451] br-lan: port 4(lan4) entered disabled state
+[   57.809608] virtio_net virtio5 lan4: entered allmulticast mode
+[   57.824654] virtio_net virtio5 lan4: entered promiscuous mode
+[   57.844640] br-lan: port 4(lan4) entered blocking state
+[   57.844758] br-lan: port 4(lan4) entered forwarding state
+[   58.049325] 8021q: adding VLAN 0 to HW filter on device wan
+[   75.370136] br-lan: port 5(phy0-ap0) entered blocking state
+[   75.370262] br-lan: port 5(phy0-ap0) entered disabled state
+[   75.370424] mac80211_hwsim hwsim0 phy0-ap0: entered allmulticast mode
+[   75.371267] mac80211_hwsim hwsim0 phy0-ap0: entered promiscuous mode
+[   75.694960] br-lan: port 5(phy0-ap0) entered blocking state
+[   75.695049] br-lan: port 5(phy0-ap0) entered forwarding state
+[   77.283171] br-guest: port 1(phy0-ap1) entered blocking state
+[   77.283347] br-guest: port 1(phy0-ap1) entered disabled state
+[   77.283588] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
+[   77.285628] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
+[   77.294538] br-guest: port 1(phy0-ap1) entered blocking state
+[   77.294630] br-guest: port 1(phy0-ap1) entered forwarding state
+[   77.297619] br-guest: port 1(phy0-ap1) entered disabled state
+[   77.595116] br-guest: port 1(phy0-ap1) entered blocking state
+[   77.595240] br-guest: port 1(phy0-ap1) entered forwarding state
+[   79.471014] br-iot: port 1(phy0-ap2) entered blocking state
+[   79.471113] br-iot: port 1(phy0-ap2) entered disabled state
+[   79.471271] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
+[   79.475434] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
+[   79.485452] br-iot: port 1(phy0-ap2) entered blocking state
+[   79.485529] br-iot: port 1(phy0-ap2) entered forwarding state
+[   79.489322] br-iot: port 1(phy0-ap2) entered disabled state
+[   79.627902] br-iot: port 1(phy0-ap2) entered blocking state
+[   79.627992] br-iot: port 1(phy0-ap2) entered forwarding state
+[   80.500134] mac80211_hwsim hwsim0 phy0-ap1: left allmulticast mode
+[   80.500356] mac80211_hwsim hwsim0 phy0-ap1: left promiscuous mode
+[   80.500822] br-guest: port 1(phy0-ap1) entered disabled state
+[   80.690593] br-guest: port 1(phy0-ap1) entered blocking state
+[   80.690730] br-guest: port 1(phy0-ap1) entered disabled state
+[   80.691015] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
+[   80.692836] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
+[   80.694811] br-guest: port 1(phy0-ap1) entered blocking state
+[   80.694937] br-guest: port 1(phy0-ap1) entered forwarding state
+[   80.850756] mac80211_hwsim hwsim0 phy0-ap2: left allmulticast mode
+[   80.851097] mac80211_hwsim hwsim0 phy0-ap2: left promiscuous mode
+[   80.851715] br-iot: port 1(phy0-ap2) entered disabled state
+[   81.235576] br-iot: port 1(phy0-ap2) entered blocking state
+[   81.237402] br-iot: port 1(phy0-ap2) entered disabled state
+[   81.239176] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
+[   81.248878] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
+[   81.256746] br-iot: port 1(phy0-ap2) entered blocking state
+[   81.256864] br-iot: port 1(phy0-ap2) entered forwarding state
+[   94.355840] br-lan: port 6(phy1-ap0) entered blocking state
+[   94.355913] br-lan: port 6(phy1-ap0) entered disabled state
+[   94.356059] mac80211_hwsim hwsim1 phy1-ap0: entered allmulticast mode
+[   94.356806] mac80211_hwsim hwsim1 phy1-ap0: entered promiscuous mode
+[   95.456088] br-lan: port 6(phy1-ap0) entered blocking state
+[   95.456170] br-lan: port 6(phy1-ap0) entered forwarding state

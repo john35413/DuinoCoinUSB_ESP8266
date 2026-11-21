@@ -7,11 +7,15 @@ PASS syntax tests/network/gen-fw4-ruleset.sh
 PASS syntax tests/network/run-netns-tests.sh
 PASS syntax tests/network/vm-run.sh
 PASS syntax tests/static/run-static.sh
+PASS syntax tests/twin/debug-probe.sh
+PASS syntax tests/twin/run-twin.sh
+PASS syntax tests/twin/twin-tests.sh
 PASS syntax tests/unit/test_bdf_extract.sh
 PASS syntax tests/unit/test_caldata_regdomain.sh
 PASS syntax tests/unit/test_mac_derivation.sh
 PASS syntax tools/bdf/extract-oem-bdf.sh
 PASS syntax tools/build-dev.sh
+PASS syntax tools/build-twin.sh
 PASS syntax tools/clean-dev.sh
 PASS syntax tools/pi-integration/backup-router.sh
 PASS syntax tools/pi-integration/router-setup.sh
@@ -23,7 +27,7 @@ PASS py_compile tests/unit/test_tools.py
 PASS py_compile tools/bdf/board2.py
 PASS py_compile tools/pi-integration/ax23-monitor.py
 PASS py_compile tools/uboot/ubootenv.py
-PASS dev series (9 patches) applies cleanly on staged baseline
+PASS dev series (10 patches) applies cleanly on staged baseline
 PASS sh -n target/linux/qualcommax/ipq50xx/base-files/lib/upgrade/platform.sh
 PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/board.d/02_network
 PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/board.d/01_leds

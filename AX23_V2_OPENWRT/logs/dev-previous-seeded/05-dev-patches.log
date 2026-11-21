@@ -1,0 +1,29 @@
+== git am 0001-base-files-caldata-fix-ath11k_remove_regdomain-witho.patch
+Applying: base-files: caldata: fix ath11k_remove_regdomain without target
+== git am 0002-mac80211-ath11k-smaller-host-RX-rings-in-FW-memory-m.patch
+Applying: mac80211: ath11k: smaller host RX rings in FW memory mode 2
+== git am 0003-qualcommax-ipq50xx-add-board-data-package-for-Archer.patch
+Applying: qualcommax: ipq50xx: add board-data package for Archer AX23 v2
+== git am 0004-qualcommax-ipq50xx-archer-ax23-v2-fix-Wi-Fi-LED-phy-.patch
+Applying: qualcommax: ipq50xx: archer-ax23-v2: fix Wi-Fi LED phy mapping
+== git am 0005-qualcommax-ipq50xx-refuse-sysupgrade-on-Archer-AX23-.patch
+Applying: qualcommax: ipq50xx: refuse sysupgrade on Archer AX23 v2
+== git am 0006-qualcommax-pcs-qca-uniphy-clear-the-mode-select-for-.patch
+Applying: qualcommax: pcs: qca-uniphy: clear the mode select for SGMII on UNIPHY0
+== git am 0007-qualcommax-pcs-qca-uniphy-re-resolve-the-link-on-a-U.patch
+Applying: qualcommax: pcs-qca-uniphy: re-resolve the link on a USXGMII rate change
+== git am 0008-qualcommax-pcs-qca-uniphy-fix-macro-and-clock-callba.patch
+Applying: qualcommax: pcs-qca-uniphy: fix macro and clock callback slips
+== git am 0009-qualcommax-ipq50xx-program-the-UNIPHY-at-gmac-probe.patch
+Applying: qualcommax: ipq50xx: program the UNIPHY at gmac probe
+a249bf1d70 qualcommax: ipq50xx: program the UNIPHY at gmac probe
+5663d306ea qualcommax: pcs-qca-uniphy: fix macro and clock callback slips
+dd5a76dbea qualcommax: pcs-qca-uniphy: re-resolve the link on a USXGMII rate change
+ba831195e4 qualcommax: pcs: qca-uniphy: clear the mode select for SGMII on UNIPHY0
+417dd1b1d3 qualcommax: ipq50xx: refuse sysupgrade on Archer AX23 v2
+0493ae9e77 qualcommax: ipq50xx: archer-ax23-v2: fix Wi-Fi LED phy mapping
+25f8f8b935 qualcommax: ipq50xx: add board-data package for Archer AX23 v2
+5d6a775c73 mac80211: ath11k: smaller host RX rings in FW memory mode 2
+c3dd64762a base-files: caldata: fix ath11k_remove_regdomain without target
+724d0e5ee9 stage: Sply-Dev AX23 v2 tree @ 93028b47d291e251dc108de5fbd8bd3f77a9300c
+BOARD-DATA: ipq5018 ABSENT -> image will have no Wi-Fi board data

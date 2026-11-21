@@ -1,66 +1,66 @@
-Sat Nov 21 13:23:56 2026 daemon.notice wpa_supplicant[2187]: Successfully initialized wpa_supplicant
-Sat Nov 21 13:24:00 2026 daemon.notice hostapd: Set MLD config: [ ]
-Sat Nov 21 13:24:00 2026 daemon.notice wpa_supplicant[2187]: Set MLD config: [ ]
-Sat Nov 21 13:24:06 2026 daemon.notice hostapd: Set MLD config: [ ]
-Sat Nov 21 13:24:06 2026 daemon.notice wpa_supplicant[2187]: Set MLD config: [ ]
-Sat Nov 21 13:24:08 2026 daemon.notice netifd: radio0 (2633): wifi-scripts: Starting
-Sat Nov 21 13:24:14 2026 daemon.notice hostapd: Set new config for phy phy0:
-Sat Nov 21 13:24:14 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy0
-Sat Nov 21 13:24:16 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy0
-Sat Nov 21 13:24:17 2026 daemon.notice hostapd: Set new config for phy phy0: /var/run/hostapd-phy0.conf
-Sat Nov 21 13:24:17 2026 daemon.notice hostapd: Restart interface for phy phy0
-Sat Nov 21 13:24:23 2026 daemon.notice hostapd: Configuration file: <inline> (phy phy0) --> new PHY
-Sat Nov 21 13:24:23 2026 daemon.notice hostapd: Configuration file: Reading configuration file '<inline>'
-Sat Nov 21 13:24:23 2026 daemon.notice hostapd: Configuration file: Reading configuration file '<inline>'
-Sat Nov 21 13:24:24 2026 daemon.notice hostapd: phy0-ap0: interface state UNINITIALIZED->COUNTRY_UPDATE
-Sat Nov 21 13:24:27 2026 daemon.notice hostapd: phy0-ap0: interface state COUNTRY_UPDATE->ENABLED
-Sat Nov 21 13:24:27 2026 daemon.notice hostapd: phy0-ap0: AP-ENABLED
-Sat Nov 21 13:24:28 2026 daemon.notice netifd: radio0 (2633): wifi-scripts: Setting country code to DE
-Sat Nov 21 13:24:28 2026 daemon.notice netifd: radio0 (2633): wifi-scripts: Configuring 'phy0' distance: 0
-Sat Nov 21 13:24:28 2026 daemon.notice netifd: radio0 (2633): wifi-scripts: Setting antenna for 'phy0' txantenna: 4294967295, rxantenna: 4294967295
-Sat Nov 21 13:24:28 2026 daemon.notice netifd: radio0 (2633): wifi-scripts: Preparing interface: phy0-ap0
-Sat Nov 21 13:24:28 2026 daemon.notice netifd: radio0 (2633): wifi-scripts: Preparing interface: phy0-ap1
-Sat Nov 21 13:24:28 2026 daemon.notice netifd: radio0 (2633): wifi-scripts: Preparing interface: phy0-ap2
-Sat Nov 21 13:24:30 2026 daemon.notice netifd: radio1 (3351): wifi-scripts: Starting
-Sat Nov 21 13:24:35 2026 daemon.notice hostapd: Set new config for phy phy1:
-Sat Nov 21 13:24:35 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy1
-Sat Nov 21 13:24:37 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy1
-Sat Nov 21 13:24:40 2026 daemon.notice hostapd: Set new config for phy phy1: /var/run/hostapd-phy1.conf
-Sat Nov 21 13:24:40 2026 daemon.notice hostapd: Restart interface for phy phy1
-Sat Nov 21 13:24:43 2026 daemon.notice hostapd: Configuration file: <inline> (phy phy1) --> new PHY
-Sat Nov 21 13:24:43 2026 daemon.notice hostapd: Configuration file: Reading configuration file '<inline>'
-Sat Nov 21 13:24:43 2026 daemon.notice hostapd: Configuration file: Reading configuration file '<inline>'
-Sat Nov 21 13:24:43 2026 daemon.notice hostapd: phy1-ap0: interface state UNINITIALIZED->COUNTRY_UPDATE
-Sat Nov 21 13:24:43 2026 daemon.notice netifd: radio1 (3351): wifi-scripts: Setting country code to DE
-Sat Nov 21 13:24:43 2026 daemon.notice netifd: radio1 (3351): wifi-scripts: Configuring 'phy1' distance: 0
-Sat Nov 21 13:24:43 2026 daemon.notice netifd: radio1 (3351): wifi-scripts: Setting antenna for 'phy1' txantenna: 4294967295, rxantenna: 4294967295
-Sat Nov 21 13:24:43 2026 daemon.notice netifd: radio1 (3351): wifi-scripts: Preparing interface: phy1-ap0
-Sat Nov 21 13:24:43 2026 daemon.notice hostapd: phy1-ap0: interface state COUNTRY_UPDATE->HT_SCAN
-Sat Nov 21 13:24:44 2026 daemon.notice hostapd: phy1-ap0: interface state HT_SCAN->ENABLED
-Sat Nov 21 13:24:44 2026 daemon.notice hostapd: phy1-ap0: AP-ENABLED
-Sat Nov 21 13:24:44 2026 daemon.notice netifd: radio2 (3819): wifi-scripts: Starting
-Sat Nov 21 13:24:47 2026 daemon.notice hostapd: Set new config for phy phy2:
-Sat Nov 21 13:24:47 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy2
-Sat Nov 21 13:24:49 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy2
-Sat Nov 21 13:24:49 2026 daemon.notice hostapd: Set new config for phy phy2:
-Sat Nov 21 13:24:49 2026 daemon.notice netifd: radio2 (3819): wifi-scripts: Setting country code to DE
-Sat Nov 21 13:24:49 2026 daemon.notice netifd: radio2 (3819): wifi-scripts: Configuring 'phy2' distance: 0
-Sat Nov 21 13:24:49 2026 daemon.notice netifd: radio2 (3819): wifi-scripts: Setting antenna for 'phy2' txantenna: 4294967295, rxantenna: 4294967295
-Sat Nov 21 13:24:50 2026 daemon.notice netifd: radio3 (3956): wifi-scripts: Starting
-Sat Nov 21 13:24:53 2026 daemon.notice hostapd: Set new config for phy phy3:
-Sat Nov 21 13:24:53 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy3
-Sat Nov 21 13:24:54 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy3
-Sat Nov 21 13:24:54 2026 daemon.notice hostapd: Set new config for phy phy3:
-Sat Nov 21 13:24:54 2026 daemon.notice netifd: radio3 (3956): wifi-scripts: Setting country code to DE
-Sat Nov 21 13:24:54 2026 daemon.notice netifd: radio3 (3956): wifi-scripts: Configuring 'phy3' distance: 0
-Sat Nov 21 13:24:54 2026 daemon.notice netifd: radio3 (3956): wifi-scripts: Setting antenna for 'phy3' txantenna: 4294967295, rxantenna: 4294967295
-Sat Nov 21 13:24:55 2026 daemon.notice netifd: radio0 (4051): wifi-scripts: Starting
-Sat Nov 21 13:24:58 2026 daemon.notice wpa_supplicant[2187]: Set new config for phy phy0
-Sat Nov 21 13:24:58 2026 daemon.notice hostapd: Set new config for phy phy0: /var/run/hostapd-phy0.conf
-Sat Nov 21 13:24:58 2026 daemon.notice hostapd: Reloaded settings for phy phy0
-Sat Nov 21 13:24:58 2026 daemon.notice netifd: radio0 (4051): wifi-scripts: Setting country code to DE
-Sat Nov 21 13:24:58 2026 daemon.notice netifd: radio0 (4051): wifi-scripts: Configuring 'phy0' distance: 0
-Sat Nov 21 13:24:58 2026 daemon.notice netifd: radio0 (4051): wifi-scripts: Preparing interface: phy0-ap0
-Sat Nov 21 13:24:58 2026 daemon.notice netifd: radio0 (4051): wifi-scripts: Preparing interface: phy0-ap1
-Sat Nov 21 13:24:58 2026 daemon.notice netifd: radio0 (4051): wifi-scripts: Preparing interface: phy0-ap2
-Sat Nov 21 13:24:58 2026 daemon.notice wpa_supplicant[2187]: Start pending MLD interfaces
+Sat Nov 21 14:38:48 2026 daemon.notice wpa_supplicant[2202]: Successfully initialized wpa_supplicant
+Sat Nov 21 14:38:53 2026 daemon.notice hostapd: Set MLD config: [ ]
+Sat Nov 21 14:38:53 2026 daemon.notice wpa_supplicant[2202]: Set MLD config: [ ]
+Sat Nov 21 14:38:59 2026 daemon.notice hostapd: Set MLD config: [ ]
+Sat Nov 21 14:38:59 2026 daemon.notice wpa_supplicant[2202]: Set MLD config: [ ]
+Sat Nov 21 14:39:02 2026 daemon.notice netifd: radio0 (2617): wifi-scripts: Starting
+Sat Nov 21 14:39:07 2026 daemon.notice hostapd: Set new config for phy phy0:
+Sat Nov 21 14:39:07 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy0
+Sat Nov 21 14:39:10 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy0
+Sat Nov 21 14:39:11 2026 daemon.notice hostapd: Set new config for phy phy0: /var/run/hostapd-phy0.conf
+Sat Nov 21 14:39:11 2026 daemon.notice hostapd: Restart interface for phy phy0
+Sat Nov 21 14:39:18 2026 daemon.notice hostapd: Configuration file: <inline> (phy phy0) --> new PHY
+Sat Nov 21 14:39:18 2026 daemon.notice hostapd: Configuration file: Reading configuration file '<inline>'
+Sat Nov 21 14:39:18 2026 daemon.notice hostapd: Configuration file: Reading configuration file '<inline>'
+Sat Nov 21 14:39:18 2026 daemon.notice hostapd: phy0-ap0: interface state UNINITIALIZED->COUNTRY_UPDATE
+Sat Nov 21 14:39:23 2026 daemon.notice hostapd: phy0-ap0: interface state COUNTRY_UPDATE->ENABLED
+Sat Nov 21 14:39:23 2026 daemon.notice hostapd: phy0-ap0: AP-ENABLED
+Sat Nov 21 14:39:23 2026 daemon.notice netifd: radio0 (2617): wifi-scripts: Setting country code to DE
+Sat Nov 21 14:39:23 2026 daemon.notice netifd: radio0 (2617): wifi-scripts: Configuring 'phy0' distance: 0
+Sat Nov 21 14:39:23 2026 daemon.notice netifd: radio0 (2617): wifi-scripts: Setting antenna for 'phy0' txantenna: 4294967295, rxantenna: 4294967295
+Sat Nov 21 14:39:23 2026 daemon.notice netifd: radio0 (2617): wifi-scripts: Preparing interface: phy0-ap0
+Sat Nov 21 14:39:23 2026 daemon.notice netifd: radio0 (2617): wifi-scripts: Preparing interface: phy0-ap1
+Sat Nov 21 14:39:23 2026 daemon.notice netifd: radio0 (2617): wifi-scripts: Preparing interface: phy0-ap2
+Sat Nov 21 14:39:25 2026 daemon.notice netifd: radio1 (3371): wifi-scripts: Starting
+Sat Nov 21 14:39:30 2026 daemon.notice hostapd: Set new config for phy phy1:
+Sat Nov 21 14:39:30 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy1
+Sat Nov 21 14:39:31 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy1
+Sat Nov 21 14:39:34 2026 daemon.notice hostapd: Set new config for phy phy1: /var/run/hostapd-phy1.conf
+Sat Nov 21 14:39:34 2026 daemon.notice hostapd: Restart interface for phy phy1
+Sat Nov 21 14:39:37 2026 daemon.notice hostapd: Configuration file: <inline> (phy phy1) --> new PHY
+Sat Nov 21 14:39:37 2026 daemon.notice hostapd: Configuration file: Reading configuration file '<inline>'
+Sat Nov 21 14:39:37 2026 daemon.notice hostapd: Configuration file: Reading configuration file '<inline>'
+Sat Nov 21 14:39:37 2026 daemon.notice netifd: radio1 (3371): wifi-scripts: Setting country code to DE
+Sat Nov 21 14:39:37 2026 daemon.notice netifd: radio1 (3371): wifi-scripts: Configuring 'phy1' distance: 0
+Sat Nov 21 14:39:37 2026 daemon.notice netifd: radio1 (3371): wifi-scripts: Setting antenna for 'phy1' txantenna: 4294967295, rxantenna: 4294967295
+Sat Nov 21 14:39:37 2026 daemon.notice netifd: radio1 (3371): wifi-scripts: Preparing interface: phy1-ap0
+Sat Nov 21 14:39:37 2026 daemon.notice hostapd: phy1-ap0: interface state UNINITIALIZED->COUNTRY_UPDATE
+Sat Nov 21 14:39:37 2026 daemon.notice hostapd: phy1-ap0: interface state COUNTRY_UPDATE->HT_SCAN
+Sat Nov 21 14:39:38 2026 daemon.notice hostapd: phy1-ap0: interface state HT_SCAN->ENABLED
+Sat Nov 21 14:39:38 2026 daemon.notice hostapd: phy1-ap0: AP-ENABLED
+Sat Nov 21 14:39:39 2026 daemon.notice netifd: radio2 (3770): wifi-scripts: Starting
+Sat Nov 21 14:39:41 2026 daemon.notice hostapd: Set new config for phy phy2:
+Sat Nov 21 14:39:41 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy2
+Sat Nov 21 14:39:42 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy2
+Sat Nov 21 14:39:42 2026 daemon.notice hostapd: Set new config for phy phy2:
+Sat Nov 21 14:39:43 2026 daemon.notice netifd: radio2 (3770): wifi-scripts: Setting country code to DE
+Sat Nov 21 14:39:43 2026 daemon.notice netifd: radio2 (3770): wifi-scripts: Configuring 'phy2' distance: 0
+Sat Nov 21 14:39:43 2026 daemon.notice netifd: radio2 (3770): wifi-scripts: Setting antenna for 'phy2' txantenna: 4294967295, rxantenna: 4294967295
+Sat Nov 21 14:39:43 2026 daemon.notice netifd: radio3 (3945): wifi-scripts: Starting
+Sat Nov 21 14:39:46 2026 daemon.notice hostapd: Set new config for phy phy3:
+Sat Nov 21 14:39:46 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy3
+Sat Nov 21 14:39:47 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy3
+Sat Nov 21 14:39:48 2026 daemon.notice hostapd: Set new config for phy phy3:
+Sat Nov 21 14:39:48 2026 daemon.notice netifd: radio3 (3945): wifi-scripts: Setting country code to DE
+Sat Nov 21 14:39:48 2026 daemon.notice netifd: radio3 (3945): wifi-scripts: Configuring 'phy3' distance: 0
+Sat Nov 21 14:39:48 2026 daemon.notice netifd: radio3 (3945): wifi-scripts: Setting antenna for 'phy3' txantenna: 4294967295, rxantenna: 4294967295
+Sat Nov 21 14:39:48 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Starting
+Sat Nov 21 14:39:50 2026 daemon.notice wpa_supplicant[2202]: Set new config for phy phy0
+Sat Nov 21 14:39:50 2026 daemon.notice hostapd: Set new config for phy phy0: /var/run/hostapd-phy0.conf
+Sat Nov 21 14:39:50 2026 daemon.notice hostapd: Reloaded settings for phy phy0
+Sat Nov 21 14:39:50 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Setting country code to DE
+Sat Nov 21 14:39:50 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Configuring 'phy0' distance: 0
+Sat Nov 21 14:39:50 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Preparing interface: phy0-ap0
+Sat Nov 21 14:39:50 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Preparing interface: phy0-ap1
+Sat Nov 21 14:39:50 2026 daemon.notice netifd: radio0 (4041): wifi-scripts: Preparing interface: phy0-ap2
+Sat Nov 21 14:39:50 2026 daemon.notice wpa_supplicant[2202]: Start pending MLD interfaces

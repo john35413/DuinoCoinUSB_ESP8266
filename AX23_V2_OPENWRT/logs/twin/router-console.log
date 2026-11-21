@@ -54,569 +54,569 @@
 [    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
 [    0.000000] arch_timer: cp15 timer running at 62.50MHz (virt).
 [    0.000000] clocksource: arch_sys_counter: mask: 0x1ffffffffffffff max_cycles: 0x1cd42e208c, max_idle_ns: 881590405314 ns
-[    0.000059] sched_clock: 57 bits at 63MHz, resolution 16ns, wraps every 4398046511096ns
-[    0.004156] Console: colour dummy device 80x25
-[    0.006776] Calibrating delay loop (skipped), value calculated using timer frequency.. 125.00 BogoMIPS (lpj=625000)
-[    0.006905] pid_max: default: 32768 minimum: 301
-[    0.012826] Mount-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
-[    0.012873] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
-[    0.057033] rcu: Hierarchical SRCU implementation.
-[    0.057095] rcu: 	Max phase no-delay instances is 1000.
-[    0.059470] Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
-[    0.061749] EFI services will not be available.
-[    0.063358] smp: Bringing up secondary CPUs ...
-[    0.069567] Detected VIPT I-cache on CPU1
-[    0.070941] CPU1: Booted secondary processor 0x0000000001 [0x410fd034]
-[    0.075797] smp: Brought up 1 node, 2 CPUs
-[    0.075844] SMP: Total of 2 processors activated.
-[    0.075883] CPU: All CPU(s) started at EL1
-[    0.076146] CPU features: detected: 32-bit EL0 Support
-[    0.076161] CPU features: detected: 32-bit EL1 Support
-[    0.076227] CPU features: detected: CRC32 instructions
-[    0.081010] alternatives: applying system-wide alternatives
-[    0.089605] CPU features: emulated: Privileged Access Never (PAN) using TTBR0_EL1 switching
-[    0.107664] Memory: 118028K/204800K available (12992K kernel code, 1626K rwdata, 5004K rodata, 25280K init, 486K bss, 52352K reserved, 32768K cma-reserved)
-[    0.152001] posixtimers hash table entries: 1024 (order: 2, 16384 bytes, linear)
-[    0.152454] futex hash table entries: 512 (32768 bytes on 1 NUMA nodes, total 32 KiB, linear).
-[    0.155652] 2G module region forced by RANDOMIZE_MODULE_REGION_FULL
-[    0.155710] 0 pages in range for non-PLT usage
-[    0.155824] 512880 pages in range for PLT usage
-[    0.157972] pinctrl core: initialized pinctrl subsystem
-[    0.176636] DMI not present or invalid.
-[    0.207838] NET: Registered PF_NETLINK/PF_ROUTE protocol family
-[    0.222584] DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
-[    0.223912] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
-[    0.224543] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
-[    0.230303] thermal_sys: Registered thermal governor 'step_wise'
-[    0.231083] cpuidle: using governor ladder
-[    0.231489] cpuidle: using governor menu
-[    0.232709] ASID allocator initialised with 32768 entries
-[    0.235578] Serial: AMBA PL011 UART driver
-[    0.279639] 9000000.pl011: ttyAMA0 at MMIO 0x9000000 (irq = 13, base_baud = 0) is a PL011 rev1
-[    0.283687] printk: console [ttyAMA0] enabled
-[    0.307651] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
-[    0.307706] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
-[    0.307757] HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
-[    0.307767] HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
-[    0.307774] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
-[    0.307779] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
-[    0.307786] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
-[    0.307804] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
-[    0.318366] ACPI: Interpreter disabled.
-[    0.321209] iommu: Default domain type: Passthrough
-[    0.323958] SCSI subsystem initialized
-[    0.326610] usbcore: registered new interface driver usbfs
-[    0.326880] usbcore: registered new interface driver hub
-[    0.327030] usbcore: registered new device driver usb
-[    0.345575] clocksource: Switched to clocksource arch_sys_counter
-[    0.349980] pnp: PnP ACPI: disabled
-[    0.358778] NET: Registered PF_INET protocol family
-[    0.360505] IP idents hash table entries: 4096 (order: 3, 32768 bytes, linear)
-[    0.364824] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes, linear)
-[    0.364912] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
-[    0.365026] TCP established hash table entries: 2048 (order: 2, 16384 bytes, linear)
-[    0.365195] TCP bind hash table entries: 2048 (order: 4, 65536 bytes, linear)
-[    0.365705] TCP: Hash tables configured (established 2048 bind 2048)
-[    0.368527] MPTCP token hash table entries: 256 (order: 1, 6144 bytes, linear)
-[    0.368854] UDP hash table entries: 256 (order: 2, 16384 bytes, linear)
-[    0.369139] UDP-Lite hash table entries: 256 (order: 2, 16384 bytes, linear)
-[    0.370701] NET: Registered PF_UNIX/PF_LOCAL protocol family
-[    0.371250] PCI: CLS 0 bytes, default 64
-[    0.374866] kvm [1]: HYP mode not available
-[    0.383272] workingset: timestamp_bits=42 max_order=16 bucket_order=0
-[    0.390113] squashfs: version 4.0 (2009/01/31) Phillip Lougher
-[    0.390165] jffs2: version 2.2 (NAND) (SUMMARY) (LZMA) (RTIME) (CMODE_PRIORITY) (c) 2001-2006 Red Hat, Inc.
-[    0.392458] 9p: Installing v9fs 9p2000 file system support
-[    0.399700] cryptd: max_cpu_qlen set to 1000
-[    0.407035] atomic64_test: passed
-[    0.434002] pl061_gpio 9030000.pl061: PL061 GPIO chip registered
-[    0.438582] pci-host-generic 4010000000.pcie: host bridge /pcie@10000000 ranges:
-[    0.439422] pci-host-generic 4010000000.pcie:       IO 0x003eff0000..0x003effffff -> 0x0000000000
-[    0.440125] pci-host-generic 4010000000.pcie:      MEM 0x0010000000..0x003efeffff -> 0x0010000000
-[    0.440177] pci-host-generic 4010000000.pcie:      MEM 0x8000000000..0xffffffffff -> 0x8000000000
-[    0.441126] pci-host-generic 4010000000.pcie: Memory resource size exceeds max for 32 bits
-[    0.443110] pci-host-generic 4010000000.pcie: ECAM at [mem 0x4010000000-0x401fffffff] for [bus 00-ff]
-[    0.445221] pci-host-generic 4010000000.pcie: PCI host bridge to bus 0000:00
-[    0.446738] pci_bus 0000:00: root bus resource [bus 00-ff]
-[    0.446857] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
-[    0.446909] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff]
-[    0.446920] pci_bus 0000:00: root bus resource [mem 0x8000000000-0xffffffffff]
-[    0.448730] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000 conventional PCI endpoint
-[    0.454291] pci 0000:00:01.0: [1af4:1005] type 00 class 0x00ff00 conventional PCI endpoint
-[    0.454694] pci 0000:00:01.0: BAR 0 [io  0x0000-0x001f]
-[    0.454777] pci 0000:00:01.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.454818] pci 0000:00:01.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.455792] pci 0000:00:02.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.455871] pci 0000:00:02.0: BAR 0 [io  0x0000-0x001f]
-[    0.455890] pci 0000:00:02.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.455906] pci 0000:00:02.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.455944] pci 0000:00:02.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.456386] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.456480] pci 0000:00:03.0: BAR 0 [io  0x0000-0x001f]
-[    0.456496] pci 0000:00:03.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.456511] pci 0000:00:03.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.456523] pci 0000:00:03.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.456879] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.456930] pci 0000:00:04.0: BAR 0 [io  0x0000-0x001f]
-[    0.456980] pci 0000:00:04.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.457003] pci 0000:00:04.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.457016] pci 0000:00:04.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.457362] pci 0000:00:05.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.457440] pci 0000:00:05.0: BAR 0 [io  0x0000-0x001f]
-[    0.457458] pci 0000:00:05.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.457473] pci 0000:00:05.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.457485] pci 0000:00:05.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.457811] pci 0000:00:06.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.457861] pci 0000:00:06.0: BAR 0 [io  0x0000-0x001f]
-[    0.457875] pci 0000:00:06.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.457889] pci 0000:00:06.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.457901] pci 0000:00:06.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.460809] pci 0000:00:02.0: ROM [mem 0x10000000-0x1007ffff pref]: assigned
-[    0.461066] pci 0000:00:03.0: ROM [mem 0x10080000-0x100fffff pref]: assigned
-[    0.461128] pci 0000:00:04.0: ROM [mem 0x10100000-0x1017ffff pref]: assigned
-[    0.461142] pci 0000:00:05.0: ROM [mem 0x10180000-0x101fffff pref]: assigned
-[    0.461155] pci 0000:00:06.0: ROM [mem 0x10200000-0x1027ffff pref]: assigned
-[    0.461300] pci 0000:00:01.0: BAR 4 [mem 0x8000000000-0x8000003fff 64bit pref]: assigned
-[    0.461497] pci 0000:00:02.0: BAR 4 [mem 0x8000004000-0x8000007fff 64bit pref]: assigned
-[    0.461530] pci 0000:00:03.0: BAR 4 [mem 0x8000008000-0x800000bfff 64bit pref]: assigned
-[    0.461554] pci 0000:00:04.0: BAR 4 [mem 0x800000c000-0x800000ffff 64bit pref]: assigned
-[    0.461576] pci 0000:00:05.0: BAR 4 [mem 0x8000010000-0x8000013fff 64bit pref]: assigned
-[    0.461598] pci 0000:00:06.0: BAR 4 [mem 0x8000014000-0x8000017fff 64bit pref]: assigned
-[    0.461630] pci 0000:00:01.0: BAR 1 [mem 0x10280000-0x10280fff]: assigned
-[    0.461647] pci 0000:00:02.0: BAR 1 [mem 0x10281000-0x10281fff]: assigned
-[    0.461661] pci 0000:00:03.0: BAR 1 [mem 0x10282000-0x10282fff]: assigned
-[    0.461675] pci 0000:00:04.0: BAR 1 [mem 0x10283000-0x10283fff]: assigned
-[    0.461690] pci 0000:00:05.0: BAR 1 [mem 0x10284000-0x10284fff]: assigned
-[    0.461704] pci 0000:00:06.0: BAR 1 [mem 0x10285000-0x10285fff]: assigned
-[    0.461728] pci 0000:00:01.0: BAR 0 [io  0x1000-0x101f]: assigned
-[    0.461790] pci 0000:00:02.0: BAR 0 [io  0x1020-0x103f]: assigned
-[    0.461826] pci 0000:00:03.0: BAR 0 [io  0x1040-0x105f]: assigned
-[    0.461841] pci 0000:00:04.0: BAR 0 [io  0x1060-0x107f]: assigned
-[    0.461854] pci 0000:00:05.0: BAR 0 [io  0x1080-0x109f]: assigned
-[    0.461868] pci 0000:00:06.0: BAR 0 [io  0x10a0-0x10bf]: assigned
-[    0.462312] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
-[    0.462347] pci_bus 0000:00: resource 5 [mem 0x10000000-0x3efeffff]
-[    0.462362] pci_bus 0000:00: resource 6 [mem 0x8000000000-0xffffffffff]
-[    0.517171] virtio-pci 0000:00:01.0: enabling device (0000 -> 0003)
-[    0.521305] virtio-pci 0000:00:02.0: enabling device (0000 -> 0003)
-[    0.523016] virtio-pci 0000:00:03.0: enabling device (0000 -> 0003)
-[    0.526003] virtio-pci 0000:00:04.0: enabling device (0000 -> 0003)
-[    0.528235] virtio-pci 0000:00:05.0: enabling device (0000 -> 0003)
-[    0.530707] virtio-pci 0000:00:06.0: enabling device (0000 -> 0003)
-[    0.533845] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
-[    0.538171] SuperH (H)SCI(F) driver initialized
-[    0.552200] hv_vmbus: registering driver hyperv_drm
-[    0.570601] loop: module loaded
-[    0.571638] hv_vmbus: registering driver hv_storvsc
-[    0.612128] hv_vmbus: registering driver hv_netvsc
-[    0.619095] usbcore: registered new interface driver usb-storage
-[    0.623791] hv_vmbus: registering driver hyperv_keyboard
-[    0.632047] rtc-pl031 9010000.pl031: registered as rtc0
-[    0.632854] rtc-pl031 9010000.pl031: setting system clock to 2026-11-21T13:23:16 UTC (1795267396)
-[    0.642501] sdhci: Secure Digital Host Controller Interface driver
-[    0.642544] sdhci: Copyright(c) Pierre Ossman
-[    0.643734] Synopsys Designware Multimedia Card Interface Driver
-[    0.645845] sdhci-pltfm: SDHCI platform and OF driver helper
-[    0.651299] usbcore: registered new interface driver usbhid
-[    0.651341] usbhid: USB HID core driver
-[    0.656219] NET: Registered PF_INET6 protocol family
-[    0.683831] Segment Routing with IPv6
-[    0.684250] In-situ OAM (IOAM) with IPv6
-[    0.685793] NET: Registered PF_PACKET protocol family
-[    0.686777] 8021q: 802.1Q VLAN Support v1.8
-[    0.688108] 9pnet: Installing 9P2000 support
-[    0.731335] Demotion targets for Node 0: null
-[    0.744751] clk: Disabling unused clocks
-[    0.745192] PM: genpd: Disabling unused power domains
-[    0.840876] Freeing unused kernel memory: 25280K
-[    0.842745] Run /init as init process
-[    3.520215] init: Console is alive
-[    3.769706] kmodloader: loading kernel modules from /etc/modules-boot.d/*
-[    3.822288] pps_core: LinuxPPS API ver. 1 registered
-[    3.822369] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
-[    3.908643] PTP clock support registered
-[    3.943702] VMware vmxnet3 virtual NIC driver - version 1.9.0.0-k-NAPI
-[    3.984758] e1000e: Intel(R) PRO/1000 Network Driver
-[    3.984847] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
-[    3.990378] kmodloader: done loading kernel modules from /etc/modules-boot.d/*
-[    4.005905] init: - preinit -
-[    4.878292] virtio_net virtio1 wan: renamed from eth0
-[    4.957127] virtio_net virtio2 lan1: renamed from eth1
-[    5.020191] virtio_net virtio3 lan2: renamed from eth2
-[    5.092814] virtio_net virtio4 lan3: renamed from eth3
-[    5.159260] virtio_net virtio5 lan4: renamed from eth4
+[    0.000057] sched_clock: 57 bits at 63MHz, resolution 16ns, wraps every 4398046511096ns
+[    0.004377] Console: colour dummy device 80x25
+[    0.007137] Calibrating delay loop (skipped), value calculated using timer frequency.. 125.00 BogoMIPS (lpj=625000)
+[    0.007289] pid_max: default: 32768 minimum: 301
+[    0.013755] Mount-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.013806] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.060063] rcu: Hierarchical SRCU implementation.
+[    0.060156] rcu: 	Max phase no-delay instances is 1000.
+[    0.062547] Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+[    0.064801] EFI services will not be available.
+[    0.066652] smp: Bringing up secondary CPUs ...
+[    0.070840] Detected VIPT I-cache on CPU1
+[    0.071862] CPU1: Booted secondary processor 0x0000000001 [0x410fd034]
+[    0.076249] smp: Brought up 1 node, 2 CPUs
+[    0.076295] SMP: Total of 2 processors activated.
+[    0.076329] CPU: All CPU(s) started at EL1
+[    0.077521] CPU features: detected: 32-bit EL0 Support
+[    0.077544] CPU features: detected: 32-bit EL1 Support
+[    0.077617] CPU features: detected: CRC32 instructions
+[    0.083850] alternatives: applying system-wide alternatives
+[    0.090567] CPU features: emulated: Privileged Access Never (PAN) using TTBR0_EL1 switching
+[    0.109332] Memory: 118028K/204800K available (12992K kernel code, 1626K rwdata, 5004K rodata, 25280K init, 486K bss, 52352K reserved, 32768K cma-reserved)
+[    0.155216] posixtimers hash table entries: 1024 (order: 2, 16384 bytes, linear)
+[    0.155666] futex hash table entries: 512 (32768 bytes on 1 NUMA nodes, total 32 KiB, linear).
+[    0.158182] 2G module region forced by RANDOMIZE_MODULE_REGION_FULL
+[    0.158235] 0 pages in range for non-PLT usage
+[    0.158287] 512880 pages in range for PLT usage
+[    0.160402] pinctrl core: initialized pinctrl subsystem
+[    0.174494] DMI not present or invalid.
+[    0.199690] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.215040] DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+[    0.217536] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.218479] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.223329] thermal_sys: Registered thermal governor 'step_wise'
+[    0.224100] cpuidle: using governor ladder
+[    0.224547] cpuidle: using governor menu
+[    0.225547] ASID allocator initialised with 32768 entries
+[    0.227523] Serial: AMBA PL011 UART driver
+[    0.259179] 9000000.pl011: ttyAMA0 at MMIO 0x9000000 (irq = 13, base_baud = 0) is a PL011 rev1
+[    0.264325] printk: console [ttyAMA0] enabled
+[    0.289866] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[    0.289942] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
+[    0.289976] HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
+[    0.289983] HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
+[    0.289991] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.289997] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
+[    0.290005] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+[    0.290011] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+[    0.305014] ACPI: Interpreter disabled.
+[    0.309474] iommu: Default domain type: Passthrough
+[    0.312345] SCSI subsystem initialized
+[    0.315802] usbcore: registered new interface driver usbfs
+[    0.316028] usbcore: registered new interface driver hub
+[    0.316195] usbcore: registered new device driver usb
+[    0.333190] clocksource: Switched to clocksource arch_sys_counter
+[    0.340028] pnp: PnP ACPI: disabled
+[    0.354878] NET: Registered PF_INET protocol family
+[    0.356900] IP idents hash table entries: 4096 (order: 3, 32768 bytes, linear)
+[    0.364238] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes, linear)
+[    0.364378] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.364500] TCP established hash table entries: 2048 (order: 2, 16384 bytes, linear)
+[    0.364758] TCP bind hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[    0.364985] TCP: Hash tables configured (established 2048 bind 2048)
+[    0.369332] MPTCP token hash table entries: 256 (order: 1, 6144 bytes, linear)
+[    0.369841] UDP hash table entries: 256 (order: 2, 16384 bytes, linear)
+[    0.370288] UDP-Lite hash table entries: 256 (order: 2, 16384 bytes, linear)
+[    0.373298] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.374350] PCI: CLS 0 bytes, default 64
+[    0.389930] kvm [1]: HYP mode not available
+[    0.402242] workingset: timestamp_bits=42 max_order=16 bucket_order=0
+[    0.405255] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.405294] jffs2: version 2.2 (NAND) (SUMMARY) (LZMA) (RTIME) (CMODE_PRIORITY) (c) 2001-2006 Red Hat, Inc.
+[    0.408459] 9p: Installing v9fs 9p2000 file system support
+[    0.413373] cryptd: max_cpu_qlen set to 1000
+[    0.428731] atomic64_test: passed
+[    0.457747] pl061_gpio 9030000.pl061: PL061 GPIO chip registered
+[    0.462318] pci-host-generic 4010000000.pcie: host bridge /pcie@10000000 ranges:
+[    0.463921] pci-host-generic 4010000000.pcie:       IO 0x003eff0000..0x003effffff -> 0x0000000000
+[    0.464705] pci-host-generic 4010000000.pcie:      MEM 0x0010000000..0x003efeffff -> 0x0010000000
+[    0.464755] pci-host-generic 4010000000.pcie:      MEM 0x8000000000..0xffffffffff -> 0x8000000000
+[    0.465545] pci-host-generic 4010000000.pcie: Memory resource size exceeds max for 32 bits
+[    0.466469] pci-host-generic 4010000000.pcie: ECAM at [mem 0x4010000000-0x401fffffff] for [bus 00-ff]
+[    0.468164] pci-host-generic 4010000000.pcie: PCI host bridge to bus 0000:00
+[    0.468559] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.468647] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+[    0.468693] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff]
+[    0.468702] pci_bus 0000:00: root bus resource [mem 0x8000000000-0xffffffffff]
+[    0.470349] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000 conventional PCI endpoint
+[    0.476029] pci 0000:00:01.0: [1af4:1005] type 00 class 0x00ff00 conventional PCI endpoint
+[    0.476351] pci 0000:00:01.0: BAR 0 [io  0x0000-0x001f]
+[    0.476415] pci 0000:00:01.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.476446] pci 0000:00:01.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.476955] pci 0000:00:02.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.477006] pci 0000:00:02.0: BAR 0 [io  0x0000-0x001f]
+[    0.477017] pci 0000:00:02.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.477031] pci 0000:00:02.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.477060] pci 0000:00:02.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.477532] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.477582] pci 0000:00:03.0: BAR 0 [io  0x0000-0x001f]
+[    0.477596] pci 0000:00:03.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.477606] pci 0000:00:03.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.477615] pci 0000:00:03.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.477880] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.477917] pci 0000:00:04.0: BAR 0 [io  0x0000-0x001f]
+[    0.477927] pci 0000:00:04.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.477936] pci 0000:00:04.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.477944] pci 0000:00:04.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.478328] pci 0000:00:05.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.478376] pci 0000:00:05.0: BAR 0 [io  0x0000-0x001f]
+[    0.478389] pci 0000:00:05.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.478399] pci 0000:00:05.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.478407] pci 0000:00:05.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.478643] pci 0000:00:06.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.478686] pci 0000:00:06.0: BAR 0 [io  0x0000-0x001f]
+[    0.478699] pci 0000:00:06.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.478712] pci 0000:00:06.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.478724] pci 0000:00:06.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.482543] pci 0000:00:02.0: ROM [mem 0x10000000-0x1007ffff pref]: assigned
+[    0.483268] pci 0000:00:03.0: ROM [mem 0x10080000-0x100fffff pref]: assigned
+[    0.483342] pci 0000:00:04.0: ROM [mem 0x10100000-0x1017ffff pref]: assigned
+[    0.483354] pci 0000:00:05.0: ROM [mem 0x10180000-0x101fffff pref]: assigned
+[    0.483364] pci 0000:00:06.0: ROM [mem 0x10200000-0x1027ffff pref]: assigned
+[    0.483468] pci 0000:00:01.0: BAR 4 [mem 0x8000000000-0x8000003fff 64bit pref]: assigned
+[    0.483606] pci 0000:00:02.0: BAR 4 [mem 0x8000004000-0x8000007fff 64bit pref]: assigned
+[    0.483629] pci 0000:00:03.0: BAR 4 [mem 0x8000008000-0x800000bfff 64bit pref]: assigned
+[    0.483670] pci 0000:00:04.0: BAR 4 [mem 0x800000c000-0x800000ffff 64bit pref]: assigned
+[    0.483696] pci 0000:00:05.0: BAR 4 [mem 0x8000010000-0x8000013fff 64bit pref]: assigned
+[    0.483715] pci 0000:00:06.0: BAR 4 [mem 0x8000014000-0x8000017fff 64bit pref]: assigned
+[    0.483732] pci 0000:00:01.0: BAR 1 [mem 0x10280000-0x10280fff]: assigned
+[    0.483743] pci 0000:00:02.0: BAR 1 [mem 0x10281000-0x10281fff]: assigned
+[    0.483753] pci 0000:00:03.0: BAR 1 [mem 0x10282000-0x10282fff]: assigned
+[    0.483762] pci 0000:00:04.0: BAR 1 [mem 0x10283000-0x10283fff]: assigned
+[    0.483772] pci 0000:00:05.0: BAR 1 [mem 0x10284000-0x10284fff]: assigned
+[    0.483781] pci 0000:00:06.0: BAR 1 [mem 0x10285000-0x10285fff]: assigned
+[    0.483800] pci 0000:00:01.0: BAR 0 [io  0x1000-0x101f]: assigned
+[    0.483828] pci 0000:00:02.0: BAR 0 [io  0x1020-0x103f]: assigned
+[    0.483837] pci 0000:00:03.0: BAR 0 [io  0x1040-0x105f]: assigned
+[    0.483846] pci 0000:00:04.0: BAR 0 [io  0x1060-0x107f]: assigned
+[    0.483855] pci 0000:00:05.0: BAR 0 [io  0x1080-0x109f]: assigned
+[    0.483865] pci 0000:00:06.0: BAR 0 [io  0x10a0-0x10bf]: assigned
+[    0.484360] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
+[    0.484392] pci_bus 0000:00: resource 5 [mem 0x10000000-0x3efeffff]
+[    0.484403] pci_bus 0000:00: resource 6 [mem 0x8000000000-0xffffffffff]
+[    0.524906] virtio-pci 0000:00:01.0: enabling device (0000 -> 0003)
+[    0.530938] virtio-pci 0000:00:02.0: enabling device (0000 -> 0003)
+[    0.534711] virtio-pci 0000:00:03.0: enabling device (0000 -> 0003)
+[    0.537257] virtio-pci 0000:00:04.0: enabling device (0000 -> 0003)
+[    0.540447] virtio-pci 0000:00:05.0: enabling device (0000 -> 0003)
+[    0.543936] virtio-pci 0000:00:06.0: enabling device (0000 -> 0003)
+[    0.548598] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.556313] SuperH (H)SCI(F) driver initialized
+[    0.587860] hv_vmbus: registering driver hyperv_drm
+[    0.617974] loop: module loaded
+[    0.620025] hv_vmbus: registering driver hv_storvsc
+[    0.670854] hv_vmbus: registering driver hv_netvsc
+[    0.674970] usbcore: registered new interface driver usb-storage
+[    0.678600] hv_vmbus: registering driver hyperv_keyboard
+[    0.684220] rtc-pl031 9010000.pl031: registered as rtc0
+[    0.684812] rtc-pl031 9010000.pl031: setting system clock to 2026-11-21T14:38:04 UTC (1795271884)
+[    0.689149] sdhci: Secure Digital Host Controller Interface driver
+[    0.689170] sdhci: Copyright(c) Pierre Ossman
+[    0.689668] Synopsys Designware Multimedia Card Interface Driver
+[    0.690307] sdhci-pltfm: SDHCI platform and OF driver helper
+[    0.693170] usbcore: registered new interface driver usbhid
+[    0.693205] usbhid: USB HID core driver
+[    0.696371] NET: Registered PF_INET6 protocol family
+[    0.710532] Segment Routing with IPv6
+[    0.710769] In-situ OAM (IOAM) with IPv6
+[    0.711544] NET: Registered PF_PACKET protocol family
+[    0.712135] 8021q: 802.1Q VLAN Support v1.8
+[    0.713478] 9pnet: Installing 9P2000 support
+[    0.754658] Demotion targets for Node 0: null
+[    0.765255] clk: Disabling unused clocks
+[    0.767004] PM: genpd: Disabling unused power domains
+[    0.861287] Freeing unused kernel memory: 25280K
+[    0.864737] Run /init as init process
+[    3.825946] init: Console is alive
+[    4.051372] kmodloader: loading kernel modules from /etc/modules-boot.d/*
+[    4.099970] pps_core: LinuxPPS API ver. 1 registered
+[    4.100046] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    4.176564] PTP clock support registered
+[    4.208598] VMware vmxnet3 virtual NIC driver - version 1.9.0.0-k-NAPI
+[    4.233712] e1000e: Intel(R) PRO/1000 Network Driver
+[    4.233764] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+[    4.237445] kmodloader: done loading kernel modules from /etc/modules-boot.d/*
+[    4.259137] init: - preinit -
+[    5.297900] virtio_net virtio1 wan: renamed from eth0
+[    5.421318] virtio_net virtio2 lan1: renamed from eth1
+[    5.513218] virtio_net virtio3 lan2: renamed from eth2
+[    5.604614] virtio_net virtio4 lan3: renamed from eth3
+[    5.688063] virtio_net virtio5 lan4: renamed from eth4
 Press the [f] key and hit [enter] to enter failsafe mode
 Press the [1], [2], [3] or [4] key and hit [enter] to select the debug level
 - generating board file -
-[   12.393767] procd: - early -
-[   13.347881] procd: - ubus -
-[   13.583032] procd: - init -
+[   13.284412] procd: - early -
+[   14.375801] procd: - ubus -
+[   14.610715] procd: - init -
 Please press Enter to activate this console.
-[   15.181336] urngd: v1.0.2 started.
-[   16.877024] kmodloader: loading kernel modules from /etc/modules.d/*
-[   18.353845] MACsec IEEE 802.1AE
-[   18.607997] rvu_af: Marvell OcteonTX2 RVU Admin Function Driver
-[   18.634339] rvu_nicpf: Marvell RVU NIC Physical Function Driver
-[   18.642941] rvu_nicvf: Marvell RVU NIC Virtual Function Driver
-[   18.730522] i2c_dev: i2c /dev entries driver
-[   18.771978] GACT probability on
-[   18.779354] Mirror/redirect action on
-[   18.806659] u32 classifier
-[   18.806712]     input device check on
-[   18.806744]     Actions configured
-[   18.858607] compat: loading out-of-tree module taints kernel.
-[   18.860196] Loading modules backported from Linux version v7.2-0-g8d3ae59288f1
-[   18.860232] Backport generated by backports.git v5.15.58-1-198-g2580fa90cb79
-[   19.034202] mac80211_hwsim: initializing netlink
-[   19.242388] PPP generic driver version 2.4.2
-[   19.249440] NET: Registered PF_PPPOX protocol family
-[   19.299752] kmodloader: done loading kernel modules from /etc/modules.d/*
-[   51.491994] 8021q: adding VLAN 0 to HW filter on device lan1
-[   51.539205] br-lan: port 1(lan1) entered blocking state
-[   51.539357] br-lan: port 1(lan1) entered disabled state
-[   51.539919] virtio_net virtio2 lan1: entered allmulticast mode
-[   51.542512] virtio_net virtio2 lan1: entered promiscuous mode
-[   51.556296] br-lan: port 1(lan1) entered blocking state
-[   51.556467] br-lan: port 1(lan1) entered forwarding state
-[   51.657136] 8021q: adding VLAN 0 to HW filter on device lan2
-[   51.671942] br-lan: port 2(lan2) entered blocking state
-[   51.672012] br-lan: port 2(lan2) entered disabled state
-[   51.672134] virtio_net virtio3 lan2: entered allmulticast mode
-[   51.678542] virtio_net virtio3 lan2: entered promiscuous mode
-[   51.687118] br-lan: port 2(lan2) entered blocking state
-[   51.687175] br-lan: port 2(lan2) entered forwarding state
-[   51.751213] 8021q: adding VLAN 0 to HW filter on device lan3
-[   51.760874] br-lan: port 3(lan3) entered blocking state
-[   51.760943] br-lan: port 3(lan3) entered disabled state
-[   51.761124] virtio_net virtio4 lan3: entered allmulticast mode
-[   51.767811] virtio_net virtio4 lan3: entered promiscuous mode
-[   51.769187] br-lan: port 3(lan3) entered blocking state
-[   51.769234] br-lan: port 3(lan3) entered forwarding state
-[   51.816818] 8021q: adding VLAN 0 to HW filter on device lan4
-[   51.822380] br-lan: port 4(lan4) entered blocking state
-[   51.822468] br-lan: port 4(lan4) entered disabled state
-[   51.822646] virtio_net virtio5 lan4: entered allmulticast mode
-[   51.827340] virtio_net virtio5 lan4: entered promiscuous mode
-[   51.831111] br-lan: port 4(lan4) entered blocking state
-[   51.831175] br-lan: port 4(lan4) entered forwarding state
-[   51.966588] 8021q: adding VLAN 0 to HW filter on device wan
-[   67.979108] br-lan: port 5(phy0-ap0) entered blocking state
-[   67.980506] br-lan: port 5(phy0-ap0) entered disabled state
-[   67.981217] mac80211_hwsim hwsim0 phy0-ap0: entered allmulticast mode
-[   67.985216] mac80211_hwsim hwsim0 phy0-ap0: entered promiscuous mode
-[   68.323656] br-lan: port 5(phy0-ap0) entered blocking state
-[   68.323756] br-lan: port 5(phy0-ap0) entered forwarding state
-[   69.853668] br-guest: port 1(phy0-ap1) entered blocking state
-[   69.853742] br-guest: port 1(phy0-ap1) entered disabled state
-[   69.853992] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
-[   69.854600] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
-[   69.881808] br-guest: port 1(phy0-ap1) entered blocking state
-[   69.881877] br-guest: port 1(phy0-ap1) entered forwarding state
-[   69.887077] br-guest: port 1(phy0-ap1) entered disabled state
-[   70.103206] br-guest: port 1(phy0-ap1) entered blocking state
-[   70.103292] br-guest: port 1(phy0-ap1) entered forwarding state
-[   71.470603] br-iot: port 1(phy0-ap2) entered blocking state
-[   71.470679] br-iot: port 1(phy0-ap2) entered disabled state
-[   71.470807] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
-[   71.476897] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
-[   71.497900] br-iot: port 1(phy0-ap2) entered blocking state
-[   71.497978] br-iot: port 1(phy0-ap2) entered forwarding state
-[   71.506856] br-iot: port 1(phy0-ap2) entered disabled state
-[   71.686428] br-iot: port 1(phy0-ap2) entered blocking state
-[   71.686520] br-iot: port 1(phy0-ap2) entered forwarding state
-[   73.032522] mac80211_hwsim hwsim0 phy0-ap1: left allmulticast mode
-[   73.032732] mac80211_hwsim hwsim0 phy0-ap1: left promiscuous mode
-[   73.033151] br-guest: port 1(phy0-ap1) entered disabled state
-[   73.091007] br-guest: port 1(phy0-ap1) entered blocking state
-[   73.091086] br-guest: port 1(phy0-ap1) entered disabled state
-[   73.091225] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
-[   73.091924] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
-[   73.092435] br-guest: port 1(phy0-ap1) entered blocking state
-[   73.092459] br-guest: port 1(phy0-ap1) entered forwarding state
-[   73.114376] mac80211_hwsim hwsim0 phy0-ap2: left allmulticast mode
-[   73.114555] mac80211_hwsim hwsim0 phy0-ap2: left promiscuous mode
-[   73.114877] br-iot: port 1(phy0-ap2) entered disabled state
-[   73.193557] br-iot: port 1(phy0-ap2) entered blocking state
-[   73.193627] br-iot: port 1(phy0-ap2) entered disabled state
-[   73.193775] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
-[   73.194343] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
-[   73.194870] br-iot: port 1(phy0-ap2) entered blocking state
-[   73.194894] br-iot: port 1(phy0-ap2) entered forwarding state
-[   87.697672] br-lan: port 6(phy1-ap0) entered blocking state
-[   87.697747] br-lan: port 6(phy1-ap0) entered disabled state
-[   87.697879] mac80211_hwsim hwsim1 phy1-ap0: entered allmulticast mode
-[   87.698585] mac80211_hwsim hwsim1 phy1-ap0: entered promiscuous mode
-[   88.302639] br-lan: port 6(phy1-ap0) entered blocking state
-[   88.302718] br-lan: port 6(phy1-ap0) entered forwarding state
-[  196.250659] sta-phy2: authenticate with 02:00:00:00:00:00 (local address=02:00:00:00:02:00)
-[  196.252038] sta-phy2: send auth to 02:00:00:00:00:00 (try 1/3)
-[  196.274729] sta-phy2: authenticated
-[  196.286048] sta-phy2: associate with 02:00:00:00:00:00 (try 1/3)
-[  196.298833] sta-phy2: RX AssocResp from 02:00:00:00:00:00 (capab=0x431 status=0 aid=1)
-[  196.301631] sta-phy2: associated
-[  212.371325] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  212.371511] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  212.483887] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  212.483968] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  212.491036] sta-phy3: authenticated
-[  212.505999] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  212.511760] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  212.512455] sta-phy3: associated
-[  312.384265] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  320.171715] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  320.171794] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  320.233080] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  320.233168] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  320.239767] sta-phy3: 02:00:00:00:01:00 denied authentication (status 15)
-[  326.302062] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  326.302138] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  326.343639] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  326.343721] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  326.352210] sta-phy3: 02:00:00:00:01:00 denied authentication (status 15)
-[  332.880489] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  332.880588] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  332.930278] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  332.930386] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  332.936587] sta-phy3: 02:00:00:00:01:00 denied authentication (status 15)
-[  339.886499] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  339.886572] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  339.917860] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  339.917963] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  339.926134] sta-phy3: 02:00:00:00:01:00 denied authentication (status 15)
-[  355.834635] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  355.834707] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  355.904849] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  355.904935] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  355.910200] sta-phy3: 02:00:00:00:01:00 denied authentication (status 15)
-[  446.164521] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  446.166333] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  446.290116] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  446.290227] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  446.296486] sta-phy3: authenticated
-[  446.326144] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  446.349312] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  446.352908] sta-phy3: associated
-[  449.728601] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  457.053821] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  457.053904] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  457.066251] sta-phy3: authenticated
-[  457.076194] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  457.081172] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  457.081552] sta-phy3: associated
-[  460.067988] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  461.436734] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  461.436821] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  461.451601] sta-phy3: authenticated
-[  461.465988] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  461.469680] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  461.470120] sta-phy3: associated
-[  463.628612] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  470.953777] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  470.953881] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  470.963406] sta-phy3: authenticated
-[  470.986224] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  470.990946] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  470.991601] sta-phy3: associated
-[  473.849412] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  475.239077] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  475.239145] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  475.250419] sta-phy3: authenticated
-[  475.265752] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  475.269984] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  475.270368] sta-phy3: associated
-[  477.202232] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  484.530887] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  484.530953] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  484.539145] sta-phy3: authenticated
-[  484.545910] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  484.551001] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  484.551376] sta-phy3: associated
-[  487.301473] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  488.668988] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  488.669057] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  488.680003] sta-phy3: authenticated
-[  488.686871] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  488.698519] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  488.698919] sta-phy3: associated
-[  491.073680] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  498.425960] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  498.426065] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  498.436129] sta-phy3: authenticated
-[  498.446109] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  498.450567] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  498.451096] sta-phy3: associated
-[  501.495114] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  502.812750] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  502.812825] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  502.827358] sta-phy3: authenticated
-[  502.845831] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  502.849077] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  502.849486] sta-phy3: associated
-[  504.942552] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  512.297499] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  512.297606] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  512.306561] sta-phy3: authenticated
-[  512.315957] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  512.319226] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  512.319771] sta-phy3: associated
-[  515.116015] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  516.467305] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  516.467384] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  516.481444] sta-phy3: authenticated
-[  516.496634] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  516.500901] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  516.501423] sta-phy3: associated
-[  518.526230] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  525.940009] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  525.940090] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  525.948111] sta-phy3: authenticated
-[  525.956038] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  525.961331] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  525.961955] sta-phy3: associated
-[  528.808611] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  530.226942] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  530.227024] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  530.234922] sta-phy3: authenticated
-[  530.245900] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  530.249371] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  530.249847] sta-phy3: associated
-[  532.538970] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  539.860143] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  539.860211] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  539.870990] sta-phy3: authenticated
-[  539.886141] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  539.891970] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  539.892632] sta-phy3: associated
-[  542.917778] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  544.275906] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  544.275999] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  544.289756] sta-phy3: authenticated
-[  544.305896] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  544.310339] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  544.310908] sta-phy3: associated
-[  546.522367] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  553.853133] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  553.853229] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  553.861353] sta-phy3: authenticated
-[  553.876053] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  553.879505] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  553.879976] sta-phy3: associated
-[  557.213266] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  558.561516] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  558.561609] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  558.574196] sta-phy3: authenticated
-[  558.585901] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  558.600291] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  558.600878] sta-phy3: associated
-[  560.761536] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  568.102228] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  568.102294] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  568.110592] sta-phy3: authenticated
-[  568.126121] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  568.131143] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  568.131555] sta-phy3: associated
-[  570.772876] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  572.117440] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  572.117586] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  572.132686] sta-phy3: authenticated
-[  572.156102] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  572.167004] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  572.167705] sta-phy3: associated
-[  574.423821] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  581.779076] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  581.779155] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  581.785830] sta-phy3: authenticated
-[  581.795911] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  581.798936] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  581.799352] sta-phy3: associated
-[  584.572925] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  585.906186] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  585.906286] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  585.919026] sta-phy3: authenticated
-[  585.935883] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  585.942877] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  585.943590] sta-phy3: associated
-[  589.743601] sta-phy2: deauthenticating from 02:00:00:00:00:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  597.573063] sta-phy2: authenticate with 42:00:00:00:00:00 (local address=02:00:00:00:02:00)
-[  597.573173] sta-phy2: send auth to 42:00:00:00:00:00 (try 1/3)
-[  597.659551] sta-phy2: authenticate with 42:00:00:00:00:00 (local address=02:00:00:00:02:00)
-[  597.659675] sta-phy2: send auth to 42:00:00:00:00:00 (try 1/3)
-[  597.664538] sta-phy2: authenticated
-[  597.686148] sta-phy2: associate with 42:00:00:00:00:00 (try 1/3)
-[  597.690611] sta-phy2: RX AssocResp from 42:00:00:00:00:00 (capab=0x431 status=0 aid=1)
-[  597.691285] sta-phy2: associated
-[  614.759570] sta-phy2: deauthenticating from 42:00:00:00:00:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  622.702298] sta-phy2: authenticate with 52:00:00:00:00:00 (local address=02:00:00:00:02:00)
-[  622.702372] sta-phy2: send auth to 52:00:00:00:00:00 (try 1/3)
-[  622.709587] sta-phy2: authenticated
-[  622.725847] sta-phy2: associate with 52:00:00:00:00:00 (try 1/3)
-[  622.729139] sta-phy2: RX AssocResp from 52:00:00:00:00:00 (capab=0x431 status=0 aid=1)
-[  622.729595] sta-phy2: associated
-[  644.191977] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  652.181182] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  652.182628] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  652.295552] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  652.295628] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  652.308645] sta-phy3: authenticated
-[  652.327128] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
-[  652.341606] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
-[  652.347373] sta-phy3: associated
-[  657.061747] sta-phy2: deauthenticating from 52:00:00:00:00:00 by local choice (Reason: 3=DEAUTH_LEAVING)
-[  664.946921] sta-phy2: authenticate with 02:00:00:00:00:00 (local address=02:00:00:00:02:00)
-[  664.946980] sta-phy2: send auth to 02:00:00:00:00:00 (try 1/3)
-[  664.955179] sta-phy2: authenticated
-[  664.965991] sta-phy2: associate with 02:00:00:00:00:00 (try 1/3)
-[  664.969408] sta-phy2: RX AssocResp from 02:00:00:00:00:00 (capab=0x431 status=0 aid=1)
-[  664.969863] sta-phy2: associated
-[  856.058331] procd: - shutdown -
-[  857.521251] br-iot: port 1(phy0-ap2) entered disabled state
-[  857.572399] mac80211_hwsim hwsim0 phy0-ap2 (unregistering): left allmulticast mode
-[  857.572738] mac80211_hwsim hwsim0 phy0-ap2 (unregistering): left promiscuous mode
-[  857.572994] br-iot: port 1(phy0-ap2) entered disabled state
-[  858.678548] br-guest: port 1(phy0-ap1) entered disabled state
-[  858.727911] mac80211_hwsim hwsim0 phy0-ap1 (unregistering): left allmulticast mode
-[  858.728023] mac80211_hwsim hwsim0 phy0-ap1 (unregistering): left promiscuous mode
-[  858.728102] br-guest: port 1(phy0-ap1) entered disabled state
-[  859.697918] sta-phy2: deauthenticated from 02:00:00:00:00:00 (Reason: 3=DEAUTH_LEAVING)
-[  859.711224] mac80211_hwsim hwsim0 phy0-ap0: left allmulticast mode
-[  859.711411] mac80211_hwsim hwsim0 phy0-ap0: left promiscuous mode
-[  859.711806] br-lan: port 5(phy0-ap0) entered disabled state
-[  862.092451] sta-phy3: deauthenticated from 02:00:00:00:01:00 (Reason: 3=DEAUTH_LEAVING)
-[  862.111343] mac80211_hwsim hwsim1 phy1-ap0: left allmulticast mode
-[  862.111488] mac80211_hwsim hwsim1 phy1-ap0: left promiscuous mode
-[  862.111835] br-lan: port 6(phy1-ap0) entered disabled state
-[  866.160669] sta-phy2: authenticate with 02:00:00:00:00:00 (local address=02:00:00:00:02:00)
-[  866.160768] sta-phy2: send auth to 02:00:00:00:00:00 (try 1/3)
-[  866.161681] sta-phy2: send auth to 02:00:00:00:00:00 (try 2/3)
-[  866.161979] sta-phy2: send auth to 02:00:00:00:00:00 (try 3/3)
-[  866.162033] sta-phy2: authentication with 02:00:00:00:00:00 timed out
-[  868.051781] br-lan: port 4(lan4) entered disabled state
-[  868.052240] br-lan: port 3(lan3) entered disabled state
-[  868.052339] br-lan: port 2(lan2) entered disabled state
-[  868.052464] br-lan: port 1(lan1) entered disabled state
-[  868.068726] virtio_net virtio2 lan1: left allmulticast mode
-[  868.068916] virtio_net virtio2 lan1: left promiscuous mode
-[  868.069368] br-lan: port 1(lan1) entered disabled state
-[  868.087315] virtio_net virtio3 lan2: left allmulticast mode
-[  868.087422] virtio_net virtio3 lan2: left promiscuous mode
-[  868.087677] br-lan: port 2(lan2) entered disabled state
-[  868.101477] virtio_net virtio4 lan3: left allmulticast mode
-[  868.101657] virtio_net virtio4 lan3: left promiscuous mode
-[  868.101906] br-lan: port 3(lan3) entered disabled state
-[  868.131915] virtio_net virtio5 lan4: left allmulticast mode
-[  868.132039] virtio_net virtio5 lan4: left promiscuous mode
-[  868.132392] br-lan: port 4(lan4) entered disabled state
-[  868.378592] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
-[  868.378655] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
-[  868.379435] sta-phy3: send auth to 02:00:00:00:01:00 (try 2/3)
-[  868.379547] sta-phy3: send auth to 02:00:00:00:01:00 (try 3/3)
-[  868.379586] sta-phy3: authentication with 02:00:00:00:01:00 timed out
-[  876.337204] procd: /etc/rc.d/K90umount: umount: tmpfs busy - remounted read-only
-[  876.338017] procd: /etc/rc.d/K90umount: umount: can't remount tmpfs read-only
-[  876.359255] procd: - SIGTERM processes -
-[  877.438108] procd: - SIGKILL processes -
-[  878.440230] procd: - reboot -
-[  879.448058] reboot: Restarting system
+[   16.169686] urngd: v1.0.2 started.
+[   18.160828] kmodloader: loading kernel modules from /etc/modules.d/*
+[   19.370993] MACsec IEEE 802.1AE
+[   19.628142] rvu_af: Marvell OcteonTX2 RVU Admin Function Driver
+[   19.647418] rvu_nicpf: Marvell RVU NIC Physical Function Driver
+[   19.656382] rvu_nicvf: Marvell RVU NIC Virtual Function Driver
+[   19.739516] i2c_dev: i2c /dev entries driver
+[   19.773434] GACT probability on
+[   19.779392] Mirror/redirect action on
+[   19.825898] u32 classifier
+[   19.825978]     input device check on
+[   19.825991]     Actions configured
+[   19.925549] compat: loading out-of-tree module taints kernel.
+[   19.927769] Loading modules backported from Linux version v7.2-0-g8d3ae59288f1
+[   19.927816] Backport generated by backports.git v5.15.58-1-198-g2580fa90cb79
+[   20.160621] mac80211_hwsim: initializing netlink
+[   20.351782] PPP generic driver version 2.4.2
+[   20.357004] NET: Registered PF_PPPOX protocol family
+[   20.416245] kmodloader: done loading kernel modules from /etc/modules.d/*
+[   57.861263] 8021q: adding VLAN 0 to HW filter on device lan1
+[   57.877229] br-lan: port 1(lan1) entered blocking state
+[   57.877440] br-lan: port 1(lan1) entered disabled state
+[   57.878152] virtio_net virtio2 lan1: entered allmulticast mode
+[   57.881476] virtio_net virtio2 lan1: entered promiscuous mode
+[   57.894070] br-lan: port 1(lan1) entered blocking state
+[   57.894337] br-lan: port 1(lan1) entered forwarding state
+[   57.978432] 8021q: adding VLAN 0 to HW filter on device lan2
+[   58.033596] br-lan: port 2(lan2) entered blocking state
+[   58.033702] br-lan: port 2(lan2) entered disabled state
+[   58.033895] virtio_net virtio3 lan2: entered allmulticast mode
+[   58.055166] virtio_net virtio3 lan2: entered promiscuous mode
+[   58.056160] br-lan: port 2(lan2) entered blocking state
+[   58.056199] br-lan: port 2(lan2) entered forwarding state
+[   58.197473] 8021q: adding VLAN 0 to HW filter on device lan3
+[   58.218797] br-lan: port 3(lan3) entered blocking state
+[   58.218899] br-lan: port 3(lan3) entered disabled state
+[   58.219061] virtio_net virtio4 lan3: entered allmulticast mode
+[   58.235772] virtio_net virtio4 lan3: entered promiscuous mode
+[   58.243459] br-lan: port 3(lan3) entered blocking state
+[   58.243617] br-lan: port 3(lan3) entered forwarding state
+[   58.303947] 8021q: adding VLAN 0 to HW filter on device lan4
+[   58.339558] br-lan: port 4(lan4) entered blocking state
+[   58.339633] br-lan: port 4(lan4) entered disabled state
+[   58.339779] virtio_net virtio5 lan4: entered allmulticast mode
+[   58.344678] virtio_net virtio5 lan4: entered promiscuous mode
+[   58.347870] br-lan: port 4(lan4) entered blocking state
+[   58.347933] br-lan: port 4(lan4) entered forwarding state
+[   58.508038] 8021q: adding VLAN 0 to HW filter on device wan
+[   75.725592] br-lan: port 5(phy0-ap0) entered blocking state
+[   75.727175] br-lan: port 5(phy0-ap0) entered disabled state
+[   75.727879] mac80211_hwsim hwsim0 phy0-ap0: entered allmulticast mode
+[   75.730286] mac80211_hwsim hwsim0 phy0-ap0: entered promiscuous mode
+[   76.074951] br-lan: port 5(phy0-ap0) entered blocking state
+[   76.075057] br-lan: port 5(phy0-ap0) entered forwarding state
+[   77.623658] br-guest: port 1(phy0-ap1) entered blocking state
+[   77.623734] br-guest: port 1(phy0-ap1) entered disabled state
+[   77.623868] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
+[   77.624553] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
+[   77.636521] br-guest: port 1(phy0-ap1) entered blocking state
+[   77.636592] br-guest: port 1(phy0-ap1) entered forwarding state
+[   77.643394] br-guest: port 1(phy0-ap1) entered disabled state
+[   78.142047] br-guest: port 1(phy0-ap1) entered blocking state
+[   78.142187] br-guest: port 1(phy0-ap1) entered forwarding state
+[   79.792985] br-iot: port 1(phy0-ap2) entered blocking state
+[   79.793157] br-iot: port 1(phy0-ap2) entered disabled state
+[   79.793417] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
+[   79.814709] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
+[   79.830662] br-iot: port 1(phy0-ap2) entered blocking state
+[   79.830767] br-iot: port 1(phy0-ap2) entered forwarding state
+[   79.835424] br-iot: port 1(phy0-ap2) entered disabled state
+[   79.982615] br-iot: port 1(phy0-ap2) entered blocking state
+[   79.983177] br-iot: port 1(phy0-ap2) entered forwarding state
+[   80.966261] mac80211_hwsim hwsim0 phy0-ap1: left allmulticast mode
+[   80.966516] mac80211_hwsim hwsim0 phy0-ap1: left promiscuous mode
+[   80.966962] br-guest: port 1(phy0-ap1) entered disabled state
+[   81.114258] br-guest: port 1(phy0-ap1) entered blocking state
+[   81.114335] br-guest: port 1(phy0-ap1) entered disabled state
+[   81.114468] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
+[   81.115193] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
+[   81.115729] br-guest: port 1(phy0-ap1) entered blocking state
+[   81.115757] br-guest: port 1(phy0-ap1) entered forwarding state
+[   81.146688] mac80211_hwsim hwsim0 phy0-ap2: left allmulticast mode
+[   81.146872] mac80211_hwsim hwsim0 phy0-ap2: left promiscuous mode
+[   81.147256] br-iot: port 1(phy0-ap2) entered disabled state
+[   81.177162] br-iot: port 1(phy0-ap2) entered blocking state
+[   81.177237] br-iot: port 1(phy0-ap2) entered disabled state
+[   81.177356] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
+[   81.178016] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
+[   81.178562] br-iot: port 1(phy0-ap2) entered blocking state
+[   81.178589] br-iot: port 1(phy0-ap2) entered forwarding state
+[   94.469925] br-lan: port 6(phy1-ap0) entered blocking state
+[   94.469996] br-lan: port 6(phy1-ap0) entered disabled state
+[   94.470198] mac80211_hwsim hwsim1 phy1-ap0: entered allmulticast mode
+[   94.471060] mac80211_hwsim hwsim1 phy1-ap0: entered promiscuous mode
+[   95.181881] br-lan: port 6(phy1-ap0) entered blocking state
+[   95.181968] br-lan: port 6(phy1-ap0) entered forwarding state
+[  204.024164] sta-phy2: authenticate with 02:00:00:00:00:00 (local address=02:00:00:00:02:00)
+[  204.026139] sta-phy2: send auth to 02:00:00:00:00:00 (try 1/3)
+[  204.050316] sta-phy2: authenticated
+[  204.073476] sta-phy2: associate with 02:00:00:00:00:00 (try 1/3)
+[  204.085681] sta-phy2: RX AssocResp from 02:00:00:00:00:00 (capab=0x431 status=0 aid=1)
+[  204.088552] sta-phy2: associated
+[  219.355760] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  219.355878] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  219.456808] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  219.456887] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  219.462978] sta-phy3: authenticated
+[  219.483367] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  219.488893] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  219.489610] sta-phy3: associated
+[  314.745381] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  322.549980] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  322.550038] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  322.612913] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  322.612993] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  322.617754] sta-phy3: 02:00:00:00:01:00 denied authentication (status 15)
+[  328.768769] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  328.768835] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  328.813609] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  328.813677] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  328.824735] sta-phy3: 02:00:00:00:01:00 denied authentication (status 15)
+[  335.328829] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  335.328894] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  335.357863] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  335.357934] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  335.363234] sta-phy3: 02:00:00:00:01:00 denied authentication (status 15)
+[  342.428862] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  342.428956] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  342.475015] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  342.475157] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  342.479738] sta-phy3: 02:00:00:00:01:00 denied authentication (status 15)
+[  358.337506] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  358.337573] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  358.369980] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  358.370089] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  358.374855] sta-phy3: 02:00:00:00:01:00 denied authentication (status 15)
+[  447.776162] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  447.777388] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  447.897299] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  447.897391] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  447.913969] sta-phy3: authenticated
+[  447.943466] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  447.965725] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  447.969536] sta-phy3: associated
+[  451.514218] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  458.906500] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  458.906571] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  458.913698] sta-phy3: authenticated
+[  458.933453] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  458.937159] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  458.937643] sta-phy3: associated
+[  461.487184] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  462.873299] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  462.873391] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  462.885519] sta-phy3: authenticated
+[  462.893038] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  462.896195] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  462.896557] sta-phy3: associated
+[  464.721898] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  472.037941] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  472.038016] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  472.044458] sta-phy3: authenticated
+[  472.053345] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  472.056401] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  472.056780] sta-phy3: associated
+[  474.803864] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  476.148829] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  476.148907] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  476.157564] sta-phy3: authenticated
+[  476.165311] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  476.168825] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  476.169222] sta-phy3: associated
+[  478.090962] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  485.286955] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  485.287030] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  485.297196] sta-phy3: authenticated
+[  485.303222] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  485.306810] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  485.307910] sta-phy3: associated
+[  488.133531] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  489.497242] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  489.497323] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  489.507449] sta-phy3: authenticated
+[  489.523462] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  489.527243] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  489.527759] sta-phy3: associated
+[  491.458358] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  498.833396] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  498.833497] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  498.840225] sta-phy3: authenticated
+[  498.853535] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  498.856847] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  498.857217] sta-phy3: associated
+[  501.417858] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  502.780507] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  502.780607] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  502.793010] sta-phy3: authenticated
+[  502.803321] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  502.806813] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  502.807215] sta-phy3: associated
+[  504.692894] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  512.066332] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  512.066406] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  512.075881] sta-phy3: authenticated
+[  512.083383] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  512.086990] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  512.087360] sta-phy3: associated
+[  514.677693] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  516.078066] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  516.078213] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  516.090361] sta-phy3: authenticated
+[  516.103740] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  516.107933] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  516.108435] sta-phy3: associated
+[  517.923464] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  525.198065] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  525.198212] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  525.205268] sta-phy3: authenticated
+[  525.213381] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  525.216531] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  525.216928] sta-phy3: associated
+[  527.907240] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  529.227880] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  529.227952] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  529.242352] sta-phy3: authenticated
+[  529.253309] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  529.262636] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  529.263369] sta-phy3: associated
+[  531.129345] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  538.440615] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  538.440689] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  538.455221] sta-phy3: authenticated
+[  538.473178] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  538.478380] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  538.478777] sta-phy3: associated
+[  540.880414] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  542.219928] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  542.219997] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  542.228915] sta-phy3: authenticated
+[  542.243354] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  542.247200] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  542.247584] sta-phy3: associated
+[  543.853636] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  551.141137] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  551.141234] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  551.150251] sta-phy3: authenticated
+[  551.163399] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  551.167065] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  551.167564] sta-phy3: associated
+[  553.766789] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  555.146226] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  555.146301] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  555.160057] sta-phy3: authenticated
+[  555.173231] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  555.176682] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  555.177017] sta-phy3: associated
+[  557.210209] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  564.517869] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  564.517940] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  564.537596] sta-phy3: authenticated
+[  564.543186] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  564.548396] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  564.548737] sta-phy3: associated
+[  567.114716] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  568.505552] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  568.505657] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  568.512687] sta-phy3: authenticated
+[  568.523485] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  568.526405] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  568.526773] sta-phy3: associated
+[  570.397590] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  577.714742] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  577.714820] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  577.721945] sta-phy3: authenticated
+[  577.743331] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  577.748482] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  577.749057] sta-phy3: associated
+[  580.310423] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  581.706022] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  581.706176] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  581.712320] sta-phy3: authenticated
+[  581.723357] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  581.735243] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  581.735649] sta-phy3: associated
+[  585.040853] sta-phy2: deauthenticating from 02:00:00:00:00:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  592.794254] sta-phy2: authenticate with 42:00:00:00:00:00 (local address=02:00:00:00:02:00)
+[  592.794362] sta-phy2: send auth to 42:00:00:00:00:00 (try 1/3)
+[  592.865600] sta-phy2: authenticate with 42:00:00:00:00:00 (local address=02:00:00:00:02:00)
+[  592.865708] sta-phy2: send auth to 42:00:00:00:00:00 (try 1/3)
+[  592.870019] sta-phy2: authenticated
+[  592.913070] sta-phy2: associate with 42:00:00:00:00:00 (try 1/3)
+[  592.916700] sta-phy2: RX AssocResp from 42:00:00:00:00:00 (capab=0x431 status=0 aid=1)
+[  592.917081] sta-phy2: associated
+[  609.720180] sta-phy2: deauthenticating from 42:00:00:00:00:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  617.403705] sta-phy2: authenticate with 52:00:00:00:00:00 (local address=02:00:00:00:02:00)
+[  617.403773] sta-phy2: send auth to 52:00:00:00:00:00 (try 1/3)
+[  617.413367] sta-phy2: authenticated
+[  617.423279] sta-phy2: associate with 52:00:00:00:00:00 (try 1/3)
+[  617.425902] sta-phy2: RX AssocResp from 52:00:00:00:00:00 (capab=0x431 status=0 aid=1)
+[  617.426374] sta-phy2: associated
+[  640.188242] sta-phy3: deauthenticating from 02:00:00:00:01:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  647.974838] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  647.975385] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  648.081836] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  648.081960] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  648.089811] sta-phy3: authenticated
+[  648.113657] sta-phy3: associate with 02:00:00:00:01:00 (try 1/3)
+[  648.126649] sta-phy3: RX AssocResp from 02:00:00:00:01:00 (capab=0x11 status=0 aid=1)
+[  648.130282] sta-phy3: associated
+[  652.677773] sta-phy2: deauthenticating from 52:00:00:00:00:00 by local choice (Reason: 3=DEAUTH_LEAVING)
+[  660.297288] sta-phy2: authenticate with 02:00:00:00:00:00 (local address=02:00:00:00:02:00)
+[  660.297372] sta-phy2: send auth to 02:00:00:00:00:00 (try 1/3)
+[  660.315605] sta-phy2: authenticated
+[  660.333163] sta-phy2: associate with 02:00:00:00:00:00 (try 1/3)
+[  660.339467] sta-phy2: RX AssocResp from 02:00:00:00:00:00 (capab=0x431 status=0 aid=1)
+[  660.340010] sta-phy2: associated
+[  851.952108] procd: - shutdown -
+[  853.540811] br-iot: port 1(phy0-ap2) entered disabled state
+[  853.596283] mac80211_hwsim hwsim0 phy0-ap2 (unregistering): left allmulticast mode
+[  853.596595] mac80211_hwsim hwsim0 phy0-ap2 (unregistering): left promiscuous mode
+[  853.596830] br-iot: port 1(phy0-ap2) entered disabled state
+[  855.066663] br-guest: port 1(phy0-ap1) entered disabled state
+[  855.105258] mac80211_hwsim hwsim0 phy0-ap1 (unregistering): left allmulticast mode
+[  855.105354] mac80211_hwsim hwsim0 phy0-ap1 (unregistering): left promiscuous mode
+[  855.105455] br-guest: port 1(phy0-ap1) entered disabled state
+[  856.195569] sta-phy2: deauthenticated from 02:00:00:00:00:00 (Reason: 3=DEAUTH_LEAVING)
+[  856.211596] mac80211_hwsim hwsim0 phy0-ap0: left allmulticast mode
+[  856.211803] mac80211_hwsim hwsim0 phy0-ap0: left promiscuous mode
+[  856.212228] br-lan: port 5(phy0-ap0) entered disabled state
+[  858.430969] br-lan: port 6(phy1-ap0) entered disabled state
+[  862.523627] sta-phy2: authenticate with 02:00:00:00:00:00 (local address=02:00:00:00:02:00)
+[  862.523770] sta-phy2: send auth to 02:00:00:00:00:00 (try 1/3)
+[  862.524657] sta-phy2: send auth to 02:00:00:00:00:00 (try 2/3)
+[  862.524865] sta-phy2: send auth to 02:00:00:00:00:00 (try 3/3)
+[  862.524934] sta-phy2: authentication with 02:00:00:00:00:00 timed out
+[  865.454048] br-lan: port 4(lan4) entered disabled state
+[  865.454495] br-lan: port 3(lan3) entered disabled state
+[  865.454555] br-lan: port 2(lan2) entered disabled state
+[  865.454634] br-lan: port 1(lan1) entered disabled state
+[  865.458773] virtio_net virtio2 lan1: left allmulticast mode
+[  865.458914] virtio_net virtio2 lan1: left promiscuous mode
+[  865.459308] br-lan: port 1(lan1) entered disabled state
+[  865.490549] virtio_net virtio3 lan2: left allmulticast mode
+[  865.490828] virtio_net virtio3 lan2: left promiscuous mode
+[  865.491307] br-lan: port 2(lan2) entered disabled state
+[  865.508688] virtio_net virtio4 lan3: left allmulticast mode
+[  865.508809] virtio_net virtio4 lan3: left promiscuous mode
+[  865.509174] br-lan: port 3(lan3) entered disabled state
+[  865.523036] virtio_net virtio5 lan4: left allmulticast mode
+[  865.523185] virtio_net virtio5 lan4: left promiscuous mode
+[  865.523460] br-lan: port 4(lan4) entered disabled state
+[  865.546194] mac80211_hwsim hwsim1 phy1-ap0: left allmulticast mode
+[  865.546395] mac80211_hwsim hwsim1 phy1-ap0: left promiscuous mode
+[  865.546710] br-lan: port 6(phy1-ap0) entered disabled state
+[  865.775299] sta-phy3: authenticate with 02:00:00:00:01:00 (local address=02:00:00:00:03:00)
+[  865.775438] sta-phy3: send auth to 02:00:00:00:01:00 (try 1/3)
+[  865.776007] sta-phy3: send auth to 02:00:00:00:01:00 (try 2/3)
+[  865.776187] sta-phy3: send auth to 02:00:00:00:01:00 (try 3/3)
+[  865.776247] sta-phy3: authentication with 02:00:00:00:01:00 timed out
+[  873.016084] procd: /etc/rc.d/K90umount: umount: tmpfs busy - remounted read-only
+[  873.025519] procd: /etc/rc.d/K90umount: umount: can't remount tmpfs read-only
+[  873.052503] procd: - SIGTERM processes -
+[  874.113955] procd: - SIGKILL processes -
+[  875.116140] procd: - reboot -
+[  876.123833] reboot: Restarting system
 [    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd034]
 [    0.000000] Linux version 6.18.55 (root@vm) (aarch64-openwrt-linux-musl-gcc (OpenWrt GCC 14.4.0 r37094+10-98b1185d03) 14.4.0, GNU ld (GNU Binutils) 2.46.1) #0 SMP Sat Nov 21 11:00:00 2026
 [    0.000000] KASLR enabled
@@ -673,297 +673,297 @@ Please press Enter to activate this console.
 [    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
 [    0.000000] arch_timer: cp15 timer running at 62.50MHz (virt).
 [    0.000000] clocksource: arch_sys_counter: mask: 0x1ffffffffffffff max_cycles: 0x1cd42e208c, max_idle_ns: 881590405314 ns
-[    0.000063] sched_clock: 57 bits at 63MHz, resolution 16ns, wraps every 4398046511096ns
-[    0.004758] Console: colour dummy device 80x25
-[    0.007554] Calibrating delay loop (skipped), value calculated using timer frequency.. 125.00 BogoMIPS (lpj=625000)
-[    0.007718] pid_max: default: 32768 minimum: 301
-[    0.014485] Mount-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
-[    0.014555] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
-[    0.069671] rcu: Hierarchical SRCU implementation.
-[    0.069777] rcu: 	Max phase no-delay instances is 1000.
-[    0.072250] Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
-[    0.076023] EFI services will not be available.
-[    0.077944] smp: Bringing up secondary CPUs ...
-[    0.082506] Detected VIPT I-cache on CPU1
-[    0.083776] CPU1: Booted secondary processor 0x0000000001 [0x410fd034]
-[    0.089686] smp: Brought up 1 node, 2 CPUs
-[    0.089758] SMP: Total of 2 processors activated.
-[    0.089806] CPU: All CPU(s) started at EL1
-[    0.090162] CPU features: detected: 32-bit EL0 Support
-[    0.090185] CPU features: detected: 32-bit EL1 Support
-[    0.090280] CPU features: detected: CRC32 instructions
-[    0.098181] alternatives: applying system-wide alternatives
-[    0.106063] CPU features: emulated: Privileged Access Never (PAN) using TTBR0_EL1 switching
-[    0.128515] Memory: 118028K/204800K available (12992K kernel code, 1626K rwdata, 5004K rodata, 25280K init, 486K bss, 52352K reserved, 32768K cma-reserved)
-[    0.182305] posixtimers hash table entries: 1024 (order: 2, 16384 bytes, linear)
-[    0.182842] futex hash table entries: 512 (32768 bytes on 1 NUMA nodes, total 32 KiB, linear).
-[    0.186317] 2G module region forced by RANDOMIZE_MODULE_REGION_FULL
-[    0.186411] 0 pages in range for non-PLT usage
-[    0.186497] 512880 pages in range for PLT usage
-[    0.188620] pinctrl core: initialized pinctrl subsystem
-[    0.205084] DMI not present or invalid.
-[    0.232714] NET: Registered PF_NETLINK/PF_ROUTE protocol family
-[    0.247110] DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
-[    0.248704] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
-[    0.249399] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
-[    0.255661] thermal_sys: Registered thermal governor 'step_wise'
-[    0.256778] cpuidle: using governor ladder
-[    0.257426] cpuidle: using governor menu
-[    0.258735] ASID allocator initialised with 32768 entries
-[    0.261562] Serial: AMBA PL011 UART driver
-[    0.305407] 9000000.pl011: ttyAMA0 at MMIO 0x9000000 (irq = 13, base_baud = 0) is a PL011 rev1
-[    0.309219] printk: console [ttyAMA0] enabled
-[    0.329160] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
-[    0.329237] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
-[    0.329272] HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
-[    0.329279] HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
-[    0.329286] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
-[    0.329292] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
-[    0.329299] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
-[    0.329304] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
-[    0.342159] ACPI: Interpreter disabled.
-[    0.347322] iommu: Default domain type: Passthrough
-[    0.350111] SCSI subsystem initialized
-[    0.353899] usbcore: registered new interface driver usbfs
-[    0.354200] usbcore: registered new interface driver hub
-[    0.354443] usbcore: registered new device driver usb
-[    0.386518] clocksource: Switched to clocksource arch_sys_counter
-[    0.392355] pnp: PnP ACPI: disabled
-[    0.400874] NET: Registered PF_INET protocol family
-[    0.402904] IP idents hash table entries: 4096 (order: 3, 32768 bytes, linear)
-[    0.407963] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes, linear)
-[    0.408061] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
-[    0.408143] TCP established hash table entries: 2048 (order: 2, 16384 bytes, linear)
-[    0.408472] TCP bind hash table entries: 2048 (order: 4, 65536 bytes, linear)
-[    0.408735] TCP: Hash tables configured (established 2048 bind 2048)
-[    0.411788] MPTCP token hash table entries: 256 (order: 1, 6144 bytes, linear)
-[    0.412346] UDP hash table entries: 256 (order: 2, 16384 bytes, linear)
-[    0.412884] UDP-Lite hash table entries: 256 (order: 2, 16384 bytes, linear)
-[    0.414873] NET: Registered PF_UNIX/PF_LOCAL protocol family
-[    0.415555] PCI: CLS 0 bytes, default 64
-[    0.425926] kvm [1]: HYP mode not available
-[    0.435428] workingset: timestamp_bits=42 max_order=16 bucket_order=0
-[    0.437750] squashfs: version 4.0 (2009/01/31) Phillip Lougher
-[    0.437788] jffs2: version 2.2 (NAND) (SUMMARY) (LZMA) (RTIME) (CMODE_PRIORITY) (c) 2001-2006 Red Hat, Inc.
-[    0.439796] 9p: Installing v9fs 9p2000 file system support
-[    0.447347] cryptd: max_cpu_qlen set to 1000
-[    0.455734] atomic64_test: passed
-[    0.480658] pl061_gpio 9030000.pl061: PL061 GPIO chip registered
-[    0.495078] pci-host-generic 4010000000.pcie: host bridge /pcie@10000000 ranges:
-[    0.496050] pci-host-generic 4010000000.pcie:       IO 0x003eff0000..0x003effffff -> 0x0000000000
-[    0.496903] pci-host-generic 4010000000.pcie:      MEM 0x0010000000..0x003efeffff -> 0x0010000000
-[    0.496997] pci-host-generic 4010000000.pcie:      MEM 0x8000000000..0xffffffffff -> 0x8000000000
-[    0.497959] pci-host-generic 4010000000.pcie: Memory resource size exceeds max for 32 bits
-[    0.500314] pci-host-generic 4010000000.pcie: ECAM at [mem 0x4010000000-0x401fffffff] for [bus 00-ff]
-[    0.504180] pci-host-generic 4010000000.pcie: PCI host bridge to bus 0000:00
-[    0.504771] pci_bus 0000:00: root bus resource [bus 00-ff]
-[    0.504873] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
-[    0.504935] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff]
-[    0.504944] pci_bus 0000:00: root bus resource [mem 0x8000000000-0xffffffffff]
-[    0.506949] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000 conventional PCI endpoint
-[    0.513475] pci 0000:00:01.0: [1af4:1005] type 00 class 0x00ff00 conventional PCI endpoint
-[    0.514241] pci 0000:00:01.0: BAR 0 [io  0x0000-0x001f]
-[    0.514331] pci 0000:00:01.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.514361] pci 0000:00:01.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.515537] pci 0000:00:02.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.515918] pci 0000:00:02.0: BAR 0 [io  0x0000-0x001f]
-[    0.515969] pci 0000:00:02.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.515987] pci 0000:00:02.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.516032] pci 0000:00:02.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.517127] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.517506] pci 0000:00:03.0: BAR 0 [io  0x0000-0x001f]
-[    0.517551] pci 0000:00:03.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.517590] pci 0000:00:03.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.517613] pci 0000:00:03.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.518602] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.519023] pci 0000:00:04.0: BAR 0 [io  0x0000-0x001f]
-[    0.519056] pci 0000:00:04.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.519071] pci 0000:00:04.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.519093] pci 0000:00:04.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.520003] pci 0000:00:05.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.520401] pci 0000:00:05.0: BAR 0 [io  0x0000-0x001f]
-[    0.520433] pci 0000:00:05.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.520462] pci 0000:00:05.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.520488] pci 0000:00:05.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.521259] pci 0000:00:06.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
-[    0.521581] pci 0000:00:06.0: BAR 0 [io  0x0000-0x001f]
-[    0.521639] pci 0000:00:06.0: BAR 1 [mem 0x00000000-0x00000fff]
-[    0.521672] pci 0000:00:06.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
-[    0.521686] pci 0000:00:06.0: ROM [mem 0x00000000-0x0007ffff pref]
-[    0.524779] pci 0000:00:02.0: ROM [mem 0x10000000-0x1007ffff pref]: assigned
-[    0.524958] pci 0000:00:03.0: ROM [mem 0x10080000-0x100fffff pref]: assigned
-[    0.525002] pci 0000:00:04.0: ROM [mem 0x10100000-0x1017ffff pref]: assigned
-[    0.525011] pci 0000:00:05.0: ROM [mem 0x10180000-0x101fffff pref]: assigned
-[    0.525020] pci 0000:00:06.0: ROM [mem 0x10200000-0x1027ffff pref]: assigned
-[    0.525114] pci 0000:00:01.0: BAR 4 [mem 0x8000000000-0x8000003fff 64bit pref]: assigned
-[    0.525259] pci 0000:00:02.0: BAR 4 [mem 0x8000004000-0x8000007fff 64bit pref]: assigned
-[    0.525285] pci 0000:00:03.0: BAR 4 [mem 0x8000008000-0x800000bfff 64bit pref]: assigned
-[    0.525305] pci 0000:00:04.0: BAR 4 [mem 0x800000c000-0x800000ffff 64bit pref]: assigned
-[    0.525327] pci 0000:00:05.0: BAR 4 [mem 0x8000010000-0x8000013fff 64bit pref]: assigned
-[    0.525348] pci 0000:00:06.0: BAR 4 [mem 0x8000014000-0x8000017fff 64bit pref]: assigned
-[    0.525367] pci 0000:00:01.0: BAR 1 [mem 0x10280000-0x10280fff]: assigned
-[    0.525412] pci 0000:00:02.0: BAR 1 [mem 0x10281000-0x10281fff]: assigned
-[    0.525429] pci 0000:00:03.0: BAR 1 [mem 0x10282000-0x10282fff]: assigned
-[    0.525441] pci 0000:00:04.0: BAR 1 [mem 0x10283000-0x10283fff]: assigned
-[    0.525455] pci 0000:00:05.0: BAR 1 [mem 0x10284000-0x10284fff]: assigned
-[    0.525468] pci 0000:00:06.0: BAR 1 [mem 0x10285000-0x10285fff]: assigned
-[    0.525493] pci 0000:00:01.0: BAR 0 [io  0x1000-0x101f]: assigned
-[    0.525527] pci 0000:00:02.0: BAR 0 [io  0x1020-0x103f]: assigned
-[    0.525536] pci 0000:00:03.0: BAR 0 [io  0x1040-0x105f]: assigned
-[    0.525544] pci 0000:00:04.0: BAR 0 [io  0x1060-0x107f]: assigned
-[    0.525552] pci 0000:00:05.0: BAR 0 [io  0x1080-0x109f]: assigned
-[    0.525560] pci 0000:00:06.0: BAR 0 [io  0x10a0-0x10bf]: assigned
-[    0.525874] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
-[    0.525899] pci_bus 0000:00: resource 5 [mem 0x10000000-0x3efeffff]
-[    0.525908] pci_bus 0000:00: resource 6 [mem 0x8000000000-0xffffffffff]
-[    0.571662] virtio-pci 0000:00:01.0: enabling device (0000 -> 0003)
-[    0.577036] virtio-pci 0000:00:02.0: enabling device (0000 -> 0003)
-[    0.578956] virtio-pci 0000:00:03.0: enabling device (0000 -> 0003)
-[    0.580786] virtio-pci 0000:00:04.0: enabling device (0000 -> 0003)
-[    0.582470] virtio-pci 0000:00:05.0: enabling device (0000 -> 0003)
-[    0.589148] virtio-pci 0000:00:06.0: enabling device (0000 -> 0003)
-[    0.599107] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
-[    0.615052] SuperH (H)SCI(F) driver initialized
-[    0.631480] hv_vmbus: registering driver hyperv_drm
-[    0.665779] loop: module loaded
-[    0.668062] hv_vmbus: registering driver hv_storvsc
-[    0.713023] hv_vmbus: registering driver hv_netvsc
-[    0.716053] usbcore: registered new interface driver usb-storage
-[    0.719172] hv_vmbus: registering driver hyperv_keyboard
-[    0.727768] rtc-pl031 9010000.pl031: registered as rtc0
-[    0.728484] rtc-pl031 9010000.pl031: setting system clock to 2026-11-21T13:38:01 UTC (1795268281)
-[    0.733972] sdhci: Secure Digital Host Controller Interface driver
-[    0.734016] sdhci: Copyright(c) Pierre Ossman
-[    0.734563] Synopsys Designware Multimedia Card Interface Driver
-[    0.735110] sdhci-pltfm: SDHCI platform and OF driver helper
-[    0.738252] usbcore: registered new interface driver usbhid
-[    0.738390] usbhid: USB HID core driver
-[    0.744134] NET: Registered PF_INET6 protocol family
-[    0.763799] Segment Routing with IPv6
-[    0.764129] In-situ OAM (IOAM) with IPv6
-[    0.764875] NET: Registered PF_PACKET protocol family
-[    0.765493] 8021q: 802.1Q VLAN Support v1.8
-[    0.766297] 9pnet: Installing 9P2000 support
-[    0.838046] Demotion targets for Node 0: null
-[    0.846874] clk: Disabling unused clocks
-[    0.847112] PM: genpd: Disabling unused power domains
-[    0.937273] Freeing unused kernel memory: 25280K
-[    0.942273] Run /init as init process
-[    3.278541] init: Console is alive
-[    3.438485] kmodloader: loading kernel modules from /etc/modules-boot.d/*
-[    3.477216] pps_core: LinuxPPS API ver. 1 registered
-[    3.477270] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
-[    3.522987] PTP clock support registered
-[    3.546493] VMware vmxnet3 virtual NIC driver - version 1.9.0.0-k-NAPI
-[    3.567519] e1000e: Intel(R) PRO/1000 Network Driver
-[    3.567580] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
-[    3.570838] kmodloader: done loading kernel modules from /etc/modules-boot.d/*
-[    3.590535] init: - preinit -
-[    4.574420] virtio_net virtio1 wan: renamed from eth0
-[    4.663611] virtio_net virtio2 lan1: renamed from eth1
-[    4.751539] virtio_net virtio3 lan2: renamed from eth2
-[    4.840242] virtio_net virtio4 lan3: renamed from eth3
-[    4.910325] virtio_net virtio5 lan4: renamed from eth4
+[    0.000065] sched_clock: 57 bits at 63MHz, resolution 16ns, wraps every 4398046511096ns
+[    0.004315] Console: colour dummy device 80x25
+[    0.007710] Calibrating delay loop (skipped), value calculated using timer frequency.. 125.00 BogoMIPS (lpj=625000)
+[    0.007874] pid_max: default: 32768 minimum: 301
+[    0.014474] Mount-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.014526] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.061376] rcu: Hierarchical SRCU implementation.
+[    0.061450] rcu: 	Max phase no-delay instances is 1000.
+[    0.062942] Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+[    0.065648] EFI services will not be available.
+[    0.067063] smp: Bringing up secondary CPUs ...
+[    0.070590] Detected VIPT I-cache on CPU1
+[    0.071856] CPU1: Booted secondary processor 0x0000000001 [0x410fd034]
+[    0.076618] smp: Brought up 1 node, 2 CPUs
+[    0.076666] SMP: Total of 2 processors activated.
+[    0.076700] CPU: All CPU(s) started at EL1
+[    0.076990] CPU features: detected: 32-bit EL0 Support
+[    0.077005] CPU features: detected: 32-bit EL1 Support
+[    0.077077] CPU features: detected: CRC32 instructions
+[    0.087035] alternatives: applying system-wide alternatives
+[    0.092831] CPU features: emulated: Privileged Access Never (PAN) using TTBR0_EL1 switching
+[    0.110743] Memory: 118028K/204800K available (12992K kernel code, 1626K rwdata, 5004K rodata, 25280K init, 486K bss, 52352K reserved, 32768K cma-reserved)
+[    0.165725] posixtimers hash table entries: 1024 (order: 2, 16384 bytes, linear)
+[    0.166106] futex hash table entries: 512 (32768 bytes on 1 NUMA nodes, total 32 KiB, linear).
+[    0.168865] 2G module region forced by RANDOMIZE_MODULE_REGION_FULL
+[    0.168921] 0 pages in range for non-PLT usage
+[    0.168968] 512880 pages in range for PLT usage
+[    0.170598] pinctrl core: initialized pinctrl subsystem
+[    0.186979] DMI not present or invalid.
+[    0.218528] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.234400] DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+[    0.235525] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.236142] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.240620] thermal_sys: Registered thermal governor 'step_wise'
+[    0.241487] cpuidle: using governor ladder
+[    0.242000] cpuidle: using governor menu
+[    0.242990] ASID allocator initialised with 32768 entries
+[    0.244960] Serial: AMBA PL011 UART driver
+[    0.274438] 9000000.pl011: ttyAMA0 at MMIO 0x9000000 (irq = 13, base_baud = 0) is a PL011 rev1
+[    0.278673] printk: console [ttyAMA0] enabled
+[    0.302653] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[    0.302759] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
+[    0.302862] HugeTLB: registered 32.0 MiB page size, pre-allocated 0 pages
+[    0.302875] HugeTLB: 0 KiB vmemmap can be freed for a 32.0 MiB page
+[    0.302886] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.302893] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
+[    0.302902] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+[    0.302908] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+[    0.318159] ACPI: Interpreter disabled.
+[    0.322893] iommu: Default domain type: Passthrough
+[    0.326445] SCSI subsystem initialized
+[    0.331495] usbcore: registered new interface driver usbfs
+[    0.331901] usbcore: registered new interface driver hub
+[    0.332108] usbcore: registered new device driver usb
+[    0.354038] clocksource: Switched to clocksource arch_sys_counter
+[    0.358120] pnp: PnP ACPI: disabled
+[    0.370669] NET: Registered PF_INET protocol family
+[    0.372786] IP idents hash table entries: 4096 (order: 3, 32768 bytes, linear)
+[    0.378580] tcp_listen_portaddr_hash hash table entries: 256 (order: 0, 4096 bytes, linear)
+[    0.378682] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.378763] TCP established hash table entries: 2048 (order: 2, 16384 bytes, linear)
+[    0.378922] TCP bind hash table entries: 2048 (order: 4, 65536 bytes, linear)
+[    0.379061] TCP: Hash tables configured (established 2048 bind 2048)
+[    0.382048] MPTCP token hash table entries: 256 (order: 1, 6144 bytes, linear)
+[    0.382440] UDP hash table entries: 256 (order: 2, 16384 bytes, linear)
+[    0.382672] UDP-Lite hash table entries: 256 (order: 2, 16384 bytes, linear)
+[    0.385826] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.386747] PCI: CLS 0 bytes, default 64
+[    0.394839] kvm [1]: HYP mode not available
+[    0.402447] workingset: timestamp_bits=42 max_order=16 bucket_order=0
+[    0.406093] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.406154] jffs2: version 2.2 (NAND) (SUMMARY) (LZMA) (RTIME) (CMODE_PRIORITY) (c) 2001-2006 Red Hat, Inc.
+[    0.409447] 9p: Installing v9fs 9p2000 file system support
+[    0.415605] cryptd: max_cpu_qlen set to 1000
+[    0.430359] atomic64_test: passed
+[    0.458473] pl061_gpio 9030000.pl061: PL061 GPIO chip registered
+[    0.462770] pci-host-generic 4010000000.pcie: host bridge /pcie@10000000 ranges:
+[    0.463581] pci-host-generic 4010000000.pcie:       IO 0x003eff0000..0x003effffff -> 0x0000000000
+[    0.464881] pci-host-generic 4010000000.pcie:      MEM 0x0010000000..0x003efeffff -> 0x0010000000
+[    0.464958] pci-host-generic 4010000000.pcie:      MEM 0x8000000000..0xffffffffff -> 0x8000000000
+[    0.466036] pci-host-generic 4010000000.pcie: Memory resource size exceeds max for 32 bits
+[    0.468857] pci-host-generic 4010000000.pcie: ECAM at [mem 0x4010000000-0x401fffffff] for [bus 00-ff]
+[    0.471734] pci-host-generic 4010000000.pcie: PCI host bridge to bus 0000:00
+[    0.472324] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.472482] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+[    0.472557] pci_bus 0000:00: root bus resource [mem 0x10000000-0x3efeffff]
+[    0.472573] pci_bus 0000:00: root bus resource [mem 0x8000000000-0xffffffffff]
+[    0.475071] pci 0000:00:00.0: [1b36:0008] type 00 class 0x060000 conventional PCI endpoint
+[    0.481397] pci 0000:00:01.0: [1af4:1005] type 00 class 0x00ff00 conventional PCI endpoint
+[    0.482130] pci 0000:00:01.0: BAR 0 [io  0x0000-0x001f]
+[    0.482304] pci 0000:00:01.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.482365] pci 0000:00:01.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.483401] pci 0000:00:02.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.484421] pci 0000:00:02.0: BAR 0 [io  0x0000-0x001f]
+[    0.484484] pci 0000:00:02.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.484505] pci 0000:00:02.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.484542] pci 0000:00:02.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.485381] pci 0000:00:03.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.485701] pci 0000:00:03.0: BAR 0 [io  0x0000-0x001f]
+[    0.485751] pci 0000:00:03.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.485768] pci 0000:00:03.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.485783] pci 0000:00:03.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.486496] pci 0000:00:04.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.486813] pci 0000:00:04.0: BAR 0 [io  0x0000-0x001f]
+[    0.486859] pci 0000:00:04.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.486876] pci 0000:00:04.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.486890] pci 0000:00:04.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.487621] pci 0000:00:05.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.487964] pci 0000:00:05.0: BAR 0 [io  0x0000-0x001f]
+[    0.488017] pci 0000:00:05.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.488035] pci 0000:00:05.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.488051] pci 0000:00:05.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.488781] pci 0000:00:06.0: [1af4:1000] type 00 class 0x020000 conventional PCI endpoint
+[    0.489088] pci 0000:00:06.0: BAR 0 [io  0x0000-0x001f]
+[    0.489176] pci 0000:00:06.0: BAR 1 [mem 0x00000000-0x00000fff]
+[    0.489233] pci 0000:00:06.0: BAR 4 [mem 0x00000000-0x00003fff 64bit pref]
+[    0.489249] pci 0000:00:06.0: ROM [mem 0x00000000-0x0007ffff pref]
+[    0.492624] pci 0000:00:02.0: ROM [mem 0x10000000-0x1007ffff pref]: assigned
+[    0.492890] pci 0000:00:03.0: ROM [mem 0x10080000-0x100fffff pref]: assigned
+[    0.492965] pci 0000:00:04.0: ROM [mem 0x10100000-0x1017ffff pref]: assigned
+[    0.492983] pci 0000:00:05.0: ROM [mem 0x10180000-0x101fffff pref]: assigned
+[    0.492996] pci 0000:00:06.0: ROM [mem 0x10200000-0x1027ffff pref]: assigned
+[    0.493174] pci 0000:00:01.0: BAR 4 [mem 0x8000000000-0x8000003fff 64bit pref]: assigned
+[    0.493420] pci 0000:00:02.0: BAR 4 [mem 0x8000004000-0x8000007fff 64bit pref]: assigned
+[    0.493454] pci 0000:00:03.0: BAR 4 [mem 0x8000008000-0x800000bfff 64bit pref]: assigned
+[    0.493480] pci 0000:00:04.0: BAR 4 [mem 0x800000c000-0x800000ffff 64bit pref]: assigned
+[    0.493506] pci 0000:00:05.0: BAR 4 [mem 0x8000010000-0x8000013fff 64bit pref]: assigned
+[    0.493528] pci 0000:00:06.0: BAR 4 [mem 0x8000014000-0x8000017fff 64bit pref]: assigned
+[    0.493550] pci 0000:00:01.0: BAR 1 [mem 0x10280000-0x10280fff]: assigned
+[    0.493567] pci 0000:00:02.0: BAR 1 [mem 0x10281000-0x10281fff]: assigned
+[    0.493581] pci 0000:00:03.0: BAR 1 [mem 0x10282000-0x10282fff]: assigned
+[    0.493593] pci 0000:00:04.0: BAR 1 [mem 0x10283000-0x10283fff]: assigned
+[    0.493603] pci 0000:00:05.0: BAR 1 [mem 0x10284000-0x10284fff]: assigned
+[    0.493617] pci 0000:00:06.0: BAR 1 [mem 0x10285000-0x10285fff]: assigned
+[    0.493646] pci 0000:00:01.0: BAR 0 [io  0x1000-0x101f]: assigned
+[    0.493991] pci 0000:00:02.0: BAR 0 [io  0x1020-0x103f]: assigned
+[    0.494023] pci 0000:00:03.0: BAR 0 [io  0x1040-0x105f]: assigned
+[    0.494040] pci 0000:00:04.0: BAR 0 [io  0x1060-0x107f]: assigned
+[    0.494055] pci 0000:00:05.0: BAR 0 [io  0x1080-0x109f]: assigned
+[    0.494069] pci 0000:00:06.0: BAR 0 [io  0x10a0-0x10bf]: assigned
+[    0.494611] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
+[    0.494652] pci_bus 0000:00: resource 5 [mem 0x10000000-0x3efeffff]
+[    0.494665] pci_bus 0000:00: resource 6 [mem 0x8000000000-0xffffffffff]
+[    0.583015] virtio-pci 0000:00:01.0: enabling device (0000 -> 0003)
+[    0.588333] virtio-pci 0000:00:02.0: enabling device (0000 -> 0003)
+[    0.590678] virtio-pci 0000:00:03.0: enabling device (0000 -> 0003)
+[    0.593099] virtio-pci 0000:00:04.0: enabling device (0000 -> 0003)
+[    0.596006] virtio-pci 0000:00:05.0: enabling device (0000 -> 0003)
+[    0.598108] virtio-pci 0000:00:06.0: enabling device (0000 -> 0003)
+[    0.602818] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.610136] SuperH (H)SCI(F) driver initialized
+[    0.635294] hv_vmbus: registering driver hyperv_drm
+[    0.660684] loop: module loaded
+[    0.662457] hv_vmbus: registering driver hv_storvsc
+[    0.697710] hv_vmbus: registering driver hv_netvsc
+[    0.700849] usbcore: registered new interface driver usb-storage
+[    0.704601] hv_vmbus: registering driver hyperv_keyboard
+[    0.709638] rtc-pl031 9010000.pl031: registered as rtc0
+[    0.710295] rtc-pl031 9010000.pl031: setting system clock to 2026-11-21T14:52:44 UTC (1795272764)
+[    0.715362] sdhci: Secure Digital Host Controller Interface driver
+[    0.715393] sdhci: Copyright(c) Pierre Ossman
+[    0.715980] Synopsys Designware Multimedia Card Interface Driver
+[    0.716579] sdhci-pltfm: SDHCI platform and OF driver helper
+[    0.719358] usbcore: registered new interface driver usbhid
+[    0.719388] usbhid: USB HID core driver
+[    0.722558] NET: Registered PF_INET6 protocol family
+[    0.733648] Segment Routing with IPv6
+[    0.734219] In-situ OAM (IOAM) with IPv6
+[    0.734833] NET: Registered PF_PACKET protocol family
+[    0.735515] 8021q: 802.1Q VLAN Support v1.8
+[    0.736355] 9pnet: Installing 9P2000 support
+[    0.774330] Demotion targets for Node 0: null
+[    0.783395] clk: Disabling unused clocks
+[    0.783662] PM: genpd: Disabling unused power domains
+[    0.849021] Freeing unused kernel memory: 25280K
+[    0.855998] Run /init as init process
+[    3.472028] init: Console is alive
+[    3.674714] kmodloader: loading kernel modules from /etc/modules-boot.d/*
+[    3.712084] pps_core: LinuxPPS API ver. 1 registered
+[    3.712220] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    3.792430] PTP clock support registered
+[    3.818867] VMware vmxnet3 virtual NIC driver - version 1.9.0.0-k-NAPI
+[    3.864499] e1000e: Intel(R) PRO/1000 Network Driver
+[    3.864568] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+[    3.867699] kmodloader: done loading kernel modules from /etc/modules-boot.d/*
+[    3.889327] init: - preinit -
+[    4.876850] virtio_net virtio1 wan: renamed from eth0
+[    4.964290] virtio_net virtio2 lan1: renamed from eth1
+[    5.070608] virtio_net virtio3 lan2: renamed from eth2
+[    5.152672] virtio_net virtio4 lan3: renamed from eth3
+[    5.221355] virtio_net virtio5 lan4: renamed from eth4
 Press the [f] key and hit [enter] to enter failsafe mode
 Press the [1], [2], [3] or [4] key and hit [enter] to select the debug level
 - generating board file -
-[   11.915718] procd: - early -
-[   12.843776] procd: - ubus -
-[   13.078246] procd: - init -
+[   12.416161] procd: - early -
+[   13.398725] procd: - ubus -
+[   13.618412] procd: - init -
 Please press Enter to activate this console.
-[   14.743312] urngd: v1.0.2 started.
-[   16.689039] kmodloader: loading kernel modules from /etc/modules.d/*
-[   17.912066] MACsec IEEE 802.1AE
-[   18.114574] rvu_af: Marvell OcteonTX2 RVU Admin Function Driver
-[   18.138074] rvu_nicpf: Marvell RVU NIC Physical Function Driver
-[   18.146510] rvu_nicvf: Marvell RVU NIC Virtual Function Driver
-[   18.211730] i2c_dev: i2c /dev entries driver
-[   18.232552] GACT probability on
-[   18.237462] Mirror/redirect action on
-[   18.264354] u32 classifier
-[   18.264435]     input device check on
-[   18.264444]     Actions configured
-[   18.316732] compat: loading out-of-tree module taints kernel.
-[   18.318466] Loading modules backported from Linux version v7.2-0-g8d3ae59288f1
-[   18.318502] Backport generated by backports.git v5.15.58-1-198-g2580fa90cb79
-[   18.515525] mac80211_hwsim: initializing netlink
-[   18.675161] PPP generic driver version 2.4.2
-[   18.680415] NET: Registered PF_PPPOX protocol family
-[   18.717453] kmodloader: done loading kernel modules from /etc/modules.d/*
-[   54.844366] 8021q: adding VLAN 0 to HW filter on device lan1
-[   54.907208] br-lan: port 1(lan1) entered blocking state
-[   54.907515] br-lan: port 1(lan1) entered disabled state
-[   54.908685] virtio_net virtio2 lan1: entered allmulticast mode
-[   54.913277] virtio_net virtio2 lan1: entered promiscuous mode
-[   54.958693] br-lan: port 1(lan1) entered blocking state
-[   54.958892] br-lan: port 1(lan1) entered forwarding state
-[   55.093515] 8021q: adding VLAN 0 to HW filter on device lan2
-[   55.099356] br-lan: port 2(lan2) entered blocking state
-[   55.099486] br-lan: port 2(lan2) entered disabled state
-[   55.099694] virtio_net virtio3 lan2: entered allmulticast mode
-[   55.100728] virtio_net virtio3 lan2: entered promiscuous mode
-[   55.138081] br-lan: port 2(lan2) entered blocking state
-[   55.138211] br-lan: port 2(lan2) entered forwarding state
-[   55.254880] 8021q: adding VLAN 0 to HW filter on device lan3
-[   55.264898] br-lan: port 3(lan3) entered blocking state
-[   55.264966] br-lan: port 3(lan3) entered disabled state
-[   55.265094] virtio_net virtio4 lan3: entered allmulticast mode
-[   55.268028] virtio_net virtio4 lan3: entered promiscuous mode
-[   55.273206] br-lan: port 3(lan3) entered blocking state
-[   55.273290] br-lan: port 3(lan3) entered forwarding state
-[   55.339026] 8021q: adding VLAN 0 to HW filter on device lan4
-[   55.366428] br-lan: port 4(lan4) entered blocking state
-[   55.366539] br-lan: port 4(lan4) entered disabled state
-[   55.366725] virtio_net virtio5 lan4: entered allmulticast mode
-[   55.369664] virtio_net virtio5 lan4: entered promiscuous mode
-[   55.375219] br-lan: port 4(lan4) entered blocking state
-[   55.375291] br-lan: port 4(lan4) entered forwarding state
-[   55.557660] 8021q: adding VLAN 0 to HW filter on device wan
-[   70.117245] br-lan: port 5(phy0-ap0) entered blocking state
-[   70.117364] br-lan: port 5(phy0-ap0) entered disabled state
-[   70.117619] mac80211_hwsim hwsim0 phy0-ap0: entered allmulticast mode
-[   70.118899] mac80211_hwsim hwsim0 phy0-ap0: entered promiscuous mode
-[   70.625534] br-lan: port 5(phy0-ap0) entered blocking state
-[   70.625652] br-lan: port 5(phy0-ap0) entered forwarding state
-[   72.502247] br-guest: port 1(phy0-ap1) entered blocking state
-[   72.502355] br-guest: port 1(phy0-ap1) entered disabled state
-[   72.502880] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
-[   72.503944] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
-[   72.525670] br-guest: port 1(phy0-ap1) entered blocking state
-[   72.525776] br-guest: port 1(phy0-ap1) entered forwarding state
-[   72.533439] br-guest: port 1(phy0-ap1) entered disabled state
-[   72.913915] br-guest: port 1(phy0-ap1) entered blocking state
-[   72.914042] br-guest: port 1(phy0-ap1) entered forwarding state
-[   74.015001] br-iot: port 1(phy0-ap2) entered blocking state
-[   74.015074] br-iot: port 1(phy0-ap2) entered disabled state
-[   74.015182] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
-[   74.024630] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
-[   74.031703] br-iot: port 1(phy0-ap2) entered blocking state
-[   74.031769] br-iot: port 1(phy0-ap2) entered forwarding state
-[   74.053126] br-iot: port 1(phy0-ap2) entered disabled state
-[   74.153934] br-iot: port 1(phy0-ap2) entered blocking state
-[   74.154059] br-iot: port 1(phy0-ap2) entered forwarding state
-[   76.382577] mac80211_hwsim hwsim0 phy0-ap1: left allmulticast mode
-[   76.385037] mac80211_hwsim hwsim0 phy0-ap1: left promiscuous mode
-[   76.385991] br-guest: port 1(phy0-ap1) entered disabled state
-[   76.626349] br-guest: port 1(phy0-ap1) entered blocking state
-[   76.626550] br-guest: port 1(phy0-ap1) entered disabled state
-[   76.627153] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
-[   76.630806] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
-[   76.634844] br-guest: port 1(phy0-ap1) entered blocking state
-[   76.634975] br-guest: port 1(phy0-ap1) entered forwarding state
-[   76.709683] mac80211_hwsim hwsim0 phy0-ap2: left allmulticast mode
-[   76.709872] mac80211_hwsim hwsim0 phy0-ap2: left promiscuous mode
-[   76.710260] br-iot: port 1(phy0-ap2) entered disabled state
-[   76.779576] br-iot: port 1(phy0-ap2) entered blocking state
-[   76.779670] br-iot: port 1(phy0-ap2) entered disabled state
-[   76.779890] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
-[   76.780712] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
-[   76.781264] br-iot: port 1(phy0-ap2) entered blocking state
-[   76.781290] br-iot: port 1(phy0-ap2) entered forwarding state
-[   88.211796] br-lan: port 6(phy1-ap0) entered blocking state
-[   88.211956] br-lan: port 6(phy1-ap0) entered disabled state
-[   88.212213] mac80211_hwsim hwsim1 phy1-ap0: entered allmulticast mode
-[   88.213821] mac80211_hwsim hwsim1 phy1-ap0: entered promiscuous mode
-[   89.165729] br-lan: port 6(phy1-ap0) entered blocking state
-[   89.165806] br-lan: port 6(phy1-ap0) entered forwarding state
+[   15.402299] urngd: v1.0.2 started.
+[   17.551593] kmodloader: loading kernel modules from /etc/modules.d/*
+[   18.718658] MACsec IEEE 802.1AE
+[   18.916037] rvu_af: Marvell OcteonTX2 RVU Admin Function Driver
+[   18.950405] rvu_nicpf: Marvell RVU NIC Physical Function Driver
+[   18.960720] rvu_nicvf: Marvell RVU NIC Virtual Function Driver
+[   19.019945] i2c_dev: i2c /dev entries driver
+[   19.045622] GACT probability on
+[   19.050515] Mirror/redirect action on
+[   19.079011] u32 classifier
+[   19.079096]     input device check on
+[   19.079109]     Actions configured
+[   19.160142] compat: loading out-of-tree module taints kernel.
+[   19.162350] Loading modules backported from Linux version v7.2-0-g8d3ae59288f1
+[   19.162413] Backport generated by backports.git v5.15.58-1-198-g2580fa90cb79
+[   19.400768] mac80211_hwsim: initializing netlink
+[   19.537974] PPP generic driver version 2.4.2
+[   19.542406] NET: Registered PF_PPPOX protocol family
+[   19.569692] kmodloader: done loading kernel modules from /etc/modules.d/*
+[   57.235064] 8021q: adding VLAN 0 to HW filter on device lan1
+[   57.301924] br-lan: port 1(lan1) entered blocking state
+[   57.302150] br-lan: port 1(lan1) entered disabled state
+[   57.303065] virtio_net virtio2 lan1: entered allmulticast mode
+[   57.307722] virtio_net virtio2 lan1: entered promiscuous mode
+[   57.376856] br-lan: port 1(lan1) entered blocking state
+[   57.377062] br-lan: port 1(lan1) entered forwarding state
+[   57.544506] 8021q: adding VLAN 0 to HW filter on device lan2
+[   57.575484] br-lan: port 2(lan2) entered blocking state
+[   57.575570] br-lan: port 2(lan2) entered disabled state
+[   57.575719] virtio_net virtio3 lan2: entered allmulticast mode
+[   57.576404] virtio_net virtio3 lan2: entered promiscuous mode
+[   57.577269] br-lan: port 2(lan2) entered blocking state
+[   57.577302] br-lan: port 2(lan2) entered forwarding state
+[   57.666504] 8021q: adding VLAN 0 to HW filter on device lan3
+[   57.686058] br-lan: port 3(lan3) entered blocking state
+[   57.686155] br-lan: port 3(lan3) entered disabled state
+[   57.686332] virtio_net virtio4 lan3: entered allmulticast mode
+[   57.688140] virtio_net virtio4 lan3: entered promiscuous mode
+[   57.709829] br-lan: port 3(lan3) entered blocking state
+[   57.709926] br-lan: port 3(lan3) entered forwarding state
+[   57.805599] 8021q: adding VLAN 0 to HW filter on device lan4
+[   57.809379] br-lan: port 4(lan4) entered blocking state
+[   57.809451] br-lan: port 4(lan4) entered disabled state
+[   57.809608] virtio_net virtio5 lan4: entered allmulticast mode
+[   57.824654] virtio_net virtio5 lan4: entered promiscuous mode
+[   57.844640] br-lan: port 4(lan4) entered blocking state
+[   57.844758] br-lan: port 4(lan4) entered forwarding state
+[   58.049325] 8021q: adding VLAN 0 to HW filter on device wan
+[   75.370136] br-lan: port 5(phy0-ap0) entered blocking state
+[   75.370262] br-lan: port 5(phy0-ap0) entered disabled state
+[   75.370424] mac80211_hwsim hwsim0 phy0-ap0: entered allmulticast mode
+[   75.371267] mac80211_hwsim hwsim0 phy0-ap0: entered promiscuous mode
+[   75.694960] br-lan: port 5(phy0-ap0) entered blocking state
+[   75.695049] br-lan: port 5(phy0-ap0) entered forwarding state
+[   77.283171] br-guest: port 1(phy0-ap1) entered blocking state
+[   77.283347] br-guest: port 1(phy0-ap1) entered disabled state
+[   77.283588] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
+[   77.285628] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
+[   77.294538] br-guest: port 1(phy0-ap1) entered blocking state
+[   77.294630] br-guest: port 1(phy0-ap1) entered forwarding state
+[   77.297619] br-guest: port 1(phy0-ap1) entered disabled state
+[   77.595116] br-guest: port 1(phy0-ap1) entered blocking state
+[   77.595240] br-guest: port 1(phy0-ap1) entered forwarding state
+[   79.471014] br-iot: port 1(phy0-ap2) entered blocking state
+[   79.471113] br-iot: port 1(phy0-ap2) entered disabled state
+[   79.471271] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
+[   79.475434] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
+[   79.485452] br-iot: port 1(phy0-ap2) entered blocking state
+[   79.485529] br-iot: port 1(phy0-ap2) entered forwarding state
+[   79.489322] br-iot: port 1(phy0-ap2) entered disabled state
+[   79.627902] br-iot: port 1(phy0-ap2) entered blocking state
+[   79.627992] br-iot: port 1(phy0-ap2) entered forwarding state
+[   80.500134] mac80211_hwsim hwsim0 phy0-ap1: left allmulticast mode
+[   80.500356] mac80211_hwsim hwsim0 phy0-ap1: left promiscuous mode
+[   80.500822] br-guest: port 1(phy0-ap1) entered disabled state
+[   80.690593] br-guest: port 1(phy0-ap1) entered blocking state
+[   80.690730] br-guest: port 1(phy0-ap1) entered disabled state
+[   80.691015] mac80211_hwsim hwsim0 phy0-ap1: entered allmulticast mode
+[   80.692836] mac80211_hwsim hwsim0 phy0-ap1: entered promiscuous mode
+[   80.694811] br-guest: port 1(phy0-ap1) entered blocking state
+[   80.694937] br-guest: port 1(phy0-ap1) entered forwarding state
+[   80.850756] mac80211_hwsim hwsim0 phy0-ap2: left allmulticast mode
+[   80.851097] mac80211_hwsim hwsim0 phy0-ap2: left promiscuous mode
+[   80.851715] br-iot: port 1(phy0-ap2) entered disabled state
+[   81.235576] br-iot: port 1(phy0-ap2) entered blocking state
+[   81.237402] br-iot: port 1(phy0-ap2) entered disabled state
+[   81.239176] mac80211_hwsim hwsim0 phy0-ap2: entered allmulticast mode
+[   81.248878] mac80211_hwsim hwsim0 phy0-ap2: entered promiscuous mode
+[   81.256746] br-iot: port 1(phy0-ap2) entered blocking state
+[   81.256864] br-iot: port 1(phy0-ap2) entered forwarding state
+[   94.355840] br-lan: port 6(phy1-ap0) entered blocking state
+[   94.355913] br-lan: port 6(phy1-ap0) entered disabled state
+[   94.356059] mac80211_hwsim hwsim1 phy1-ap0: entered allmulticast mode
+[   94.356806] mac80211_hwsim hwsim1 phy1-ap0: entered promiscuous mode
+[   95.456088] br-lan: port 6(phy1-ap0) entered blocking state
+[   95.456170] br-lan: port 6(phy1-ap0) entered forwarding state

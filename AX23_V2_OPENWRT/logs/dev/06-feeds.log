@@ -3,12 +3,14 @@ src-git luci https://github.com/openwrt/luci.git^4bc2f85da82894c6a5d28ab1b610ca6
 src-git routing https://github.com/openwrt/routing.git^4b9891b9136259f93294a424507ed24c5e8c1cbd
 Updating feed 'packages' from 'https://github.com/openwrt/packages.git^a16d10144dd3f854a57d9a512dfa84f990b45d65' ...
 Cloning into './feeds/packages'...
+Updating files:  80% (4289/5352)Updating files:  81% (4336/5352)Updating files:  82% (4389/5352)Updating files:  83% (4443/5352)Updating files:  84% (4496/5352)Updating files:  85% (4550/5352)Updating files:  86% (4603/5352)Updating files:  87% (4657/5352)Updating files:  88% (4710/5352)Updating files:  89% (4764/5352)Updating files:  90% (4817/5352)Updating files:  91% (4871/5352)Updating files:  92% (4924/5352)Updating files:  93% (4978/5352)Updating files:  94% (5031/5352)Updating files:  95% (5085/5352)Updating files:  96% (5138/5352)Updating files:  97% (5192/5352)Updating files:  98% (5245/5352)Updating files:  99% (5299/5352)Updating files: 100% (5352/5352)Updating files: 100% (5352/5352), done.
 From https://github.com/openwrt/packages
  * branch            a16d10144dd3f854a57d9a512dfa84f990b45d65 -> FETCH_HEAD
 HEAD is now at a16d101 telldus-mqtt: update to 0.4.1
 /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt
 Updating feed 'luci' from 'https://github.com/openwrt/luci.git^4bc2f85da82894c6a5d28ab1b610ca6e6ffc29ba' ...
 Cloning into './feeds/luci'...
+Updating files:  85% (4949/5798)Updating files:  86% (4987/5798)Updating files:  87% (5045/5798)Updating files:  88% (5103/5798)Updating files:  89% (5161/5798)Updating files:  90% (5219/5798)Updating files:  91% (5277/5798)Updating files:  92% (5335/5798)Updating files:  93% (5393/5798)Updating files:  94% (5451/5798)Updating files:  95% (5509/5798)Updating files:  96% (5567/5798)Updating files:  97% (5625/5798)Updating files:  98% (5683/5798)Updating files:  99% (5741/5798)Updating files: 100% (5798/5798)Updating files: 100% (5798/5798), done.
 From https://github.com/openwrt/luci
  * branch            4bc2f85da82894c6a5d28ab1b610ca6e6ffc29ba -> FETCH_HEAD
 HEAD is now at 4bc2f85 luci-app-tailscale-community: fix status parsing and TUNMode type
