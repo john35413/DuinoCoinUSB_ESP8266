@@ -1,3 +1,0 @@
-awk: fatal: cannot open file `/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/logs/twin/matrix/ram-128M 160M 176M 200M/results.tsv' for reading: No such file or directory
-awk: fatal: cannot open file `/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/logs/twin/matrix/ram-128M 160M 176M 200M/results.tsv' for reading: No such file or directory
-ram-128M 160M 176M 200M	128M 160M 176M 200M	180	0	?	?	?			
