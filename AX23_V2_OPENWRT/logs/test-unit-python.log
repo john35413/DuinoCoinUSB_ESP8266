@@ -15,7 +15,7 @@ test_erased_env_has_no_valid_crc (__main__.UbootEnv.test_erased_env_has_no_valid
 test_redundant_layout (__main__.UbootEnv.test_redundant_layout) ... ok
 
 ----------------------------------------------------------------------
-Ran 15 tests in 0.217s
+Ran 15 tests in 0.235s
 
 OK
 PASS: exact AX23 keys and matching board payloads

@@ -1,0 +1,24 @@
+PASS ring WBM idle link                  262144 B x1 -> order 6 (256 KiB)
+PASS ring REO destination                131072 B x4 -> order 5 (512 KiB)
+PASS ring TX completion (961)             65536 B x1 -> order 4 (64 KiB)
+PASS ring RX release                      32768 B x1 -> order 3 (32 KiB)
+PASS ring RXDMA error destination (962)   32768 B x1 -> order 3 (32 KiB)
+PASS ring TCL data                        16384 B x1 -> order 2 (16 KiB)
+PASS ring REO exception                    8192 B x1 -> order 1 (8 KiB)
+PASS ring RXDMA buffer (962)               8192 B x1 -> order 1 (8 KiB)
+PASS ring REO status                     212992 B x1 -> order 6 (256 KiB)
+INFO ring DMA per radio 1184 KiB, highest ring order 6
+PASS misaligned allocation refused and freed (ret -22, live 0)
+PASS ath11k patch 965 is present in the prepared source and reverses cleanly
+FAIL ring WBM idle link                  262144 B x1 -> order 7 (512 KiB)
+FAIL ring REO destination                131072 B x4 -> order 6 (1024 KiB)
+FAIL ring TX completion (961)             65536 B x1 -> order 5 (128 KiB)
+FAIL ring RX release                      32768 B x1 -> order 4 (64 KiB)
+FAIL ring RXDMA error destination (962)   32768 B x1 -> order 4 (64 KiB)
+FAIL ring TCL data                        16384 B x1 -> order 3 (32 KiB)
+FAIL ring REO exception                    8192 B x1 -> order 2 (16 KiB)
+FAIL ring RXDMA buffer (962)               8192 B x1 -> order 2 (16 KiB)
+PASS ring REO status                     212992 B x1 -> order 6 (256 KiB)
+INFO ring DMA per radio 2112 KiB, highest ring order 7
+FAIL misaligned allocation refused and freed (ret 0, live 16384)
+PASS checks detect the unpatched ring sizing

@@ -1,7 +1,6 @@
 make[2]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/scripts/config'
 make[2]: 'conf' is up to date.
 make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/scripts/config'
-time: target/linux/prereq#0.13#0.02#0.14
  make[1] tools/install
  make[2] -C tools/libdeflate compile
  make[2] -C tools/flock compile
@@ -9,10 +8,10 @@ time: target/linux/prereq#0.13#0.02#0.14
  make[2] -C tools/sed compile
  make[2] -C tools/tar compile
  make[2] -C tools/patch compile
- make[2] -C tools/autoconf-archive compile
- make[2] -C tools/ninja compile
  make[2] -C tools/m4 compile
+ make[2] -C tools/ninja compile
  make[2] -C tools/xz compile
+ make[2] -C tools/autoconf-archive compile
  make[2] -C tools/gnulib compile
  make[2] -C tools/expat compile
  make[2] -C tools/zlib compile
@@ -25,8 +24,8 @@ time: target/linux/prereq#0.13#0.02#0.14
  make[2] -C tools/zip compile
  make[2] -C tools/autoconf compile
  make[2] -C tools/meson compile
- make[2] -C tools/make-ext4fs compile
  make[2] -C tools/pkgconf compile
+ make[2] -C tools/make-ext4fs compile
  make[2] -C tools/lz4 compile
  make[2] -C tools/missing-macros compile
  make[2] -C tools/automake compile
@@ -34,9 +33,9 @@ time: target/linux/prereq#0.13#0.02#0.14
  make[2] -C tools/libtool compile
  make[2] -C tools/dosfstools compile
  make[2] -C tools/cmake compile
- make[2] -C tools/fakeroot compile
  make[2] -C tools/gengetopt compile
  make[2] -C tools/flex compile
+ make[2] -C tools/fakeroot compile
  make[2] -C tools/mklibs compile
  make[2] -C tools/patchelf compile
  make[2] -C tools/gmp compile
@@ -58,9 +57,9 @@ make[2]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/bui
 make[2]: 'conf' is up to date.
 make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/scripts/config'
  make[1] toolchain/install
- make[2] -C toolchain/fortify-headers compile
  make[2] -C toolchain/gdb compile
  make[2] -C toolchain/binutils compile
+ make[2] -C toolchain/fortify-headers compile
  make[2] -C toolchain/gcc/initial compile
  make[2] -C toolchain/kernel-headers compile
  make[2] -C toolchain/musl compile
