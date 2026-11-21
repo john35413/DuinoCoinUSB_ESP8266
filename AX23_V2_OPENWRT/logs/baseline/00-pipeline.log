@@ -1,0 +1,9 @@
+[2026-11-21T07:00:47Z] [baseline] pipeline start (jobs=4)
+[2026-11-21T07:00:47Z] [baseline] stage 01 deps -> logs/baseline/01-deps.log
+[2026-11-21T07:00:47Z] [baseline] stage 02 checkout -> logs/baseline/02-checkout.log
+[2026-11-21T07:00:47Z] [baseline] stage 03 verify-sha -> logs/baseline/03-verify-sha.log
+[2026-11-21T07:00:47Z] [baseline] stage 04 stage-ax23 -> logs/baseline/04-stage-ax23.log
+[2026-11-21T07:00:48Z] [baseline] stage 06 feeds -> logs/baseline/06-feeds.log
+[2026-11-21T07:01:01Z] [baseline] stage 07 config -> logs/baseline/07-config.log
+[2026-11-21T07:01:11Z] [baseline] stage 08 kernel -> logs/baseline/08-kernel.log
+[2026-11-21T07:41:24Z] [baseline] FATAL: stage 08 kernel failed (rc=1)

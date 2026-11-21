@@ -1,0 +1,13 @@
+6.8.0-151-generic
+mod bridge ok
+mod 8021q ok
+mod sch_cake ok
+mod sch_netem ok
+mod nft_masq ok
+mod nft_flow_offload ok
+mod veth ok
+bridge-vlan-ok
+cake-ok
+nftables v1.0.9 (Old Doc Yak #3)
+Dnsmasq version 2.91  Copyright (c) 2000-2025 Simon Kelley
+iperf 3.16 (cJSON 1.7.15)

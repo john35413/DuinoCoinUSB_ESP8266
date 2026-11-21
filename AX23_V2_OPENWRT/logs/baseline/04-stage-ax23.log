@@ -1,0 +1,26 @@
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/upstream/ax23/target/linux/qualcommax/dts/ipq5018-archer-ax23-v2.dts' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/target/linux/qualcommax/dts/ipq5018-archer-ax23-v2.dts'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/upstream/ax23/target/linux/generic/pending-6.18/777-01-dt-bindings-net-dsa-realtek-add-RTL8367S-VB.patch' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/target/linux/generic/pending-6.18/777-01-dt-bindings-net-dsa-realtek-add-RTL8367S-VB.patch'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/upstream/ax23/target/linux/generic/pending-6.18/777-02-net-dsa-realtek-rtl8365mb-add-chip-family-infrastructure.patch' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/target/linux/generic/pending-6.18/777-02-net-dsa-realtek-rtl8365mb-add-chip-family-infrastructure.patch'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/upstream/ax23/target/linux/generic/pending-6.18/777-03-net-dsa-realtek-rtl8365mb-set-speed-for-family-D.patch' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/target/linux/generic/pending-6.18/777-03-net-dsa-realtek-rtl8365mb-set-speed-for-family-D.patch'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/upstream/ax23/target/linux/generic/pending-6.18/777-04-net-dsa-realtek-rtl8365mb-set-RGMII-mode-for-family-D.patch' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/target/linux/generic/pending-6.18/777-04-net-dsa-realtek-rtl8365mb-set-RGMII-mode-for-family-D.patch'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/upstream/ax23/target/linux/generic/pending-6.18/777-05-net-dsa-realtek-rtl8365mb-set-and-get-vlan-4k-for-family-D.patch' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/target/linux/generic/pending-6.18/777-05-net-dsa-realtek-rtl8365mb-set-and-get-vlan-4k-for-family-D.patch'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/upstream/ax23/target/linux/generic/pending-6.18/777-06-net-dsa-realtek-rtl8365mb-use-raw-VID-for-PVID-on-family-D.patch' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/target/linux/generic/pending-6.18/777-06-net-dsa-realtek-rtl8365mb-use-raw-VID-for-PVID-on-family-D.patch'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/upstream/ax23/target/linux/generic/pending-6.18/777-07-net-dsa-realtek-rtl8365mb-add-family-D-SDS13-PCS-support.patch' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/target/linux/generic/pending-6.18/777-07-net-dsa-realtek-rtl8365mb-add-family-D-SDS13-PCS-support.patch'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/upstream/ax23/target/linux/generic/pending-6.18/777-08-net-dsa-realtek-rtl8365mb-re-latch-the-family-D-serdes.patch' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/target/linux/generic/pending-6.18/777-08-net-dsa-realtek-rtl8365mb-re-latch-the-family-D-serdes.patch'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/upstream/ax23/target/linux/generic/pending-6.18/777-09-net-dsa-realtek-rtl8365mb-make-L2-LUT-access-work-on-family-D.patch' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/target/linux/generic/pending-6.18/777-09-net-dsa-realtek-rtl8365mb-make-L2-LUT-access-work-on-family-D.patch'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/upstream/ax23/target/linux/generic/pending-6.18/777-10-net-dsa-realtek-rtl8365mb-add-support-for-RTL8367S-VB.patch' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/target/linux/generic/pending-6.18/777-10-net-dsa-realtek-rtl8365mb-add-support-for-RTL8367S-VB.patch'
+== applying 0001
+patching file target/linux/qualcommax/ipq50xx/base-files/etc/hotplug.d/firmware/11-ath11k-caldata
+== applying 0002
+patching file target/linux/qualcommax/ipq50xx/base-files/etc/board.d/02_network
+== applying 0004
+patching file target/linux/qualcommax/ipq50xx/base-files/lib/preinit/09_mount_tp_data
+Hunk #1 succeeded at 8 with fuzz 1.
+== applying 0003
+patching file target/linux/qualcommax/ipq50xx/base-files/etc/board.d/02_network
+Hunk #1 succeeded at 57 with fuzz 2 (offset 1 line).
+== applying 0005
+patching file target/linux/qualcommax/ipq50xx/base-files/etc/board.d/01_leds
+Hunk #1 succeeded at 39 (offset -4 lines).
+device block inserted
+05f0fb005a stage: Sply-Dev AX23 v2 tree @ 93028b47d291e251dc108de5fbd8bd3f77a9300c

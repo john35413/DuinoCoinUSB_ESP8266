@@ -1,0 +1,45 @@
+tmp/.config-package.in:69774:error: recursive dependency detected!
+tmp/.config-package.in:69774:	symbol PACKAGE_luci-app-weechat depends on PACKAGE_weechat-full
+tmp/.config-package.in:112146:	symbol PACKAGE_weechat-full depends on PACKAGE_weechat-minimal
+tmp/.config-package.in:112177:	symbol PACKAGE_weechat-minimal is selected by PACKAGE_luci-app-weechat
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+tmp/.config-package.in:127962:error: recursive dependency detected!
+tmp/.config-package.in:127962:	symbol PACKAGE_squeezelite-custom depends on SQUEEZELITE_WMA_ALAC
+tmp/.config-package.in:128053:	symbol SQUEEZELITE_WMA_ALAC depends on PACKAGE_squeezelite-custom
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+#
+# configuration written to .config
+#
+tmp/.config-package.in:69774:error: recursive dependency detected!
+tmp/.config-package.in:69774:	symbol PACKAGE_luci-app-weechat depends on PACKAGE_weechat-full
+tmp/.config-package.in:112146:	symbol PACKAGE_weechat-full depends on PACKAGE_weechat-minimal
+tmp/.config-package.in:112177:	symbol PACKAGE_weechat-minimal is selected by PACKAGE_luci-app-weechat
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+tmp/.config-package.in:127962:error: recursive dependency detected!
+tmp/.config-package.in:127962:	symbol PACKAGE_squeezelite-custom depends on SQUEEZELITE_WMA_ALAC
+tmp/.config-package.in:128053:	symbol SQUEEZELITE_WMA_ALAC depends on PACKAGE_squeezelite-custom
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+tmp/.config-package.in:69774:error: recursive dependency detected!
+tmp/.config-package.in:69774:	symbol PACKAGE_luci-app-weechat depends on PACKAGE_weechat-full
+tmp/.config-package.in:112146:	symbol PACKAGE_weechat-full depends on PACKAGE_weechat-minimal
+tmp/.config-package.in:112177:	symbol PACKAGE_weechat-minimal is selected by PACKAGE_luci-app-weechat
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+tmp/.config-package.in:127962:error: recursive dependency detected!
+tmp/.config-package.in:127962:	symbol PACKAGE_squeezelite-custom depends on SQUEEZELITE_WMA_ALAC
+tmp/.config-package.in:128053:	symbol SQUEEZELITE_WMA_ALAC depends on PACKAGE_squeezelite-custom
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+CONFIG_TARGET_qualcommax=y
+CONFIG_TARGET_qualcommax_ipq50xx=y
+CONFIG_TARGET_qualcommax_ipq50xx_DEVICE_tplink_archer-ax23-v2=y

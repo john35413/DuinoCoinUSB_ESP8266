@@ -1,0 +1,16 @@
+src-git packages https://github.com/openwrt/packages.git^a16d10144dd3f854a57d9a512dfa84f990b45d65
+src-git luci https://github.com/openwrt/luci.git^4bc2f85da82894c6a5d28ab1b610ca6e6ffc29ba
+src-git routing https://github.com/openwrt/routing.git^4b9891b9136259f93294a424507ed24c5e8c1cbd
+Updating feed 'packages' from 'https://github.com/openwrt/packages.git^a16d10144dd3f854a57d9a512dfa84f990b45d65' ...
+Updating feed 'luci' from 'https://github.com/openwrt/luci.git^4bc2f85da82894c6a5d28ab1b610ca6e6ffc29ba' ...
+Updating feed 'routing' from 'https://github.com/openwrt/routing.git^4b9891b9136259f93294a424507ed24c5e8c1cbd' ...
+Create index file './feeds/packages.index' 
+Create index file './feeds/luci.index' 
+Create index file './feeds/routing.index' 
+
+Installing all packages from feed packages.
+Installing all packages from feed luci.
+Installing all packages from feed routing.
+feed packages a16d10144dd3f854a57d9a512dfa84f990b45d65
+feed luci 4bc2f85da82894c6a5d28ab1b610ca6e6ffc29ba
+feed routing 4b9891b9136259f93294a424507ed24c5e8c1cbd

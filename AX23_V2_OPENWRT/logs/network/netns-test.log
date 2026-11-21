@@ -1,0 +1,88 @@
+udhcpc: started, v1.36.1
+udhcpc: broadcasting discover
+udhcpc: broadcasting discover
+udhcpc: broadcasting discover
+udhcpc: broadcasting discover
+udhcpc: broadcasting select for 203.0.113.149, server 203.0.113.1
+udhcpc: lease of 203.0.113.149 obtained from 203.0.113.1, lease time 3600
+### N01 PASS router WAN obtains DHCP lease from ISP wan=203.0.113.149
+### N02 PASS firewall ruleset loads fw4-reference.nft
+--- diag
+[rtr]
+default via 203.0.113.1 dev wan metric 10 
+default via 192.0.2.1 dev wan2 metric 20 
+192.0.2.0/24 dev wan2 proto kernel scope link src 192.0.2.2 
+192.168.1.0/24 dev br-lan.1 proto kernel scope link src 192.168.1.1 
+192.168.20.0/24 dev br-lan.20 proto kernel scope link src 192.168.20.1 
+192.168.30.0/24 dev br-lan.30 proto kernel scope link src 192.168.30.1 
+203.0.113.0/24 dev wan proto kernel scope link src 203.0.113.149 
+2001:db8:1:1::/64 dev br-lan.1 proto kernel metric 256 pref medium
+2001:db8:ffff::/64 dev wan proto kernel metric 256 pref medium
+default via 2001:db8:ffff::1 dev wan metric 1024 pref medium
+[c1]
+default via 192.168.1.1 dev eth0 
+192.168.1.0/24 dev eth0 proto kernel scope link src 192.168.1.148 
+2001:db8:1:1::/64 dev eth0 proto kernel metric 256 expires 43186sec pref medium
+[isp]
+198.51.100.0/24 dev dn proto kernel scope link src 198.51.100.1 
+203.0.113.0/24 dev wanp proto kernel scope link src 203.0.113.1 
+2001:db8:1::/48 via 2001:db8:ffff::2 dev wanp metric 1024 pref medium
+2001:db8:100::/64 dev dn proto kernel metric 256 pref medium
+2001:db8:ffff::/64 dev wanp proto kernel metric 256 pref medium
+[inet]
+default via 198.51.100.1 dev up1 
+192.0.2.0/24 via 198.18.0.1 dev up2 
+198.18.0.0/24 dev up2 proto kernel scope link src 198.18.0.10 
+198.51.100.0/24 dev up1 proto kernel scope link src 198.51.100.10 
+2001:db8:100::/64 dev up1 proto kernel metric 256 pref medium
+default via 2001:db8:100::1 dev up1 metric 1024 pref medium
+net.ipv4.ip_forward = 1
+### N03 PASS LAN clients get DHCP leases (VLAN 1) c1=192.168.1.148 c2=192.168.1.128
+### N04 PASS guest client gets lease in guest VLAN 20 g1=192.168.20.169
+### N05 PASS IoT client gets lease in IoT VLAN 30 i1=192.168.30.164
+### N06 PASS DNS via router forwarder resolves example.test->198.51.100.10
+### N07 PASS LAN client reaches router 
+### N08 PASS client-to-client switched at L2 (not routed) fw4 lan_fwd delta=0
+### N09 PASS LAN->Internet ping NATed to WAN address seen src=203.0.113.149
+### N10 PASS TCP (HTTP) LAN->Internet 
+### N11 PASS UDP round trip LAN->Internet through NAT 
+### N12 PASS TCP under load, ping loss <1% (SIMULATED veth) 682 Mbit/s, ping loss 0%
+### N13 PASS UDP 200 Mbit/s stream completes (SIMULATED) loss 4.51%
+### N14 PASS guest reaches Internet 
+### N15 PASS guest cannot reach LAN client 
+### N16 PASS guest cannot reach router SSH (input REJECT) 
+### N17 PASS guest DNS allowed 
+### N18 PASS IoT has no Internet 
+### N19 PASS IoT cannot initiate to LAN 
+### N20 PASS LAN can initiate to IoT 
+### N21 PASS IoT cannot reach guest 
+### N22 PASS no L2 leakage guest VLAN -> LAN ports 
+### N23 PASS router SSH blocked from WAN 
+### N24 PASS unsolicited WAN->LAN forwarding rejected 
+### N25 PASS fw4 Allow-Ping on WAN 
+### N26 PASS LAN client SLAAC address from router RA 2001:db8:1:1:14aa:48ff:fe77:3f88
+### N27 PASS IPv6 LAN->Internet routed 
+### N28 PASS IPv6 UDP round trip 
+### N29 PASS router SSH blocked from WAN (IPv6) 
+### N30 INFO software flow offload flowtable present conntrack OFFLOAD entries now=2
+### N31 PASS 5 MB TCP transfer intact over 5% loss/40ms uplink (SIMULATED) ping loss 7%
+### N32 PASS CAKE 50 Mbit/s egress shaper enforces rate (SIMULATED) 44 Mbit/s
+--- failover diag
+2: wan@if3: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state DOWN mode DEFAULT group default qlen 1000
+    link/ether 86:b3:4a:9a:09:17 brd ff:ff:ff:ff:ff:ff link-netns isp
+default via 203.0.113.1 dev wan metric 10 dead linkdown 
+default via 192.0.2.1 dev wan2 metric 20 
+192.0.2.0/24 dev wan2 proto kernel scope link src 192.0.2.2 
+192.168.1.0/24 dev br-lan.1 proto kernel scope link src 192.168.1.1 
+192.168.20.0/24 dev br-lan.20 proto kernel scope link src 192.168.20.1 
+192.168.30.0/24 dev br-lan.30 proto kernel scope link src 192.168.30.1 
+203.0.113.0/24 dev wan proto kernel scope link src 203.0.113.149 dead linkdown 
+198.51.100.10 via 192.0.2.1 dev wan2 src 192.0.2.2 uid 0 
+    cache 
+net.ipv4.conf.all.ignore_routes_with_linkdown = 1
+net.ipv4.conf.wan.ignore_routes_with_linkdown = 0
+### N33 PASS failover to wan2 on primary carrier loss (kernel linkdown routes, SIMULATED) 713 ms, src=192.0.2.2
+### N34 PASS traffic resumes after primary WAN returns 
+2026/11/21 07:36:40 socat[262] W exiting on signal 15
+2026/11/21 07:36:40 socat[260] W exiting on signal 15
+2026/11/21 07:36:40 socat[263] W exiting on signal 15
