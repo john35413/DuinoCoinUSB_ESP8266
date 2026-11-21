@@ -1,13 +1,9 @@
-[2026-11-21T13:41:28Z] [dev] pipeline start (jobs=4)
-[2026-11-21T13:41:28Z] [dev] stage 01 deps -> logs/dev/01-deps.log
-[2026-11-21T13:41:28Z] [dev] stage 02 checkout -> logs/dev/02-checkout.log
-[2026-11-21T13:41:29Z] [dev] stage 03 verify-sha -> logs/dev/03-verify-sha.log
-[2026-11-21T13:41:29Z] [dev] stage 04 stage-ax23 -> logs/dev/04-stage-ax23.log
-[2026-11-21T13:41:30Z] [dev] stage 05 dev-patches -> logs/dev/05-dev-patches.log
-[2026-11-21T13:41:31Z] [dev] stage 06 feeds -> logs/dev/06-feeds.log
-[2026-11-21T13:42:45Z] [dev] stage 07 config -> logs/dev/07-config.log
-[2026-11-21T13:43:22Z] [dev] stage 08 kernel -> logs/dev/08-kernel.log
-[2026-11-21T14:24:57Z] [dev] stage 09 world -> logs/dev/09-world.log
-[2026-11-21T14:33:34Z] [dev] stage 10 validate -> logs/dev/10-validate.log
-[2026-11-21T14:33:34Z] [dev] stage 11 collect -> logs/dev/11-collect.log
-[2026-11-21T14:33:34Z] [dev] pipeline OK
+[2026-11-21T15:22:15Z] [dev] pipeline start (jobs=4)
+[2026-11-21T15:22:15Z] [dev] stage 01 deps -> logs/dev/01-deps.log
+[2026-11-21T15:22:15Z] [dev] resume: keeping prepared tree 1b4307e4d1 uboot-envtools: qualcommax: add Archer AX23 v2
+[2026-11-21T15:22:15Z] [dev] stage 05b board-data -> logs/dev/05b-board-data.log
+[2026-11-21T15:22:15Z] [dev] stage 08 kernel -> logs/dev/08-kernel.log
+[2026-11-21T15:22:41Z] [dev] stage 09 world -> logs/dev/09-world.log
+[2026-11-21T15:24:22Z] [dev] stage 10 validate -> logs/dev/10-validate.log
+[2026-11-21T15:24:23Z] [dev] stage 11 collect -> logs/dev/11-collect.log
+[2026-11-21T15:24:23Z] [dev] pipeline OK

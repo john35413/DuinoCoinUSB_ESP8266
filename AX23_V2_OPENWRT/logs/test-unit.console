@@ -1,0 +1,32 @@
+== unit-python
+   test_bad_magic (__main__.Board2.test_bad_magic) ... ok
+   test_cli_lookup_exit_codes (__main__.Board2.test_cli_lookup_exit_codes) ... ok
+   test_name_order_matches_ath11k (__main__.Board2.test_name_order_matches_ath11k) ... ok
+   test_other_board_does_not_match (__main__.Board2.test_other_board_does_not_match) ... ok
+   test_roundtrip (__main__.Board2.test_roundtrip) ... ok
+   test_variant_wins_over_generic (__main__.Board2.test_variant_wins_over_generic) ... ok
+   test_overlap_detected (__main__.DtbChecker.test_overlap_detected) ... ok
+   test_writable_art_fails (__main__.DtbChecker.test_writable_art_fails) ... ok
+   test_detects_size_and_vars (__main__.UbootEnv.test_detects_size_and_vars) ... ok
+   test_erased_env_has_no_valid_crc (__main__.UbootEnv.test_erased_env_has_no_valid_crc) ... ok
+   test_redundant_layout (__main__.UbootEnv.test_redundant_layout) ... ok
+   -> PASS
+== unit-caldata
+   -> PASS
+== unit-mac
+   PASS 020000aabb10 -> 02:00:00:aa:bb:10 02:00:00:aa:bb:11 02:00:00:aa:bb:0f 02:00:00:aa:bb:0e
+   PASS 020000aabbff -> 02:00:00:aa:bb:ff 02:00:00:aa:bc:00 02:00:00:aa:bb:fe 02:00:00:aa:bb:fd
+   PASS 020000ab0000 -> 02:00:00:ab:00:00 02:00:00:ab:00:01 02:00:00:aa:ff:ff 02:00:00:aa:ff:fe
+   PASS missing default-mac -> empty
+   -> PASS
+== unit-bdf-extract
+   PASS refuses to guess between CA and EU copies
+   PASS extracts with --region EU/default
+   PASS ipq5018 board-2.bin carries the EU source file under the AX23 v2 name
+   PASS qcn6122 board-2.bin carries the EU source file under the AX23 v2 name
+   -> PASS
+
+unit-python       PASS  logs/test-unit-python.log
+unit-caldata      PASS  logs/test-unit-caldata.log
+unit-mac          PASS  logs/test-unit-mac.log
+unit-bdf-extract  PASS  logs/test-unit-bdf-extract.log

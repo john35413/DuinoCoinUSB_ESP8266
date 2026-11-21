@@ -17,18 +17,18 @@ PASS partition rootfs_1 offset/size got ('0x3bc0000', '0x3580000') want ('0x3bc0
 PASS partition tp_data offset/size got ('0x7140000', '0x840000') want ('0x7140000', '0x840000')
 PASS partition radio offset/size got ('0x7980000', '0x440000') want ('0x7980000', '0x440000')
 PASS partition data offset/size got ('0x7dc0000', '0x80000') want ('0x7dc0000', '0x80000')
-PASS partition 0:SBL1 read-only 
-PASS partition 0:MIBIB read-only 
-PASS partition radio read-only 
-PASS partition 0:APPSBL read-only 
 PASS partition 0:QSEE read-only 
-PASS partition 0:ART read-only 
-PASS partition 0:CDT read-only 
-PASS partition 0:DEVCFG read-only 
-PASS partition tp_data read-only 
-PASS partition 0:BOOTCONFIG read-only 
-PASS partition 0:TRAINING read-only 
 PASS partition 0:BOOTCONFIG1 read-only 
+PASS partition 0:BOOTCONFIG read-only 
+PASS partition 0:MIBIB read-only 
+PASS partition 0:DEVCFG read-only 
+PASS partition 0:CDT read-only 
+PASS partition 0:ART read-only 
+PASS partition 0:TRAINING read-only 
+PASS partition 0:APPSBL read-only 
+PASS partition radio read-only 
+PASS partition 0:SBL1 read-only 
+PASS partition tp_data read-only 
 PASS no partition overlap 
 PASS partitions within 128 MiB 0x7e40000
 PASS erase-block aligned 

@@ -27,7 +27,7 @@ PASS py_compile tests/unit/test_tools.py
 PASS py_compile tools/bdf/board2.py
 PASS py_compile tools/pi-integration/ax23-monitor.py
 PASS py_compile tools/uboot/ubootenv.py
-PASS dev series (10 patches) applies cleanly on staged baseline
+PASS dev series (11 patches) applies cleanly on staged baseline
 PASS sh -n target/linux/qualcommax/ipq50xx/base-files/lib/upgrade/platform.sh
 PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/board.d/02_network
 PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/board.d/01_leds

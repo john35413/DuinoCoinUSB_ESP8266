@@ -11,3 +11,24 @@
 [2026-11-21T14:33:34Z] [dev] stage 10 validate -> logs/dev/10-validate.log
 [2026-11-21T14:33:34Z] [dev] stage 11 collect -> logs/dev/11-collect.log
 [2026-11-21T14:33:34Z] [dev] pipeline OK
+[2026-11-21T15:16:43Z] [dev] pipeline start (jobs=4)
+[2026-11-21T15:16:43Z] [dev] stage 01 deps -> logs/dev/01-deps.log
+[2026-11-21T15:16:44Z] [dev] FATAL: stage 01 deps failed (rc=1)
+[2026-11-21T15:17:24Z] [dev] pipeline start (jobs=4)
+[2026-11-21T15:17:24Z] [dev] stage 01 deps -> logs/dev/01-deps.log
+[2026-11-21T15:17:25Z] [dev] resume: keeping prepared tree 4e744d767a wifi-scripts: do not let another radio's '00' country break hostapd
+[2026-11-21T15:17:25Z] [dev] stage 05b board-data -> logs/dev/05b-board-data.log
+[2026-11-21T15:17:25Z] [dev] stage 08 kernel -> logs/dev/08-kernel.log
+[2026-11-21T15:18:46Z] [dev] stage 09 world -> logs/dev/09-world.log
+[2026-11-21T15:21:33Z] [dev] stage 10 validate -> logs/dev/10-validate.log
+[2026-11-21T15:21:33Z] [dev] stage 11 collect -> logs/dev/11-collect.log
+[2026-11-21T15:21:33Z] [dev] pipeline OK
+[2026-11-21T15:22:15Z] [dev] pipeline start (jobs=4)
+[2026-11-21T15:22:15Z] [dev] stage 01 deps -> logs/dev/01-deps.log
+[2026-11-21T15:22:15Z] [dev] resume: keeping prepared tree 1b4307e4d1 uboot-envtools: qualcommax: add Archer AX23 v2
+[2026-11-21T15:22:15Z] [dev] stage 05b board-data -> logs/dev/05b-board-data.log
+[2026-11-21T15:22:15Z] [dev] stage 08 kernel -> logs/dev/08-kernel.log
+[2026-11-21T15:22:41Z] [dev] stage 09 world -> logs/dev/09-world.log
+[2026-11-21T15:24:22Z] [dev] stage 10 validate -> logs/dev/10-validate.log
+[2026-11-21T15:24:23Z] [dev] stage 11 collect -> logs/dev/11-collect.log
+[2026-11-21T15:24:23Z] [dev] pipeline OK

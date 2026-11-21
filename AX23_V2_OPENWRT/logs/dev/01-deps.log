@@ -20,4 +20,4 @@ ok   bzip2 /usr/bin/bzip2
 ok   dtc /usr/bin/dtc
 ok   python3-setuptools
 nproc=4 mem=16087MB
-disk_avail=31GB
+disk_avail=17GB
