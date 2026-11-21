@@ -1,0 +1,12 @@
+UBI device number 0, total 428 LEBs (54345728 bytes, 51.8 MiB), available 139 LEBs (17649664 bytes, 16.8 MiB), LEB size 126976 bytes (124.0 KiB)
+UBI device number 0, total 428 LEBs (54345728 bytes, 51.8 MiB), available 0 LEBs (0 bytes), LEB size 126976 bytes (124.0 KiB)
+UBI device number 0, total 428 LEBs (54345728 bytes, 51.8 MiB), available 0 LEBs (0 bytes), LEB size 126976 bytes (124.0 KiB)
+UBI device number 0, total 428 LEBs (54345728 bytes, 51.8 MiB), available 0 LEBs (0 bytes), LEB size 126976 bytes (124.0 KiB)
+UBI device number 0, total 428 LEBs (54345728 bytes, 51.8 MiB), available 139 LEBs (17649664 bytes, 16.8 MiB), LEB size 126976 bytes (124.0 KiB)
+UBI device number 0, total 428 LEBs (54345728 bytes, 51.8 MiB), available 0 LEBs (0 bytes), LEB size 126976 bytes (124.0 KiB)
+UBI device number 0, total 428 LEBs (54345728 bytes, 51.8 MiB), available 402 LEBs (51044352 bytes, 48.6 MiB), LEB size 126976 bytes (124.0 KiB)
+UBI device number 0, total 425 LEBs (53964800 bytes, 51.4 MiB), available 0 LEBs (0 bytes), LEB size 126976 bytes (124.0 KiB)
+UBI device number 0, total 66 LEBs (8380416 bytes, 7.9 MiB), available 40 LEBs (5079040 bytes, 4.8 MiB), LEB size 126976 bytes (124.0 KiB)
+Volume ID 0, size 34 LEBs (4317184 bytes, 4.1 MiB), LEB size 126976 bytes (124.0 KiB), dynamic, name "vol", alignment 1
+L08 locate: 5640192 8650752 5640192
+UBI device number 0, total 66 LEBs (8380416 bytes, 7.9 MiB), available 6 LEBs (761856 bytes, 744.0 KiB), LEB size 126976 bytes (124.0 KiB)

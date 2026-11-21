@@ -1,0 +1,4 @@
+WARNING: stdin/stdout/stderr not accessible via /proc/self/fd, falling back to limited redirection (stderr may be lost).
+If full redirection is needed, run vng with: 
+script -q -c 'vng -- <command>'
+(or use tmux/screen)

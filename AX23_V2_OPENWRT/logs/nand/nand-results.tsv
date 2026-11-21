@@ -1,0 +1,16 @@
+L01	PASS	NAND geometry 2048/131072/64	page=2048 eb=131072 oob=64
+L01	PASS	partition offsets/sizes = stock table (16)	last end=0x7e40000
+L02	PASS	slot 0 UBI has 'kernel' + 'ubi_rootfs', kernel reads back	
+L03	PASS	writing rootfs_1 leaves SBL1/APPSBL/ART/tp_data/radio/rootfs bit-identical	dev initramfs itb as kernel volume payload
+L03	PASS	slot 1 'kernel' volume reads back bit-exact	13329236 bytes
+L04	PASS	fw_printenv with the 0011 layout reads tp_boot_idx	tp_boot_idx=1
+L04	PASS	a wrong env size (0x20000) is rejected (CRC), not misread	Cannot read environment, using default
+L05	PASS	model: tp_boot_idx=1 boots rootfs_1	/dev/mtd12
+L06	PASS	interrupted slot-1 write leaves other partitions intact	
+L06	PASS	model: idx=1 + truncated slot 1 falls back to rootfs (stock)	/dev/mtd11
+L06	PASS	model: both slots unloadable -> U-Boot httpd recovery	httpd-recovery
+L06	INFO	limit	U-Boot only falls back on LOAD failure; a kernel that loads and then crashes is not caught (GPL source)
+L07	PASS	ubiformat skips 3 bad blocks in rootfs_1; kernel volume intact	bad=3
+L08	PASS	a read-only workload made the read-write UBI erase/rewrite the flipped PEB	corrected_bits 0->3, scrub log lines=ubi0: fixable bit-flip detected at PEB 43;ubi0: schedule PEB 43 for scrubbing;ubi0: fixable bit-flip detected at PEB 43;ubi0: scrubbed PEB 43 (LEB 0:0), data moved to PEB 42, data intact=yes
+L08	INFO	consequence	a RAM image that attaches a writable UBI can write NAND with no command given; patch 0015 makes every AX23 partition read-only, so UBI attaches read-only (as tp_data already does on HW: 'MTD device is write-protected, attach in read-only mode')
+fails=0

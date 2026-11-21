@@ -1,0 +1,781 @@
+[    0.000000] Linux version 6.8.0-151-generic (buildd@lcy02-amd64-009) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #151-Ubuntu SMP PREEMPT_DYNAMIC Wed Nov 11 01:28:36 UTC 2026 (Ubuntu 6.8.0-151.151-generic 6.8.12)
+[    0.000000] Command line: virtme_hostname=virtme-ng nr_open=1048576 virtme_root_mods=1 virtme_initmount0=home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/logs/nand virtme_initmount0_fstype=9p virtme_initmount0_access=rw virtme_rw_overlay0=/etc virtme_rw_overlay1=/lib virtme_rw_overlay2=/home virtme_rw_overlay3=/opt virtme_rw_overlay4=/srv virtme_rw_overlay5=/usr virtme_rw_overlay6=/var virtme_rw_overlay7=/tmp virtme_console=ttyS0 console=ttyS0 earlyprintk=serial,ttyS0,115200 quiet loglevel=0 panic=-1 virtme.exec=`L2hvbWUvdXNlci9EdWlub0NvaW5VU0JfRVNQODI2Ni9BWDIzX1YyX09QRU5XUlQvbG9ncy9uYW5kLy52bS1lbnRyeS5zaA==` virtme_chdir=tmp virtme_root_user=1 quiet loglevel=1 init=/usr/local/lib/python3.13/site-packages/virtme/guest/bin/virtme-ng-init
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Hygon HygonGenuine
+[    0.000000]   Centaur CentaurHauls
+[    0.000000]   zhaoxin   Shanghai  
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000005ffdefff] usable
+[    0.000000] BIOS-e820: [mem 0x000000005ffdf000-0x000000005fffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000b0000000-0x00000000bfffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x000000fd00000000-0x000000ffffffffff] reserved
+[    0.000000] printk: legacy bootconsole [earlyser0] enabled
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] APIC: Static calls initialized
+[    0.000000] SMBIOS 3.0.0 present.
+[    0.000000] DMI: QEMU Standard PC (Q35 + ICH9, 2009), BIOS 1.16.3-debian-1.16.3-2 04/01/2014
+[    0.000000] tsc: Fast TSC calibration using PIT
+[    0.000000] tsc: Detected 2100.012 MHz processor
+[    0.006543] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.006911] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.007252] last_pfn = 0x5ffdf max_arch_pfn = 0x10000000000
+[    0.008124] MTRR map: 4 entries (3 fixed + 1 variable; max 19), built from 8 variable MTRRs
+[    0.008393] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[    0.025356] found SMP MP-table at [mem 0x000f5440-0x000f544f]
+[    0.027513] Using GB pages for direct mapping
+[    0.032663] RAMDISK: [mem 0x5fc6b000-0x5ffcffff]
+[    0.033487] ACPI: Early table checksum verification disabled
+[    0.034038] ACPI: RSDP 0x00000000000F5280 000014 (v00 BOCHS )
+[    0.034454] ACPI: RSDT 0x000000005FFE2391 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+[    0.035297] ACPI: FACP 0x000000005FFE2181 0000F4 (v03 BOCHS  BXPC     00000001 BXPC 00000001)
+[    0.036333] ACPI: DSDT 0x000000005FFE0040 002141 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+[    0.036484] ACPI: FACS 0x000000005FFE0000 000040
+[    0.036572] ACPI: APIC 0x000000005FFE2275 000080 (v03 BOCHS  BXPC     00000001 BXPC 00000001)
+[    0.036620] ACPI: HPET 0x000000005FFE22F5 000038 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+[    0.036677] ACPI: MCFG 0x000000005FFE232D 00003C (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+[    0.036735] ACPI: WAET 0x000000005FFE2369 000028 (v01 BOCHS  BXPC     00000001 BXPC 00000001)
+[    0.037000] ACPI: Reserving FACP table memory at [mem 0x5ffe2181-0x5ffe2274]
+[    0.037104] ACPI: Reserving DSDT table memory at [mem 0x5ffe0040-0x5ffe2180]
+[    0.037136] ACPI: Reserving FACS table memory at [mem 0x5ffe0000-0x5ffe003f]
+[    0.037158] ACPI: Reserving APIC table memory at [mem 0x5ffe2275-0x5ffe22f4]
+[    0.037177] ACPI: Reserving HPET table memory at [mem 0x5ffe22f5-0x5ffe232c]
+[    0.037193] ACPI: Reserving MCFG table memory at [mem 0x5ffe232d-0x5ffe2368]
+[    0.037208] ACPI: Reserving WAET table memory at [mem 0x5ffe2369-0x5ffe2390]
+[    0.042322] No NUMA configuration found
+[    0.042434] Faking a node at [mem 0x0000000000000000-0x000000005ffdefff]
+[    0.043617] NODE_DATA(0) allocated [mem 0x5fc40000-0x5fc6afff]
+[    0.050767] Zone ranges:
+[    0.050882]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.051083]   DMA32    [mem 0x0000000001000000-0x000000005ffdefff]
+[    0.051115]   Normal   empty
+[    0.051155]   Device   empty
+[    0.051185] Movable zone start for each node
+[    0.051240] Early memory node ranges
+[    0.051287]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+[    0.051510]   node   0: [mem 0x0000000000100000-0x000000005ffdefff]
+[    0.051871] Initmem setup node 0 [mem 0x0000000000001000-0x000000005ffdefff]
+[    0.054410] On node 0, zone DMA: 1 pages in unavailable ranges
+[    0.054866] On node 0, zone DMA: 97 pages in unavailable ranges
+[    0.122075] On node 0, zone DMA32: 33 pages in unavailable ranges
+[    0.123359] ACPI: PM-Timer IO Port: 0x608
+[    0.133932] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+[    0.135150] IOAPIC[0]: apic_id 0, version 32, address 0xfec00000, GSI 0-23
+[    0.135423] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.136038] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+[    0.136147] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[    0.136314] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+[    0.136339] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+[    0.136731] ACPI: Using ACPI (MADT) for SMP configuration information
+[    0.136855] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+[    0.137456] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+[    0.138815] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.138913] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x000fffff]
+[    0.139117] [mem 0x60000000-0xafffffff] available for PCI devices
+[    0.139235] Booting paravirtualized kernel on bare hardware
+[    0.139743] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+[    0.141050] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+[    0.144213] percpu: Embedded 86 pages/cpu s229376 r8192 d114688 u1048576
+[    0.145154] pcpu-alloc: s229376 r8192 d114688 u1048576 alloc=1*2097152
+[    0.145385] pcpu-alloc: [0] 0 1 
+[    0.147223] Kernel command line: virtme_hostname=virtme-ng nr_open=1048576 virtme_root_mods=1 virtme_initmount0=home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/logs/nand virtme_initmount0_fstype=9p virtme_initmount0_access=rw virtme_rw_overlay0=/etc virtme_rw_overlay1=/lib virtme_rw_overlay2=/home virtme_rw_overlay3=/opt virtme_rw_overlay4=/srv virtme_rw_overlay5=/usr virtme_rw_overlay6=/var virtme_rw_overlay7=/tmp virtme_console=ttyS0 console=ttyS0 earlyprintk=serial,ttyS0,115200 quiet loglevel=0 panic=-1 virtme.exec=`L2hvbWUvdXNlci9EdWlub0NvaW5VU0JfRVNQODI2Ni9BWDIzX1YyX09QRU5XUlQvbG9ncy9uYW5kLy52bS1lbnRyeS5zaA==` virtme_chdir=tmp virtme_root_user=1 quiet loglevel=1 init=/usr/local/lib/python3.13/site-packages/virtme/guest/bin/virtme-ng-init
+[    0.152097] Unknown kernel command line parameters "virtme_hostname=virtme-ng nr_open=1048576 virtme_root_mods=1 virtme_initmount0=home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/logs/nand virtme_initmount0_fstype=9p virtme_initmount0_access=rw virtme_rw_overlay0=/etc virtme_rw_overlay1=/lib virtme_rw_overlay2=/home virtme_rw_overlay3=/opt virtme_rw_overlay4=/srv virtme_rw_overlay5=/usr virtme_rw_overlay6=/var virtme_rw_overlay7=/tmp virtme_console=ttyS0 virtme_chdir=tmp virtme_root_user=1", will be passed to user space.
+[    0.153329] random: crng init done
+[    0.155207] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    0.155908] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.161062] Fallback order for Node 0: 0 
+[    0.161901] Built 1 zonelists, mobility grouping on.  Total pages: 386783
+[    0.161990] Policy zone: DMA32
+[    0.162994] mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+[    0.197604] Memory: 1485128K/1572340K available (22528K kernel code, 4444K rwdata, 14472K rodata, 4948K init, 4756K bss, 87008K reserved, 0K cma-reserved)
+[    0.217882] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+[    0.295279] ftrace: allocating 57897 entries in 228 pages
+[    0.296087] ftrace: allocated 228 pages with 4 groups
+[    0.312851] Dynamic Preempt: voluntary
+[    0.320059] rcu: Preemptible hierarchical RCU implementation.
+[    0.320251] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+[    0.320459] 	Trampoline variant of Tasks RCU enabled.
+[    0.320479] 	Rude variant of Tasks RCU enabled.
+[    0.320495] 	Tracing variant of Tasks RCU enabled.
+[    0.320664] rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+[    0.320710] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.322963] RCU Tasks: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+[    0.323048] RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+[    0.323076] RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+[    0.363238] NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+[    0.384720] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[    0.393002] Console: colour *CGA 80x25
+[    0.395176] printk: legacy console [ttyS0] enabled
+[    0.395281] printk: legacy bootconsole [earlyser0] disabled
+[    0.397134] ACPI: Core revision 20230628
+[    0.404579] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns
+[    0.407189] APIC: Switch to symmetric I/O mode setup
+[    0.426518] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.432687] tsc: Marking TSC unstable due to TSCs unsynchronized
+[    0.433367] Calibrating delay loop (skipped), value calculated using timer frequency.. 4200.02 BogoMIPS (lpj=2100012)
+[    0.436602] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+[    0.450667] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+[    0.451016] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+[    0.452651] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    0.453304] Spectre V2 : Mitigation: Retpolines
+[    0.453357] Spectre V2 : Spectre v2 / SpectreRSB: Filling RSB on context switch and VMEXIT
+[    0.453565] Speculative Store Bypass: Vulnerable
+[    0.458884] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.462246] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.462327] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.462343] x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+[    0.462356] x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+[    0.462449] x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+[    0.462656] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.463016] x86/fpu: xstate_offset[3]:  960, xstate_sizes[3]:   64
+[    0.463040] x86/fpu: xstate_offset[4]: 1024, xstate_sizes[4]:   64
+[    0.463051] x86/fpu: xstate_offset[9]: 2688, xstate_sizes[9]:    8
+[    0.463075] x86/fpu: Enabled xstate features 0x21f, context size is 2696 bytes, using 'standard' format.
+[    0.648740] Freeing SMP alternatives memory: 48K
+[    0.649433] pid_max: default: 32768 minimum: 301
+[    0.660806] LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,integrity
+[    0.663459] landlock: Up and running.
+[    0.663503] Yama: becoming mindful.
+[    0.669569] AppArmor: AppArmor initialized
+[    0.675333] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+[    0.675549] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+[    0.823950] smpboot: CPU0: AMD QEMU TCG CPU version 2.5+ (family: 0x6, model: 0x6, stepping: 0x3)
+[    0.842361] Performance Events: PMU not available due to virtualization, using software events only.
+[    0.845109] signal: max sigframe size: 3632
+[    0.847637] rcu: Hierarchical SRCU implementation.
+[    0.847700] rcu: 	Max phase no-delay instances is 400.
+[    0.859474] NMI watchdog: Perf NMI watchdog permanently disabled
+[    0.865487] smp: Bringing up secondary CPUs ...
+[    0.875590] smpboot: x86: Booting SMP configuration:
+[    0.875727] .... node  #0, CPUs:      #1
+[    0.969226] smp: Brought up 1 node, 2 CPUs
+[    0.969421] smpboot: Max logical packages: 1
+[    0.969576] smpboot: Total of 2 processors activated (8363.99 BogoMIPS)
+[    0.997238] devtmpfs: initialized
+[    1.005255] x86/mm: Memory block size: 128MB
+[    1.028940] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+[    1.029556] futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+[    1.035130] pinctrl core: initialized pinctrl subsystem
+[    1.046754] PM: RTC time: 17:12:55, date: 2026-11-21
+[    1.072450] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    1.079462] DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+[    1.080972] DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    1.081596] DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    1.082150] audit: initializing netlink subsys (disabled)
+[    1.087414] audit: type=2000 audit(1795281174.669:1): state=initialized audit_enabled=0 res=1
+[    1.103999] thermal_sys: Registered thermal governor 'fair_share'
+[    1.104151] thermal_sys: Registered thermal governor 'bang_bang'
+[    1.104191] thermal_sys: Registered thermal governor 'step_wise'
+[    1.104203] thermal_sys: Registered thermal governor 'user_space'
+[    1.104213] thermal_sys: Registered thermal governor 'power_allocator'
+[    1.108384] cpuidle: using governor ladder
+[    1.110149] cpuidle: using governor menu
+[    1.114064] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    1.119096] PCI: ECAM [mem 0xb0000000-0xbfffffff] (base 0xb0000000) for domain 0000 [bus 00-ff]
+[    1.120149] PCI: ECAM [mem 0xb0000000-0xbfffffff] reserved as E820 entry
+[    1.122292] PCI: Using configuration type 1 for base access
+[    1.123825] mtrr: your CPUs had inconsistent fixed MTRR settings
+[    1.124054] mtrr: your CPUs had inconsistent variable MTRR settings
+[    1.124105] mtrr: your CPUs had inconsistent MTRRdefType settings
+[    1.124129] mtrr: probably your BIOS does not setup all CPUs.
+[    1.124144] mtrr: corrected configuration.
+[    1.130263] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[    1.180541] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[    1.180709] HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+[    1.180761] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[    1.180774] HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+[    1.213984] ACPI: Added _OSI(Module Device)
+[    1.214083] ACPI: Added _OSI(Processor Device)
+[    1.214094] ACPI: Added _OSI(Processor Aggregator Device)
+[    1.257478] ACPI: 1 ACPI AML tables successfully acquired and loaded
+[    1.289983] ACPI: _OSC evaluation for CPUs failed, trying _PDC
+[    1.293232] ACPI: Interpreter enabled
+[    1.295076] ACPI: PM: (supports S0 S3 S4 S5)
+[    1.295163] ACPI: Using IOAPIC for interrupt routing
+[    1.297898] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    1.298011] PCI: Using E820 reservations for host bridge windows
+[    1.300329] ACPI: Enabled 2 GPEs in block 00 to 3F
+[    1.360603] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    1.361382] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[    1.363657] acpi PNP0A08:00: _OSC: platform does not support [PCIeHotplug LTR DPC]
+[    1.365251] acpi PNP0A08:00: _OSC: OS now controls [SHPCHotplug PME AER PCIeCapability]
+[    1.372678] PCI host bridge to bus 0000:00
+[    1.372914] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[    1.372990] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[    1.373005] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[    1.373017] pci_bus 0000:00: root bus resource [mem 0x60000000-0xafffffff window]
+[    1.373028] pci_bus 0000:00: root bus resource [mem 0xc0000000-0xfebfffff window]
+[    1.373038] pci_bus 0000:00: root bus resource [mem 0x100000000-0x8ffffffff window]
+[    1.373206] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    1.375432] pci 0000:00:00.0: [8086:29c0] type 00 class 0x060000 conventional PCI endpoint
+[    1.382849] pci 0000:00:01.0: [1af4:1009] type 00 class 0x000200 conventional PCI endpoint
+[    1.385150] pci 0000:00:01.0: BAR 0 [io  0xc000-0xc03f]
+[    1.385274] pci 0000:00:01.0: BAR 1 [mem 0xfebf6000-0xfebf6fff]
+[    1.385329] pci 0000:00:01.0: BAR 4 [mem 0xfebd4000-0xfebd7fff 64bit pref]
+[    1.386843] pci 0000:00:02.0: [1af4:1009] type 00 class 0x000200 conventional PCI endpoint
+[    1.388950] pci 0000:00:02.0: BAR 0 [io  0xc040-0xc07f]
+[    1.388950] pci 0000:00:02.0: BAR 1 [mem 0xfebf7000-0xfebf7fff]
+[    1.388950] pci 0000:00:02.0: BAR 4 [mem 0xfebd8000-0xfebdbfff 64bit pref]
+[    1.390650] pci 0000:00:03.0: [8086:25ab] type 00 class 0x088000 conventional PCI endpoint
+[    1.392009] pci 0000:00:03.0: BAR 0 [mem 0xfebf8000-0xfebf800f]
+[    1.393857] pci 0000:00:04.0: [1af4:1003] type 00 class 0x078000 conventional PCI endpoint
+[    1.396950] pci 0000:00:04.0: BAR 0 [io  0xc080-0xc0bf]
+[    1.396950] pci 0000:00:04.0: BAR 1 [mem 0xfebf9000-0xfebf9fff]
+[    1.396950] pci 0000:00:04.0: BAR 4 [mem 0xfebdc000-0xfebdffff 64bit pref]
+[    1.398243] pci 0000:00:05.0: [1af4:1003] type 00 class 0x078000 conventional PCI endpoint
+[    1.399950] pci 0000:00:05.0: BAR 0 [io  0xc0c0-0xc0ff]
+[    1.399950] pci 0000:00:05.0: BAR 1 [mem 0xfebfa000-0xfebfafff]
+[    1.399995] pci 0000:00:05.0: BAR 4 [mem 0xfebe0000-0xfebe3fff 64bit pref]
+[    1.402110] pci 0000:00:06.0: [1af4:1003] type 00 class 0x078000 conventional PCI endpoint
+[    1.403684] pci 0000:00:06.0: BAR 0 [io  0xc100-0xc13f]
+[    1.403754] pci 0000:00:06.0: BAR 1 [mem 0xfebfb000-0xfebfbfff]
+[    1.403988] pci 0000:00:06.0: BAR 4 [mem 0xfebe4000-0xfebe7fff 64bit pref]
+[    1.406641] pci 0000:00:07.0: [1af4:1003] type 00 class 0x078000 conventional PCI endpoint
+[    1.407653] pci 0000:00:07.0: BAR 0 [io  0xc140-0xc17f]
+[    1.407722] pci 0000:00:07.0: BAR 1 [mem 0xfebfc000-0xfebfcfff]
+[    1.407991] pci 0000:00:07.0: BAR 4 [mem 0xfebe8000-0xfebebfff 64bit pref]
+[    1.409561] pci 0000:00:08.0: [1af4:1003] type 00 class 0x078000 conventional PCI endpoint
+[    1.409950] pci 0000:00:08.0: BAR 0 [io  0xc180-0xc1bf]
+[    1.411002] pci 0000:00:08.0: BAR 1 [mem 0xfebfd000-0xfebfdfff]
+[    1.411030] pci 0000:00:08.0: BAR 4 [mem 0xfebec000-0xfebeffff 64bit pref]
+[    1.413686] pci 0000:00:09.0: [1af4:1003] type 00 class 0x078000 conventional PCI endpoint
+[    1.415733] pci 0000:00:09.0: BAR 0 [io  0xc1c0-0xc1ff]
+[    1.415733] pci 0000:00:09.0: BAR 1 [mem 0xfebfe000-0xfebfefff]
+[    1.415733] pci 0000:00:09.0: BAR 4 [mem 0xfebf0000-0xfebf3fff 64bit pref]
+[    1.418100] pci 0000:00:1f.0: [8086:2918] type 00 class 0x060100 conventional PCI endpoint
+[    1.418907] pci 0000:00:1f.0: quirk: [io  0x0600-0x067f] claimed by ICH6 ACPI/GPIO/TCO
+[    1.420066] pci 0000:00:1f.2: [8086:2922] type 00 class 0x010601 conventional PCI endpoint
+[    1.420950] pci 0000:00:1f.2: BAR 4 [io  0xc240-0xc25f]
+[    1.420950] pci 0000:00:1f.2: BAR 5 [mem 0xfebff000-0xfebfffff]
+[    1.422433] pci 0000:00:1f.3: [8086:2930] type 00 class 0x0c0500 conventional PCI endpoint
+[    1.422950] pci 0000:00:1f.3: BAR 4 [io  0x0700-0x073f]
+[    1.432391] ACPI: PCI: Interrupt link LNKA configured for IRQ 10
+[    1.433764] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+[    1.434592] ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+[    1.435725] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+[    1.436784] ACPI: PCI: Interrupt link LNKE configured for IRQ 10
+[    1.437861] ACPI: PCI: Interrupt link LNKF configured for IRQ 10
+[    1.438761] ACPI: PCI: Interrupt link LNKG configured for IRQ 11
+[    1.439515] ACPI: PCI: Interrupt link LNKH configured for IRQ 11
+[    1.439788] ACPI: PCI: Interrupt link GSIA configured for IRQ 16
+[    1.439907] ACPI: PCI: Interrupt link GSIB configured for IRQ 17
+[    1.440065] ACPI: PCI: Interrupt link GSIC configured for IRQ 18
+[    1.440157] ACPI: PCI: Interrupt link GSID configured for IRQ 19
+[    1.440243] ACPI: PCI: Interrupt link GSIE configured for IRQ 20
+[    1.440329] ACPI: PCI: Interrupt link GSIF configured for IRQ 21
+[    1.440414] ACPI: PCI: Interrupt link GSIG configured for IRQ 22
+[    1.440554] ACPI: PCI: Interrupt link GSIH configured for IRQ 23
+[    1.452228] iommu: Default domain type: Translated
+[    1.452338] iommu: DMA domain TLB invalidation policy: lazy mode
+[    1.459411] SCSI subsystem initialized
+[    1.461345] libata version 3.00 loaded.
+[    1.462877] ACPI: bus type USB registered
+[    1.463697] usbcore: registered new interface driver usbfs
+[    1.464290] usbcore: registered new interface driver hub
+[    1.464609] usbcore: registered new device driver usb
+[    1.465557] pps_core: LinuxPPS API ver. 1 registered
+[    1.465626] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    1.465804] PTP clock support registered
+[    1.469074] EDAC MC: Ver: 3.0.0
+[    1.494227] NetLabel: Initializing
+[    1.494356] NetLabel:  domain hash size = 128
+[    1.494390] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    1.496053] NetLabel:  unlabeled traffic allowed by default
+[    1.506199] mctp: management component transport protocol core
+[    1.506320] NET: Registered PF_MCTP protocol family
+[    1.507702] PCI: Using ACPI for IRQ routing
+[    1.516441] PCI: pci_cache_line_size set to 64 bytes
+[    1.517324] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+[    1.517638] e820: reserve RAM buffer [mem 0x5ffdf000-0x5fffffff]
+[    1.520392] vgaarb: loaded
+[    1.524661] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+[    1.524840] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+[    1.530668] clocksource: Switched to clocksource hpet
+[    1.546400] VFS: Disk quotas dquot_6.6.0
+[    1.546912] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    1.555261] AppArmor: AppArmor Filesystem Enabled
+[    1.556065] pnp: PnP ACPI init
+[    1.562059] system 00:04: [mem 0xb0000000-0xbfffffff window] has been reserved
+[    1.566408] pnp: PnP ACPI: found 5 devices
+[    1.638395] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    1.640399] NET: Registered PF_INET protocol family
+[    1.643493] IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    1.783685] tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+[    1.784352] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    1.784832] TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    1.786479] TCP bind hash table entries: 16384 (order: 7, 524288 bytes, linear)
+[    1.787104] TCP: Hash tables configured (established 16384 bind 16384)
+[    1.791030] MPTCP token hash table entries: 2048 (order: 4, 49152 bytes, linear)
+[    1.791642] UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+[    1.792126] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+[    1.795012] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    1.795786] NET: Registered PF_XDP protocol family
+[    1.797285] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    1.797359] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[    1.797372] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[    1.797383] pci_bus 0000:00: resource 7 [mem 0x60000000-0xafffffff window]
+[    1.797392] pci_bus 0000:00: resource 8 [mem 0xc0000000-0xfebfffff window]
+[    1.797402] pci_bus 0000:00: resource 9 [mem 0x100000000-0x8ffffffff window]
+[    1.798227] PCI: CLS 0 bytes, default 64
+[    1.809798] Trying to unpack rootfs image as initramfs...
+[    1.815062] Initialise system trusted keyrings
+[    1.820722] Key type blacklist registered
+[    1.824353] workingset: timestamp_bits=36 max_order=19 bucket_order=0
+[    1.824951] zbud: loaded
+[    1.832410] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    1.837284] fuse: init (API version 7.39)
+[    1.844051] integrity: Platform Keyring initialized
+[    1.844904] integrity: Machine keyring initialized
+[    1.873164] Freeing initrd memory: 3476K
+[    1.943895] Key type asymmetric registered
+[    1.944250] Asymmetric key parser 'x509' registered
+[    1.945379] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+[    1.948969] io scheduler mq-deadline registered
+[    1.955852] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[    1.964717] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[    1.972192] ACPI: button: Power Button [PWRF]
+[    1.991608] ACPI: \_SB_.GSIF: Enabled at IRQ 21
+[    2.007256] ACPI: \_SB_.GSIG: Enabled at IRQ 22
+[    2.016417] ACPI: \_SB_.GSIE: Enabled at IRQ 20
+[    2.039421] ACPI: \_SB_.GSIH: Enabled at IRQ 23
+[    2.063769] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    2.099102] 00:02: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+[    2.269290] Linux agpgart interface v0.103
+[    2.335790] loop: module loaded
+[    2.342469] ACPI: bus type drm_connector registered
+[    2.348335] tun: Universal TUN/TAP device driver, 1.6
+[    2.350844] PPP generic driver version 2.4.2
+[    2.356469] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+[    2.362247] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    2.362737] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    2.368014] mousedev: PS/2 mouse device common for all mice
+[    2.377240] rtc_cmos 00:03: RTC can wake from S4
+[    2.384463] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+[    2.387393] rtc_cmos 00:03: registered as rtc0
+[    2.388638] rtc_cmos 00:03: setting system clock to 2026-11-21T17:12:57 UTC (1795281177)
+[    2.391281] rtc_cmos 00:03: alarms up to one day, y3k, 242 bytes nvram, hpet irqs
+[    2.391757] i2c_dev: i2c /dev entries driver
+[    2.392517] device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+[    2.393068] device-mapper: uevent: version 1.0.3
+[    2.395485] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+[    2.396404] amd_pstate: the _CPC object is not present in SBIOS or ACPI disabled
+[    2.397711] ledtrig-cpu: registered to indicate activity on CPUs
+[    2.400246] drop_monitor: Initializing network drop monitor service
+[    2.402468] NET: Registered PF_INET6 protocol family
+[    2.565797] virtme initramfs: initramfs does not have module crypto-hmac(sha1)
+[    2.602845] virtme initramfs: initramfs does not have module crypto-hmac(sha1)-all
+[    2.627866] virtme initramfs: initramfs does not have module crypto-hmac(sha256)
+[    2.647962] virtme initramfs: initramfs does not have module crypto-hmac(sha256)-all
+[    2.653816] Segment Routing with IPv6
+[    2.654434] In-situ OAM (IOAM) with IPv6
+[    2.655478] NET: Registered PF_PACKET protocol family
+[    2.657865] Key type dns_resolver registered
+[    2.670099] IPI shorthand broadcast: enabled
+[    2.724524] registered taskstats version 1
+[    2.731019] Loading compiled-in X.509 certificates
+[    2.756471] Loaded X.509 cert 'Build time autogenerated kernel key: 84a2d0b9b5ee13977b0e67a2a066614423e05b9a'
+[    2.760954] Loaded X.509 cert 'Canonical Ltd. Live Patch Signing 2025 Kmod: d541cef61dc7e793b7eb7e899970a2eef0b5dc8c'
+[    2.762910] Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+[    2.764752] Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing 2025 Kmod: 4627603d2357a2a3f81006370894c221175893e9'
+[    2.766498] Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+[    2.766682] blacklist: Loading compiled-in revocation X.509 certificates
+[    2.768688] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+[    2.769001] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+[    2.769135] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+[    2.769265] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+[    2.769417] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+[    2.769523] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+[    2.770014] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+[    2.770162] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+[    2.813497] Key type .fscrypt registered
+[    2.813934] Key type fscrypt-provisioning registered
+[    2.834982] virtme initramfs: initramfs does not have module crypto-cbc(aes)
+[    2.853216] virtme initramfs: initramfs does not have module crypto-cbc(aes)-all
+[    2.874061] virtme initramfs: initramfs does not have module crypto-aes
+[    2.890540] virtme initramfs: initramfs does not have module crypto-aes-all
+[    2.907601] virtme initramfs: initramfs does not have module cryptomgr
+[    2.923557] virtme initramfs: initramfs does not have module crypto-ecb(aes)
+[    2.939239] virtme initramfs: initramfs does not have module crypto-ecb(aes)-all
+[    2.957487] virtme initramfs: initramfs does not have module crypto-aes
+[    2.973956] virtme initramfs: initramfs does not have module crypto-aes-all
+[    2.985310] virtme initramfs: initramfs does not have module cryptomgr
+[    2.989516] Key type encrypted registered
+[    2.989837] AppArmor: AppArmor sha256 policy hashing enabled
+[    2.990487] ima: No TPM chip found, activating TPM-bypass!
+[    2.991019] Loading compiled-in module X.509 certificates
+[    2.993257] Loaded X.509 cert 'Build time autogenerated kernel key: 84a2d0b9b5ee13977b0e67a2a066614423e05b9a'
+[    2.993380] ima: Allocated hash algorithm: sha256
+[    2.996906] ima: No architecture policies found
+[    2.997854] evm: Initialising EVM extended attributes:
+[    2.997940] evm: security.selinux
+[    2.997973] evm: security.SMACK64
+[    2.997981] evm: security.SMACK64EXEC
+[    2.997987] evm: security.SMACK64TRANSMUTE
+[    2.997992] evm: security.SMACK64MMAP
+[    2.997998] evm: security.apparmor
+[    2.998003] evm: security.ima
+[    2.998008] evm: security.capability
+[    2.998024] evm: HMAC attrs: 0x1
+[    3.003094] PM:   Magic number: 2:581:239
+[    3.103073] RAS: Correctable Errors collector initialized.
+[    3.106275] Unstable clock detected, switching default tracing clock to "global"
+               If you want to keep using the local clock, then add:
+                 "trace_clock=local"
+               on the kernel command line
+[    3.109098] clk: Disabling unused clocks
+[    3.221367] Freeing unused decrypted memory: 2028K
+[    3.345942] Freeing unused kernel image (initmem) memory: 4948K
+[    3.346256] Write protecting the kernel read-only data: 38912k
+[    3.350156] Freeing unused kernel image (rodata/data gap) memory: 1912K
+[    3.525228] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    3.525853] Run /init as init process
+[    3.525993]   with arguments:
+[    3.526038]     /init
+[    3.526058]   with environment:
+[    3.526074]     HOME=/
+[    3.526090]     TERM=linux
+[    3.526097]     virtme_hostname=virtme-ng
+[    3.526104]     nr_open=1048576
+[    3.526109]     virtme_root_mods=1
+[    3.526116]     virtme_initmount0=home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/logs/nand
+[    3.526123]     virtme_initmount0_fstype=9p
+[    3.526128]     virtme_initmount0_access=rw
+[    3.526134]     virtme_rw_overlay0=/etc
+[    3.526140]     virtme_rw_overlay1=/lib
+[    3.526145]     virtme_rw_overlay2=/home
+[    3.526151]     virtme_rw_overlay3=/opt
+[    3.526157]     virtme_rw_overlay4=/srv
+[    3.526162]     virtme_rw_overlay5=/usr
+[    3.526168]     virtme_rw_overlay6=/var
+[    3.526173]     virtme_rw_overlay7=/tmp
+[    3.526179]     virtme_console=ttyS0
+[    3.526184]     virtme_chdir=tmp
+[    3.526190]     virtme_root_user=1
+[    3.605416] virtme initramfs: loading netfs.ko...
+[    3.823612] netfs: FS-Cache loaded
+[    3.831399] virtme initramfs: loading 9pnet.ko...
+[    3.914124] 9pnet: Installing 9P2000 support
+[    3.923796] virtme initramfs: loading 9p.ko...
+[    3.956866] 9p: Installing v9fs 9p2000 file system support
+[    3.963198] virtme initramfs: loading virtiofs.ko...
+[    3.986346] virtme initramfs: loading 9pnet_virtio.ko...
+[    4.021856] virtme initramfs: loading overlay.ko...
+[    4.100804] virtme initramfs: mounting hostfs...
+[    4.112810] virtio-fs: tag <ROOTFS> not found
+[    4.145830] 9pnet: Limiting 'msize' to 512000 as this is the maximum supported by transport virtio
+[    4.225091] virtme initramfs: done; switching to real root
+[    4.543226] virtme-ng-init: Setting hostname to virtme-ng...
+[    4.657370] virtme-ng-init: running systemd-tmpfiles
+[    7.783963] evm: overlay not supported
+[    8.125928] virtme-ng-init: basic initialization done
+[    8.160348] virtme-ng-init: unable to find udevd, skip udev.
+[    8.242297] 9pnet: Limiting 'msize' to 512000 as this is the maximum supported by transport virtio
+[    8.702707] virtme-ng-init: virtme-init: cannot find script I/O ports; make sure virtio-serial is available
+[    8.706146] virtme-ng-init: starting script (console fallback)
+[   11.144716] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   11.145183] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   11.145210] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   11.145223] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   11.145859] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   11.146495] nand: device found, Manufacturer ID: 0xec, Chip ID: 0xf1
+[   11.146547] nand: Samsung NAND 128MiB 3,3V 8-bit
+[   11.146590] nand: 128 MiB, SLC, erase size: 128 KiB, page size: 2048, OOB size: 64
+[   11.149595] flash size: 128 MiB
+[   11.149671] page size: 2048 bytes
+[   11.149690] OOB area size: 64 bytes
+[   11.149905] sector size: 128 KiB
+[   11.149932] pages number: 65536
+[   11.149960] pages per sector: 64
+[   11.149980] bus width: 8
+[   11.149996] bits in sector size: 17
+[   11.150012] bits in page size: 11
+[   11.150032] bits in OOB size: 6
+[   11.150051] flash size with OOB: 135168 KiB
+[   11.150070] page address bytes: 4
+[   11.150086] sector address bytes: 2
+[   11.150102] options: 0x8
+[   11.153449] Scanning device for bad blocks
+[   11.872921] Creating 17 MTD partitions on "NAND 128MiB 3,3V 8-bit":
+[   11.873768] 0x000000000000-0x000000080000 : "NAND simulator partition 0"
+[   12.228210] 0x000000080000-0x000000100000 : "NAND simulator partition 1"
+[   12.602025] 0x000000100000-0x000000140000 : "NAND simulator partition 2"
+[   12.942939] 0x000000140000-0x000000180000 : "NAND simulator partition 3"
+[   13.243990] 0x000000180000-0x000000280000 : "NAND simulator partition 4"
+[   13.582281] 0x000000280000-0x0000002c0000 : "NAND simulator partition 5"
+[   13.908027] 0x0000002c0000-0x000000300000 : "NAND simulator partition 6"
+[   14.278544] 0x000000300000-0x000000380000 : "NAND simulator partition 7"
+[   14.640285] 0x000000380000-0x0000004c0000 : "NAND simulator partition 8"
+[   15.011094] 0x0000004c0000-0x0000005c0000 : "NAND simulator partition 9"
+[   15.326953] 0x0000005c0000-0x000000640000 : "NAND simulator partition 10"
+[   15.689455] 0x000000640000-0x000003bc0000 : "NAND simulator partition 11"
+[   16.082138] 0x000003bc0000-0x000007140000 : "NAND simulator partition 12"
+[   16.416835] 0x000007140000-0x000007980000 : "NAND simulator partition 13"
+[   16.746008] 0x000007980000-0x000007dc0000 : "NAND simulator partition 14"
+[   17.080069] 0x000007dc0000-0x000007e40000 : "NAND simulator partition 15"
+[   17.415976] 0x000007e40000-0x000008000000 : "NAND simulator partition 16"
+[   17.798537] [nandsim] warning: CONFIG_MTD_PARTITIONED_MASTER must be enabled to expose debugfs stuff
+[   34.600513] ubi0: default fastmap pool size: 20
+[   34.600843] ubi0: default fastmap WL pool size: 10
+[   34.600941] ubi0: attaching mtd11
+[   34.617348] ubi0: scanning is finished
+[   34.628171] ubi0: attached mtd11 (name "NAND simulator partition 11", size 53 MiB)
+[   34.628314] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[   34.628339] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 512
+[   34.628357] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[   34.628375] ubi0: good PEBs: 428, bad PEBs: 0, corrupted PEBs: 0
+[   34.628393] ubi0: user volume: 2, internal volumes: 1, max. volumes count: 128
+[   34.628411] ubi0: max/mean erase counter: 0/0, WL threshold: 4096, image sequence number: 441097523
+[   34.628432] ubi0: available PEBs: 139, total reserved PEBs: 289, PEBs reserved for bad PEB handling: 20
+[   34.628793] ubi0: background thread "ubi_bgt0d" started, PID 226
+[   36.868210] ubi0: detaching mtd11
+[   36.877410] ubi0: mtd11 is detached
+[   52.820238] ubi0: default fastmap pool size: 20
+[   52.820371] ubi0: default fastmap WL pool size: 10
+[   52.820389] ubi0: attaching mtd12
+[   52.839587] ubi0: scanning is finished
+[   52.848132] ubi0: volume 2 ("rootfs_data") re-sized from 9 to 226 LEBs
+[   52.856268] ubi0: attached mtd12 (name "NAND simulator partition 12", size 53 MiB)
+[   52.856449] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[   52.856469] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 512
+[   52.856485] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[   52.856801] ubi0: good PEBs: 428, bad PEBs: 0, corrupted PEBs: 0
+[   52.856826] ubi0: user volume: 3, internal volumes: 1, max. volumes count: 128
+[   52.856841] ubi0: max/mean erase counter: 0/0, WL threshold: 4096, image sequence number: 1502254182
+[   52.856862] ubi0: available PEBs: 0, total reserved PEBs: 428, PEBs reserved for bad PEB handling: 20
+[   52.857148] ubi0: background thread "ubi_bgt0d" started, PID 313
+[   54.965337] ubi0: detaching mtd12
+[   54.971090] ubi0: mtd12 is detached
+[   56.487308] ubi0: default fastmap pool size: 20
+[   56.487430] ubi0: default fastmap WL pool size: 10
+[   56.487446] ubi0: attaching mtd12
+[   56.499953] ubi0: scanning is finished
+[   56.507941] ubi0: attached mtd12 (name "NAND simulator partition 12", size 53 MiB)
+[   56.508167] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[   56.508193] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 512
+[   56.508209] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[   56.508223] ubi0: good PEBs: 428, bad PEBs: 0, corrupted PEBs: 0
+[   56.508235] ubi0: user volume: 3, internal volumes: 1, max. volumes count: 128
+[   56.508249] ubi0: max/mean erase counter: 1/0, WL threshold: 4096, image sequence number: 1502254182
+[   56.508268] ubi0: available PEBs: 0, total reserved PEBs: 428, PEBs reserved for bad PEB handling: 20
+[   56.508423] ubi0: background thread "ubi_bgt0d" started, PID 349
+[   60.729068] ubi0: detaching mtd12
+[   60.736465] ubi0: mtd12 is detached
+[   68.003381] ubi0: default fastmap pool size: 20
+[   68.003504] ubi0: default fastmap WL pool size: 10
+[   68.003520] ubi0: attaching mtd12
+[   68.010537] ubi0: scanning is finished
+[   68.014474] ubi0: volume 2 ("rootfs_data") re-sized from 9 to 226 LEBs
+[   68.020961] ubi0: attached mtd12 (name "NAND simulator partition 12", size 53 MiB)
+[   68.021097] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[   68.021117] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 512
+[   68.021131] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[   68.021144] ubi0: good PEBs: 428, bad PEBs: 0, corrupted PEBs: 0
+[   68.021155] ubi0: user volume: 3, internal volumes: 1, max. volumes count: 128
+[   68.021167] ubi0: max/mean erase counter: 1/0, WL threshold: 4096, image sequence number: 389891474
+[   68.021189] ubi0: available PEBs: 0, total reserved PEBs: 428, PEBs reserved for bad PEB handling: 20
+[   68.021367] ubi0: background thread "ubi_bgt0d" started, PID 400
+[   69.686318] ubi0: detaching mtd12
+[   69.692382] ubi0: mtd12 is detached
+[   69.776375] ubi0: default fastmap pool size: 20
+[   69.776752] ubi0: default fastmap WL pool size: 10
+[   69.776777] ubi0: attaching mtd11
+[   69.789897] ubi0: scanning is finished
+[   69.796757] ubi0: attached mtd11 (name "NAND simulator partition 11", size 53 MiB)
+[   69.796930] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[   69.796953] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 512
+[   69.796967] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[   69.796981] ubi0: good PEBs: 428, bad PEBs: 0, corrupted PEBs: 0
+[   69.796993] ubi0: user volume: 2, internal volumes: 1, max. volumes count: 128
+[   69.797006] ubi0: max/mean erase counter: 0/0, WL threshold: 4096, image sequence number: 441097523
+[   69.797025] ubi0: available PEBs: 139, total reserved PEBs: 289, PEBs reserved for bad PEB handling: 20
+[   69.797197] ubi0: background thread "ubi_bgt0d" started, PID 410
+[   71.993339] ubi0: detaching mtd11
+[   71.998974] ubi0: mtd11 is detached
+[   72.621220] ubi0: default fastmap pool size: 20
+[   72.621379] ubi0: default fastmap WL pool size: 10
+[   72.621399] ubi0: attaching mtd12
+[   72.640439] ubi0: scanning is finished
+[   72.649715] ubi0: attached mtd12 (name "NAND simulator partition 12", size 53 MiB)
+[   72.649845] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[   72.649859] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 512
+[   72.649869] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[   72.649899] ubi0: good PEBs: 428, bad PEBs: 0, corrupted PEBs: 0
+[   72.649913] ubi0: user volume: 3, internal volumes: 1, max. volumes count: 128
+[   72.649923] ubi0: max/mean erase counter: 1/0, WL threshold: 4096, image sequence number: 389891474
+[   72.649936] ubi0: available PEBs: 0, total reserved PEBs: 428, PEBs reserved for bad PEB handling: 20
+[   72.650185] ubi0: background thread "ubi_bgt0d" started, PID 426
+[   74.723765] ubi0: detaching mtd12
+[   74.729772] ubi0: mtd12 is detached
+[   74.870066] ubi0: default fastmap pool size: 20
+[   74.870263] ubi0: default fastmap WL pool size: 10
+[   74.870286] ubi0: attaching mtd11
+[   74.882043] ubi0: scanning is finished
+[   74.882332] ubi0: empty MTD device detected
+[   74.893133] ubi0: attached mtd11 (name "NAND simulator partition 11", size 53 MiB)
+[   74.893281] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[   74.893295] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 512
+[   74.893305] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[   74.893314] ubi0: good PEBs: 428, bad PEBs: 0, corrupted PEBs: 0
+[   74.893322] ubi0: user volume: 0, internal volumes: 1, max. volumes count: 128
+[   74.893331] ubi0: max/mean erase counter: 0/0, WL threshold: 4096, image sequence number: 1668260144
+[   74.893342] ubi0: available PEBs: 402, total reserved PEBs: 26, PEBs reserved for bad PEB handling: 20
+[   74.893806] ubi0: background thread "ubi_bgt0d" started, PID 436
+[   75.387118] ubi0: detaching mtd11
+[   75.391086] ubi0: mtd11 is detached
+[   76.342271] Deleting MTD partitions on "NAND 128MiB 3,3V 8-bit":
+[   76.342472] Deleting NAND simulator partition 0 MTD partition
+[   76.347325] Deleting NAND simulator partition 1 MTD partition
+[   76.349365] Deleting NAND simulator partition 2 MTD partition
+[   76.351248] Deleting NAND simulator partition 3 MTD partition
+[   76.353486] Deleting NAND simulator partition 4 MTD partition
+[   76.356686] Deleting NAND simulator partition 5 MTD partition
+[   76.358305] Deleting NAND simulator partition 6 MTD partition
+[   76.360364] Deleting NAND simulator partition 7 MTD partition
+[   76.362163] Deleting NAND simulator partition 8 MTD partition
+[   76.364032] Deleting NAND simulator partition 9 MTD partition
+[   76.365973] Deleting NAND simulator partition 10 MTD partition
+[   76.367752] Deleting NAND simulator partition 11 MTD partition
+[   76.369387] Deleting NAND simulator partition 12 MTD partition
+[   76.371833] Deleting NAND simulator partition 13 MTD partition
+[   76.374037] Deleting NAND simulator partition 14 MTD partition
+[   76.376202] Deleting NAND simulator partition 15 MTD partition
+[   76.379032] Deleting NAND simulator partition 16 MTD partition
+[   77.893675] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   77.893852] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   77.893868] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   77.893900] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   77.893946] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   77.893985] nand: device found, Manufacturer ID: 0xec, Chip ID: 0xf1
+[   77.893999] nand: Samsung NAND 128MiB 3,3V 8-bit
+[   77.894007] nand: 128 MiB, SLC, erase size: 128 KiB, page size: 2048, OOB size: 64
+[   77.894585] flash size: 128 MiB
+[   77.894624] page size: 2048 bytes
+[   77.894643] OOB area size: 64 bytes
+[   77.894656] sector size: 128 KiB
+[   77.894666] pages number: 65536
+[   77.894676] pages per sector: 64
+[   77.894685] bus width: 8
+[   77.894694] bits in sector size: 17
+[   77.894704] bits in page size: 11
+[   77.894717] bits in OOB size: 6
+[   77.894727] flash size with OOB: 135168 KiB
+[   77.894738] page address bytes: 4
+[   77.894748] sector address bytes: 2
+[   77.894757] options: 0x8
+[   77.896988] Scanning device for bad blocks
+[   78.178169] Creating 17 MTD partitions on "NAND 128MiB 3,3V 8-bit":
+[   78.178369] 0x000000000000-0x000000080000 : "NAND simulator partition 0"
+[   78.509912] 0x000000080000-0x000000100000 : "NAND simulator partition 1"
+[   78.890451] 0x000000100000-0x000000140000 : "NAND simulator partition 2"
+[   79.255131] 0x000000140000-0x000000180000 : "NAND simulator partition 3"
+[   79.524299] 0x000000180000-0x000000280000 : "NAND simulator partition 4"
+[   79.798173] 0x000000280000-0x0000002c0000 : "NAND simulator partition 5"
+[   80.092221] 0x0000002c0000-0x000000300000 : "NAND simulator partition 6"
+[   80.364128] 0x000000300000-0x000000380000 : "NAND simulator partition 7"
+[   80.593233] 0x000000380000-0x0000004c0000 : "NAND simulator partition 8"
+[   80.896267] 0x0000004c0000-0x0000005c0000 : "NAND simulator partition 9"
+[   81.237769] 0x0000005c0000-0x000000640000 : "NAND simulator partition 10"
+[   81.477728] 0x000000640000-0x000003bc0000 : "NAND simulator partition 11"
+[   81.775482] 0x000003bc0000-0x000007140000 : "NAND simulator partition 12"
+[   82.030484] 0x000007140000-0x000007980000 : "NAND simulator partition 13"
+[   82.303140] 0x000007980000-0x000007dc0000 : "NAND simulator partition 14"
+[   82.550250] 0x000007dc0000-0x000007e40000 : "NAND simulator partition 15"
+[   82.845083] 0x000007e40000-0x000008000000 : "NAND simulator partition 16"
+[   83.132979] [nandsim] warning: CONFIG_MTD_PARTITIONED_MASTER must be enabled to expose debugfs stuff
+[   86.557270] ubi0: default fastmap pool size: 20
+[   86.557427] ubi0: default fastmap WL pool size: 10
+[   86.557597] ubi0: attaching mtd12
+[   86.572451] ubi0: scanning is finished
+[   86.581117] ubi0: volume 2 ("rootfs_data") re-sized from 9 to 226 LEBs
+[   86.587876] ubi0: attached mtd12 (name "NAND simulator partition 12", size 53 MiB)
+[   86.588134] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[   86.588174] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 512
+[   86.588200] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[   86.588221] ubi0: good PEBs: 425, bad PEBs: 3, corrupted PEBs: 0
+[   86.588247] ubi0: user volume: 3, internal volumes: 1, max. volumes count: 128
+[   86.588271] ubi0: max/mean erase counter: 0/0, WL threshold: 4096, image sequence number: 351366178
+[   86.588298] ubi0: available PEBs: 0, total reserved PEBs: 425, PEBs reserved for bad PEB handling: 17
+[   86.588775] ubi0: background thread "ubi_bgt0d" started, PID 482
+[   88.879514] ubi0: detaching mtd12
+[   88.887919] ubi0: mtd12 is detached
+[   89.494401] Deleting MTD partitions on "NAND 128MiB 3,3V 8-bit":
+[   89.494787] Deleting NAND simulator partition 0 MTD partition
+[   89.497235] Deleting NAND simulator partition 1 MTD partition
+[   89.499109] Deleting NAND simulator partition 2 MTD partition
+[   89.500423] Deleting NAND simulator partition 3 MTD partition
+[   89.502412] Deleting NAND simulator partition 4 MTD partition
+[   89.504123] Deleting NAND simulator partition 5 MTD partition
+[   89.505252] Deleting NAND simulator partition 6 MTD partition
+[   89.506501] Deleting NAND simulator partition 7 MTD partition
+[   89.507973] Deleting NAND simulator partition 8 MTD partition
+[   89.509377] Deleting NAND simulator partition 9 MTD partition
+[   89.510403] Deleting NAND simulator partition 10 MTD partition
+[   89.511548] Deleting NAND simulator partition 11 MTD partition
+[   89.513051] Deleting NAND simulator partition 12 MTD partition
+[   89.514401] Deleting NAND simulator partition 13 MTD partition
+[   89.516272] Deleting NAND simulator partition 14 MTD partition
+[   89.518219] Deleting NAND simulator partition 15 MTD partition
+[   89.520179] Deleting NAND simulator partition 16 MTD partition
+[   91.093232] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   91.093442] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   91.093460] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   91.093473] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   91.093513] [nandsim] warning: read_byte: unexpected data output cycle, state is STATE_READY return 0x0
+[   91.093692] nand: device found, Manufacturer ID: 0xec, Chip ID: 0xf1
+[   91.093715] nand: Samsung NAND 128MiB 3,3V 8-bit
+[   91.093729] nand: 128 MiB, SLC, erase size: 128 KiB, page size: 2048, OOB size: 64
+[   91.094418] flash size: 128 MiB
+[   91.094451] page size: 2048 bytes
+[   91.094470] OOB area size: 64 bytes
+[   91.094489] sector size: 128 KiB
+[   91.094505] pages number: 65536
+[   91.094725] pages per sector: 64
+[   91.094747] bus width: 8
+[   91.094769] bits in sector size: 17
+[   91.094786] bits in page size: 11
+[   91.094805] bits in OOB size: 6
+[   91.094824] flash size with OOB: 135168 KiB
+[   91.094842] page address bytes: 4
+[   91.094858] sector address bytes: 2
+[   91.094873] options: 0x8
+[   91.098006] Scanning device for bad blocks
+[   91.432265] Creating 17 MTD partitions on "NAND 128MiB 3,3V 8-bit":
+[   91.432501] 0x000000000000-0x000000080000 : "NAND simulator partition 0"
+[   91.782448] 0x000000080000-0x000000100000 : "NAND simulator partition 1"
+[   92.090354] 0x000000100000-0x000000140000 : "NAND simulator partition 2"
+[   92.432716] 0x000000140000-0x000000180000 : "NAND simulator partition 3"
+[   92.779447] 0x000000180000-0x000000280000 : "NAND simulator partition 4"
+[   93.075472] 0x000000280000-0x0000002c0000 : "NAND simulator partition 5"
+[   93.413407] 0x0000002c0000-0x000000300000 : "NAND simulator partition 6"
+[   93.692138] 0x000000300000-0x000000380000 : "NAND simulator partition 7"
+[   93.958062] 0x000000380000-0x0000004c0000 : "NAND simulator partition 8"
+[   94.238796] 0x0000004c0000-0x0000005c0000 : "NAND simulator partition 9"
+[   94.586322] 0x0000005c0000-0x000000640000 : "NAND simulator partition 10"
+[   94.947950] 0x000000640000-0x000003bc0000 : "NAND simulator partition 11"
+[   95.347862] 0x000003bc0000-0x000007140000 : "NAND simulator partition 12"
+[   95.655292] 0x000007140000-0x000007980000 : "NAND simulator partition 13"
+[   95.931295] 0x000007980000-0x000007dc0000 : "NAND simulator partition 14"
+[   96.255085] 0x000007dc0000-0x000007e40000 : "NAND simulator partition 15"
+[   96.619226] 0x000007e40000-0x000008000000 : "NAND simulator partition 16"
+[   96.981014] [nandsim] warning: CONFIG_MTD_PARTITIONED_MASTER must be enabled to expose debugfs stuff
+[  100.543763] ubi0: default fastmap pool size: 8
+[  100.543973] ubi0: default fastmap WL pool size: 4
+[  100.544029] ubi0: attaching mtd13
+[  100.551352] ubi0: scanning is finished
+[  100.560261] ubi0: attached mtd13 (name "NAND simulator partition 13", size 8 MiB)
+[  100.560483] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[  100.560545] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 512
+[  100.560575] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[  100.560601] ubi0: good PEBs: 66, bad PEBs: 0, corrupted PEBs: 0
+[  100.561010] ubi0: user volume: 0, internal volumes: 1, max. volumes count: 128
+[  100.561072] ubi0: max/mean erase counter: 0/0, WL threshold: 4096, image sequence number: 928963652
+[  100.561110] ubi0: available PEBs: 40, total reserved PEBs: 26, PEBs reserved for bad PEB handling: 20
+[  100.561428] ubi0: background thread "ubi_bgt0d" started, PID 533
+[  101.875447] ubi0: detaching mtd13
+[  101.884558] ubi0: mtd13 is detached

@@ -1,0 +1,21 @@
+[  104.928978] ubi0: default fastmap pool size: 8
+[  104.929147] ubi0: default fastmap WL pool size: 4
+[  104.929169] ubi0: attaching mtd13
+[  104.945355] ubi0: attached by fastmap
+[  104.945832] ubi0: fastmap pool size: 8
+[  104.945955] ubi0: fastmap WL pool size: 4
+[  104.955770] ubi0: attached mtd13 (name "NAND simulator partition 13", size 8 MiB)
+[  104.955925] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[  104.955941] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 512
+[  104.955952] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[  104.955970] ubi0: good PEBs: 66, bad PEBs: 0, corrupted PEBs: 0
+[  104.955982] ubi0: user volume: 1, internal volumes: 1, max. volumes count: 128
+[  104.955991] ubi0: max/mean erase counter: 1/0, WL threshold: 4096, image sequence number: 928963652
+[  104.956005] ubi0: available PEBs: 6, total reserved PEBs: 60, PEBs reserved for bad PEB handling: 20
+[  104.956200] ubi0: background thread "ubi_bgt0d" started, PID 551
+[  105.081778] ubi0: fixable bit-flip detected at PEB 43
+[  105.082112] ubi0: schedule PEB 43 for scrubbing
+[  105.095273] ubi0: fixable bit-flip detected at PEB 43
+[  105.100419] ubi0: scrubbed PEB 43 (LEB 0:0), data moved to PEB 42
+[  107.940772] ubi0: detaching mtd13
+[  107.949009] ubi0: mtd13 is detached
