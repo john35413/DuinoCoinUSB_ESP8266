@@ -1,5 +1,17 @@
-== git am (new since last run) 0018-mac80211-ath11k-low-memory-RX-rings-follow-the-refer.patch
-Applying: mac80211: ath11k: low-memory RX rings follow the reference profiles
-d76f9b0aa7 mac80211: ath11k: low-memory RX rings follow the reference profiles
-a5a884786b qualcommax: ipq50xx: archer-ax23-v2: radio bring-up profiles
-330ad1f486 qualcommax: wcss-sec: don't hold firmware recovery for a coredump
+== git am (new since last run) 0019-mac80211-ath11k-unwind-the-requested-descriptor-banks.patch
+Applying: mac80211: ath11k: unwind the descriptor banks owned by the caller
+== git am (new since last run) 0020-qualcommax-ax23-skip-implicit-ubi-attach.patch
+Applying: qualcommax: skip implicit UBI data attach on the AX23 RAM development target
+== git am (new since last run) 0021-qualcommax-report-incomplete-radio-holds.patch
+Applying: qualcommax: report incomplete radio holds and keep sequential startup ordered
+== git am (new since last run) 0022-mac80211-ath11k-unwind-partial-dp-startup.patch
+Applying: mac80211: ath11k: release WBM idle ring and TX FIFOs on setup failure
+== git am (new since last run) 0023-qualcommax-preserve-AX23-factory-regulatory-calibration.patch
+Applying: qualcommax: preserve factory regulatory calibration on both AX23 radios
+== git am (new since last run) 0024-qualcommax-ipq5018-keep-CMN-bus-clocks.patch
+Applying: clk: qcom: hold the IPQ5018 CMN PLL bus clocks during probe and use
+== git am (new since last run) 0025-qualcommax-wait-for-RTL8367S-VB-chip-and-SerDes-reset.patch
+Applying: net: dsa: realtek: wait for family D chip reset and SerDes settling
+5456e1079f net: dsa: realtek: wait for family D chip reset and SerDes settling
+e75cd8023c clk: qcom: hold the IPQ5018 CMN PLL bus clocks during probe and use
+b864c1e6f5 qualcommax: preserve factory regulatory calibration on both AX23 radios

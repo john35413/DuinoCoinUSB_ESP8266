@@ -7,4 +7,7 @@ PASS 'ax23_radios=seq' -> profile seq, held: b00a040.wifi
 PASS 'ax23_radios=bogus' -> profile both, held: nothing
 PASS other boards are never touched
 PASS seq: 5 GHz still held while no 2.4 GHz phy
-PASS seq: 5 GHz released and probed after the 2.4 GHz phy registered (-t ax23-radio 2.4 GHz registered after 3s; releasing 5 GHz)
+PASS seq: 5 GHz released and probed after the 2.4 GHz phy registered (-t ax23-radio requested 5 GHz probe after 2.4 GHz phy registration)
+PASS missing hold reported
+PASS already-bound radio reported
+PASS timeout keeps 5 GHz held

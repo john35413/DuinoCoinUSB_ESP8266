@@ -31,14 +31,16 @@ PASS syntax tools/test-dev.sh
 PASS syntax tools/validate-artifacts.sh
 PASS shellcheck (warning+) on all project scripts
 PASS py_compile tests/static/check_dtb.py
+PASS py_compile tests/unit/check_ath11k_cleanup.py
 PASS py_compile tests/unit/test_ath11k_rings.py
 PASS py_compile tests/unit/test_tools.py
 PASS py_compile tools/bdf/board2.py
 PASS py_compile tools/bdf/tplink-fw-unpack.py
+PASS py_compile tools/check-initramfs.py
 PASS py_compile tools/fit-verify.py
 PASS py_compile tools/pi-integration/ax23-monitor.py
 PASS py_compile tools/uboot/ubootenv.py
-PASS dev series (18 patches) applies cleanly on staged baseline
+PASS dev series (25 patches) applies cleanly on staged baseline
 PASS sh -n target/linux/qualcommax/ipq50xx/base-files/lib/upgrade/platform.sh
 PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/board.d/02_network
 PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/board.d/01_leds
@@ -46,5 +48,5 @@ PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/hotplug.d/firmware/11-
 PASS sh -n target/linux/qualcommax/ipq50xx/base-files/lib/preinit/09_mount_tp_data
 PASS sh -n package/base-files/files/lib/functions/caldata.sh
 PASS no .orig/.rej leftovers
-KNOWN baseline defect(s), fixed in dev: FAIL partition data read-only ;FAIL partition rootfs read-only ;FAIL partition 0:APPSBLENV read-only ;FAIL partition rootfs_1 read-only ;FAIL 2.4G LED on phy0tpt {'led-wifi-5g': '"phy0tpt"', 'led-wifi-2g': '"phy1tpt"'};FAIL 5G LED on phy1tpt {'led-wifi-5g': '"phy0tpt"', 'led-wifi-2g': '"phy1tpt"'};
-PASS DTB static checks (dev): 51 checks
+KNOWN baseline defect(s), fixed in dev: FAIL partition 0:APPSBLENV read-only ;FAIL partition rootfs_1 read-only ;FAIL partition data read-only ;FAIL partition rootfs read-only ;FAIL 2.4G LED on phy0tpt {'led-wifi-5g': '"phy0tpt"', 'led-wifi-2g': '"phy1tpt"'};FAIL 5G LED on phy1tpt {'led-wifi-5g': '"phy0tpt"', 'led-wifi-2g': '"phy1tpt"'};
+PASS DTB static checks (dev): 53 checks

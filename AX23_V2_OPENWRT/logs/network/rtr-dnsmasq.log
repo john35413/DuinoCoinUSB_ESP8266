@@ -1,57 +1,55 @@
-Nov 21 14:34:50 dnsmasq[241]: started, version 2.91 cachesize 150
-Nov 21 14:34:50 dnsmasq[241]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset nftset auth DNSSEC loop-detect inotify dumpfile
-Nov 21 14:34:50 dnsmasq-dhcp[241]: DHCP, IP range 192.168.30.100 -- 192.168.30.199, lease time 12h
-Nov 21 14:34:50 dnsmasq-dhcp[241]: DHCP, IP range 192.168.20.100 -- 192.168.20.199, lease time 1h
-Nov 21 14:34:50 dnsmasq-dhcp[241]: DHCP, IP range 192.168.1.100 -- 192.168.1.199, lease time 12h
-Nov 21 14:34:50 dnsmasq-dhcp[241]: router advertisement on br-lan.1
-Nov 21 14:34:50 dnsmasq-dhcp[241]: router advertisement on 2001:db8:1:1::, constructed for br-lan.1
-Nov 21 14:34:50 dnsmasq-dhcp[241]: IPv6 router advertisement enabled
-Nov 21 14:34:50 dnsmasq[241]: using nameserver 203.0.113.1#53
-Nov 21 14:34:50 dnsmasq[241]: cleared cache
-Nov 21 14:34:51 dnsmasq-dhcp[241]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::
-Nov 21 14:34:56 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.1) 32:32:04:40:6a:68 
-Nov 21 14:34:56 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.1) 192.168.1.186 32:32:04:40:6a:68 
-Nov 21 14:34:56 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.1) 32:32:04:40:6a:68 
-Nov 21 14:34:56 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.1) 192.168.1.186 32:32:04:40:6a:68 
-Nov 21 14:34:56 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.1) 32:32:04:40:6a:68 
-Nov 21 14:34:56 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.1) 192.168.1.186 32:32:04:40:6a:68 
-Nov 21 14:34:56 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.1) 32:32:04:40:6a:68 
-Nov 21 14:34:56 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.1) 192.168.1.186 32:32:04:40:6a:68 
-Nov 21 14:34:56 dnsmasq-dhcp[241]: DHCPREQUEST(br-lan.1) 192.168.1.186 32:32:04:40:6a:68 
-Nov 21 14:34:56 dnsmasq-dhcp[241]: DHCPACK(br-lan.1) 192.168.1.186 32:32:04:40:6a:68 
-Nov 21 14:35:00 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.1) 06:24:a5:42:1c:66 
-Nov 21 14:35:00 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.1) 192.168.1.189 06:24:a5:42:1c:66 
-Nov 21 14:35:00 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.1) 06:24:a5:42:1c:66 
-Nov 21 14:35:00 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.1) 192.168.1.189 06:24:a5:42:1c:66 
-Nov 21 14:35:00 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.1) 06:24:a5:42:1c:66 
-Nov 21 14:35:00 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.1) 192.168.1.189 06:24:a5:42:1c:66 
-Nov 21 14:35:00 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.1) 06:24:a5:42:1c:66 
-Nov 21 14:35:00 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.1) 192.168.1.189 06:24:a5:42:1c:66 
-Nov 21 14:35:00 dnsmasq-dhcp[241]: DHCPREQUEST(br-lan.1) 192.168.1.189 06:24:a5:42:1c:66 
-Nov 21 14:35:00 dnsmasq-dhcp[241]: DHCPACK(br-lan.1) 192.168.1.189 06:24:a5:42:1c:66 
-Nov 21 14:35:05 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.20) a2:33:39:0b:1d:73 
-Nov 21 14:35:05 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.20) 192.168.20.193 a2:33:39:0b:1d:73 
-Nov 21 14:35:05 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.20) a2:33:39:0b:1d:73 
-Nov 21 14:35:05 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.20) 192.168.20.193 a2:33:39:0b:1d:73 
-Nov 21 14:35:05 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.20) a2:33:39:0b:1d:73 
-Nov 21 14:35:05 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.20) 192.168.20.193 a2:33:39:0b:1d:73 
-Nov 21 14:35:05 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.20) a2:33:39:0b:1d:73 
-Nov 21 14:35:05 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.20) 192.168.20.193 a2:33:39:0b:1d:73 
-Nov 21 14:35:05 dnsmasq-dhcp[241]: DHCPREQUEST(br-lan.20) 192.168.20.193 a2:33:39:0b:1d:73 
-Nov 21 14:35:05 dnsmasq-dhcp[241]: DHCPACK(br-lan.20) 192.168.20.193 a2:33:39:0b:1d:73 
-Nov 21 14:35:06 dnsmasq-dhcp[241]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::
-Nov 21 14:35:09 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.30) 0e:c4:16:4f:24:b8 
-Nov 21 14:35:09 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.30) 192.168.30.127 0e:c4:16:4f:24:b8 
-Nov 21 14:35:09 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.30) 0e:c4:16:4f:24:b8 
-Nov 21 14:35:09 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.30) 192.168.30.127 0e:c4:16:4f:24:b8 
-Nov 21 14:35:09 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.30) 0e:c4:16:4f:24:b8 
-Nov 21 14:35:09 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.30) 192.168.30.127 0e:c4:16:4f:24:b8 
-Nov 21 14:35:09 dnsmasq-dhcp[241]: DHCPDISCOVER(br-lan.30) 0e:c4:16:4f:24:b8 
-Nov 21 14:35:09 dnsmasq-dhcp[241]: DHCPOFFER(br-lan.30) 192.168.30.127 0e:c4:16:4f:24:b8 
-Nov 21 14:35:09 dnsmasq-dhcp[241]: DHCPREQUEST(br-lan.30) 192.168.30.127 0e:c4:16:4f:24:b8 
-Nov 21 14:35:09 dnsmasq-dhcp[241]: DHCPACK(br-lan.30) 192.168.30.127 0e:c4:16:4f:24:b8 
-Nov 21 14:35:14 dnsmasq-dhcp[241]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::
-Nov 21 14:35:24 dnsmasq-dhcp[241]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::
-Nov 21 14:35:35 dnsmasq-dhcp[241]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::
-Nov 21 14:35:42 dnsmasq-dhcp[241]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::
-Nov 21 14:35:57 dnsmasq-dhcp[241]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::
+Nov 21 22:04:04 dnsmasq[240]: started, version 2.91 cachesize 150
+Nov 21 22:04:04 dnsmasq[240]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset nftset auth DNSSEC loop-detect inotify dumpfile
+Nov 21 22:04:04 dnsmasq-dhcp[240]: DHCP, IP range 192.168.30.100 -- 192.168.30.199, lease time 12h
+Nov 21 22:04:04 dnsmasq-dhcp[240]: DHCP, IP range 192.168.20.100 -- 192.168.20.199, lease time 1h
+Nov 21 22:04:04 dnsmasq-dhcp[240]: DHCP, IP range 192.168.1.100 -- 192.168.1.199, lease time 12h
+Nov 21 22:04:04 dnsmasq-dhcp[240]: router advertisement on br-lan.1
+Nov 21 22:04:04 dnsmasq-dhcp[240]: router advertisement on 2001:db8:1:1::, constructed for br-lan.1
+Nov 21 22:04:04 dnsmasq-dhcp[240]: IPv6 router advertisement enabled
+Nov 21 22:04:04 dnsmasq[240]: using nameserver 203.0.113.1#53
+Nov 21 22:04:04 dnsmasq[240]: cleared cache
+Nov 21 22:04:05 dnsmasq-dhcp[240]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::
+Nov 21 22:04:09 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.1) b2:a5:05:37:0f:7e 
+Nov 21 22:04:09 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.1) 192.168.1.124 b2:a5:05:37:0f:7e 
+Nov 21 22:04:09 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.1) b2:a5:05:37:0f:7e 
+Nov 21 22:04:09 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.1) 192.168.1.124 b2:a5:05:37:0f:7e 
+Nov 21 22:04:09 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.1) b2:a5:05:37:0f:7e 
+Nov 21 22:04:09 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.1) 192.168.1.124 b2:a5:05:37:0f:7e 
+Nov 21 22:04:09 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.1) b2:a5:05:37:0f:7e 
+Nov 21 22:04:09 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.1) 192.168.1.124 b2:a5:05:37:0f:7e 
+Nov 21 22:04:09 dnsmasq-dhcp[240]: DHCPREQUEST(br-lan.1) 192.168.1.124 b2:a5:05:37:0f:7e 
+Nov 21 22:04:09 dnsmasq-dhcp[240]: DHCPACK(br-lan.1) 192.168.1.124 b2:a5:05:37:0f:7e 
+Nov 21 22:04:13 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.1) d2:9c:c0:57:62:3c 
+Nov 21 22:04:13 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.1) 192.168.1.175 d2:9c:c0:57:62:3c 
+Nov 21 22:04:13 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.1) d2:9c:c0:57:62:3c 
+Nov 21 22:04:13 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.1) 192.168.1.175 d2:9c:c0:57:62:3c 
+Nov 21 22:04:13 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.1) d2:9c:c0:57:62:3c 
+Nov 21 22:04:13 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.1) 192.168.1.175 d2:9c:c0:57:62:3c 
+Nov 21 22:04:13 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.1) d2:9c:c0:57:62:3c 
+Nov 21 22:04:13 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.1) 192.168.1.175 d2:9c:c0:57:62:3c 
+Nov 21 22:04:13 dnsmasq-dhcp[240]: DHCPREQUEST(br-lan.1) 192.168.1.175 d2:9c:c0:57:62:3c 
+Nov 21 22:04:13 dnsmasq-dhcp[240]: DHCPACK(br-lan.1) 192.168.1.175 d2:9c:c0:57:62:3c 
+Nov 21 22:04:16 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.20) da:a9:4e:32:62:2f 
+Nov 21 22:04:16 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.20) 192.168.20.128 da:a9:4e:32:62:2f 
+Nov 21 22:04:16 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.20) da:a9:4e:32:62:2f 
+Nov 21 22:04:16 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.20) 192.168.20.128 da:a9:4e:32:62:2f 
+Nov 21 22:04:16 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.20) da:a9:4e:32:62:2f 
+Nov 21 22:04:16 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.20) 192.168.20.128 da:a9:4e:32:62:2f 
+Nov 21 22:04:16 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.20) da:a9:4e:32:62:2f 
+Nov 21 22:04:16 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.20) 192.168.20.128 da:a9:4e:32:62:2f 
+Nov 21 22:04:16 dnsmasq-dhcp[240]: DHCPREQUEST(br-lan.20) 192.168.20.128 da:a9:4e:32:62:2f 
+Nov 21 22:04:16 dnsmasq-dhcp[240]: DHCPACK(br-lan.20) 192.168.20.128 da:a9:4e:32:62:2f 
+Nov 21 22:04:20 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.30) 0a:29:a1:6d:08:3d 
+Nov 21 22:04:20 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.30) 192.168.30.160 0a:29:a1:6d:08:3d 
+Nov 21 22:04:20 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.30) 0a:29:a1:6d:08:3d 
+Nov 21 22:04:20 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.30) 192.168.30.160 0a:29:a1:6d:08:3d 
+Nov 21 22:04:20 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.30) 0a:29:a1:6d:08:3d 
+Nov 21 22:04:20 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.30) 192.168.30.160 0a:29:a1:6d:08:3d 
+Nov 21 22:04:20 dnsmasq-dhcp[240]: DHCPDISCOVER(br-lan.30) 0a:29:a1:6d:08:3d 
+Nov 21 22:04:20 dnsmasq-dhcp[240]: DHCPOFFER(br-lan.30) 192.168.30.160 0a:29:a1:6d:08:3d 
+Nov 21 22:04:20 dnsmasq-dhcp[240]: DHCPREQUEST(br-lan.30) 192.168.30.160 0a:29:a1:6d:08:3d 
+Nov 21 22:04:20 dnsmasq-dhcp[240]: DHCPACK(br-lan.30) 192.168.30.160 0a:29:a1:6d:08:3d 
+Nov 21 22:04:23 dnsmasq-dhcp[240]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::
+Nov 21 22:04:38 dnsmasq-dhcp[240]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::
+Nov 21 22:04:57 dnsmasq-dhcp[240]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::
+Nov 21 22:05:11 dnsmasq-dhcp[240]: RTR-ADVERT(br-lan.1) 2001:db8:1:1::

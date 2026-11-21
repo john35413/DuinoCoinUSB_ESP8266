@@ -66,11 +66,11 @@ table inet fw4 {
 	}
 
 	chain accept_from_lan {
-		iifname "br-lan.1" counter packets 21 bytes 4448 accept comment "!fw4: accept lan IPv4/IPv6 traffic"
+		iifname "br-lan.1" counter packets 19 bytes 4192 accept comment "!fw4: accept lan IPv4/IPv6 traffic"
 	}
 
 	chain accept_to_lan {
-		oifname "br-lan.1" counter packets 20 bytes 4344 accept comment "!fw4: accept lan IPv4/IPv6 traffic"
+		oifname "br-lan.1" counter packets 18 bytes 4088 accept comment "!fw4: accept lan IPv4/IPv6 traffic"
 	}
 
 	chain input_wan {

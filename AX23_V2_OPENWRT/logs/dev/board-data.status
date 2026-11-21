@@ -1,2 +1,2 @@
-d6bfee8a924db30d42bd488fd7f22c3a9919eb232b7a7a96efabb3ac60eccd2b  build/dev/openwrt/package/firmware/ipq-wifi-tplink-archer-ax23-v2/files/board-tplink_archer-ax23-v2.ipq5018
-13fbf56923904a71fa9ae6c064eac6c713ee01fe11df102021be150734b5a9fe  build/dev/openwrt/package/firmware/ipq-wifi-tplink-archer-ax23-v2/files/board-tplink_archer-ax23-v2.qcn6122
+7801c9071b31f18f1f4c9b2ddd2f6bfc42492cb0e05a5590e17bdd8c355cccd1  build/dev/openwrt/package/firmware/ipq-wifi-tplink-archer-ax23-v2/files/board-tplink_archer-ax23-v2.ipq5018
+bc8a8969d54e2544e324c9e144955daab5bcd294e06ef3f975690ff39c2fa663  build/dev/openwrt/package/firmware/ipq-wifi-tplink-archer-ax23-v2/files/board-tplink_archer-ax23-v2.qcn6122
