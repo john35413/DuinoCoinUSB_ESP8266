@@ -1,0 +1,45 @@
+
+In tests/hardware/router-collect.sh line 46:
+for ph in $(ls /sys/class/ieee80211 2>/dev/null); do
+          ^-- SC2045 (error): Iterating over ls output is fragile. Use globs.
+
+
+In tests/static/run-static.sh line 7:
+cd "$PROJ"
+^--------^ SC2164 (warning): Use 'cd ... || exit' or 'cd ... || return' in case cd fails.
+
+Did you mean: 
+cd "$PROJ" || exit
+
+
+In tests/static/run-static.sh line 14:
+	shellcheck -S warning -e SC2015,SC1090,SC1091 $(git ls-files '*.sh') >logs/shellcheck.txt 2>&1 \
+                                                      ^--------------------^ SC2046 (warning): Quote this to prevent word splitting.
+
+
+In tests/unit/test_caldata_regdomain.sh line 55:
+		FIRMWARE="t/cal.bin"
+                ^------^ SC2034 (warning): FIRMWARE appears unused. Verify use (or export if used externally).
+
+
+In tools/bdf/extract-oem-bdf.sh line 40:
+for v in $(find "$W/ubi" -type f); do
+         ^----------------------^ SC2044 (warning): For loops over find output are fragile. Use find -exec or a while read loop.
+
+
+In tools/clean-dev.sh line 17:
+echo done
+     ^-- SC1010 (warning): Use semicolon or linefeed before 'done' (or quote to make it literal).
+
+
+In tools/test-dev.sh line 7:
+PROJ="$(cd "$(dirname "$0")/.." && pwd)"; cd "$PROJ"
+                                          ^--------^ SC2164 (warning): Use 'cd ... || exit' or 'cd ... || return' in case cd fails.
+
+Did you mean: 
+PROJ="$(cd "$(dirname "$0")/.." && pwd)"; cd "$PROJ" || exit
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2045 -- Iterating over ls output is fragi...
+  https://www.shellcheck.net/wiki/SC1010 -- Use semicolon or linefeed before ...
+  https://www.shellcheck.net/wiki/SC2034 -- FIRMWARE appears unused. Verify u...

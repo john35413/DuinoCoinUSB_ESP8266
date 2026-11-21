@@ -1,49 +1,8 @@
-[2026-11-21T07:00:47Z] [baseline] pipeline start (jobs=4)
-[2026-11-21T07:00:47Z] [baseline] stage 01 deps -> logs/baseline/01-deps.log
-[2026-11-21T07:00:47Z] [baseline] stage 02 checkout -> logs/baseline/02-checkout.log
-[2026-11-21T07:00:47Z] [baseline] stage 03 verify-sha -> logs/baseline/03-verify-sha.log
-[2026-11-21T07:00:47Z] [baseline] stage 04 stage-ax23 -> logs/baseline/04-stage-ax23.log
-[2026-11-21T07:00:48Z] [baseline] stage 06 feeds -> logs/baseline/06-feeds.log
-[2026-11-21T07:01:01Z] [baseline] stage 07 config -> logs/baseline/07-config.log
-[2026-11-21T07:01:11Z] [baseline] stage 08 kernel -> logs/baseline/08-kernel.log
-    |  make[3] -C tools/pkgconf compile
-    |  make[3] -C tools/lz4 compile
-    |  make[3] -C tools/missing-macros compile
-    |  make[3] -C tools/automake compile
-    |  make[3] -C tools/libressl compile
-    |  make[3] -C tools/dosfstools compile
-    |  make[3] -C tools/libtool compile
-    |  make[3] -C tools/cmake compile
-    |  make[3] -C tools/gengetopt compile
-    |  make[3] -C tools/flex compile
-    |  make[3] -C tools/fakeroot compile
-    |  make[3] -C tools/mklibs compile
-    |  make[3] -C tools/patchelf compile
-    |  make[3] -C tools/bison compile
-    |  make[3] -C tools/gmp compile
-    |  make[3] -C tools/firmware-utils compile
-    |  make[3] -C tools/bc compile
-    |  make[3] -C tools/util-linux compile
-    |  make[3] -C tools/elfutils compile
-    |  make[3] -C tools/findutils compile
-    |  make[3] -C tools/mkimage compile
-    |  make[3] -C tools/mtd-utils compile
-    |  make[3] -C tools/mpfr compile
-    |  make[3] -C tools/e2fsprogs compile
-    |  make[3] -C tools/erofs-utils compile
-    |  make[3] -C tools/padjffs2 compile
-    |  make[3] -C tools/quilt compile
-    |  make[3] -C tools/mpc compile
-    |  make[2] -C toolchain/gdb compile
-    |  make[2] -C toolchain/fortify-headers compile
-    |  make[2] -C toolchain/binutils compile
-    |  make[2] -C toolchain/gcc/initial compile
-    |  make[2] -C toolchain/kernel-headers compile
-    |  make[2] -C toolchain/musl compile
-    |  make[2] -C toolchain/gcc/final compile
-    | make[2]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/scripts/config'
-    | make[2]: 'conf' is up to date.
-    | make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/scripts/config'
-    |  make[1] target/linux/compile
-    |  make[2] -C target/linux compile
-[2026-11-21T07:41:24Z] [baseline] FATAL: stage 08 kernel failed (rc=1)
+[2026-11-21T07:53:05Z] [baseline] pipeline start (jobs=4)
+[2026-11-21T07:53:05Z] [baseline] stage 01 deps -> logs/baseline/01-deps.log
+[2026-11-21T07:53:05Z] [baseline] resume: keeping prepared tree 05f0fb005a stage: Sply-Dev AX23 v2 tree @ 93028b47d291e251dc108de5fbd8bd3f77a9300c
+[2026-11-21T07:53:05Z] [baseline] stage 08 kernel -> logs/baseline/08-kernel.log
+[2026-11-21T07:53:28Z] [baseline] stage 09 world -> logs/baseline/09-world.log
+[2026-11-21T07:55:01Z] [baseline] stage 10 validate -> logs/baseline/10-validate.log
+[2026-11-21T07:55:02Z] [baseline] stage 11 collect -> logs/baseline/11-collect.log
+[2026-11-21T07:55:02Z] [baseline] pipeline OK

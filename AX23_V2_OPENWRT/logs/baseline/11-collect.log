@@ -1,0 +1,23 @@
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/bin/targets/qualcommax/ipq50xx/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-uImage.itb' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/ram-only/baseline/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-uImage.itb'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/bin/targets/qualcommax/ipq50xx/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2.manifest' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/ram-only/baseline/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2.manifest'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/bin/targets/qualcommax/ipq50xx/profiles.json' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/ram-only/baseline/profiles.json'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/bin/targets/qualcommax/ipq50xx/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-factory.ubi' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/experimental-do-not-flash/baseline/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-factory.ubi'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/bin/targets/qualcommax/ipq50xx/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-factory.ubi' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/experimental-do-not-flash/baseline/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-factory.ubi'
+'/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/baseline/openwrt/bin/targets/qualcommax/ipq50xx/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-sysupgrade.bin' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/experimental-do-not-flash/baseline/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-sysupgrade.bin'
+fc56e48b33b1500c022479487507ddf8f542552e39a88401067957ade03b7e7a  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-uImage.itb
+6e880c3c2f90fe0c72e8fab606000691c8620c347b2fbd9dbf76f0faa5810e8c  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2.manifest
+ea2a35342af697d1662ec7dbd499d7fbc3b6971901abf1b68eeaf8ff94ef0e68  profiles.json
+347e0c5db73c11c9ab50f2cd0fdf710ce37939f0b9de182bbff0778928aba23b  DO-NOT-FLASH.txt
+8915df9d3f3df72d65f08119a5e224ac68532505f2f192bf0070910194b618c5  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-factory.ubi
+3ee883ffbcb7191233a5faa0f0a4f945437af853f53de7df1e34c33cd3c8d814  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-factory.ubi
+c8569eb793f3af9ac9b82367d1d1399a6258accbcea6a619d75c5a8a436d4020  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-sysupgrade.bin
+variant=baseline
+built=2026-11-21T07:55:02Z
+openwrt=98b1185d039344553aaf8270d0661cfad4f0a54d
+ax23=93028b47d291e251dc108de5fbd8bd3f77a9300c
+build_tree_head=05f0fb005a6a46c6a50dee5b906dadc0af65be0b
+  05f0fb005a stage: Sply-Dev AX23 v2 tree @ 93028b47d291e251dc108de5fbd8bd3f77a9300c
+feed_packages=a16d10144dd3f854a57d9a512dfa84f990b45d65
+feed_luci=4bc2f85da82894c6a5d28ab1b610ca6e6ffc29ba
+feed_routing=4b9891b9136259f93294a424507ed24c5e8c1cbd
+host=Linux 6.18.44-fc-v726 x86_64 gcc=13.3.0

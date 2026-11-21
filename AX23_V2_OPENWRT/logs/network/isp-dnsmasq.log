@@ -1,16 +1,16 @@
-Nov 21 07:34:06 dnsmasq[205]: started, version 2.91 cachesize 150
-Nov 21 07:34:06 dnsmasq[205]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset nftset auth DNSSEC loop-detect inotify dumpfile
-Nov 21 07:34:06 dnsmasq[205]: warning: no upstream servers configured
-Nov 21 07:34:06 dnsmasq-dhcp[205]: DHCP, IP range 203.0.113.100 -- 203.0.113.150, lease time 1h
-Nov 21 07:34:06 dnsmasq-dhcp[205]: DHCP, sockets bound exclusively to interface wanp
-Nov 21 07:34:06 dnsmasq[205]: cleared cache
-Nov 21 07:34:10 dnsmasq-dhcp[205]: DHCPDISCOVER(wanp) 86:b3:4a:9a:09:17 
-Nov 21 07:34:10 dnsmasq-dhcp[205]: DHCPOFFER(wanp) 203.0.113.149 86:b3:4a:9a:09:17 
-Nov 21 07:34:10 dnsmasq-dhcp[205]: DHCPDISCOVER(wanp) 86:b3:4a:9a:09:17 
-Nov 21 07:34:10 dnsmasq-dhcp[205]: DHCPOFFER(wanp) 203.0.113.149 86:b3:4a:9a:09:17 
-Nov 21 07:34:10 dnsmasq-dhcp[205]: DHCPDISCOVER(wanp) 86:b3:4a:9a:09:17 
-Nov 21 07:34:10 dnsmasq-dhcp[205]: DHCPOFFER(wanp) 203.0.113.149 86:b3:4a:9a:09:17 
-Nov 21 07:34:10 dnsmasq-dhcp[205]: DHCPDISCOVER(wanp) 86:b3:4a:9a:09:17 
-Nov 21 07:34:10 dnsmasq-dhcp[205]: DHCPOFFER(wanp) 203.0.113.149 86:b3:4a:9a:09:17 
-Nov 21 07:34:10 dnsmasq-dhcp[205]: DHCPREQUEST(wanp) 203.0.113.149 86:b3:4a:9a:09:17 
-Nov 21 07:34:10 dnsmasq-dhcp[205]: DHCPACK(wanp) 203.0.113.149 86:b3:4a:9a:09:17 
+Nov 21 07:59:39 dnsmasq[204]: started, version 2.91 cachesize 150
+Nov 21 07:59:39 dnsmasq[204]: compile time options: IPv6 GNU-getopt DBus no-UBus i18n IDN2 DHCP DHCPv6 no-Lua TFTP conntrack ipset nftset auth DNSSEC loop-detect inotify dumpfile
+Nov 21 07:59:39 dnsmasq[204]: warning: no upstream servers configured
+Nov 21 07:59:39 dnsmasq-dhcp[204]: DHCP, IP range 203.0.113.100 -- 203.0.113.150, lease time 1h
+Nov 21 07:59:39 dnsmasq-dhcp[204]: DHCP, sockets bound exclusively to interface wanp
+Nov 21 07:59:39 dnsmasq[204]: cleared cache
+Nov 21 07:59:43 dnsmasq-dhcp[204]: DHCPDISCOVER(wanp) 52:1a:a0:90:6a:d0 
+Nov 21 07:59:43 dnsmasq-dhcp[204]: DHCPOFFER(wanp) 203.0.113.144 52:1a:a0:90:6a:d0 
+Nov 21 07:59:43 dnsmasq-dhcp[204]: DHCPDISCOVER(wanp) 52:1a:a0:90:6a:d0 
+Nov 21 07:59:43 dnsmasq-dhcp[204]: DHCPOFFER(wanp) 203.0.113.144 52:1a:a0:90:6a:d0 
+Nov 21 07:59:43 dnsmasq-dhcp[204]: DHCPDISCOVER(wanp) 52:1a:a0:90:6a:d0 
+Nov 21 07:59:43 dnsmasq-dhcp[204]: DHCPOFFER(wanp) 203.0.113.144 52:1a:a0:90:6a:d0 
+Nov 21 07:59:43 dnsmasq-dhcp[204]: DHCPDISCOVER(wanp) 52:1a:a0:90:6a:d0 
+Nov 21 07:59:43 dnsmasq-dhcp[204]: DHCPOFFER(wanp) 203.0.113.144 52:1a:a0:90:6a:d0 
+Nov 21 07:59:43 dnsmasq-dhcp[204]: DHCPREQUEST(wanp) 203.0.113.144 52:1a:a0:90:6a:d0 
+Nov 21 07:59:43 dnsmasq-dhcp[204]: DHCPACK(wanp) 203.0.113.144 52:1a:a0:90:6a:d0 

@@ -7,3 +7,18 @@
 [2026-11-21T07:01:01Z] [baseline] stage 07 config -> logs/baseline/07-config.log
 [2026-11-21T07:01:11Z] [baseline] stage 08 kernel -> logs/baseline/08-kernel.log
 [2026-11-21T07:41:24Z] [baseline] FATAL: stage 08 kernel failed (rc=1)
+[2026-11-21T07:43:55Z] [baseline] pipeline start (jobs=4)
+[2026-11-21T07:43:55Z] [baseline] stage 01 deps -> logs/baseline/01-deps.log
+[2026-11-21T07:43:55Z] [baseline] resume: keeping prepared tree 05f0fb005a stage: Sply-Dev AX23 v2 tree @ 93028b47d291e251dc108de5fbd8bd3f77a9300c
+[2026-11-21T07:43:55Z] [baseline] stage 08 kernel -> logs/baseline/08-kernel.log
+[2026-11-21T07:44:04Z] [baseline] stage 09 world -> logs/baseline/09-world.log
+[2026-11-21T07:52:12Z] [baseline] stage 10 validate -> logs/baseline/10-validate.log
+[2026-11-21T07:52:12Z] [baseline] FATAL: stage 10 validate failed (rc=1)
+[2026-11-21T07:53:05Z] [baseline] pipeline start (jobs=4)
+[2026-11-21T07:53:05Z] [baseline] stage 01 deps -> logs/baseline/01-deps.log
+[2026-11-21T07:53:05Z] [baseline] resume: keeping prepared tree 05f0fb005a stage: Sply-Dev AX23 v2 tree @ 93028b47d291e251dc108de5fbd8bd3f77a9300c
+[2026-11-21T07:53:05Z] [baseline] stage 08 kernel -> logs/baseline/08-kernel.log
+[2026-11-21T07:53:28Z] [baseline] stage 09 world -> logs/baseline/09-world.log
+[2026-11-21T07:55:01Z] [baseline] stage 10 validate -> logs/baseline/10-validate.log
+[2026-11-21T07:55:02Z] [baseline] stage 11 collect -> logs/baseline/11-collect.log
+[2026-11-21T07:55:02Z] [baseline] pipeline OK

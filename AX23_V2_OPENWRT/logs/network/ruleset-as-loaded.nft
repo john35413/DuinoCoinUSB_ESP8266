@@ -1,118 +1,213 @@
 table inet fw4 {
-	counter fwd_dropped {
-		packets 0 bytes 0
-	}
-
-	counter lan_fwd {
-		packets 20 bytes 1382
-	}
-
-	counter iot_rejected {
-		packets 6 bytes 504
-	}
-
-	counter wan_in_rejected {
-		packets 3 bytes 220
-	}
-
-	counter wan_fwd_rejected {
-		packets 2 bytes 168
-	}
-
-	flowtable ft {
-		hook ingress priority filter
-		devices = { br-lan.1, wan, wan2 }
-		counter
-	}
-
 	chain input {
 		type filter hook input priority filter; policy drop;
 		iif "lo" accept comment "!fw4: Accept traffic from loopback"
-		ct state vmap { invalid : drop, established : accept, related : accept }
-		tcp flags syn / fin,syn,rst,ack jump syn_flood
-		iifname "br-lan.1" jump input_lan
-		iifname "br-lan.20" jump input_guest
-		iifname "br-lan.30" jump input_iot
-		iifname { "wan", "wan2" } jump input_wan
+		ct state vmap { established : accept, related : accept } comment "!fw4: Handle inbound flows"
+		tcp flags syn / fin,syn,rst,ack jump syn_flood comment "!fw4: Rate limit TCP syn packets"
+		iifname "br-lan.1" jump input_lan comment "!fw4: Handle lan IPv4/IPv6 input traffic"
+		iifname { "wan", "wan2" } jump input_wan comment "!fw4: Handle wan IPv4/IPv6 input traffic"
+		iifname "br-lan.20" jump input_guest comment "!fw4: Handle guest IPv4/IPv6 input traffic"
+		iifname "br-lan.30" jump input_iot comment "!fw4: Handle iot IPv4/IPv6 input traffic"
+		jump handle_reject
 	}
 
 	chain forward {
 		type filter hook forward priority filter; policy drop;
-		meta l4proto { tcp, udp } flow add @ft
-		ct state vmap { invalid : drop, established : accept, related : accept }
-		iifname "br-lan.1" jump forward_lan
-		iifname "br-lan.20" jump forward_guest
-		iifname "br-lan.30" jump forward_iot
-		iifname { "wan", "wan2" } jump forward_wan
-		counter name "fwd_dropped" drop
+		ct state vmap { established : accept, related : accept } comment "!fw4: Handle forwarded flows"
+		iifname "br-lan.1" jump forward_lan comment "!fw4: Handle lan IPv4/IPv6 forward traffic"
+		iifname { "wan", "wan2" } jump forward_wan comment "!fw4: Handle wan IPv4/IPv6 forward traffic"
+		iifname "br-lan.20" jump forward_guest comment "!fw4: Handle guest IPv4/IPv6 forward traffic"
+		iifname "br-lan.30" jump forward_iot comment "!fw4: Handle iot IPv4/IPv6 forward traffic"
+		jump handle_reject
 	}
 
 	chain output {
 		type filter hook output priority filter; policy accept;
-		oif "lo" accept
-		ct state vmap { established : accept, related : accept }
+		oif "lo" accept comment "!fw4: Accept traffic towards loopback"
+		ct state vmap { established : accept, related : accept } comment "!fw4: Handle outbound flows"
+		oifname "br-lan.1" jump output_lan comment "!fw4: Handle lan IPv4/IPv6 output traffic"
+		oifname { "wan", "wan2" } jump output_wan comment "!fw4: Handle wan IPv4/IPv6 output traffic"
+		oifname "br-lan.20" jump output_guest comment "!fw4: Handle guest IPv4/IPv6 output traffic"
+		oifname "br-lan.30" jump output_iot comment "!fw4: Handle iot IPv4/IPv6 output traffic"
+	}
+
+	chain prerouting {
+		type filter hook prerouting priority filter; policy accept;
+		iifname "br-lan.1" jump helper_lan comment "!fw4: Handle lan IPv4/IPv6 helper assignment"
+		iifname "br-lan.20" jump helper_guest comment "!fw4: Handle guest IPv4/IPv6 helper assignment"
+		iifname "br-lan.30" jump helper_iot comment "!fw4: Handle iot IPv4/IPv6 helper assignment"
+	}
+
+	chain handle_reject {
+		meta l4proto tcp reject with tcp reset comment "!fw4: Reject TCP traffic"
+		reject comment "!fw4: Reject any other traffic"
 	}
 
 	chain syn_flood {
-		limit rate 25/second burst 50 packets return
-		drop
+		limit rate 25/second burst 50 packets return comment "!fw4: Accept SYN packets below rate-limit"
+		drop comment "!fw4: Drop excess packets"
 	}
 
 	chain input_lan {
-		counter packets 20 bytes 4320 accept
+		jump accept_from_lan
+	}
+
+	chain output_lan {
+		jump accept_to_lan
 	}
 
 	chain forward_lan {
-		counter name "lan_fwd"
-		oifname { "wan", "wan2" } accept
-		oifname "br-lan.30" accept
-		oifname "br-lan.1" accept
-		reject
+		jump accept_to_wan comment "!fw4: Accept lan to wan forwarding"
+		jump accept_to_iot comment "!fw4: Accept lan to iot forwarding"
+		jump accept_to_lan
 	}
 
-	chain input_guest {
-		meta nfproto ipv4 udp dport 67 accept comment "Allow-DHCP"
-		udp dport 53 accept comment "Allow-DNS"
-		tcp dport 53 accept comment "Allow-DNS"
-		icmp type echo-request accept
-		reject
+	chain helper_lan {
 	}
 
-	chain forward_guest {
-		oifname { "wan", "wan2" } accept
-		reject
+	chain accept_from_lan {
+		iifname "br-lan.1" counter packets 20 bytes 4320 accept comment "!fw4: accept lan IPv4/IPv6 traffic"
 	}
 
-	chain input_iot {
-		meta nfproto ipv4 udp dport 67 accept comment "Allow-DHCP"
-		udp dport 53 accept
-		reject
-	}
-
-	chain forward_iot {
-		counter name "iot_rejected" reject
+	chain accept_to_lan {
+		oifname "br-lan.1" counter packets 19 bytes 4216 accept comment "!fw4: accept lan IPv4/IPv6 traffic"
 	}
 
 	chain input_wan {
-		meta nfproto ipv4 udp dport 68 accept comment "!fw4: Allow-DHCP-Renew"
-		icmp type echo-request accept comment "!fw4: Allow-Ping"
-		meta nfproto ipv6 udp dport 546 accept comment "!fw4: Allow-DHCPv6"
-		icmpv6 type { echo-request, nd-router-advert, nd-neighbor-solicit, nd-neighbor-advert } accept
-		counter name "wan_in_rejected" reject
+		meta nfproto ipv4 udp dport 68 counter packets 0 bytes 0 accept comment "!fw4: Allow-DHCP-Renew"
+		icmp type echo-request counter packets 1 bytes 84 accept comment "!fw4: Allow-Ping"
+		meta nfproto ipv4 meta l4proto igmp counter packets 0 bytes 0 accept comment "!fw4: Allow-IGMP"
+		meta nfproto ipv6 udp dport 546 counter packets 0 bytes 0 accept comment "!fw4: Allow-DHCPv6"
+		ip6 saddr fe80::/10 icmpv6 type . icmpv6 code { mld-listener-query . no-route, mld-listener-report . no-route, mld-listener-done . no-route, mld2-listener-report . no-route } counter packets 0 bytes 0 accept comment "!fw4: Allow-MLD"
+		icmpv6 type { destination-unreachable, time-exceeded, echo-request, echo-reply, nd-router-solicit, nd-router-advert } limit rate 1000/second burst 5 packets counter packets 0 bytes 0 accept comment "!fw4: Allow-ICMPv6-Input"
+		icmpv6 type . icmpv6 code { packet-too-big . no-route, parameter-problem . no-route, nd-neighbor-solicit . no-route, nd-neighbor-advert . no-route, parameter-problem . admin-prohibited } limit rate 1000/second burst 5 packets counter packets 4 bytes 280 accept comment "!fw4: Allow-ICMPv6-Input"
+		jump reject_from_wan
+	}
+
+	chain output_wan {
+		jump accept_to_wan
 	}
 
 	chain forward_wan {
-		icmpv6 type { destination-unreachable, packet-too-big, time-exceeded, parameter-problem, echo-request, echo-reply } limit rate 1000/second burst 5 packets accept comment "!fw4: Allow-ICMPv6-Forward"
-		counter name "wan_fwd_rejected" reject
+		icmpv6 type { destination-unreachable, time-exceeded, echo-request, echo-reply } limit rate 1000/second burst 5 packets counter packets 0 bytes 0 accept comment "!fw4: Allow-ICMPv6-Forward"
+		icmpv6 type . icmpv6 code { packet-too-big . no-route, parameter-problem . no-route, parameter-problem . admin-prohibited } limit rate 1000/second burst 5 packets counter packets 0 bytes 0 accept comment "!fw4: Allow-ICMPv6-Forward"
+		meta l4proto esp counter packets 0 bytes 0 jump accept_to_lan comment "!fw4: Allow-IPSec-ESP"
+		udp dport 500 counter packets 0 bytes 0 jump accept_to_lan comment "!fw4: Allow-ISAKMP"
+		jump drop_to_wan
+	}
+
+	chain accept_to_wan {
+		meta nfproto ipv4 oifname { "wan", "wan2" } ct state invalid counter packets 0 bytes 0 drop comment "!fw4: Prevent NAT leakage"
+		oifname { "wan", "wan2" } counter packets 30 bytes 2274 accept comment "!fw4: accept wan IPv4/IPv6 traffic"
+	}
+
+	chain reject_from_wan {
+		iifname { "wan", "wan2" } counter packets 2 bytes 140 jump handle_reject comment "!fw4: reject wan IPv4/IPv6 traffic"
+	}
+
+	chain drop_to_wan {
+		oifname { "wan", "wan2" } counter packets 0 bytes 0 drop comment "!fw4: drop wan IPv4/IPv6 traffic"
+	}
+
+	chain input_guest {
+		tcp dport { 53, 67 } counter packets 0 bytes 0 accept comment "!fw4: Guest-DHCP-DNS"
+		udp dport { 53, 67 } counter packets 7 bytes 1756 accept comment "!fw4: Guest-DHCP-DNS"
+		jump reject_from_guest
+	}
+
+	chain output_guest {
+		jump accept_to_guest
+	}
+
+	chain forward_guest {
+		jump accept_to_wan comment "!fw4: Accept guest to wan forwarding"
+		jump reject_to_guest
+	}
+
+	chain helper_guest {
+	}
+
+	chain accept_to_guest {
+		oifname "br-lan.20" counter packets 6 bytes 1688 accept comment "!fw4: accept guest IPv4/IPv6 traffic"
+	}
+
+	chain reject_from_guest {
+		iifname "br-lan.20" counter packets 6 bytes 396 jump handle_reject comment "!fw4: reject guest IPv4/IPv6 traffic"
+	}
+
+	chain reject_to_guest {
+		oifname "br-lan.20" counter packets 0 bytes 0 jump handle_reject comment "!fw4: reject guest IPv4/IPv6 traffic"
+	}
+
+	chain input_iot {
+		tcp dport { 53, 67 } counter packets 0 bytes 0 accept comment "!fw4: IoT-DHCP-DNS"
+		udp dport { 53, 67 } counter packets 5 bytes 1640 accept comment "!fw4: IoT-DHCP-DNS"
+		jump reject_from_iot
+	}
+
+	chain output_iot {
+		jump accept_to_iot
+	}
+
+	chain forward_iot {
+		jump reject_to_iot
+	}
+
+	chain helper_iot {
+	}
+
+	chain accept_to_iot {
+		oifname "br-lan.30" counter packets 7 bytes 1772 accept comment "!fw4: accept iot IPv4/IPv6 traffic"
+	}
+
+	chain reject_from_iot {
+		iifname "br-lan.30" counter packets 3 bytes 168 jump handle_reject comment "!fw4: reject iot IPv4/IPv6 traffic"
+	}
+
+	chain reject_to_iot {
+		oifname "br-lan.30" counter packets 0 bytes 0 jump handle_reject comment "!fw4: reject iot IPv4/IPv6 traffic"
+	}
+
+	chain dstnat {
+		type nat hook prerouting priority dstnat; policy accept;
 	}
 
 	chain srcnat {
 		type nat hook postrouting priority srcnat; policy accept;
-		meta nfproto ipv4 oifname { "wan", "wan2" } masquerade comment "!fw4: Masquerade wan"
+		oifname { "wan", "wan2" } jump srcnat_wan comment "!fw4: Handle wan IPv4/IPv6 srcnat traffic"
+	}
+
+	chain srcnat_wan {
+		meta nfproto ipv4 masquerade comment "!fw4: Masquerade IPv4 wan traffic"
+	}
+
+	chain raw_prerouting {
+		type filter hook prerouting priority raw; policy accept;
+	}
+
+	chain raw_output {
+		type filter hook output priority raw; policy accept;
+	}
+
+	chain mangle_prerouting {
+		type filter hook prerouting priority mangle; policy accept;
+	}
+
+	chain mangle_postrouting {
+		type filter hook postrouting priority mangle; policy accept;
+		oifname { "wan", "wan2" } tcp flags syn / fin,syn,rst tcp option maxseg size set rt mtu comment "!fw4: Zone wan IPv4/IPv6 egress MTU fixing"
+	}
+
+	chain mangle_input {
+		type filter hook input priority mangle; policy accept;
+	}
+
+	chain mangle_output {
+		type route hook output priority mangle; policy accept;
 	}
 
 	chain mangle_forward {
 		type filter hook forward priority mangle; policy accept;
-		oifname { "wan", "wan2" } tcp flags syn tcp option maxseg size set rt mtu
+		iifname { "wan", "wan2" } tcp flags syn / fin,syn,rst tcp option maxseg size set rt mtu comment "!fw4: Zone wan IPv4/IPv6 ingress MTU fixing"
 	}
 }

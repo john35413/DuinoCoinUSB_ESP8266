@@ -1,0 +1,6 @@
+[2026-11-21T07:55:07Z] [dev] pipeline start (jobs=4)
+[2026-11-21T07:55:07Z] [dev] stage 01 deps -> logs/dev/01-deps.log
+[2026-11-21T07:55:08Z] [dev] resume: keeping prepared tree a249bf1d70 qualcommax: ipq50xx: program the UNIPHY at gmac probe
+[2026-11-21T07:55:08Z] [dev] stage 05b board-data -> logs/dev/05b-board-data.log
+[2026-11-21T07:55:08Z] [dev] stage 07b seed -> logs/dev/07b-seed.log
+[2026-11-21T07:57:03Z] [dev] stage 08 kernel -> logs/dev/08-kernel.log

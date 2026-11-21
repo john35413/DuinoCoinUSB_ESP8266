@@ -1,0 +1,4 @@
+base: 0x34 0x450 0x458 0x500 0x5a8 = 0000 0000 0000 0000 0000
+  base: CONFIRMED BUG (non-regdomain offsets zeroed)
+patched: 0x34 0x450 0x458 0x500 0x5a8 = 0000 0000 aabb ccdd eeff
+  PASS patched: only regdomain fields cleared

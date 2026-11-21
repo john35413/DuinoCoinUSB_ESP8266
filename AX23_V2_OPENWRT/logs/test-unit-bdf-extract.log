@@ -1,0 +1,4 @@
+PASS refuses to guess between CA and EU copies
+PASS extracts with --region EU/default
+PASS ipq5018 board-2.bin carries the EU source file under the AX23 v2 name
+PASS qcn6122 board-2.bin carries the EU source file under the AX23 v2 name

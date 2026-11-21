@@ -1,0 +1,31 @@
+PASS syntax logs/network/probe.sh
+PASS syntax tests/hardware/backup-flash-ro.sh
+PASS syntax tests/hardware/pc-traffic-tests.sh
+PASS syntax tests/hardware/router-collect.sh
+PASS syntax tests/hardware/soak-monitor.sh
+PASS syntax tests/network/run-netns-tests.sh
+PASS syntax tests/network/vm-run.sh
+PASS syntax tests/static/run-static.sh
+PASS syntax tests/unit/test_bdf_extract.sh
+PASS syntax tests/unit/test_caldata_regdomain.sh
+PASS syntax tests/unit/test_mac_derivation.sh
+PASS syntax tools/bdf/extract-oem-bdf.sh
+PASS syntax tools/build-dev.sh
+PASS syntax tools/clean-dev.sh
+PASS syntax tools/test-dev.sh
+PASS syntax tools/validate-artifacts.sh
+FAIL shellcheck: see logs/shellcheck.txt
+PASS py_compile tests/static/check_dtb.py
+PASS py_compile tests/unit/test_tools.py
+PASS py_compile tools/bdf/board2.py
+PASS py_compile tools/uboot/ubootenv.py
+PASS dev series (9 patches) applies cleanly on staged baseline
+PASS sh -n target/linux/qualcommax/ipq50xx/base-files/lib/upgrade/platform.sh
+PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/board.d/02_network
+PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/board.d/01_leds
+PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/hotplug.d/firmware/11-ath11k-caldata
+PASS sh -n target/linux/qualcommax/ipq50xx/base-files/lib/preinit/09_mount_tp_data
+PASS sh -n package/base-files/files/lib/functions/caldata.sh
+PASS no .orig/.rej leftovers
+SKIP no baseline DTB built yet
+SKIP no dev DTB built yet

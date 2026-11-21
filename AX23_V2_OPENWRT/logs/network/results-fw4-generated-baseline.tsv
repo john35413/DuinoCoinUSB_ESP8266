@@ -1,0 +1,34 @@
+N01	PASS	router WAN obtains DHCP lease from ISP	wan=203.0.113.144
+N02	PASS	firewall ruleset loads	fw4-generated-baseline.nft
+N03	PASS	LAN clients get DHCP leases (VLAN 1)	c1=192.168.1.194 c2=192.168.1.166
+N04	PASS	guest client gets lease in guest VLAN 20	g1=192.168.20.101
+N05	PASS	IoT client gets lease in IoT VLAN 30	i1=192.168.30.158
+N06	PASS	DNS via router forwarder resolves	example.test->198.51.100.10
+N07	PASS	LAN client reaches router	
+N08	PASS	client-to-client switched at L2 (not routed)	router forwarded=0
+N09	PASS	LAN->Internet ping NATed to WAN address	seen src=203.0.113.144
+N10	PASS	TCP (HTTP) LAN->Internet	
+N11	PASS	UDP round trip LAN->Internet through NAT	
+N12	PASS	TCP under load, ping loss <1% (SIMULATED veth)	580 Mbit/s, ping loss 0%
+N13	PASS	UDP 200 Mbit/s stream completes (SIMULATED)	loss 1.40%
+N14	PASS	guest reaches Internet	
+N15	PASS	guest cannot reach LAN client	
+N16	PASS	guest cannot reach router SSH (input REJECT)	
+N17	PASS	guest DNS allowed	
+N18	PASS	IoT has no Internet	
+N19	PASS	IoT cannot initiate to LAN	
+N20	PASS	LAN can initiate to IoT	
+N21	PASS	IoT cannot reach guest	
+N22	PASS	no L2 leakage guest VLAN -> LAN ports	
+N23	PASS	router SSH blocked from WAN	
+N24	PASS	unsolicited WAN->LAN forwarding rejected	
+N25	PASS	fw4 Allow-Ping on WAN	
+N26	PASS	LAN client SLAAC address from router RA	2001:db8:1:1:a050:e2ff:fe03:fad1
+N27	PASS	IPv6 LAN->Internet routed	
+N28	PASS	IPv6 UDP round trip	
+N29	PASS	router SSH blocked from WAN (IPv6)	
+N31	PASS	5 MB TCP transfer intact over 5% loss/40ms uplink (SIMULATED)	ping loss 4%
+N32	PASS	CAKE 50 Mbit/s egress shaper enforces rate (SIMULATED)	43 Mbit/s
+N33	PASS	failover to wan2 on primary carrier loss (kernel linkdown routes, SIMULATED)	527 ms, src=192.0.2.2
+N34	PASS	traffic resumes after primary WAN returns	
+pass=33 fail=0

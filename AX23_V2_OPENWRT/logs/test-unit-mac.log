@@ -1,0 +1,4 @@
+PASS 020000aabb10 -> 02:00:00:aa:bb:10 02:00:00:aa:bb:11 02:00:00:aa:bb:0f 02:00:00:aa:bb:0e
+PASS 020000aabbff -> 02:00:00:aa:bb:ff 02:00:00:aa:bc:00 02:00:00:aa:bb:fe 02:00:00:aa:bb:fd
+PASS 020000ab0000 -> 02:00:00:ab:00:00 02:00:00:ab:00:01 02:00:00:aa:ff:ff 02:00:00:aa:ff:fe
+PASS missing default-mac -> empty
