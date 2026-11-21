@@ -4,18 +4,21 @@
 '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/bin/targets/qualcommax/ipq50xx/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-factory.ubi' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/experimental-do-not-flash/dev/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-factory.ubi'
 '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/bin/targets/qualcommax/ipq50xx/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-factory.ubi' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/experimental-do-not-flash/dev/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-factory.ubi'
 '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/bin/targets/qualcommax/ipq50xx/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-sysupgrade.bin' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/experimental-do-not-flash/dev/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-sysupgrade.bin'
-14f21390e1497c691a4285c9d4fb273fc5f600083012355adee15e450689c38d  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-uImage.itb
+82bc7083ed7fb6eb275aadabccdb7a5c81a88e394bd42b646911963a068023cf  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-uImage.itb
 c31faca1bdb28afd18e5ae7176a17b332f8488867ea6a3083a15e586f8218493  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2.manifest
-00bdaf8172df27b0f928d5e670c61afaab325c3adb05d67bb71027cbe285441c  profiles.json
+7e1538a420d5ba8132c48f95d9da63cac524bb7e36b127c3fd2036502bb8749c  profiles.json
 347e0c5db73c11c9ab50f2cd0fdf710ce37939f0b9de182bbff0778928aba23b  DO-NOT-FLASH.txt
-32da239ea0e08e038e5e2f5a5fdb6373974ac41e852e79dedf68b3119c3df65e  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-factory.ubi
-bdc1bbdc1a3b0ed280f66a3ccba66e0548d4fcd94c4f66d9a9de430c82cdd540  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-factory.ubi
-59b59943e2eb766231c8fcbe2d8a1339efd7c6752a1e66cd3db4fd9459150dc4  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-sysupgrade.bin
+4ee63dcec3870cb7212bc075dee13040d7aece6e26972a919456dd8498d58246  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-factory.ubi
+8617cdceb6346d6c9e730ae97dec886d2eb0d62a2a630d29e993912e5cc522cc  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-factory.ubi
+ebba37c00eb553324fae80999228254f665d246132d2b1fb7cb46d5103100eb0  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-sysupgrade.bin
 variant=dev
-built=2026-11-21T16:49:43Z
+built=2026-11-21T19:12:11Z
 openwrt=98b1185d039344553aaf8270d0661cfad4f0a54d
 ax23=93028b47d291e251dc108de5fbd8bd3f77a9300c
-build_tree_head=0b25ecfe1e4121aedd6a172edf806e90de8dc335
+build_tree_head=d76f9b0aa742b9968e59d95d82a64f5086c16284
+  d76f9b0aa7 mac80211: ath11k: low-memory RX rings follow the reference profiles
+  a5a884786b qualcommax: ipq50xx: archer-ax23-v2: radio bring-up profiles
+  330ad1f486 qualcommax: wcss-sec: don't hold firmware recovery for a coredump
   0b25ecfe1e qualcommax: ipq50xx: archer-ax23-v2: make every partition read-only
   dd37b930ca mac80211: backport ath11k and mac80211 fixes from OpenWrt main
   95b9414690 mac80211: ath11k/ath12k: backport mac_phy_caps stride fix

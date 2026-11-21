@@ -1,5 +1,5 @@
-== git am (new since last run) 0015-qualcommax-ipq50xx-archer-ax23-v2-make-every-partiti.patch
-Applying: qualcommax: ipq50xx: archer-ax23-v2: make every partition read-only
-0b25ecfe1e qualcommax: ipq50xx: archer-ax23-v2: make every partition read-only
-dd37b930ca mac80211: backport ath11k and mac80211 fixes from OpenWrt main
-95b9414690 mac80211: ath11k/ath12k: backport mac_phy_caps stride fix
+== git am (new since last run) 0018-mac80211-ath11k-low-memory-RX-rings-follow-the-refer.patch
+Applying: mac80211: ath11k: low-memory RX rings follow the reference profiles
+d76f9b0aa7 mac80211: ath11k: low-memory RX rings follow the reference profiles
+a5a884786b qualcommax: ipq50xx: archer-ax23-v2: radio bring-up profiles
+330ad1f486 qualcommax: wcss-sec: don't hold firmware recovery for a coredump

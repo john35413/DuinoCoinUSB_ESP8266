@@ -1,2 +1,4 @@
 run	ram	load_s	pass	fail	MemTotal_kB	S01_MemAvailable_kB	min_MemAvailable_kB	slope_kB_per_h	oom_lines
 soak-176M-30min	176M	1800	49	0	153392	46624		n/a	0
+ram-128M	128M	180	0	1	?	?			
+ram-160M	160M	180	49	0	137040	33840	27756	-65302.8	0

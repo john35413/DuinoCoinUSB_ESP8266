@@ -76,3 +76,33 @@
 [2026-11-21T16:49:43Z] [dev] stage 10 validate -> logs/dev/10-validate.log
 [2026-11-21T16:49:43Z] [dev] stage 11 collect -> logs/dev/11-collect.log
 [2026-11-21T16:49:43Z] [dev] pipeline OK
+[2026-11-21T18:49:51Z] [dev] pipeline start (jobs=4)
+[2026-11-21T18:49:52Z] [dev] stage 01 deps -> logs/dev/01-deps.log
+[2026-11-21T18:49:52Z] [dev] resume: keeping prepared tree 0b25ecfe1e qualcommax: ipq50xx: archer-ax23-v2: make every partition read-only
+[2026-11-21T18:49:52Z] [dev] stage 05a new-patches -> logs/dev/05a-new-patches.log
+[2026-11-21T18:49:52Z] [dev] stage 05b board-data -> logs/dev/05b-board-data.log
+[2026-11-21T18:49:52Z] [dev] stage 08 kernel -> logs/dev/08-kernel.log
+[2026-11-21T18:50:18Z] [dev] stage 09 world -> logs/dev/09-world.log
+[2026-11-21T18:51:48Z] [dev] stage 10 validate -> logs/dev/10-validate.log
+[2026-11-21T18:51:48Z] [dev] stage 11 collect -> logs/dev/11-collect.log
+[2026-11-21T18:51:48Z] [dev] pipeline OK
+[2026-11-21T18:54:24Z] [dev] pipeline start (jobs=4)
+[2026-11-21T18:54:24Z] [dev] stage 01 deps -> logs/dev/01-deps.log
+[2026-11-21T18:54:24Z] [dev] resume: keeping prepared tree 0b25ecfe1e qualcommax: ipq50xx: archer-ax23-v2: make every partition read-only
+[2026-11-21T18:54:24Z] [dev] stage 05a new-patches -> logs/dev/05a-new-patches.log
+[2026-11-21T18:54:24Z] [dev] stage 05b board-data -> logs/dev/05b-board-data.log
+[2026-11-21T18:54:24Z] [dev] stage 08 kernel -> logs/dev/08-kernel.log
+[2026-11-21T19:05:44Z] [dev] stage 09 world -> logs/dev/09-world.log
+[2026-11-21T19:09:10Z] [dev] stage 10 validate -> logs/dev/10-validate.log
+[2026-11-21T19:09:10Z] [dev] stage 11 collect -> logs/dev/11-collect.log
+[2026-11-21T19:09:10Z] [dev] pipeline OK
+[2026-11-21T19:09:24Z] [dev] pipeline start (jobs=4)
+[2026-11-21T19:09:24Z] [dev] stage 01 deps -> logs/dev/01-deps.log
+[2026-11-21T19:09:24Z] [dev] resume: keeping prepared tree a5a884786b qualcommax: ipq50xx: archer-ax23-v2: radio bring-up profiles
+[2026-11-21T19:09:24Z] [dev] stage 05a new-patches -> logs/dev/05a-new-patches.log
+[2026-11-21T19:09:24Z] [dev] stage 05b board-data -> logs/dev/05b-board-data.log
+[2026-11-21T19:09:25Z] [dev] stage 08 kernel -> logs/dev/08-kernel.log
+[2026-11-21T19:09:50Z] [dev] stage 09 world -> logs/dev/09-world.log
+[2026-11-21T19:12:10Z] [dev] stage 10 validate -> logs/dev/10-validate.log
+[2026-11-21T19:12:11Z] [dev] stage 11 collect -> logs/dev/11-collect.log
+[2026-11-21T19:12:11Z] [dev] pipeline OK

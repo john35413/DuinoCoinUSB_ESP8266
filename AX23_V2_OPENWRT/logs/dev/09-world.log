@@ -8,9 +8,9 @@ make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/buil
  make[2] buildinfo
  make[2] package/compile
  make[3] diffconfig buildversion feedsversion
- make[3] -C package/utils/lua host-compile
  make[3] -C package/libs/ncurses host-compile
  make[3] -C package/system/fwtool host-compile
+ make[3] -C package/utils/lua host-compile
  make[3] -C package/libs/libjson-c host-compile
  make[3] -C package/system/usign host-compile
  make[3] -C feeds/luci/modules/luci-base host-compile
@@ -43,6 +43,7 @@ make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/buil
  make[3] -C package/libs/zlib compile
  make[3] -C package/firmware/linux-firmware compile
  make[3] -C package/libs/libsepol compile
+ make[3] -C package/libs/ncurses compile
  make[3] -C package/libs/musl-fts compile
  make[3] -C package/system/fwtool compile
  make[3] -C package/libs/libnftnl compile
@@ -52,28 +53,27 @@ make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/buil
  make[3] -C package/network/utils/iw compile
  make[3] -C package/libs/libubox compile
  make[3] -C package/libs/pcre2 compile
- make[3] -C package/libs/ncurses compile
+ make[3] -C package/utils/util-linux compile
  make[3] -C package/libs/libselinux compile
- make[3] -C package/system/ubus compile
  make[3] -C package/system/uci compile
+ make[3] -C package/system/ubus compile
  make[3] -C package/utils/jsonfilter compile
+ make[3] -C package/utils/busybox compile
  make[3] -C package/system/usign compile
  make[3] -C package/libs/ustream-ssl compile
+ make[3] -C package/network/ipv6/odhcp6c compile
+ make[3] -C package/network/services/dnsmasq compile
  make[3] -C package/system/mtd compile
  make[3] -C package/system/urngd compile
+ make[3] -C package/utils/e2fsprogs compile
  make[3] -C package/utils/ucode compile
  make[3] -C package/network/services/odhcpd compile
- make[3] -C package/utils/util-linux compile
- make[3] -C package/utils/busybox compile
+ make[3] -C package/utils/mtd-utils compile
  make[3] -C package/network/utils/iwinfo compile
  make[3] -C feeds/packages/net/cgi-io compile
  make[3] -C package/network/services/uhttpd compile
  make[3] -C package/libs/uclient compile
- make[3] -C package/network/ipv6/odhcp6c compile
- make[3] -C package/network/services/dnsmasq compile
- make[3] -C package/utils/e2fsprogs compile
  make[3] -C package/libs/udebug compile
- make[3] -C package/utils/mtd-utils compile
  make[3] -C feeds/luci/contrib/package/lucihttp compile
  make[3] -C package/system/rpcd compile
  make[3] -C feeds/luci/contrib/package/ucode-mod-html compile
@@ -84,8 +84,8 @@ make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/buil
  make[3] -C feeds/luci/libs/rpcd-mod-luci compile
  make[3] -C feeds/luci/libs/rpcd-mod-rrdns compile
  make[3] -C package/network/config/wifi-scripts compile
- make[3] -C package/system/urandom-seed compile
  make[3] -C package/system/procd compile
+ make[3] -C package/system/urandom-seed compile
  make[3] -C package/system/hardware-support compile
  make[3] -C package/kernel/linux compile
  make[3] -C feeds/luci/modules/luci-base compile
