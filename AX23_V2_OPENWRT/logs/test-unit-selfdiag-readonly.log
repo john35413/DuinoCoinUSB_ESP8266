@@ -1,0 +1,3 @@
+PASS tests/hardware/ax23-selfdiag.sh: no write-capable commands
+NOTE tests/hardware/router-collect.sh: mounts debugfs if absent (no flash/config write): 61:[ -d /sys/kernel/debug/gpio ] || mount -t debugfs debugfs /sys/kernel/debug 2>/dev/null
+PASS ax23-selfdiag.sh redacts output

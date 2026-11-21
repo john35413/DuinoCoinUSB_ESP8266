@@ -11,6 +11,6 @@ test_erased_env_has_no_valid_crc (__main__.UbootEnv.test_erased_env_has_no_valid
 test_redundant_layout (__main__.UbootEnv.test_redundant_layout) ... ok
 
 ----------------------------------------------------------------------
-Ran 11 tests in 0.159s
+Ran 11 tests in 0.188s
 
 OK
