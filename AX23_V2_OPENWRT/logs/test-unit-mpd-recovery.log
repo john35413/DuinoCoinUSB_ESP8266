@@ -1,0 +1,22 @@
+PASS S1 both user PDs boot once, root PD held twice, no crash reported
+PASS S1 shutdown releases MSA locks and the root PD
+PASS S2 spawn timeout on boot fails cleanly
+PASS S2 failed start releases the MSA lock and the root PD
+PASS S3 failed segment load releases the root PD
+PASS S4 user PD recovery waits for the crashed root PD and both radios return
+PASS S5 root-only crash: both user PDs respawned after the root PD restart
+PASS S6 a user PD that already respawned is not restarted again
+PASS S7 user-PD-only crash keeps the root PD and the other radio running
+PASS S8 recovery_disabled is honoured; the other radio still returns
+PASS kernel patch 0821 is present in the prepared source and reverses cleanly
+PASS S1 both user PDs boot once, root PD held twice, no crash reported
+PASS S1 shutdown releases MSA locks and the root PD
+PASS S2 spawn timeout on boot fails cleanly
+FAIL S2 failed start releases the MSA lock and the root PD
+FAIL S3 failed segment load releases the root PD
+FAIL S4 user PD recovery waits for the crashed root PD and both radios return
+FAIL S5 root-only crash: both user PDs respawned after the root PD restart
+FAIL S6 a user PD that already respawned is not restarted again
+PASS S7 user-PD-only crash keeps the root PD and the other radio running
+FAIL S8 recovery_disabled is honoured; the other radio still returns
+PASS scenarios detect the unpatched driver

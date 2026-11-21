@@ -3,48 +3,48 @@ PASS ath11k/QCN6122/hw1.0/cal-ahb-b00a040.wifi.bin preserves regulatory words fr
 ./lib/functions/system.sh: line 4: /usr/share/libubox/jshn.sh: No such file or directory
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000409331 s, 4.9 kB/s
+2 bytes copied, 0.000313607 s, 6.4 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000452395 s, 4.4 kB/s
+2 bytes copied, 0.000586787 s, 3.4 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000339618 s, 5.9 kB/s
+2 bytes copied, 0.000571844 s, 3.5 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000374731 s, 5.3 kB/s
+2 bytes copied, 0.000874105 s, 2.3 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000425999 s, 4.7 kB/s
+2 bytes copied, 0.000294131 s, 6.8 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000429674 s, 4.7 kB/s
+2 bytes copied, 0.000261626 s, 7.6 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.00038748 s, 5.2 kB/s
+2 bytes copied, 0.000829503 s, 2.4 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000398955 s, 5.0 kB/s
+2 bytes copied, 0.000294817 s, 6.8 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000458718 s, 4.4 kB/s
+2 bytes copied, 0.000681926 s, 2.9 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000589897 s, 3.4 kB/s
+2 bytes copied, 0.000694167 s, 2.9 kB/s
 base: 0x34 0x450 0x458 0x500 0x5a8 = 0000 0000 0000 0000 0000
   base: CONFIRMED BUG (non-regdomain offsets zeroed)
 ./lib/functions/system.sh: line 4: /usr/share/libubox/jshn.sh: No such file or directory
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000926328 s, 2.2 kB/s
+2 bytes copied, 0.000159607 s, 12.5 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.00097216 s, 2.1 kB/s
+2 bytes copied, 0.000181549 s, 11.0 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000623096 s, 3.2 kB/s
+2 bytes copied, 0.000300327 s, 6.7 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 2.6866e-05 s, 74.4 kB/s
+2 bytes copied, 0.00140579 s, 1.4 kB/s
 patched: 0x34 0x450 0x458 0x500 0x5a8 = 0000 0000 aabb ccdd eeff
   PASS patched: only regdomain fields cleared

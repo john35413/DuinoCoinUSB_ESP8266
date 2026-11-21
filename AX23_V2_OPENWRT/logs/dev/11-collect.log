@@ -4,18 +4,19 @@
 '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/bin/targets/qualcommax/ipq50xx/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-factory.ubi' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/experimental-do-not-flash/dev/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-factory.ubi'
 '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/bin/targets/qualcommax/ipq50xx/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-factory.ubi' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/experimental-do-not-flash/dev/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-factory.ubi'
 '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/bin/targets/qualcommax/ipq50xx/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-sysupgrade.bin' -> '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/artifacts/experimental-do-not-flash/dev/openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-sysupgrade.bin'
-ca4bba72e500c30d04fb866848d92f95e88b6d4b2ebad55ed9d0b6811dc159c6  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-uImage.itb
+b94f64a573a0a664e461f08ec661446da0f5e015ba0235341ef87a030ead5517  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-uImage.itb
 c31faca1bdb28afd18e5ae7176a17b332f8488867ea6a3083a15e586f8218493  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2.manifest
-4b76597f270eecbb8c0e3610620cd517361174ae06b5e513d39628b5057ab692  profiles.json
+919504af053de9b9034768ff82650ce1665030cee4ea53994bac06a2a455fb57  profiles.json
 347e0c5db73c11c9ab50f2cd0fdf710ce37939f0b9de182bbff0778928aba23b  DO-NOT-FLASH.txt
-e3c8eca6011b4461035e4c9efc883149a60f580ee7559e9ce55e9d4df70100bc  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-factory.ubi
-d69b552eab615457d525f4950184f2ebd3f102c1054eb53e02f4f973943c7b22  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-factory.ubi
-f6b7a4d60634a938f25f128076dd6000153160061098ee801e740bce7c1e1b7c  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-sysupgrade.bin
+c59dbdd385d7350fd798860cfba1e42692f18039c3a7e4915b9fc7655717cb29  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-initramfs-factory.ubi
+08e61997c394939a1df106b1bf45aacc813d04969e4dec05bcd6fa2577695d1d  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-factory.ubi
+7ec060809ef1c13abde449377b6d4e1a90d5ec1d8de155db7cb2886d4bf4f634  openwrt-qualcommax-ipq50xx-tplink_archer-ax23-v2-squashfs-sysupgrade.bin
 variant=dev
-built=2026-11-21T22:02:52Z
+built=2026-11-21T22:29:13Z
 openwrt=98b1185d039344553aaf8270d0661cfad4f0a54d
 ax23=93028b47d291e251dc108de5fbd8bd3f77a9300c
-build_tree_head=5456e1079f282541590d75295f1fb9725e77fd83
+build_tree_head=69df21a237ec4a4b6b1d5b09c04fe6b23690fcbd
+  69df21a237 qualcommax: mpd: recover user PDs with the root PD
   5456e1079f net: dsa: realtek: wait for family D chip reset and SerDes settling
   e75cd8023c clk: qcom: hold the IPQ5018 CMN PLL bus clocks during probe and use
   b864c1e6f5 qualcommax: preserve factory regulatory calibration on both AX23 radios
