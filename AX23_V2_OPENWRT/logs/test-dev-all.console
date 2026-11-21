@@ -1,0 +1,114 @@
+== static
+   PASS syntax logs/network/probe.sh
+   PASS syntax tests/hardware/backup-flash-ro.sh
+   PASS syntax tests/hardware/pc-traffic-tests.sh
+   PASS syntax tests/hardware/router-collect.sh
+   PASS syntax tests/hardware/soak-monitor.sh
+   PASS syntax tests/network/gen-fw4-ruleset.sh
+   PASS syntax tests/network/run-netns-tests.sh
+   PASS syntax tests/network/vm-run.sh
+   PASS syntax tests/static/run-static.sh
+   PASS syntax tests/unit/test_bdf_extract.sh
+   PASS syntax tests/unit/test_caldata_regdomain.sh
+   PASS syntax tests/unit/test_mac_derivation.sh
+   PASS syntax tools/bdf/extract-oem-bdf.sh
+   PASS syntax tools/build-dev.sh
+   PASS syntax tools/clean-dev.sh
+   PASS syntax tools/pi-integration/backup-router.sh
+   PASS syntax tools/pi-integration/router-setup.sh
+   PASS syntax tools/test-dev.sh
+   PASS syntax tools/validate-artifacts.sh
+   PASS shellcheck (warning+) on all project scripts
+   PASS py_compile tests/static/check_dtb.py
+   PASS py_compile tests/unit/test_tools.py
+   PASS py_compile tools/bdf/board2.py
+   PASS py_compile tools/pi-integration/ax23-monitor.py
+   PASS py_compile tools/uboot/ubootenv.py
+   PASS dev series (9 patches) applies cleanly on staged baseline
+   PASS sh -n target/linux/qualcommax/ipq50xx/base-files/lib/upgrade/platform.sh
+   PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/board.d/02_network
+   PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/board.d/01_leds
+   PASS sh -n target/linux/qualcommax/ipq50xx/base-files/etc/hotplug.d/firmware/11-ath11k-caldata
+   PASS sh -n target/linux/qualcommax/ipq50xx/base-files/lib/preinit/09_mount_tp_data
+   PASS sh -n package/base-files/files/lib/functions/caldata.sh
+   PASS no .orig/.rej leftovers
+   PASS DTB static checks (dev): 47 checks
+   -> PASS
+== unit-python
+   test_bad_magic (__main__.Board2.test_bad_magic) ... ok
+   test_cli_lookup_exit_codes (__main__.Board2.test_cli_lookup_exit_codes) ... ok
+   test_name_order_matches_ath11k (__main__.Board2.test_name_order_matches_ath11k) ... ok
+   test_other_board_does_not_match (__main__.Board2.test_other_board_does_not_match) ... ok
+   test_roundtrip (__main__.Board2.test_roundtrip) ... ok
+   test_variant_wins_over_generic (__main__.Board2.test_variant_wins_over_generic) ... ok
+   test_overlap_detected (__main__.DtbChecker.test_overlap_detected) ... ok
+   test_writable_art_fails (__main__.DtbChecker.test_writable_art_fails) ... ok
+   test_detects_size_and_vars (__main__.UbootEnv.test_detects_size_and_vars) ... ok
+   test_erased_env_has_no_valid_crc (__main__.UbootEnv.test_erased_env_has_no_valid_crc) ... ok
+   test_redundant_layout (__main__.UbootEnv.test_redundant_layout) ... ok
+   -> PASS
+== unit-caldata
+   -> PASS
+== unit-mac
+   PASS 020000aabb10 -> 02:00:00:aa:bb:10 02:00:00:aa:bb:11 02:00:00:aa:bb:0f 02:00:00:aa:bb:0e
+   PASS 020000aabbff -> 02:00:00:aa:bb:ff 02:00:00:aa:bc:00 02:00:00:aa:bb:fe 02:00:00:aa:bb:fd
+   PASS 020000ab0000 -> 02:00:00:ab:00:00 02:00:00:ab:00:01 02:00:00:aa:ff:ff 02:00:00:aa:ff:fe
+   PASS missing default-mac -> empty
+   -> PASS
+== unit-bdf-extract
+   PASS refuses to guess between CA and EU copies
+   PASS extracts with --region EU/default
+   PASS ipq5018 board-2.bin carries the EU source file under the AX23 v2 name
+   PASS qcn6122 board-2.bin carries the EU source file under the AX23 v2 name
+   -> PASS
+== fw4-generate
+   PASS board.d: br-lan ports lan1-4
+   PASS board.d: wan device 'wan'
+   PASS board.d: LAN/WAN LED netdev triggers in board.json
+   PASS shipped UCI profile applies (uci batch)
+   PASS fw4 print -> 264 lines: logs/network/fw4-generated-dev.nft
+   -> PASS
+== network-sim
+   N01   PASS router WAN obtains DHCP lease from ISP wan=203.0.113.139
+   N02   PASS firewall ruleset loads fw4-generated-dev.nft
+   N03   PASS LAN clients get DHCP leases (VLAN 1) c1=192.168.1.178 c2=192.168.1.139
+   N04   PASS guest client gets lease in guest VLAN 20 g1=192.168.20.193
+   N05   PASS IoT client gets lease in IoT VLAN 30 i1=192.168.30.149
+   N06   PASS DNS via router forwarder resolves example.test->198.51.100.10
+   N07   PASS LAN client reaches router 
+   N08   PASS client-to-client switched at L2 (not routed) router forwarded=0
+   N09   PASS LAN->Internet ping NATed to WAN address seen src=203.0.113.139
+   N10   PASS TCP (HTTP) LAN->Internet 
+   N11   PASS UDP round trip LAN->Internet through NAT 
+   N12   PASS TCP under load, ping loss <1% (SIMULATED veth) 554 Mbit/s, ping loss 0%
+   N13   PASS UDP 200 Mbit/s stream completes (SIMULATED) loss 2.23%
+   N14   PASS guest reaches Internet 
+   N15   PASS guest cannot reach LAN client 
+   N16   PASS guest cannot reach router SSH (input REJECT) 
+   N17   PASS guest DNS allowed 
+   N18   PASS IoT has no Internet 
+   N19   PASS IoT cannot initiate to LAN 
+   N20   PASS LAN can initiate to IoT 
+   N21   PASS IoT cannot reach guest 
+   N22   PASS no L2 leakage guest VLAN -> LAN ports 
+   N23   PASS router SSH blocked from WAN 
+   N24   PASS unsolicited WAN->LAN forwarding rejected 
+   N25   PASS fw4 Allow-Ping on WAN 
+   N26   PASS LAN client SLAAC address from router RA 2001:db8:1:1:185f:28ff:fe2f:8173
+   N27   PASS IPv6 LAN->Internet routed 
+   N28   PASS IPv6 UDP round trip 
+   N29   PASS router SSH blocked from WAN (IPv6) 
+   N31   PASS 5 MB TCP transfer intact over 5% loss/40ms uplink (SIMULATED) ping loss 2%
+   N32   PASS CAKE 50 Mbit/s egress shaper enforces rate (SIMULATED) 45 Mbit/s
+   N33   PASS failover to wan2 on primary carrier loss (kernel linkdown routes, SIMULATED) 374 ms, src=192.0.2.2
+   N34   PASS traffic resumes after primary WAN returns 
+   SUMMARY pass=33 fail=0 (SIMULATION ONLY)
+   -> PASS
+
+static            PASS  logs/test-static.log
+unit-python       PASS  logs/test-unit-python.log
+unit-caldata      PASS  logs/test-unit-caldata.log
+unit-mac          PASS  logs/test-unit-mac.log
+unit-bdf-extract  PASS  logs/test-unit-bdf-extract.log
+fw4-generate      PASS  logs/test-fw4-generate.log
+network-sim       PASS  logs/test-network-sim.log

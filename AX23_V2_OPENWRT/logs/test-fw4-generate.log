@@ -1,0 +1,6 @@
+PASS board.d: br-lan ports lan1-4
+PASS board.d: wan device 'wan'
+PASS board.d: LAN/WAN LED netdev triggers in board.json
+PASS shipped UCI profile applies (uci batch)
+WARN fw4 check returned non-zero (see log)
+PASS fw4 print -> 264 lines: logs/network/fw4-generated-dev.nft

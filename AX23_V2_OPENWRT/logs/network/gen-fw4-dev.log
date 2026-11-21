@@ -1,0 +1,70 @@
+== board_detect
+get_mac_binary: file /tmp/tp_data/default-mac not found!
+Cannot parse config file '/etc/fw_env.config': No such file or directory
+Failed to find NVMEM device
+{
+	"model": {
+		"id": "tplink,archer-ax23-v2",
+		"name": "TP-Link Archer AX23 v2"
+	},
+	"led": {
+		"lan": {
+			"name": "LAN",
+			"sysfs": "white:lan",
+			"type": "netdev",
+			"device": "br-lan",
+			"mode": "link tx rx"
+		},
+		"wan": {
+			"name": "WAN",
+			"sysfs": "white:wan",
+			"type": "netdev",
+			"device": "wan",
+			"mode": "link tx rx"
+		}
+	},
+	"network": {
+		"lan": {
+			"ports": [
+				"lan1",
+				"lan2",
+				"lan3",
+				"lan4"
+			],
+			"protocol": "static"
+		},
+		"wan": {
+			"device": "wan",
+			"protocol": "dhcp"
+		}
+	}
+}
+== config_generate
+cfg030f15
+cfg01e48a
+network.loopback=interface
+network.loopback.device='lo'
+network.loopback.proto='static'
+network.loopback.ipaddr='127.0.0.1/8'
+network.globals=globals
+network.globals.dhcp_default_duid='auto'
+network.@device[0]=device
+network.@device[0].name='br-lan'
+network.@device[0].type='bridge'
+network.@device[0].ports='lan1' 'lan2' 'lan3' 'lan4'
+network.lan=interface
+network.lan.device='br-lan'
+network.lan.proto='static'
+network.lan.ipaddr='192.168.1.1/24'
+network.wan=interface
+network.wan.device='wan'
+network.wan.proto='dhcp'
+cfg1292bd
+cfg1392bd
+src/mnl.c:66: Unable to initialize Netlink socket: Protocol not supported
+Unable to connect to ubus: Unable to connect to ubus socket
+src/mnl.c:66: Unable to initialize Netlink socket: Protocol not supported
+Unable to parse nftables JSON output: Failed to parse JSON string: unexpected end of data
+Unable to connect to ubus: Unable to connect to ubus socket
+src/mnl.c:66: Unable to initialize Netlink socket: Protocol not supported
+Unable to parse nftables JSON output: Failed to parse JSON string: unexpected end of data
