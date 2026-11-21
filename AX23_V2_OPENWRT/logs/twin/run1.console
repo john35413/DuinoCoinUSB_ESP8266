@@ -1,0 +1,52 @@
+T01  PASS router VM boots; LAN DHCP answers 67 s after helper start (TCG emulation)
+T02  PASS SSH to router from LAN (key auth) 
+T03  PASS AX23 port names; br-lan members lan1 lan2 lan3 lan4 
+T04  PASS WAN DHCP lease from ISP 203.0.113.114
+T05  PASS WAN IPv6 (SLAAC/RA via wan6) 2001:db8:ffff:0:5054:ff:fe23:0/64
+T06  PASS router IPv6 reachability to Internet 
+T07  FAIL LuCI 0
+T08  PASS DHCP on lan1, lan2, lan3 192.168.1.235 192.168.1.236 192.168.1.237
+T09  FAIL DNS 
+T10  PASS lan1 <-> lan2 client-to-client 
+T11  PASS LAN -> Internet NAT src=203.0.113.114
+T12  PASS TCP (HTTP) through NAT 
+T13  PASS UDP through NAT 
+T14  PASS 3 MB download intact through router 
+T15  PASS iperf3 LAN->WAN through NAT (TCG-emulated CPU) 206 Mbit/s
+T16  PASS iperf3 lan1->lan2 (software bridge here; switch ASIC on the AX23) 269 Mbit/s
+T17  PASS router SSH not reachable from WAN 
+T18  PASS LuCI not reachable from WAN 
+W01  PASS both radios up under netifd/hostapd radio0 (2.4G) + radio1 (5G)
+W02  PASS regulatory domain DE (EU) applied 
+W03  FAIL AP channels  ; 
+W04  FAIL SSIDs 
+W05  FAIL 2.4G WPA2 assoc/DHCP 
+W06  FAIL 5G WPA3 assoc/DHCP 
+W07  FAIL SAE 
+W08  FAIL 802.11ax association 0
+W09  INFO station rates reported by hwsim (not RF) 2G:  | 5G: 
+W10  FAIL Wi-Fi -> router 
+W11  FAIL Wi-Fi -> Internet 
+W12  FAIL HTTP over Wi-Fi 
+W13  FAIL Wi-Fi <-> LAN 
+W14  FAIL Wi-Fi DNS 
+W15  FAIL dual-band concurrent 2G % 5G %
+W16  FAIL iperf3 over 2.4G Wi-Fi 
+W16  FAIL iperf3 over 5G Wi-Fi 
+W17  PASS WPA3 rejects a wrong password 
+W18  PASS WPA2-PSK client cannot join the SAE-only 5 GHz SSID 
+W19  FAIL reconnects 0/20
+W20  FAIL guest SSID 
+W21  FAIL guest Internet 
+W22  PASS guest Wi-Fi isolated from LAN 
+W23  PASS guest Wi-Fi cannot reach router SSH 
+W24  FAIL IoT SSID 
+W25  PASS IoT Wi-Fi has no Internet 
+W26  FAIL LAN -> IoT 
+S01  INFO router MemAvailable with 4 SSIDs + 2 clients (200 MiB VM; hwsim, not ath11k) 74708 kB
+S02  PASS no kernel oops/panic/OOM/segfault 
+S03  FAIL hostapd died 
+S04  FAIL 3 min load loss=0 wifi=fail
+S05  PASS reboot: LAN, WAN and both radios come back 131 s
+qemu-system-aarch64: terminating on signal 15 from pid 12769 ()
+rc=0

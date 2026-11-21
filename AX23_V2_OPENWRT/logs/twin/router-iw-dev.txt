@@ -1,0 +1,46 @@
+phy#1
+	Interface phy1-ap0
+		ifindex 14
+		wdev 0x100000001
+		addr 02:00:00:00:01:00
+		ssid AX23-5G
+		type AP
+		channel 36 (5180 MHz), width: 80 MHz, center1: 5210 MHz
+		txpower 23.00 dBm
+		multicast TXQ:
+			qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcol	tx-bytes	tx-packets
+			0	0	0	0	0	0	0	0		0
+phy#0
+	Interface phy0-ap2
+		ifindex 13
+		wdev 0x3
+		addr 52:00:00:00:00:00
+		ssid CHANGE-ME-iot
+		type AP
+		channel 6 (2437 MHz), width: 20 MHz, center1: 2437 MHz
+		txpower 20.00 dBm
+		multicast TXQ:
+			qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcol	tx-bytes	tx-packets
+			0	0	0	0	0	0	0	0		0
+	Interface phy0-ap1
+		ifindex 12
+		wdev 0x2
+		addr 42:00:00:00:00:00
+		ssid CHANGE-ME-guest
+		type AP
+		channel 6 (2437 MHz), width: 20 MHz, center1: 2437 MHz
+		txpower 20.00 dBm
+		multicast TXQ:
+			qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcol	tx-bytes	tx-packets
+			0	0	0	0	0	0	0	0		0
+	Interface phy0-ap0
+		ifindex 11
+		wdev 0x1
+		addr 02:00:00:00:00:00
+		ssid AX23-2G
+		type AP
+		channel 6 (2437 MHz), width: 20 MHz, center1: 2437 MHz
+		txpower 20.00 dBm
+		multicast TXQ:
+			qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcol	tx-bytes	tx-packets
+			0	0	0	0	0	0	0	0		0

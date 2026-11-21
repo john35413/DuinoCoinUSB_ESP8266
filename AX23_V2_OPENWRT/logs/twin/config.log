@@ -1,0 +1,16 @@
+tmp/.config-package.in:69783:error: recursive dependency detected!
+tmp/.config-package.in:69783:	symbol PACKAGE_luci-app-weechat depends on PACKAGE_weechat-full
+tmp/.config-package.in:112155:	symbol PACKAGE_weechat-full depends on PACKAGE_weechat-minimal
+tmp/.config-package.in:112186:	symbol PACKAGE_weechat-minimal is selected by PACKAGE_luci-app-weechat
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+tmp/.config-package.in:127971:error: recursive dependency detected!
+tmp/.config-package.in:127971:	symbol PACKAGE_squeezelite-custom depends on SQUEEZELITE_WMA_ALAC
+tmp/.config-package.in:128062:	symbol SQUEEZELITE_WMA_ALAC depends on PACKAGE_squeezelite-custom
+For a resolution refer to Documentation/kbuild/kconfig-language.rst
+subsection "Kconfig recursive dependency limitations"
+
+#
+# configuration written to .config
+#

@@ -1,0 +1,87 @@
+make[2]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/scripts/config'
+make[2]: 'conf' is up to date.
+make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/scripts/config'
+make[1]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt'
+make[2]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt'
++ mkdir -p /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/target-aarch64_generic_musl
++ cd /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/target-aarch64_generic_musl
++ mkdir -p bin lib stamp usr/include usr/lib
+mkdir -p /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/build_dir/target-aarch64_generic_musl/stamp
+touch /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/target-aarch64_generic_musl/.prepared
++ mkdir -p /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host
++ cd /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host
++ mkdir -p bin lib stamp usr/include usr/lib
+mkdir -p /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/build_dir/host/stamp /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/include/sys
+install -m0644 /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/include/*.h /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/include/
+install -m0644 /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/include/sys/*.h /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/include/sys/
+ln -snf lib /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/lib64
+touch /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/.prepared
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/libdeflate'
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/libdeflate'
+time: tools/libdeflate/compile#0.07#0.02#0.11
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/zstd'
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/zstd'
+time: tools/zstd/compile#0.06#0.02#0.10
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/flock'
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/flock'
+time: tools/flock/compile#0.06#0.03#0.13
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/sed'
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/sed'
+time: tools/sed/compile#0.10#0.06#0.17
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/patch'
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/patch'
+time: tools/patch/compile#0.10#0.05#0.17
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/tar'
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/tar'
+time: tools/tar/compile#0.10#0.04#0.17
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/m4'
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/m4'
+time: tools/m4/compile#0.11#0.04#0.17
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/autoconf'
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/autoconf'
+time: tools/autoconf/compile#0.07#0.02#0.10
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/autoconf-archive'
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/autoconf-archive'
+time: tools/autoconf-archive/compile#0.04#0.04#0.11
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/ninja'
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/ninja'
+time: tools/ninja/compile#0.04#0.02#0.07
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/meson'
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/meson'
+time: tools/meson/compile#0.02#0.00#0.04
+make[3]: Entering directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/pkgconf'
+MAKEFLAGS="" /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/bin/ninja  -j1 -C /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/build_dir/host/pkgconf-2.5.1/openwrt-build 
+ninja: Entering directory `/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/build_dir/host/pkgconf-2.5.1/openwrt-build'
+ninja: no work to do.
+touch /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/build_dir/host/pkgconf-2.5.1/.built
+MAKEFLAGS="" /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/bin/ninja  -j1 -C /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/build_dir/host/pkgconf-2.5.1/openwrt-build install
+ninja: Entering directory `/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/build_dir/host/pkgconf-2.5.1/openwrt-build'
+[0/1] Installing files
+Installing libpkgconf.a to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/lib
+Installing pkgconf to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/bin
+Installing bomtool to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/bin
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/libpkgconf/libpkgconf.h to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/include/pkgconf/libpkgconf
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/libpkgconf/stdinc.h to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/include/pkgconf/libpkgconf
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/libpkgconf/iter.h to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/include/pkgconf/libpkgconf
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/libpkgconf/bsdstubs.h to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/include/pkgconf/libpkgconf
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/libpkgconf/libpkgconf-api.h to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/include/pkgconf/libpkgconf
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/man/bomtool.1 to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/share/man/man1
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/man/pkgconf.1 to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/share/man/man1
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/man/pkg.m4.7 to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/share/man/man7
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/man/pc.5 to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/share/man/man5
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/man/pkgconf-personality.5 to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/share/man/man5
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/openwrt-build/meson-private/libpkgconf.pc to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/lib/pkgconfig
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/pkg.m4 to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/share/aclocal
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/AUTHORS to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/share/doc/pkgconf
+Installing /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/build_dir/host/pkgconf-2.5.1/README.md to /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/dev/openwrt/staging_dir/host/share/doc/pkgconf
+mv /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/bin/pkgconf /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/bin/pkg-config.real
+mv: cannot stat '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/bin/pkgconf': No such file or directory
+make[3]: *** [Makefile:42: /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/stamp/.pkgconf_installed] Error 1
+make[3]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/tools/pkgconf'
+time: tools/pkgconf/compile#1.15#0.06#1.22
+    ERROR: tools/pkgconf failed to build.
+make[2]: *** [tools/Makefile:241: tools/pkgconf/compile] Error 1
+make[2]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt'
+make[1]: *** [tools/Makefile:239: /home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/staging_dir/host/stamp/.tools_compile_nyyynyynnnynyynynyyyyyyyynyyynynyynnynnyyyyyynyyyyyyyyyyynynnyyyyynyyy] Error 2
+make[1]: Leaving directory '/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt'
+make: *** [/home/user/DuinoCoinUSB_ESP8266/AX23_V2_OPENWRT/build/twin/openwrt/include/toplevel.mk:268: world] Error 2
