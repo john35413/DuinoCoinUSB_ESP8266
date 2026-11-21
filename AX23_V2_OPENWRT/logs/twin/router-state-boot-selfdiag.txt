@@ -1,0 +1,111 @@
+Linux AX23-twin 6.18.55 #0 SMP Sat Nov 21 11:00:00 2026 aarch64 GNU/Linux
+DISTRIB_ID='OpenWrt'
+DISTRIB_RELEASE='SNAPSHOT'
+DISTRIB_REVISION='r37094+10-98b1185d03'
+DISTRIB_TARGET='armsr/armv8'
+DISTRIB_ARCH='aarch64_generic'
+DISTRIB_DESCRIPTION='OpenWrt SNAPSHOT r37094+10-98b1185d03'
+DISTRIB_TAINTS='no-all'
+              total        used        free      shared  buff/cache   available
+Mem:         177728       49876       98008       26524       29844       75092
+Swap:             0           0           0
+lo               UNKNOWN        00:00:00:00:00:00 <LOOPBACK,UP,LOWER_UP> 
+wan              UP             52:54:00:23:00:00 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+lan1             UP             52:54:00:23:00:01 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+lan2             UP             52:54:00:23:00:02 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+lan3             UP             52:54:00:23:00:03 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+lan4             UP             52:54:00:23:00:04 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+hwsim0           DOWN           12:00:00:00:00:00 <BROADCAST,MULTICAST> 
+br-guest         UP             42:00:00:00:00:00 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+br-lan           UP             02:00:00:00:00:00 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+br-iot           UP             52:00:00:00:00:00 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+phy0-ap0         UP             02:00:00:00:00:00 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+phy0-ap1         UP             42:00:00:00:00:00 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+phy0-ap2         UP             52:00:00:00:00:00 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+phy1-ap0         UP             02:00:00:00:01:00 <BROADCAST,MULTICAST,UP,LOWER_UP> 
+phy#1
+	Interface phy1-ap0
+		ifindex 14
+		wdev 0x100000001
+		addr 02:00:00:00:01:00
+		ssid AX23-5G
+		type AP
+		channel 36 (5180 MHz), width: 80 MHz, center1: 5210 MHz
+		txpower 23.00 dBm
+		multicast TXQ:
+			qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcol	tx-bytes	tx-packets
+			0	0	0	0	0	0	0	0		0
+phy#0
+	Interface phy0-ap2
+		ifindex 13
+		wdev 0x3
+		addr 52:00:00:00:00:00
+		ssid CHANGE-ME-iot
+		type AP
+		channel 6 (2437 MHz), width: 20 MHz, center1: 2437 MHz
+		txpower 20.00 dBm
+		multicast TXQ:
+			qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcol	tx-bytes	tx-packets
+			0	0	0	0	0	0	0	0		0
+	Interface phy0-ap1
+		ifindex 12
+		wdev 0x2
+		addr 42:00:00:00:00:00
+		ssid CHANGE-ME-guest
+		type AP
+		channel 6 (2437 MHz), width: 20 MHz, center1: 2437 MHz
+		txpower 20.00 dBm
+		multicast TXQ:
+			qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcol	tx-bytes	tx-packets
+			0	0	0	0	0	0	0	0		0
+	Interface phy0-ap0
+		ifindex 11
+		wdev 0x1
+		addr 02:00:00:00:00:00
+		ssid AX23-2G
+		type AP
+		channel 6 (2437 MHz), width: 20 MHz, center1: 2437 MHz
+		txpower 20.00 dBm
+		multicast TXQ:
+			qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcol	tx-bytes	tx-packets
+			0	0	0	0	0	0	0	0		0
+Sat Nov 21 17:17:16 2026 kern.info kernel: [  110.743488] br-lan: port 6(phy1-ap0) entered blocking state
+Sat Nov 21 17:17:16 2026 kern.info kernel: [  110.743591] br-lan: port 6(phy1-ap0) entered forwarding state
+Sat Nov 21 17:17:16 2026 daemon.notice hostapd: phy1-ap0: interface state HT_SCAN->ENABLED
+Sat Nov 21 17:17:16 2026 daemon.notice hostapd: phy1-ap0: AP-ENABLED
+Sat Nov 21 17:17:16 2026 user.notice firewall: Reloading firewall due to ifup of wan (wan)
+Sat Nov 21 17:17:16 2026 daemon.notice netifd: radio2 (3836): wifi-scripts: Starting
+Sat Nov 21 17:17:17 2026 daemon.info dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 52:54:00:aa:00:01
+Sat Nov 21 17:17:17 2026 daemon.info dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.1.235 52:54:00:aa:00:01
+Sat Nov 21 17:17:20 2026 daemon.info dnsmasq-dhcp[1]: DHCPDISCOVER(br-lan) 52:54:00:aa:00:01
+Sat Nov 21 17:17:20 2026 daemon.info dnsmasq-dhcp[1]: DHCPOFFER(br-lan) 192.168.1.235 52:54:00:aa:00:01
+Sat Nov 21 17:17:20 2026 daemon.notice hostapd: Set new config for phy phy2:
+Sat Nov 21 17:17:20 2026 daemon.info dnsmasq-dhcp[1]: DHCPREQUEST(br-lan) 192.168.1.235 52:54:00:aa:00:01
+Sat Nov 21 17:17:20 2026 daemon.info dnsmasq-dhcp[1]: DHCPACK(br-lan) 192.168.1.235 52:54:00:aa:00:01
+Sat Nov 21 17:17:20 2026 daemon.notice wpa_supplicant[2206]: Set new config for phy phy2
+Sat Nov 21 17:17:22 2026 daemon.notice wpa_supplicant[2206]: Set new config for phy phy2
+Sat Nov 21 17:17:22 2026 daemon.notice hostapd: Set new config for phy phy2:
+Sat Nov 21 17:17:22 2026 daemon.notice netifd: radio2 (3836): wifi-scripts: Setting country code to DE
+Sat Nov 21 17:17:22 2026 daemon.notice netifd: radio2 (3836): wifi-scripts: Configuring 'phy2' distance: 0
+Sat Nov 21 17:17:22 2026 daemon.notice netifd: radio2 (3836): wifi-scripts: Setting antenna for 'phy2' txantenna: 4294967295, rxantenna: 4294967295
+Sat Nov 21 17:17:23 2026 authpriv.info dropbear[4014]: Child connection from 192.168.1.235:50370
+Sat Nov 21 17:17:23 2026 daemon.notice netifd: radio3 (3994): wifi-scripts: Starting
+Sat Nov 21 17:17:24 2026 authpriv.notice dropbear[4014]: Auth succeeded with blank password for 'root' from 192.168.1.235:50370
+Sat Nov 21 17:17:25 2026 user.notice firewall: Reloading firewall due to ifup of wan6 (wan)
+Sat Nov 21 17:17:25 2026 authpriv.info dropbear[4014]: Exit (root) from <192.168.1.235:50370>: Disconnect received
+Sat Nov 21 17:17:25 2026 authpriv.info dropbear[4064]: Child connection from 192.168.1.235:50376
+Sat Nov 21 17:17:27 2026 authpriv.notice dropbear[4064]: Auth succeeded with blank password for 'root' from 192.168.1.235:50376
+Sat Nov 21 17:17:27 2026 daemon.notice hostapd: Set new config for phy phy3:
+Sat Nov 21 17:17:27 2026 daemon.notice wpa_supplicant[2206]: Set new config for phy phy3
+Sat Nov 21 17:17:27 2026 authpriv.info dropbear[4064]: Exit (root) from <192.168.1.235:50376>: Disconnect received
+Sat Nov 21 17:17:28 2026 authpriv.info dropbear[4095]: Child connection from 192.168.1.235:50382
+Sat Nov 21 17:17:28 2026 daemon.notice wpa_supplicant[2206]: Set new config for phy phy3
+Sat Nov 21 17:17:28 2026 daemon.notice hostapd: Set new config for phy phy3:
+Sat Nov 21 17:17:28 2026 daemon.info dnsmasq[1]: read /etc/hosts - 12 names
+Sat Nov 21 17:17:28 2026 daemon.info dnsmasq[1]: read /tmp/hosts/dhcp.cfg01411c - 8 names
+Sat Nov 21 17:17:28 2026 daemon.info dnsmasq-dhcp[1]: read /etc/ethers - 0 addresses
+Sat Nov 21 17:17:29 2026 daemon.notice netifd: radio3 (3994): wifi-scripts: Setting country code to DE
+Sat Nov 21 17:17:29 2026 daemon.notice netifd: radio3 (3994): wifi-scripts: Configuring 'phy3' distance: 0
+Sat Nov 21 17:17:29 2026 daemon.notice netifd: radio3 (3994): wifi-scripts: Setting antenna for 'phy3' txantenna: 4294967295, rxantenna: 4294967295
+Sat Nov 21 17:17:29 2026 authpriv.notice dropbear[4095]: Auth succeeded with blank password for 'root' from 192.168.1.235:50382
+Sat Nov 21 17:17:30 2026 daemon.notice netifd: radio0 (4114): wifi-scripts: Starting

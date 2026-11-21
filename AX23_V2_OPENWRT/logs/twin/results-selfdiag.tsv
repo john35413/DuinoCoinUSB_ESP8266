@@ -1,0 +1,3 @@
+T01	PASS	router VM boots; LAN DHCP answers	88 s after helper start (TCG emulation)
+T02	PASS	SSH to router from LAN (key auth)	
+S06	PASS	ax23-selfdiag.sh completes under BusyBox, no side effects, MACs redacted	64 lines; # summary: FAIL=7 WARN=4 BLOCKED=0
