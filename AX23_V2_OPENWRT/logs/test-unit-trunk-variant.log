@@ -1,0 +1,5 @@
+PASS variant is not in the default series
+PASS variant applies to the prepared DTS
+PASS control DTS reproduces the shipped DTB
+PASS variant DTS compiles
+PASS only phy-mode and speed change on both trunk ends
