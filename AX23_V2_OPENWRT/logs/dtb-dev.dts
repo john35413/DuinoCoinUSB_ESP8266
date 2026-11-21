@@ -774,6 +774,7 @@
 					partition@300000 {
 						label = "0:APPSBLENV";
 						reg = <0x300000 0x80000>;
+						read-only;
 					};
 
 					partition@380000 {
@@ -797,11 +798,13 @@
 					partition@640000 {
 						label = "rootfs";
 						reg = <0x640000 0x3580000>;
+						read-only;
 					};
 
 					partition@3bc0000 {
 						label = "rootfs_1";
 						reg = <0x3bc0000 0x3580000>;
+						read-only;
 					};
 
 					partition@7140000 {
@@ -819,6 +822,7 @@
 					partition@7dc0000 {
 						label = "data";
 						reg = <0x7dc0000 0x80000>;
+						read-only;
 					};
 				};
 			};
