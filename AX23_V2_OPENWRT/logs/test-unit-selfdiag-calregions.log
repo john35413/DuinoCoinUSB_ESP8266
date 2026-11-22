@@ -1,0 +1,6 @@
+PASS all-zero file: 0/39
+PASS region edges: 2/39
+PASS absent file: missing
+PASS short file: regions past EOF not counted
+PASS 2G regions are all zero in the stock EU board data
+PASS 5G regions are all zero in the stock EU board data

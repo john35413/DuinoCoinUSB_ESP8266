@@ -3,48 +3,48 @@ PASS ath11k/QCN6122/hw1.0/cal-ahb-b00a040.wifi.bin preserves regulatory words fr
 ./lib/functions/system.sh: line 4: /usr/share/libubox/jshn.sh: No such file or directory
 2+0 records in
 2+0 records out
-2 bytes copied, 0.00027532 s, 7.3 kB/s
+2 bytes copied, 0.000777542 s, 2.6 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000536492 s, 3.7 kB/s
+2 bytes copied, 0.000893252 s, 2.2 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.0003696 s, 5.4 kB/s
+2 bytes copied, 0.000701129 s, 2.9 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000691976 s, 2.9 kB/s
+2 bytes copied, 0.000660082 s, 3.0 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000345179 s, 5.8 kB/s
+2 bytes copied, 0.00101304 s, 2.0 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000635325 s, 3.1 kB/s
+2 bytes copied, 0.0009531 s, 2.1 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000677786 s, 3.0 kB/s
+2 bytes copied, 0.000680179 s, 2.9 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000439806 s, 4.5 kB/s
+2 bytes copied, 0.000575339 s, 3.5 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.00109906 s, 1.8 kB/s
+2 bytes copied, 0.000552623 s, 3.6 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.00056135 s, 3.6 kB/s
+2 bytes copied, 0.000999318 s, 2.0 kB/s
 base: 0x34 0x450 0x458 0x500 0x5a8 = 0000 0000 0000 0000 0000
   base: CONFIRMED BUG (non-regdomain offsets zeroed)
 ./lib/functions/system.sh: line 4: /usr/share/libubox/jshn.sh: No such file or directory
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000922746 s, 2.2 kB/s
+2 bytes copied, 0.000429118 s, 4.7 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.00097334 s, 2.1 kB/s
+2 bytes copied, 0.000747775 s, 2.7 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.000942913 s, 2.1 kB/s
+2 bytes copied, 0.000842773 s, 2.4 kB/s
 2+0 records in
 2+0 records out
-2 bytes copied, 0.00107454 s, 1.9 kB/s
+2 bytes copied, 0.000766011 s, 2.6 kB/s
 patched: 0x34 0x450 0x458 0x500 0x5a8 = 0000 0000 aabb ccdd eeff
   PASS patched: only regdomain fields cleared

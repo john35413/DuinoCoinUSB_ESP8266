@@ -13,7 +13,7 @@ test_same_selector_as_rx_patch_and_no_overlap (__main__.StaticPatch.test_same_se
 test_size_chosen_before_rings_are_created (__main__.StaticPatch.test_size_chosen_before_rings_are_created) ... ok
 
 ----------------------------------------------------------------------
-Ran 13 tests in 2.067s
+Ran 13 tests in 2.223s
 
 OK
 
