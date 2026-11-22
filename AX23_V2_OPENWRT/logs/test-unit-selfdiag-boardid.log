@@ -1,0 +1,8 @@
+PASS unprogrammed OTP on 2.4 GHz (ok 0xff)
+PASS stock selector OTP on 5 GHz (ok 0x60)
+PASS other radio's line ignored (missing)
+PASS unknown OTP reported (mismatch 0x2b)
+PASS 5 GHz id not accepted on 2.4 GHz (mismatch 0x60)
+PASS latest line wins after recovery (ok 0x24)
+PASS no Wi-Fi lines (missing)
+PASS selfdiag keeps $1 for --bundle
